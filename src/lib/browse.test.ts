@@ -98,6 +98,22 @@ describe('Wines page', () => {
   it('filters by status', () => {
     expect(ids(browse(all, { status: 'drink_now' }).rows)).toEqual(['r1'])
   })
+  it('counts the drinking statuses given the other filters, and never clears them', () => {
+    const b = browse(all, { selection: { country: 'Spain', region: 'Rioja' } })
+    expect(b.statusCounts.drink_now).toBe(1) // r1
+    expect(Object.values(b.statusCounts).reduce((n, c) => n + c, 0)).toBe(b.rows.length)
+    // a status that gives nothing with these filters is not applied, and the filters stay
+    const none = browse(all, { status: 'drink_now', selection: { country: 'France' } })
+    expect(none.statusCounts.drink_now).toBe(0)
+    expect(none.status).toBe('')
+    expect(none.selection.country).toBe('France')
+    expect(ids(none.rows)).toEqual(['f1'])
+    // a status that fits keeps every filter
+    const ok = browse(all, { status: 'drink_now', selection: { country: 'Spain', region: 'Rioja', colour: 'red' } })
+    expect(ok.status).toBe('drink_now')
+    expect(ok.selection).toMatchObject({ country: 'Spain', region: 'Rioja', colour: 'red' })
+    expect(ids(ok.rows)).toEqual(['r1'])
+  })
   it('counts every choice given the other filters', () => {
     const b = browse(all, { selection: { country: 'Spain' } })
     expect(b.options.country.map((o) => [o.value, o.count])).toEqual([['Spain', 5], ['France', 1]]) // own choice is not narrowed by itself

@@ -124,6 +124,8 @@ export interface Browse {
   state: State
   sort: Sort
   status: Status | ''
+  /** How many wines each drinking status gives with the other choices as they are (0 = nothing to show). */
+  statusCounts: Record<Status, number>
   bottles: number
 }
 
@@ -134,23 +136,30 @@ const isSort = (s: string): s is Sort => Object.hasOwn(SORTS, s)
 const isStatus = (s: string): s is Status => Object.hasOwn(STATUS_LABEL, s)
 
 /** The wines that match, and for every filter the choices that still make sense given the others, each with how many
- *  wines it gives. A selected choice that no longer fits the others is dropped. */
+ *  wines it gives. The drinking status is one more filter of the same kind: choosing it never clears the others, and a
+ *  status that would give no wines is counted as 0 (the screen does not let you pick it). A selected choice that no
+ *  longer fits the others is dropped. */
 export function browse(all: Row[], input: { state?: string; sort?: string; status?: string; selection?: Partial<Selection> }): Browse {
   const state: State = isState(input.state ?? '') ? (input.state as State) : 'present'
   const sort: Sort = isSort(input.sort ?? '') ? (input.sort as Sort) : 'recent'
-  const status: Status | '' = isStatus(input.status ?? '') ? (input.status as Status) : ''
+  let status: Status | '' = isStatus(input.status ?? '') ? (input.status as Status) : ''
   const keep: Record<State, (r: Row) => boolean> = {
     present: (r) => r.bottles > 0,
     opened: (r) => r.openedN > 0,
     both: (r) => r.bottles > 0 || r.openedN > 0,
   }
-  const base = sortRows(all.filter((r) => keep[state](r) && (!status || r.status === status)), sort)
+  const base = sortRows(all.filter((r) => keep[state](r)), sort)
   const selection = { ...emptySelection(), ...input.selection }
-  const fits = (r: Row, skip: FilterField | null) =>
+  const fits = (r: Row, skip: FilterField | 'status' | null) =>
+    (skip === 'status' || !status || r.status === status) &&
     FILTER_FIELDS.every((f) => f === skip || !selection[f] || valuesOf(r, f).includes(selection[f]))
 
   const counts = {} as Record<FilterField, Map<string, number>>
+  const statusCounts = Object.fromEntries(Object.keys(STATUS_LABEL).map((k) => [k, 0])) as Record<Status, number>
   for (let pass = 0; pass < 2; pass++) {
+    for (const k of Object.keys(statusCounts) as Status[]) statusCounts[k] = 0
+    for (const r of base) if (fits(r, 'status')) statusCounts[r.status]++
+    if (status && !statusCounts[status]) status = ''
     for (const f of FILTER_FIELDS) {
       const c = new Map<string, number>()
       for (const r of base) if (fits(r, f)) for (const v of valuesOf(r, f)) c.set(v, (c.get(v) ?? 0) + 1)
@@ -169,7 +178,7 @@ export function browse(all: Row[], input: { state?: string; sort?: string; statu
     options[f] = keys.map((k) => ({ value: k, label: label(k), count: c.get(k)! }))
   }
   const rows = base.filter((r) => fits(r, null))
-  return { rows, options, selection, state, sort, status, bottles: rows.reduce((n, r) => n + r.bottles, 0) }
+  return { rows, options, selection, state, sort, status, statusCounts, bottles: rows.reduce((n, r) => n + r.bottles, 0) }
 }
 
 // ---------------------------------------------------------------- Home

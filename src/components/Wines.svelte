@@ -2,6 +2,7 @@
   import { browse, FILTER_FIELDS, SORTS, STATES, STATUS_LABEL, type FilterField, type Row } from '../lib/browse'
   import { place, t, tn } from '../lib/i18n/ui.svelte'
   import { go, href, route } from '../lib/router.svelte'
+  import type { Status } from '../lib/advice/engine'
   import WineList from './WineList.svelte'
 
   let { rows }: { rows: Row[] } = $props()
@@ -54,7 +55,9 @@
   {/each}
   <select class="wide" class:on={result.status} aria-label={t('Drinking')} value={result.status} onchange={onchange('status')}>
     <option value="">{t('Any drinking status')}</option>
-    {#each Object.entries(STATUS_LABEL) as [k, v] (k)}<option value={k}>{t(v)}</option>{/each}
+    {#each Object.entries(STATUS_LABEL) as [k, v] (k)}
+      <option value={k} disabled={!result.statusCounts[k as Status]}>{t(v)} ({result.statusCounts[k as Status]})</option>
+    {/each}
   </select>
   <div class="foot"><a href={href('/wines')}>{t('Clear filters')}</a></div>
 </div>
