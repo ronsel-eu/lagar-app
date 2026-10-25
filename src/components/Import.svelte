@@ -37,6 +37,9 @@
     input.value = ''
   }
 
+  let pasted = $state('')
+  const checkPasted = () => check(new TextEncoder().encode(pasted), t('Pasted text'))
+
   const trySample = () => check(new TextEncoder().encode(sampleCellar), 'sample-cellar.csv')
 
   function back() {
@@ -98,6 +101,9 @@
   <section class="sec">
     <h2>{t('3 · Upload it')}</h2>
     <p><input type="file" onchange={pick} /></p>
+    <p class="lead">{t('Cannot pick the file? Open it, copy all its text and paste it here.')}</p>
+    <p><textarea bind:value={pasted} rows="4" aria-label={t('The CSV text')} style="width: 100%; font: 13px/1.3 monospace; box-sizing: border-box"></textarea></p>
+    {#if pasted.trim()}<p><button class="btn secondary" type="button" onclick={checkPasted}>{t('Check the text')}</button></p>{/if}
     {#if cellar.wines.length === 0}<p><button class="btn secondary" type="button" onclick={trySample}>{t('Try a sample cellar')}</button></p>{/if}
     <p class="lead">{t('Nothing is saved yet, and nothing is ever deleted. A wine that is not in Lagar is added; a wine that is already there gets the bottles in the file added to its stock.')}</p>
   </section>

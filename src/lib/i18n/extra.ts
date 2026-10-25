@@ -52,4 +52,11 @@ export const EXTRA: Record<string, { es: string; fr: string }> = {
     fr: 'Sur iPhone et iPad : touchez le bouton Partager, puis « Sur l’écran d’accueil ».',
   },
   'Got it': { es: 'Entendido', fr: 'Compris' },
+  'Pasted text': { es: 'Texto pegado', fr: 'Texte collé' },
+  'Cannot pick the file? Open it, copy all its text and paste it here.': {
+    es: '¿No puedes elegir el archivo? Ábrelo, copia todo su texto y pégalo aquí.',
+    fr: 'Impossible de choisir le fichier ? Ouvrez-le, copiez tout son texte et collez-le ici.',
+  },
+  'The CSV text': { es: 'El texto del CSV', fr: 'Le texte du CSV' },
+  'Check the text': { es: 'Revisar el texto', fr: 'Vérifier le texte' },
 }

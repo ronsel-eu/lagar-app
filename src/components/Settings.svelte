@@ -74,7 +74,7 @@
   {#if !cellar.persistent}<p class="lead">{t('The browser database is not available here (a private window?). Wines will be lost when you close the page.')}</p>{/if}
   <p class="actions" style="display: flex; flex-wrap: wrap; gap: 10px">
     <button class="btn secondary" type="button" onclick={exportBackup}>{t('Export backup')}</button>
-    <label class="btn secondary" style="margin: 0">{t('Restore backup')}<input type="file" accept="application/json,.json" onchange={restore} hidden /></label>
+    <label class="btn secondary" style="margin: 0">{t('Restore backup')}<input type="file" onchange={restore} hidden /></label>
   </p>
 </section>
 
