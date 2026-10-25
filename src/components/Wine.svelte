@@ -75,12 +75,6 @@
     await undoOpenedBottle(recordId)
     form = formFrom(cellar.wines.find((w) => w.id === id) ?? null)
   }
-
-  function openEditor() {
-    form = formFrom(wine ?? null)
-    editOpen = true
-    queueMicrotask(() => editBox?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
-  }
 </script>
 
 <div class="navrow">
@@ -118,7 +112,6 @@
     <p>
       {t(view.help)} {t('Source: {source}.', { source: t(view.source) })}
       {#if table}<a class="table-link" href={href('/guides/consumption-windows', { at: table })}>{t('See the table')}</a>{/if}
-      <button class="link" type="button" onclick={openEditor}>{t(wine.ownWindow ? 'Change your window' : 'Set your own window')}</button>
     </p>
   </div>
 

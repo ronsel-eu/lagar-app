@@ -40,8 +40,6 @@ export const EXTRA: Record<string, { es: string; fr: string }> = {
     es: 'Cada botella que has abierto, la más reciente primero, con la ocasión.', fr: 'Chaque bouteille ouverte, la plus récente d’abord, avec l’occasion.',
   },
   'Guide not found.': { es: 'Guía no encontrada.', fr: 'Guide introuvable.' },
-  'Set your own window': { es: 'Fijar tu propia ventana', fr: 'Fixer votre propre fenêtre' },
-  'Change your window': { es: 'Cambiar tu ventana', fr: 'Modifier votre fenêtre' },
   'Window set by you.': { es: 'Ventana fijada por ti.', fr: 'Fenêtre fixée par vous.' },
   'Install the app': { es: 'Instalar la app', fr: 'Installer l’app' },
   'Add Lagar to your home screen to open it like any app, even without a connection.': {
