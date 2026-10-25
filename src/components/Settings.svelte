@@ -5,6 +5,10 @@
   import { LANGS, type Lang } from '../lib/i18n'
   import { t, ui } from '../lib/i18n/ui.svelte'
   import { href } from '../lib/router.svelte'
+  import { install, isIos, isStandalone, promptInstall } from '../lib/install.svelte'
+
+  const standalone = isStandalone()
+  const ios = isIos()
 
   async function exportBackup() {
     downloadBackup(await createBackup(getStorage()))
@@ -51,6 +55,18 @@
     <span>{t('Every bottle you have opened, newest first, with the occasion.')}</span>
   </a>
 </div>
+
+{#if !standalone && (install.event || ios)}
+  <section class="sec">
+    <h2>{t('Install the app')}</h2>
+    <p class="lead">{t('Add Lagar to your home screen to open it like any app, even without a connection.')}</p>
+    {#if install.event}
+      <p class="actions"><button class="btn secondary" type="button" onclick={promptInstall}>{t('Install')}</button></p>
+    {:else}
+      <p class="lead">{t('On iPhone and iPad: tap the Share button, then “Add to Home Screen”.')}</p>
+    {/if}
+  </section>
+{/if}
 
 <section class="sec">
   <h2>{t('Backup')}</h2>

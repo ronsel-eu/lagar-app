@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte'
   import Home from './components/Home.svelte'
+  import InstallHint from './components/InstallHint.svelte'
   import Import from './components/Import.svelte'
   import Logo from './components/Logo.svelte'
   import Notice from './components/Notice.svelte'
@@ -52,6 +53,7 @@
       <p class="page-note">{t('The cellar on this device could not be opened.')}</p>
     {:else if cellar.ready}
       {#if path === '/'}
+        <InstallHint />
         <Home {rows} {year} />
       {:else if path === '/wines'}
         <Wines {rows} />

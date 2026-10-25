@@ -43,4 +43,15 @@ export const EXTRA: Record<string, { es: string; fr: string }> = {
   'Set your own window': { es: 'Fijar tu propia ventana', fr: 'Fixer votre propre fenêtre' },
   'Change your window': { es: 'Cambiar tu ventana', fr: 'Modifier votre fenêtre' },
   'Window set by you.': { es: 'Ventana fijada por ti.', fr: 'Fenêtre fixée par vous.' },
+  'Install the app': { es: 'Instalar la app', fr: 'Installer l’app' },
+  'Add Lagar to your home screen to open it like any app, even without a connection.': {
+    es: 'Añade Lagar a tu pantalla de inicio para abrirla como cualquier app, incluso sin conexión.',
+    fr: 'Ajoutez Lagar à votre écran d’accueil pour l’ouvrir comme n’importe quelle app, même sans connexion.',
+  },
+  'Install': { es: 'Instalar', fr: 'Installer' },
+  'On iPhone and iPad: tap the Share button, then “Add to Home Screen”.': {
+    es: 'En iPhone y iPad: toca el botón Compartir y luego «Añadir a pantalla de inicio».',
+    fr: 'Sur iPhone et iPad : touchez le bouton Partager, puis « Sur l’écran d’accueil ».',
+  },
+  'Got it': { es: 'Entendido', fr: 'Compris' },
 }
