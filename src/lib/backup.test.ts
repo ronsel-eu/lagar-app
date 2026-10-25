@@ -58,6 +58,21 @@ describe('backup', () => {
     expect(() => parse({ ...valid(), opened: [{ id: 'o1', wineId: 'ghost', date: '2026-10-24', qty: 1 }] })).toThrow(/not in the backup/)
   })
 
+  it('keeps an own drinking window, and accepts older files without one', () => {
+    const w = { ...makeWine(), ownWindow: { fromYear: 2024, toYear: null } }
+    expect(parse({ ...valid(), wines: [w] }).wines[0].ownWindow).toEqual({ fromYear: 2024, toYear: null })
+    const { ownWindow: _unused, ...old } = makeWine()
+    expect(parse({ ...valid(), wines: [old] }).wines[0].ownWindow).toBeNull()
+  })
+
+  it('rejects an own window that is not years or ends before it starts', () => {
+    const bad = (ownWindow: unknown) => parse({ ...valid(), wines: [{ ...makeWine(), ownWindow }] })
+    expect(() => bad({ fromYear: 2030, toYear: 2025 })).toThrow(/ends before/)
+    expect(() => bad({ fromYear: 'soon', toYear: null })).toThrow(/year/)
+    expect(() => bad('2025')).toThrow(/record/)
+    expect(bad({ fromYear: null, toYear: null }).wines[0].ownWindow).toBeNull()
+  })
+
   it('keeps only the known fields', () => {
     const b = valid()
     b.wines = [{ ...makeWine(), evil: '<script>', extra: 1 } as never]

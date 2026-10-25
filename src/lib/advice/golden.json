@@ -1,0 +1,4754 @@
+[
+ {
+  "label": "Tio Pepe",
+  "year": 2026,
+  "input": {
+   "name": "Tio Pepe",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Jerez-Xérès-Sherry",
+   "grapes": null,
+   "purchaseDate": "2025-06-10"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Sherry (fino): Consejo Regulador says 12 to 18 months in closed bottle from filling. Counted from the last purchase date (10/06/2025), because the filling date is unknown: best until 12/2026."
+  }
+ },
+ {
+  "label": "Fino en Rama",
+  "year": 2026,
+  "input": {
+   "name": "Fino en Rama",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2025-06-10"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Sherry (fino): Consejo Regulador says 12 to 18 months in closed bottle from filling. Counted from the last purchase date (10/06/2025), because the filling date is unknown: best until 12/2026."
+  }
+ },
+ {
+  "label": "La Guita Manzanilla",
+  "year": 2026,
+  "input": {
+   "name": "La Guita Manzanilla",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2023-05-01"
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2023,
+   "toYear": 2024,
+   "keeps": "declines",
+   "note": "Sherry (manzanilla): Consejo Regulador says 12 to 18 months in closed bottle from filling. Counted from the last purchase date (01/05/2023), because the filling date is unknown: best until 11/2024."
+  }
+ },
+ {
+  "label": "Barbadillo Florpower",
+  "year": 2026,
+  "input": {
+   "name": "Barbadillo Florpower",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2025-02-01"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Sherry (manzanilla): Consejo Regulador says 12 to 18 months in closed bottle from filling. Counted from the last purchase date (01/02/2025), because the filling date is unknown: best until 08/2026."
+  }
+ },
+ {
+  "label": "Manzanilla Pasada Pastrana",
+  "year": 2026,
+  "input": {
+   "name": "Manzanilla Pasada Pastrana",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2024-02-02"
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2024,
+   "toYear": 2029,
+   "keeps": "declines",
+   "note": "Sherry (amontillado): Consejo Regulador says up to 5 years (more if VOS/VORS) in closed bottle from filling. Counted from the last purchase date (02/02/2024), because the filling date is unknown: best until 02/2029. Manzanilla pasada is an aged manzanilla; treated like amontillado."
+  }
+ },
+ {
+  "label": "Lustau Amontillado VORS 30 anos",
+  "year": 2026,
+  "input": {
+   "name": "Lustau Amontillado VORS 30 anos",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2020-01-01"
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Sherry (VORS/VOS): Consejo Regulador says indefinite for VOS/VORS in closed bottle from filling. It keeps and changes slowly, so there is no deadline."
+  }
+ },
+ {
+  "label": "Amontillado Napoleon",
+  "year": 2026,
+  "input": {
+   "name": "Amontillado Napoleon",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2022-01-10"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2022,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Sherry (amontillado): Consejo Regulador says up to 5 years (more if VOS/VORS) in closed bottle from filling. Counted from the last purchase date (10/01/2022), because the filling date is unknown: best until 01/2027."
+  }
+ },
+ {
+  "label": "Fino VOS Rarity",
+  "year": 2026,
+  "input": {
+   "name": "Fino VOS Rarity",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2022-01-10"
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Sherry (VORS/VOS): Consejo Regulador says indefinite in closed bottle from filling. It keeps and changes slowly, so there is no deadline."
+  }
+ },
+ {
+  "label": "Equipo Navazos La Bota de Palo Cortado 50",
+  "year": 2026,
+  "input": {
+   "name": "Equipo Navazos La Bota de Palo Cortado 50",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2021-09-09"
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Sherry (palo cortado): Consejo Regulador says indefinite in closed bottle from filling. It keeps and changes slowly, so there is no deadline."
+  }
+ },
+ {
+  "label": "Oloroso Alfonso Dry",
+  "year": 2026,
+  "input": {
+   "name": "Oloroso Alfonso Dry",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2019-03-03"
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Sherry (oloroso): Consejo Regulador says indefinite in closed bottle from filling. It keeps and changes slowly, so there is no deadline."
+  }
+ },
+ {
+  "label": "Oloroso Sibarita VORS",
+  "year": 2026,
+  "input": {
+   "name": "Oloroso Sibarita VORS",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2019-03-03"
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Sherry (VORS/VOS): Consejo Regulador says indefinite in closed bottle from filling. It keeps and changes slowly, so there is no deadline."
+  }
+ },
+ {
+  "label": "Pedro Ximenez Triana",
+  "year": 2026,
+  "input": {
+   "name": "Pedro Ximenez Triana",
+   "type": "sweet",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2024-04-04"
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Sherry (pedro ximenez): Consejo Regulador says indefinite in closed bottle from filling. It keeps and changes slowly, so there is no deadline."
+  }
+ },
+ {
+  "label": "PX Viejisimo",
+  "year": 2026,
+  "input": {
+   "name": "PX Viejisimo",
+   "type": "sweet",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2024-04-04"
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Sherry (pedro ximenez): Consejo Regulador says indefinite in closed bottle from filling. It keeps and changes slowly, so there is no deadline."
+  }
+ },
+ {
+  "label": "Ximenez Spinola Exceptional Harvest",
+  "year": 2026,
+  "input": {
+   "name": "Ximenez Spinola Exceptional Harvest",
+   "type": "sweet",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Sherry (pedro ximenez): Consejo Regulador says indefinite in closed bottle from filling. It keeps and changes slowly, so there is no deadline."
+  }
+ },
+ {
+  "label": "Moscatel Dorado",
+  "year": 2026,
+  "input": {
+   "name": "Moscatel Dorado",
+   "type": "sweet",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2023-01-01"
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Sherry (pedro ximenez): Consejo Regulador says indefinite in closed bottle from filling. It keeps and changes slowly, so there is no deadline. Moscatel is not in the Consejo table; treated like Pedro Ximénez (sweet, long-lived)."
+  }
+ },
+ {
+  "label": "PX found through the producer",
+  "year": 2026,
+  "input": {
+   "name": "Solera Dulce 1927",
+   "type": "sweet",
+   "vintage": "NV",
+   "producer": "Pedro Ximenez Hermanos",
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Sherry (pedro ximenez): Consejo Regulador says indefinite in closed bottle from filling. It keeps and changes slowly, so there is no deadline."
+  }
+ },
+ {
+  "label": "Cream Harveys Bristol",
+  "year": 2026,
+  "input": {
+   "name": "Cream Harveys Bristol",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2024-03-03"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Sherry (cream): Consejo Regulador says up to 2-3 years in closed bottle from filling. Counted from the last purchase date (03/03/2024), because the filling date is unknown: best until 03/2027."
+  }
+ },
+ {
+  "label": "Medium Dry Sherry",
+  "year": 2026,
+  "input": {
+   "name": "Medium Dry Sherry",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2024-03-03"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Sherry (cream): Consejo Regulador says up to 2-3 years in closed bottle from filling. Counted from the last purchase date (03/03/2024), because the filling date is unknown: best until 03/2027."
+  }
+ },
+ {
+  "label": "Fino en Rama Saca de marzo 2025",
+  "year": 2026,
+  "input": {
+   "name": "Fino en Rama Saca de marzo 2025",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2025-05-05"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Sherry (fino): Consejo Regulador says 12 to 18 months in closed bottle from filling. Counted from the last purchase date (05/05/2025), because the filling date is unknown: best until 11/2026."
+  }
+ },
+ {
+  "label": "Fino Saca 2024",
+  "year": 2026,
+  "input": {
+   "name": "Fino Saca 2024",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2025-05-05"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Sherry (fino): Consejo Regulador says 12 to 18 months in closed bottle from filling. Counted from the saca in the name (2024): best until 01/2026."
+  }
+ },
+ {
+  "label": "Fino Saca invierno 2023",
+  "year": 2026,
+  "input": {
+   "name": "Fino Saca invierno 2023",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2025-05-05"
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2023,
+   "toYear": 2024,
+   "keeps": "declines",
+   "note": "Sherry (fino): Consejo Regulador says 12 to 18 months in closed bottle from filling. Counted from the saca in the name (2023): best until 07/2024."
+  }
+ },
+ {
+  "label": "Navazos Fino MMXV",
+  "year": 2026,
+  "input": {
+   "name": "Navazos Fino MMXV",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2025-05-05"
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2015,
+   "toYear": 2017,
+   "keeps": "declines",
+   "note": "Sherry (fino): Consejo Regulador says 12 to 18 months in closed bottle from filling. Counted from the saca year in the name (2015): best until 01/2017."
+  }
+ },
+ {
+  "label": "Navazos Fino MMIX",
+  "year": 2026,
+  "input": {
+   "name": "Navazos Fino MMIX",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2025-05-05"
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2009,
+   "toYear": 2011,
+   "keeps": "declines",
+   "note": "Sherry (fino): Consejo Regulador says 12 to 18 months in closed bottle from filling. Counted from the saca year in the name (2009): best until 01/2011."
+  }
+ },
+ {
+  "label": "Fino Sin Fecha",
+  "year": 2026,
+  "input": {
+   "name": "Fino Sin Fecha",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "declines",
+   "note": "Sherry (fino): Consejo Regulador says 12 to 18 months in closed bottle from filling. Filling date unknown, so no window can be given."
+  }
+ },
+ {
+  "label": "Fino Fecha Rara",
+  "year": 2026,
+  "input": {
+   "name": "Fino Fecha Rara",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "not-a-date"
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "declines",
+   "note": "Sherry (fino): Consejo Regulador says 12 to 18 months in closed bottle from filling. Filling date unknown, so no window can be given."
+  }
+ },
+ {
+  "label": "Fino Fecha Imposible",
+  "year": 2026,
+  "input": {
+   "name": "Fino Fecha Imposible",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2025-02-30"
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "declines",
+   "note": "Sherry (fino): Consejo Regulador says 12 to 18 months in closed bottle from filling. Filling date unknown, so no window can be given."
+  }
+ },
+ {
+  "label": "Vendimia Tardia Moscatel",
+  "year": 2026,
+  "input": {
+   "name": "Vendimia Tardia Moscatel",
+   "type": "sweet",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2021,
+   "toYear": 2043,
+   "keeps": "holds",
+   "note": "Sweet wine: high sugar and acidity let it hold for decades."
+  }
+ },
+ {
+  "label": "Fino bought 2025, year 2030",
+  "year": 2030,
+  "input": {
+   "name": "Fino 2030",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2025-06-01"
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2025,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Sherry (fino): Consejo Regulador says 12 to 18 months in closed bottle from filling. Counted from the last purchase date (01/06/2025), because the filling date is unknown: best until 12/2026."
+  }
+ },
+ {
+  "label": "Taylor's Late Bottled Vintage LBV",
+  "year": 2026,
+  "input": {
+   "name": "Taylor's Late Bottled Vintage LBV",
+   "type": "fortified",
+   "vintage": 2017,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2021,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Late Bottled Vintage port: 0 to 5 years from release. Release estimated 4 years after the harvest."
+  }
+ },
+ {
+  "label": "LBV no vintage",
+  "year": 2026,
+  "input": {
+   "name": "LBV no vintage",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2023-02-02"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2023,
+   "toYear": 2028,
+   "keeps": "declines",
+   "note": "Late Bottled Vintage port: 0 to 5 years from release. Release estimated 4 years after the harvest."
+  }
+ },
+ {
+  "label": "Niepoort Colheita Port",
+  "year": 2026,
+  "input": {
+   "name": "Niepoort Colheita Port",
+   "type": "fortified",
+   "vintage": 2005,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2024-01-01"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Colheita port: 0 to 3 years from release. Release date not known: last purchase year used."
+  }
+ },
+ {
+  "label": "Colheita Without Date Port",
+  "year": 2026,
+  "input": {
+   "name": "Colheita Without Date Port",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2026,
+   "toYear": 2029,
+   "keeps": "declines",
+   "note": "Colheita port: 0 to 3 years from release. Release date not known: last purchase year used."
+  }
+ },
+ {
+  "label": "Tawny 10 Years Porto",
+  "year": 2026,
+  "input": {
+   "name": "Tawny 10 Years Porto",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2023-06-06"
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2023,
+   "toYear": 2025,
+   "keeps": "declines",
+   "note": "Tawny port: 0 to 2 years from release. Release date not known: last purchase year used."
+  }
+ },
+ {
+  "label": "Ruby Reserve Port",
+  "year": 2026,
+  "input": {
+   "name": "Ruby Reserve Port",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2024-06-06"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Ruby port: 0 to 3 years from release. Release date not known: last purchase year used."
+  }
+ },
+ {
+  "label": "Graham's Vintage Port",
+  "year": 2026,
+  "input": {
+   "name": "Graham's Vintage Port",
+   "type": "fortified",
+   "vintage": 2011,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2026,
+   "toYear": 2051,
+   "keeps": "holds",
+   "note": "Vintage port: 15 to 40 years from the harvest."
+  }
+ },
+ {
+  "label": "Quinta do Noval Port",
+  "year": 2026,
+  "input": {
+   "name": "Quinta do Noval Port",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": "2022-02-02"
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2022,
+   "toYear": 2025,
+   "keeps": "declines",
+   "note": "Port without a recognised style (ruby band used): 0 to 3 years from release."
+  }
+ },
+ {
+  "label": "Vermut Yzaguirre Rojo",
+  "year": 2026,
+  "input": {
+   "name": "Vermut Yzaguirre Rojo",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "declines",
+   "note": "Vermouth: best within a couple of years of bottling, then in the fridge once opened."
+  }
+ },
+ {
+  "label": "Madeira Blandy's 10 anos",
+  "year": 2026,
+  "input": {
+   "name": "Madeira Blandy's 10 anos",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Fortified wine: it keeps for a long time."
+  }
+ },
+ {
+  "label": "Rancio Seco Garnacha",
+  "year": 2026,
+  "input": {
+   "name": "Rancio Seco Garnacha",
+   "type": "fortified",
+   "vintage": 2000,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Fortified wine: it keeps for a long time."
+  }
+ },
+ {
+  "label": "Fondillon Gran Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Fondillon Gran Reserva",
+   "type": "fortified",
+   "vintage": 1990,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Alicante",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Fortified wine: it keeps for a long time."
+  }
+ },
+ {
+  "label": "Fondillon Monastrell",
+  "year": 2026,
+  "input": {
+   "name": "Fondillon Monastrell",
+   "type": "sweet",
+   "vintage": 1995,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Alicante",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2015,
+   "toYear": 2045,
+   "keeps": "evolves",
+   "note": "Fondillón: 20 to 50+ years from the vintage."
+  }
+ },
+ {
+  "label": "Sidra Natural Trabanco",
+  "year": 2026,
+  "input": {
+   "name": "Sidra Natural Trabanco",
+   "type": "cider",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "declines",
+   "note": "Cider and perry: drink within a year or two."
+  }
+ },
+ {
+  "label": "Sidra Vintage",
+  "year": 2026,
+  "input": {
+   "name": "Sidra Vintage",
+   "type": "cider",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Fortified wine: it keeps for a long time."
+  }
+ },
+ {
+  "label": "Tostado do Ribeiro",
+  "year": 2026,
+  "input": {
+   "name": "Tostado do Ribeiro",
+   "type": "sweet",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Ribeiro",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2025,
+   "toYear": 2045,
+   "keeps": "holds",
+   "note": "Tostado do Ribeiro: 10 to 30+ years from the vintage."
+  }
+ },
+ {
+  "label": "Chateau Climens",
+  "year": 2026,
+  "input": {
+   "name": "Chateau Climens",
+   "type": "sweet",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Sauternes",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2025,
+   "toYear": 2055,
+   "keeps": "holds",
+   "note": "Bordeaux guide: Sauternes 10 to 40+ years from the vintage."
+  }
+ },
+ {
+  "label": "Chateau Coutet",
+  "year": 2026,
+  "input": {
+   "name": "Chateau Coutet",
+   "type": "sweet",
+   "vintage": 2010,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Barsac",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2020,
+   "toYear": 2050,
+   "keeps": "holds",
+   "note": "Bordeaux guide: Sauternes 10 to 40+ years from the vintage."
+  }
+ },
+ {
+  "label": "Sauternes sin anada",
+  "year": 2026,
+  "input": {
+   "name": "Sauternes sin anada",
+   "type": "sweet",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Sauternes",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "keep",
+   "fromYear": 2029,
+   "toYear": 2051,
+   "keeps": "holds",
+   "note": "Sweet wine: high sugar and acidity let it hold for decades."
+  }
+ },
+ {
+  "label": "Tokaji Aszu 5 Puttonyos",
+  "year": 2026,
+  "input": {
+   "name": "Tokaji Aszu 5 Puttonyos",
+   "type": "sweet",
+   "vintage": 2013,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2016,
+   "toYear": 2038,
+   "keeps": "holds",
+   "note": "Sweet wine: high sugar and acidity let it hold for decades."
+  }
+ },
+ {
+  "label": "Late Harvest Zinfandel",
+  "year": 2026,
+  "input": {
+   "name": "Late Harvest Zinfandel",
+   "type": "red",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2022,
+   "toYear": 2044,
+   "keeps": "holds",
+   "note": "Sweet wine: high sugar and acidity let it hold for decades."
+  }
+ },
+ {
+  "label": "Vino Dulce Natural",
+  "year": 2026,
+  "input": {
+   "name": "Vino Dulce Natural",
+   "type": "sweet",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "keep",
+   "fromYear": 2029,
+   "toYear": 2051,
+   "keeps": "holds",
+   "note": "Sweet wine: high sugar and acidity let it hold for decades."
+  }
+ },
+ {
+  "label": "Chateau Dulce Blaye",
+  "year": 2026,
+  "input": {
+   "name": "Chateau Dulce Blaye",
+   "type": "sweet",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Blaye",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2018,
+   "toYear": 2040,
+   "keeps": "holds",
+   "note": "Sweet wine: high sugar and acidity let it hold for decades."
+  }
+ },
+ {
+  "label": "Dom Perignon",
+  "year": 2026,
+  "input": {
+   "name": "Dom Perignon",
+   "type": "sparkling",
+   "vintage": 2012,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Champagne",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2024,
+   "toYear": 2042,
+   "keeps": "holds",
+   "note": "Prestige cuvée Champagne: 12 to 30+ years from the vintage."
+  }
+ },
+ {
+  "label": "Cristal Roederer",
+  "year": 2026,
+  "input": {
+   "name": "Cristal Roederer",
+   "type": "sparkling",
+   "vintage": 2014,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Champagne",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2026,
+   "toYear": 2044,
+   "keeps": "holds",
+   "note": "Prestige cuvée Champagne: 12 to 30+ years from the vintage."
+  }
+ },
+ {
+  "label": "Champagne Bollinger La Grande Annee",
+  "year": 2026,
+  "input": {
+   "name": "Champagne Bollinger La Grande Annee",
+   "type": "sparkling",
+   "vintage": 2012,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Champagne",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2020,
+   "toYear": 2032,
+   "keeps": "holds",
+   "note": "Vintage Champagne: 8 to 20+ years from the vintage."
+  }
+ },
+ {
+  "label": "Champagne Brut",
+  "year": 2026,
+  "input": {
+   "name": "Champagne Brut",
+   "type": "sparkling",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Champagne",
+   "grapes": null,
+   "purchaseDate": "2024-12-01"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Non-vintage Champagne: 1 to 3 years, up to 5, after release. The release date is not known, so the last purchase year is used as the start."
+  }
+ },
+ {
+  "label": "Champagne Sans Date",
+  "year": 2026,
+  "input": {
+   "name": "Champagne Sans Date",
+   "type": "sparkling",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Champagne",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2026,
+   "toYear": 2029,
+   "keeps": "declines",
+   "note": "Non-vintage Champagne: 1 to 3 years, up to 5, after release. The release date is not known, so the last purchase year is used as the start."
+  }
+ },
+ {
+  "label": "Krug Grande Cuvee",
+  "year": 2026,
+  "input": {
+   "name": "Krug Grande Cuvee",
+   "type": "sparkling",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Champagne",
+   "grapes": null,
+   "purchaseDate": "2023-11-20"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2023,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Non-vintage Champagne: 1 to 3 years, up to 5, after release. The release date is not known, so the last purchase year is used as the start."
+  }
+ },
+ {
+  "label": "Recaredo Terrers Cava de Paraje Calificado",
+  "year": 2026,
+  "input": {
+   "name": "Recaredo Terrers Cava de Paraje Calificado",
+   "type": "sparkling",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Cava",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2019,
+   "toYear": 2029,
+   "keeps": "declines",
+   "note": "Cava de Paraje Calificado: 3 to 10+ years after disgorgement. Disgorgement date not known: estimated 4 year(s) after the vintage, from the minimum ageing."
+  }
+ },
+ {
+  "label": "Gran Reserva Brut Nature",
+  "year": 2026,
+  "input": {
+   "name": "Gran Reserva Brut Nature",
+   "type": "sparkling",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Cava",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2021,
+   "toYear": 2024,
+   "keeps": "declines",
+   "note": "Cava Guarda Superior Gran Reserva: 2 to 3 years after disgorgement. Disgorgement date not known: estimated 3 year(s) after the vintage, from the minimum ageing."
+  }
+ },
+ {
+  "label": "Cava Reserva Brut",
+  "year": 2026,
+  "input": {
+   "name": "Cava Reserva Brut",
+   "type": "sparkling",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Cava",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2021,
+   "toYear": 2023,
+   "keeps": "declines",
+   "note": "Cava Guarda Superior Reserva: 1 to 2 years after disgorgement. Disgorgement date not known: estimated 2 year(s) after the vintage, from the minimum ageing."
+  }
+ },
+ {
+  "label": "Brut Joven",
+  "year": 2026,
+  "input": {
+   "name": "Brut Joven",
+   "type": "sparkling",
+   "vintage": 2023,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Cava",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Cava de Guarda: 1 to 1.5 years after disgorgement, drink for freshness. Disgorgement date not known: estimated 1 year(s) after the vintage, from the minimum ageing."
+  }
+ },
+ {
+  "label": "Brut Nature NV",
+  "year": 2026,
+  "input": {
+   "name": "Brut Nature NV",
+   "type": "sparkling",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Cava",
+   "grapes": null,
+   "purchaseDate": "2025-01-01"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Cava de Guarda: 1 to 1.5 years after disgorgement, drink for freshness. No vintage and no disgorgement date: the last purchase year is used."
+  }
+ },
+ {
+  "label": "Brut Nature sin compra",
+  "year": 2026,
+  "input": {
+   "name": "Brut Nature sin compra",
+   "type": "sparkling",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Cava",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2026,
+   "toYear": 2028,
+   "keeps": "declines",
+   "note": "Cava de Guarda: 1 to 1.5 years after disgorgement, drink for freshness. No vintage and no disgorgement date: the last purchase year is used."
+  }
+ },
+ {
+  "label": "Cava Frizzante Valencia",
+  "year": 2026,
+  "input": {
+   "name": "Cava Frizzante Valencia",
+   "type": "sparkling",
+   "vintage": 2022,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Valencia",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2022,
+   "toYear": 2025,
+   "keeps": "declines",
+   "note": "Valencia cava: 1 to 3 years from disgorgement. The disgorgement date is not known, so the vintage is used."
+  }
+ },
+ {
+  "label": "Espumoso Brut Nature",
+  "year": 2026,
+  "input": {
+   "name": "Espumoso Brut Nature",
+   "type": "sparkling",
+   "vintage": 2020,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Utiel-Requena",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2020,
+   "toYear": 2024,
+   "keeps": "declines",
+   "note": "Utiel-Requena cava: 1 to 4 years from disgorgement. The disgorgement date is not known, so the vintage is used."
+  }
+ },
+ {
+  "label": "Prosecco Frizzante",
+  "year": 2026,
+  "input": {
+   "name": "Prosecco Frizzante",
+   "type": "sparkling",
+   "vintage": 2023,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Prosecco",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "declines",
+   "note": "Light frizzante: drink young and fresh. Young vintage (last 4 years): shown as Drink soon, never Drink now."
+  }
+ },
+ {
+  "label": "Espumoso Gran Reserva Brut",
+  "year": 2026,
+  "input": {
+   "name": "Espumoso Gran Reserva Brut",
+   "type": "sparkling",
+   "vintage": 2017,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Penedès",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2020,
+   "toYear": 2025,
+   "keeps": "holds",
+   "note": "Cava with long lees ageing: ready now and holds some years."
+  }
+ },
+ {
+  "label": "Espumoso Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Espumoso Reserva",
+   "type": "sparkling",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Penedès",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2026,
+   "toYear": 2031,
+   "keeps": "holds",
+   "note": "Cava with long lees ageing: ready now and holds some years."
+  }
+ },
+ {
+  "label": "Cremant de Loire",
+  "year": 2026,
+  "input": {
+   "name": "Cremant de Loire",
+   "type": "sparkling",
+   "vintage": 2022,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Crémant de Loire",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2022,
+   "toYear": 2025,
+   "keeps": "declines",
+   "note": "Young sparkling: drink within 2-3 years of the vintage."
+  }
+ },
+ {
+  "label": "Cremant sin anada",
+  "year": 2026,
+  "input": {
+   "name": "Cremant sin anada",
+   "type": "sparkling",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2028,
+   "keeps": "declines",
+   "note": "Young sparkling: drink within 2-3 years of the vintage."
+  }
+ },
+ {
+  "label": "Riesling Sekt Brut",
+  "year": 2026,
+  "input": {
+   "name": "Riesling Sekt Brut",
+   "type": "sparkling",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2019,
+   "toYear": 2022,
+   "keeps": "declines",
+   "note": "Young sparkling: drink within 2-3 years of the vintage."
+  }
+ },
+ {
+  "label": "Riesling Trockenbeerenauslese",
+  "year": 2026,
+  "input": {
+   "name": "Riesling Trockenbeerenauslese",
+   "type": "sweet",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Mosel",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "keep",
+   "fromYear": 2035,
+   "toYear": 2065,
+   "keeps": "holds",
+   "note": "Noble sweet Riesling (BA, TBA, Eiswein): 20 to 50+ years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Riesling Eiswein",
+  "year": 2026,
+  "input": {
+   "name": "Riesling Eiswein",
+   "type": "sweet",
+   "vintage": 2016,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "keep",
+   "fromYear": 2036,
+   "toYear": 2066,
+   "keeps": "holds",
+   "note": "Noble sweet Riesling (BA, TBA, Eiswein): 20 to 50+ years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Riesling BA",
+  "year": 2026,
+  "input": {
+   "name": "Riesling BA",
+   "type": "sweet",
+   "vintage": 2011,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2012,
+   "toYear": 2014,
+   "keeps": "holds",
+   "note": "Everyday Riesling: 1 to 3 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Riesling Auslese Wehlener",
+  "year": 2026,
+  "input": {
+   "name": "Riesling Auslese Wehlener",
+   "type": "sweet",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "keep",
+   "fromYear": 2028,
+   "toYear": 2043,
+   "keeps": "holds",
+   "note": "Riesling Auslese: 10 to 25+ years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Riesling Spatlese Feinherb",
+  "year": 2026,
+  "input": {
+   "name": "Riesling Spatlese Feinherb",
+   "type": "white",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Mosel",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2024,
+   "toYear": 2034,
+   "keeps": "holds",
+   "note": "Riesling Spätlese: 5 to 15 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Riesling Kabinett",
+  "year": 2026,
+  "input": {
+   "name": "Riesling Kabinett",
+   "type": "white",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Mosel",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2023,
+   "toYear": 2029,
+   "keeps": "holds",
+   "note": "Riesling Kabinett: 2 to 8 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Riesling Grosses Gewachs Pechstein",
+  "year": 2026,
+  "input": {
+   "name": "Riesling Grosses Gewachs Pechstein",
+   "type": "white",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Pfalz",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2023,
+   "toYear": 2033,
+   "keeps": "holds",
+   "note": "Dry single-vineyard Riesling (GG and similar): 5 to 15+ years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Riesling Alsace Grand Cru Schlossberg",
+  "year": 2026,
+  "input": {
+   "name": "Riesling Alsace Grand Cru Schlossberg",
+   "type": "white",
+   "vintage": 2017,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Alsace",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2022,
+   "toYear": 2032,
+   "keeps": "holds",
+   "note": "Dry single-vineyard Riesling (GG and similar): 5 to 15+ years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Riesling Trocken",
+  "year": 2026,
+  "input": {
+   "name": "Riesling Trocken",
+   "type": "white",
+   "vintage": 2023,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Pfalz",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2026,
+   "keeps": "holds",
+   "note": "Everyday Riesling: 1 to 3 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Riesling found through the grapes",
+  "year": 2026,
+  "input": {
+   "name": "Selbach Estate",
+   "type": "white",
+   "vintage": 2022,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": "100% Riesling",
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2022,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Fresh young white: best within about 4 years of the vintage."
+  }
+ },
+ {
+  "label": "Riesling Kabinett Future",
+  "year": 2026,
+  "input": {
+   "name": "Riesling Kabinett Future",
+   "type": "white",
+   "vintage": 2028,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "keep",
+   "fromYear": 2028,
+   "toYear": 2034,
+   "keeps": "holds",
+   "note": "Riesling Kabinett: 2 to 8 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Riesling sin anada",
+  "year": 2026,
+  "input": {
+   "name": "Riesling sin anada",
+   "type": "white",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "holds",
+   "note": "No vintage known: set a window by hand if you want a precise status."
+  }
+ },
+ {
+  "label": "Riesling Red Oddity",
+  "year": 2026,
+  "input": {
+   "name": "Riesling Red Oddity",
+   "type": "red",
+   "vintage": 2020,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2021,
+   "toYear": 2031,
+   "keeps": "holds",
+   "note": "Red without ageing designation: drinks well from year 1, holds about 10."
+  }
+ },
+ {
+  "label": "Vino Tinto Sin Anada",
+  "year": 2026,
+  "input": {
+   "name": "Vino Tinto Sin Anada",
+   "type": "red",
+   "vintage": "NV",
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "holds",
+   "note": "No vintage known: set a window by hand if you want a precise status."
+  }
+ },
+ {
+  "label": "Unknown Colour Wine",
+  "year": 2026,
+  "input": {
+   "name": "Unknown Colour Wine",
+   "type": null,
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2019,
+   "toYear": 2029,
+   "keeps": "holds",
+   "note": "Red without ageing designation: drinks well from year 1, holds about 10."
+  }
+ },
+ {
+  "label": "Rioja Reserva Future",
+  "year": 2026,
+  "input": {
+   "name": "Rioja Reserva Future",
+   "type": "red",
+   "vintage": 2030,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "keep",
+   "fromYear": 2032,
+   "toYear": 2041,
+   "keeps": "holds",
+   "note": "Rioja Reserva: 6 to 15 years from the vintage."
+  }
+ },
+ {
+  "label": "Chateau Generic",
+  "year": 2026,
+  "input": {
+   "name": "Chateau Generic",
+   "type": "red",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Bordeaux Supérieur",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2020,
+   "toYear": 2026,
+   "keeps": "holds",
+   "note": "Bordeaux guide: entry-level and generic appellations, 2 to 8 years from the vintage."
+  }
+ },
+ {
+  "label": "Chateau Lynch-Bages",
+  "year": 2026,
+  "input": {
+   "name": "Chateau Lynch-Bages",
+   "type": "red",
+   "vintage": 2010,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Pauillac",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2015,
+   "toYear": 2025,
+   "keeps": "holds",
+   "note": "Bordeaux guide: named appellation (Cru Bourgeois level or second wine), 5 to 15 years from the vintage."
+  }
+ },
+ {
+  "label": "Chateau Smith Haut Lafitte Blanc",
+  "year": 2026,
+  "input": {
+   "name": "Chateau Smith Haut Lafitte Blanc",
+   "type": "white",
+   "vintage": 2016,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Pessac-Léognan",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2021,
+   "toYear": 2036,
+   "keeps": "holds",
+   "note": "Bordeaux guide: dry white 5 to 20 years from the vintage."
+  }
+ },
+ {
+  "label": "Chateau Bonnet",
+  "year": 2026,
+  "input": {
+   "name": "Chateau Bonnet",
+   "type": "white",
+   "vintage": 2022,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Entre-Deux-Mers",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2022,
+   "toYear": 2024,
+   "keeps": "declines",
+   "note": "Bordeaux guide: simple dry white, drink within 1-2 years."
+  }
+ },
+ {
+  "label": "Chateau Saint-Emilion",
+  "year": 2026,
+  "input": {
+   "name": "Chateau Saint-Emilion",
+   "type": "red",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Saint-Émilion Grand Cru",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2020,
+   "toYear": 2030,
+   "keeps": "holds",
+   "note": "Bordeaux guide: named appellation (Cru Bourgeois level or second wine), 5 to 15 years from the vintage."
+  }
+ },
+ {
+  "label": "Pavillon Rouge",
+  "year": 2026,
+  "input": {
+   "name": "Pavillon Rouge",
+   "type": "red",
+   "vintage": 2030,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Margaux",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "keep",
+   "fromYear": 2031,
+   "toYear": 2041,
+   "keeps": "holds",
+   "note": "Bordeaux guide: named appellation (Cru Bourgeois level or second wine), 5 to 15 years from the vintage."
+  }
+ },
+ {
+  "label": "Chateau Region Only",
+  "year": 2026,
+  "input": {
+   "name": "Chateau Region Only",
+   "type": "red",
+   "vintage": 2012,
+   "producer": null,
+   "country": null,
+   "region": "Bordeaux",
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2017,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Bordeaux guide: named appellation (Cru Bourgeois level or second wine), 5 to 15 years from the vintage."
+  }
+ },
+ {
+  "label": "Rosado de Bordeaux",
+  "year": 2026,
+  "input": {
+   "name": "Rosado de Bordeaux",
+   "type": "rosé",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Bordeaux",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Rosé: drink within two years of the vintage."
+  }
+ },
+ {
+  "label": "Tondonia Rosado Gran Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Tondonia Rosado Gran Reserva",
+   "type": "rosé",
+   "vintage": 2009,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2015,
+   "toYear": 2039,
+   "keeps": "holds",
+   "note": "Aged rosé (e.g. López de Heredia): a rare long-lived style, from about 6 years."
+  }
+ },
+ {
+  "label": "Rosado Joven",
+  "year": 2026,
+  "input": {
+   "name": "Rosado Joven",
+   "type": "rosé",
+   "vintage": 2025,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Navarra",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Rosé: drink within two years of the vintage."
+  }
+ },
+ {
+  "label": "Rosado 2023 (young vintage, window over)",
+  "year": 2026,
+  "input": {
+   "name": "Rosado 2023",
+   "type": "rosé",
+   "vintage": 2023,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2023,
+   "toYear": 2025,
+   "keeps": "declines",
+   "note": "Rosé: drink within two years of the vintage. Young vintage (last 4 years): shown as Drink soon, never Drink now."
+  }
+ },
+ {
+  "label": "Rosado 2022 (not young, window over)",
+  "year": 2026,
+  "input": {
+   "name": "Rosado 2022",
+   "type": "rosé",
+   "vintage": 2022,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2022,
+   "toYear": 2024,
+   "keeps": "declines",
+   "note": "Rosé: drink within two years of the vintage."
+  }
+ },
+ {
+  "label": "Petalos",
+  "year": 2026,
+  "input": {
+   "name": "Petalos",
+   "type": "red",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Bierzo",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2028,
+   "keeps": "holds",
+   "note": "Bierzo standard Mencía or crianza: 3 to 7 years from the vintage."
+  }
+ },
+ {
+  "label": "Bierzo Clarete",
+  "year": 2026,
+  "input": {
+   "name": "Bierzo Clarete",
+   "type": "red",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Bierzo",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Bierzo rosé or clarete: 1 to 2 years from the vintage."
+  }
+ },
+ {
+  "label": "Godello",
+  "year": 2026,
+  "input": {
+   "name": "Godello",
+   "type": "white",
+   "vintage": 2022,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Bierzo",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Bierzo still white, Godello: 2 to 5 years from the vintage."
+  }
+ },
+ {
+  "label": "Rosado del Bierzo",
+  "year": 2026,
+  "input": {
+   "name": "Rosado del Bierzo",
+   "type": "rosé",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Bierzo",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Rosé: drink within two years of the vintage."
+  }
+ },
+ {
+  "label": "Valtuille Cepas Centenarias",
+  "year": 2026,
+  "input": {
+   "name": "Valtuille Cepas Centenarias",
+   "type": "red",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Bierzo",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2020,
+   "toYear": 2030,
+   "keeps": "holds",
+   "note": "Bierzo paraje, village or old-vine cru: 5 to 15+ years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Villa Mencia",
+  "year": 2026,
+  "input": {
+   "name": "Villa Mencia",
+   "type": "red",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Bierzo",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2023,
+   "toYear": 2033,
+   "keeps": "holds",
+   "note": "Bierzo paraje, village or old-vine cru: 5 to 15+ years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Mencia Joven",
+  "year": 2026,
+  "input": {
+   "name": "Mencia Joven",
+   "type": "red",
+   "vintage": 2023,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Bierzo",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Bierzo joven, no oak: 1 to 3 years from the vintage."
+  }
+ },
+ {
+  "label": "Utiel Rosado",
+  "year": 2026,
+  "input": {
+   "name": "Utiel Rosado",
+   "type": "rosé",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Utiel-Requena",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Rosé: drink within two years of the vintage."
+  }
+ },
+ {
+  "label": "Bobal Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Bobal Reserva",
+   "type": "red",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Utiel-Requena",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2020,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Utiel-Requena Reserva or Gran Reserva: 5 to 12+ years from the vintage."
+  }
+ },
+ {
+  "label": "Bobal Crianza",
+  "year": 2026,
+  "input": {
+   "name": "Bobal Crianza",
+   "type": "red",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Utiel-Requena",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2021,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Utiel-Requena Crianza or oak-aged red: 2 to 8 years from the vintage."
+  }
+ },
+ {
+  "label": "Bobal Barrica",
+  "year": 2026,
+  "input": {
+   "name": "Bobal Barrica",
+   "type": "red",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Utiel-Requena",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2021,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Utiel-Requena Crianza or oak-aged red: 2 to 8 years from the vintage."
+  }
+ },
+ {
+  "label": "Bobal Joven",
+  "year": 2026,
+  "input": {
+   "name": "Bobal Joven",
+   "type": "red",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Utiel-Requena",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Utiel-Requena joven or without ageing designation: 1 to 3 years from the vintage."
+  }
+ },
+ {
+  "label": "Valencia Gran Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Valencia Gran Reserva",
+   "type": "red",
+   "vintage": 2010,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Valencia",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2018,
+   "toYear": 2030,
+   "keeps": "holds",
+   "note": "Valencia Gran Reserva: 8 to 20+ years from the vintage."
+  }
+ },
+ {
+  "label": "Valencia Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Valencia Reserva",
+   "type": "red",
+   "vintage": 2014,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Valencia",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2019,
+   "toYear": 2026,
+   "keeps": "holds",
+   "note": "Valencia Reserva: 5 to 12 years from the vintage."
+  }
+ },
+ {
+  "label": "Valencia Crianza",
+  "year": 2026,
+  "input": {
+   "name": "Valencia Crianza",
+   "type": "red",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Valencia",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2021,
+   "toYear": 2025,
+   "keeps": "holds",
+   "note": "Valencia Crianza: 3 to 7 years from the vintage."
+  }
+ },
+ {
+  "label": "Valencia Joven",
+  "year": 2026,
+  "input": {
+   "name": "Valencia Joven",
+   "type": "red",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Valencia",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Valencia joven or without ageing designation: 1 to 3 years from the vintage."
+  }
+ },
+ {
+  "label": "Valencia Blanco",
+  "year": 2026,
+  "input": {
+   "name": "Valencia Blanco",
+   "type": "white",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Valencia",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Valencia white or rosé: 1 to 3 years from the vintage."
+  }
+ },
+ {
+  "label": "Valencia Rosado",
+  "year": 2026,
+  "input": {
+   "name": "Valencia Rosado",
+   "type": "rosé",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Valencia",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Rosé: drink within two years of the vintage."
+  }
+ },
+ {
+  "label": "Fondillon Tinto",
+  "year": 2026,
+  "input": {
+   "name": "Fondillon Tinto",
+   "type": "red",
+   "vintage": 1998,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Alicante",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2018,
+   "toYear": 2048,
+   "keeps": "evolves",
+   "note": "Fondillón: 20 to 50+ years from the vintage."
+  }
+ },
+ {
+  "label": "Alicante Monastrell",
+  "year": 2026,
+  "input": {
+   "name": "Alicante Monastrell",
+   "type": "red",
+   "vintage": 2020,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Alicante",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2021,
+   "toYear": 2023,
+   "keeps": "declines",
+   "note": "Valencia joven or without ageing designation: 1 to 3 years from the vintage."
+  }
+ },
+ {
+  "label": "Barbera Castellinaldo",
+  "year": 2026,
+  "input": {
+   "name": "Barbera Castellinaldo",
+   "type": "red",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Barbera d'Alba",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2024,
+   "toYear": 2029,
+   "keeps": "holds",
+   "note": "Barbera d'Alba Castellinaldo: 5 to 10+ years from the vintage."
+  }
+ },
+ {
+  "label": "Barbera Superiore",
+  "year": 2026,
+  "input": {
+   "name": "Barbera Superiore",
+   "type": "red",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Barbera d'Asti",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2023,
+   "toYear": 2028,
+   "keeps": "holds",
+   "note": "Barbera Superiore: 5 to 10 years from the vintage."
+  }
+ },
+ {
+  "label": "Barbera Basic",
+  "year": 2026,
+  "input": {
+   "name": "Barbera Basic",
+   "type": "red",
+   "vintage": 2022,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Barbera d'Alba",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2023,
+   "toYear": 2025,
+   "keeps": "declines",
+   "note": "Barbera, steel-aged or unoaked: 1 to 3 years from the vintage."
+  }
+ },
+ {
+  "label": "Barolo Riserva",
+  "year": 2026,
+  "input": {
+   "name": "Barolo Riserva",
+   "type": "red",
+   "vintage": 2012,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Barolo",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "keep",
+   "fromYear": 2027,
+   "toYear": 2052,
+   "keeps": "holds",
+   "note": "Barolo Riserva: 15 to 40+ years from the vintage."
+  }
+ },
+ {
+  "label": "Barolo Cannubi",
+  "year": 2026,
+  "input": {
+   "name": "Barolo Cannubi",
+   "type": "red",
+   "vintage": 2016,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Barolo",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2022,
+   "toYear": 2031,
+   "keeps": "holds",
+   "note": "Barolo, style not known (modern band used): 6 to 15 years from the vintage."
+  }
+ },
+ {
+  "label": "Langhe Nebbiolo",
+  "year": 2026,
+  "input": {
+   "name": "Langhe Nebbiolo",
+   "type": "red",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Langhe Nebbiolo",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2023,
+   "toYear": 2028,
+   "keeps": "holds",
+   "note": "Langhe Nebbiolo, entry level: 2 to 7 years from the vintage."
+  }
+ },
+ {
+  "label": "Barbaresco Asili",
+  "year": 2026,
+  "input": {
+   "name": "Barbaresco Asili",
+   "type": "red",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Barbaresco",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2017,
+   "toYear": 2030,
+   "keeps": "holds",
+   "note": "Red without ageing designation: drinks well from year 1, holds about 10. Structured appellation: window extended."
+  }
+ },
+ {
+  "label": "Brunello di Montalcino",
+  "year": 2026,
+  "input": {
+   "name": "Brunello di Montalcino",
+   "type": "red",
+   "vintage": 2016,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Brunello di Montalcino",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2018,
+   "toYear": 2031,
+   "keeps": "holds",
+   "note": "Red without ageing designation: drinks well from year 1, holds about 10. Structured appellation: window extended."
+  }
+ },
+ {
+  "label": "Chianti Classico Gran Selezione",
+  "year": 2026,
+  "input": {
+   "name": "Chianti Classico Gran Selezione",
+   "type": "red",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Chianti Classico",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2026,
+   "toYear": 2038,
+   "keeps": "holds",
+   "note": "Chianti Classico Gran Selezione: 8 to 20+ years from the vintage."
+  }
+ },
+ {
+  "label": "Chianti Classico Riserva",
+  "year": 2026,
+  "input": {
+   "name": "Chianti Classico Riserva",
+   "type": "red",
+   "vintage": 2017,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Chianti Classico",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2023,
+   "toYear": 2032,
+   "keeps": "holds",
+   "note": "Chianti Classico Riserva: 6 to 15 years from the vintage."
+  }
+ },
+ {
+  "label": "Chianti Classico",
+  "year": 2026,
+  "input": {
+   "name": "Chianti Classico",
+   "type": "red",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Chianti Classico",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2023,
+   "toYear": 2028,
+   "keeps": "holds",
+   "note": "Chianti Classico annata: 2 to 7 years from the vintage."
+  }
+ },
+ {
+  "label": "Chianti Rufina Superiore",
+  "year": 2026,
+  "input": {
+   "name": "Chianti Rufina Superiore",
+   "type": "red",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Chianti Rufina",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2021,
+   "toYear": 2024,
+   "keeps": "holds",
+   "note": "Chianti Superiore: 2 to 5 years from the vintage."
+  }
+ },
+ {
+  "label": "Chianti",
+  "year": 2026,
+  "input": {
+   "name": "Chianti",
+   "type": "red",
+   "vintage": 2023,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Chianti",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Basic Chianti: 1 to 3 years from the vintage."
+  }
+ },
+ {
+  "label": "Priorat Blanc",
+  "year": 2026,
+  "input": {
+   "name": "Priorat Blanc",
+   "type": "white",
+   "vintage": 2022,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Priorat",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2024,
+   "toYear": 2030,
+   "keeps": "holds",
+   "note": "Priorat white: 2 to 8+ years from the vintage; simple ones within 2-4 years."
+  }
+ },
+ {
+  "label": "Finca Dofi",
+  "year": 2026,
+  "input": {
+   "name": "Finca Dofi",
+   "type": "red",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Priorat",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "keep",
+   "fromYear": 2028,
+   "toYear": 2043,
+   "keeps": "holds",
+   "note": "Priorat top estate or single vineyard: 10 to 25+ years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Vi de Vila Gratallops",
+  "year": 2026,
+  "input": {
+   "name": "Vi de Vila Gratallops",
+   "type": "red",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Priorat",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2024,
+   "toYear": 2031,
+   "keeps": "holds",
+   "note": "Priorat village wine: 5 to 12 years from the vintage, peak around years 6-8. Category read from the name."
+  }
+ },
+ {
+  "label": "Priorat Negre",
+  "year": 2026,
+  "input": {
+   "name": "Priorat Negre",
+   "type": "red",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Priorat",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2023,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Priorat entry-level or joven red: 2 to 6 years from the vintage."
+  }
+ },
+ {
+  "label": "Manchuela Viejas",
+  "year": 2026,
+  "input": {
+   "name": "Manchuela Viejas",
+   "type": "red",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Manchuela",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2020,
+   "toYear": 2028,
+   "keeps": "holds",
+   "note": "Manchuela old-vine or premium aged red: 2 to 10 years from the vintage, best in years 3-6. Category read from the name."
+  }
+ },
+ {
+  "label": "Manchuela Joven",
+  "year": 2026,
+  "input": {
+   "name": "Manchuela Joven",
+   "type": "red",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Manchuela",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Manchuela joven: 1 to 2 years from the vintage."
+  }
+ },
+ {
+  "label": "Manchuela Tinto",
+  "year": 2026,
+  "input": {
+   "name": "Manchuela Tinto",
+   "type": "red",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Manchuela",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2023,
+   "toYear": 2026,
+   "keeps": "holds",
+   "note": "Manchuela standard or mid-range red: 2 to 5 years from the vintage, best in years 2-3."
+  }
+ },
+ {
+  "label": "Manchuela Blanco Crianza",
+  "year": 2026,
+  "input": {
+   "name": "Manchuela Blanco Crianza",
+   "type": "white",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Manchuela",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2023,
+   "toYear": 2026,
+   "keeps": "holds",
+   "note": "Manchuela aged white or rosé, or skin-contact: 2 to 5 years from the vintage, best in years 2-4."
+  }
+ },
+ {
+  "label": "Manchuela Blanco",
+  "year": 2026,
+  "input": {
+   "name": "Manchuela Blanco",
+   "type": "white",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Manchuela",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Manchuela young white or rosé: 1 to 2 years from the vintage."
+  }
+ },
+ {
+  "label": "Manchuela Rosado",
+  "year": 2026,
+  "input": {
+   "name": "Manchuela Rosado",
+   "type": "rosé",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Manchuela",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Rosé: drink within two years of the vintage."
+  }
+ },
+ {
+  "label": "Ribeiro Tinto",
+  "year": 2026,
+  "input": {
+   "name": "Ribeiro Tinto",
+   "type": "red",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Ribeiro",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2023,
+   "toYear": 2026,
+   "keeps": "declines",
+   "note": "Ribeiro red: 2 to 5 years from the vintage; oak-aged ones can go longer."
+  }
+ },
+ {
+  "label": "Ribeiro Lias",
+  "year": 2026,
+  "input": {
+   "name": "Ribeiro Lias",
+   "type": "white",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Ribeiro",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Ribeiro lees-aged white: 3 to 6 years from the vintage."
+  }
+ },
+ {
+  "label": "Ribeiro Treixadura",
+  "year": 2026,
+  "input": {
+   "name": "Ribeiro Treixadura",
+   "type": "white",
+   "vintage": 2020,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Ribeiro",
+   "grapes": "100% Treixadura",
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2025,
+   "toYear": 2030,
+   "keeps": "holds",
+   "note": "Ribeiro premium single-variety white: 5 to 10+ years from the vintage. Counted as single-variety because the grapes are 100% one variety."
+  }
+ },
+ {
+  "label": "Ribeiro Tostado Blanco",
+  "year": 2026,
+  "input": {
+   "name": "Ribeiro Tostado Blanco",
+   "type": "white",
+   "vintage": 2020,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Ribeiro",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2025,
+   "toYear": 2030,
+   "keeps": "holds",
+   "note": "Ribeiro premium single-variety white: 5 to 10+ years from the vintage. Counted as single-variety because the grapes are 100% one variety."
+  }
+ },
+ {
+  "label": "Ribeiro Blanco",
+  "year": 2026,
+  "input": {
+   "name": "Ribeiro Blanco",
+   "type": "white",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Ribeiro",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Ribeiro young white: 1 to 3 years from the vintage."
+  }
+ },
+ {
+  "label": "Rias Baixas Barrica",
+  "year": 2026,
+  "input": {
+   "name": "Rias Baixas Barrica",
+   "type": "white",
+   "vintage": 2020,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rías Baixas",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2025,
+   "toYear": 2035,
+   "keeps": "holds",
+   "note": "Rías Baixas barrel-aged or Selección de Añada: 5 to 15+ years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Rias Baixas Lias",
+  "year": 2026,
+  "input": {
+   "name": "Rias Baixas Lias",
+   "type": "white",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rías Baixas",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2026,
+   "keeps": "holds",
+   "note": "Rías Baixas lees-aged: 3 to 5+ years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Albarino Clasico",
+  "year": 2026,
+  "input": {
+   "name": "Albarino Clasico",
+   "type": "white",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rías Baixas",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Rías Baixas classic, stainless steel: 1 to 3 years from the vintage, freshest in years 1-2. Category read from the name."
+  }
+ },
+ {
+  "label": "Arbois Vin Jaune",
+  "year": 2026,
+  "input": {
+   "name": "Arbois Vin Jaune",
+   "type": "white",
+   "vintage": 2012,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Arbois",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2017,
+   "toYear": 2062,
+   "keeps": "evolves",
+   "note": "Vin jaune: extremely long-lived, changes slowly."
+  }
+ },
+ {
+  "label": "Chateau Chalon",
+  "year": 2026,
+  "input": {
+   "name": "Chateau Chalon",
+   "type": "white",
+   "vintage": 2010,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Château-Chalon",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2015,
+   "toYear": 2060,
+   "keeps": "evolves",
+   "note": "Vin jaune: extremely long-lived, changes slowly."
+  }
+ },
+ {
+  "label": "Tondonia Blanco Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Tondonia Blanco Reserva",
+   "type": "white",
+   "vintage": 2008,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2014,
+   "toYear": 2033,
+   "keeps": "holds",
+   "note": "López de Heredia whites age very slowly: from about 6 years up to 25."
+  }
+ },
+ {
+  "label": "Gravonia",
+  "year": 2026,
+  "input": {
+   "name": "Gravonia",
+   "type": "white",
+   "vintage": 2014,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2020,
+   "toYear": 2039,
+   "keeps": "holds",
+   "note": "López de Heredia whites age very slowly: from about 6 years up to 25."
+  }
+ },
+ {
+  "label": "Rioja Blanco Gran Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Rioja Blanco Gran Reserva",
+   "type": "white",
+   "vintage": 2005,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2013,
+   "toYear": 2025,
+   "keeps": "holds",
+   "note": "Rioja white Gran Reserva: 8 to 20 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Rioja Blanco Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Rioja Blanco Reserva",
+   "type": "white",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2019,
+   "toYear": 2030,
+   "keeps": "holds",
+   "note": "Rioja white Reserva: 4 to 15 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Rioja Blanco Crianza",
+  "year": 2026,
+  "input": {
+   "name": "Rioja Blanco Crianza",
+   "type": "white",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2020,
+   "toYear": 2026,
+   "keeps": "holds",
+   "note": "Rioja white, oak: 2 to 8 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Rioja Blanco Fermentado en Barrica",
+  "year": 2026,
+  "input": {
+   "name": "Rioja Blanco Fermentado en Barrica",
+   "type": "white",
+   "vintage": 2020,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2022,
+   "toYear": 2028,
+   "keeps": "holds",
+   "note": "Rioja white, oak: 2 to 8 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Rioja Blanco Joven",
+  "year": 2026,
+  "input": {
+   "name": "Rioja Blanco Joven",
+   "type": "white",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2028,
+   "keeps": "declines",
+   "note": "Rioja white, young and fresh: 1 to 4 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Rueda Barrica",
+  "year": 2026,
+  "input": {
+   "name": "Rueda Barrica",
+   "type": "white",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rueda",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2023,
+   "toYear": 2029,
+   "keeps": "holds",
+   "note": "Rueda barrel-fermented or oak-rested: 2 to 8 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Rueda Lias",
+  "year": 2026,
+  "input": {
+   "name": "Rueda Lias",
+   "type": "white",
+   "vintage": 2022,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rueda",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2023,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Rueda on the lees: 1 to 5 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Rueda Verdejo",
+  "year": 2026,
+  "input": {
+   "name": "Rueda Verdejo",
+   "type": "white",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rueda",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Rueda joven, stainless steel: 0 to 3 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Savennieres Chenin",
+  "year": 2026,
+  "input": {
+   "name": "Savennieres Chenin",
+   "type": "white",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Savennières",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2020,
+   "toYear": 2033,
+   "keeps": "holds",
+   "note": "Riesling and chenin: acidity keeps them for 10+ years."
+  }
+ },
+ {
+  "label": "Chardonnay Fermentado en Barrica",
+  "year": 2026,
+  "input": {
+   "name": "Chardonnay Fermentado en Barrica",
+   "type": "white",
+   "vintage": 2020,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Burgundy",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2020,
+   "toYear": 2028,
+   "keeps": "holds",
+   "note": "White fermented or aged in oak: holds about 8 years."
+  }
+ },
+ {
+  "label": "Chardonnay Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Chardonnay Reserva",
+   "type": "white",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Penedès",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2019,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "White fermented or aged in oak: holds about 8 years."
+  }
+ },
+ {
+  "label": "Fresh Albarino",
+  "year": 2026,
+  "input": {
+   "name": "Fresh Albarino",
+   "type": "white",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Penedès",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2028,
+   "keeps": "declines",
+   "note": "Fresh young white: best within about 4 years of the vintage."
+  }
+ },
+ {
+  "label": "Rioja Gran Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Rioja Gran Reserva",
+   "type": "red",
+   "vintage": 2008,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2018,
+   "toYear": 2038,
+   "keeps": "holds",
+   "note": "Rioja Gran Reserva: 10 to 30+ years from the vintage."
+  }
+ },
+ {
+  "label": "Rioja Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Rioja Reserva",
+   "type": "red",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2021,
+   "toYear": 2030,
+   "keeps": "holds",
+   "note": "Rioja Reserva: 6 to 15 years from the vintage."
+  }
+ },
+ {
+  "label": "Rioja Crianza",
+  "year": 2026,
+  "input": {
+   "name": "Rioja Crianza",
+   "type": "red",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2022,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Rioja Crianza: 3 to 8 years from the vintage."
+  }
+ },
+ {
+  "label": "Rioja Joven",
+  "year": 2026,
+  "input": {
+   "name": "Rioja Joven",
+   "type": "red",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Rioja joven: 1 to 3 years from the vintage."
+  }
+ },
+ {
+  "label": "Rioja Cosecha",
+  "year": 2026,
+  "input": {
+   "name": "Rioja Cosecha",
+   "type": "red",
+   "vintage": 2024,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Rioja joven: 1 to 3 years from the vintage."
+  }
+ },
+ {
+  "label": "Rioja Tinto",
+  "year": 2026,
+  "input": {
+   "name": "Rioja Tinto",
+   "type": "red",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": "La Rioja",
+   "appellation": null,
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2024,
+   "toYear": 2029,
+   "keeps": "holds",
+   "note": "Rioja without ageing designation, Crianza table used to be safe: 3 to 8 years from the vintage."
+  }
+ },
+ {
+  "label": "Vina Tondonia Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Vina Tondonia Reserva",
+   "type": "red",
+   "vintage": 2010,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2018,
+   "toYear": 2033,
+   "keeps": "holds",
+   "note": "Rioja Reserva: 6 to 15 years from the vintage. House known for very long ageing: window extended."
+  }
+ },
+ {
+  "label": "Ardanza",
+  "year": 2026,
+  "input": {
+   "name": "Ardanza",
+   "type": "red",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2020,
+   "toYear": 2031,
+   "keeps": "holds",
+   "note": "Rioja without ageing designation, Crianza table used to be safe: 3 to 8 years from the vintage. House known for very long ageing: window extended."
+  }
+ },
+ {
+  "label": "La Rioja Alta Gran Reserva 904",
+  "year": 2026,
+  "input": {
+   "name": "La Rioja Alta Gran Reserva 904",
+   "type": "red",
+   "vintage": 2011,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2023,
+   "toYear": 2049,
+   "keeps": "holds",
+   "note": "Rioja Gran Reserva: 10 to 30+ years from the vintage. House known for very long ageing: window extended."
+  }
+ },
+ {
+  "label": "Jumilla Gran Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Jumilla Gran Reserva",
+   "type": "red",
+   "vintage": 2010,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Jumilla",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2018,
+   "toYear": 2025,
+   "keeps": "holds",
+   "note": "Jumilla Gran Reserva: 8 to 15+ years from the vintage."
+  }
+ },
+ {
+  "label": "Jumilla Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Jumilla Reserva",
+   "type": "red",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Jumilla",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2020,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Jumilla Reserva: 5 to 12 years from the vintage."
+  }
+ },
+ {
+  "label": "Jumilla Crianza",
+  "year": 2026,
+  "input": {
+   "name": "Jumilla Crianza",
+   "type": "red",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Jumilla",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2022,
+   "toYear": 2026,
+   "keeps": "holds",
+   "note": "Jumilla Crianza: 3 to 7 years from the vintage."
+  }
+ },
+ {
+  "label": "Jumilla Monastrell",
+  "year": 2026,
+  "input": {
+   "name": "Jumilla Monastrell",
+   "type": "red",
+   "vintage": 2023,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Jumilla",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2026,
+   "keeps": "holds",
+   "note": "Jumilla joven or without ageing designation: 1 to 3 years from the vintage."
+  }
+ },
+ {
+  "label": "Ribera Gran Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Ribera Gran Reserva",
+   "type": "red",
+   "vintage": 2009,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Ribera del Duero",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2019,
+   "toYear": 2034,
+   "keeps": "holds",
+   "note": "Ribera del Duero Gran Reserva: 10 to 25+ years from the vintage."
+  }
+ },
+ {
+  "label": "Ribera Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Ribera Reserva",
+   "type": "red",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Ribera del Duero",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2021,
+   "toYear": 2030,
+   "keeps": "holds",
+   "note": "Ribera del Duero Reserva: 6 to 15 years from the vintage."
+  }
+ },
+ {
+  "label": "Ribera Crianza",
+  "year": 2026,
+  "input": {
+   "name": "Ribera Crianza",
+   "type": "red",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Ribera del Duero",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2022,
+   "toYear": 2026,
+   "keeps": "holds",
+   "note": "Ribera del Duero Crianza: 3 to 7 years from the vintage."
+  }
+ },
+ {
+  "label": "Ribera Roble",
+  "year": 2026,
+  "input": {
+   "name": "Ribera Roble",
+   "type": "red",
+   "vintage": 2022,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Ribera del Duero",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Ribera del Duero Roble/Barrica: 2 to 5 years from the vintage."
+  }
+ },
+ {
+  "label": "Ribera Joven",
+  "year": 2026,
+  "input": {
+   "name": "Ribera Joven",
+   "type": "red",
+   "vintage": 2023,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Ribera del Duero",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2026,
+   "keeps": "holds",
+   "note": "Ribera del Duero joven: 1 to 3 years from the vintage."
+  }
+ },
+ {
+  "label": "Ribera Tinto",
+  "year": 2026,
+  "input": {
+   "name": "Ribera Tinto",
+   "type": "red",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Ribera del Duero",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2028,
+   "keeps": "holds",
+   "note": "Ribera del Duero without ageing designation, Crianza table used to be safe: 3 to 7 years from the vintage."
+  }
+ },
+ {
+  "label": "Unico Vega Sicilia Gran Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Unico Vega Sicilia Gran Reserva",
+   "type": "red",
+   "vintage": 2009,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Ribera del Duero",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2021,
+   "toYear": 2042,
+   "keeps": "holds",
+   "note": "Ribera del Duero Gran Reserva: 10 to 25+ years from the vintage. House known for very long ageing: window extended."
+  }
+ },
+ {
+  "label": "Toro Gran Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Toro Gran Reserva",
+   "type": "red",
+   "vintage": 2010,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Toro",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2018,
+   "toYear": 2038,
+   "keeps": "holds",
+   "note": "Gran Reserva: ready after long ageing; holds for decades."
+  }
+ },
+ {
+  "label": "Toro Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Toro Reserva",
+   "type": "red",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Toro",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2019,
+   "toYear": 2032,
+   "keeps": "holds",
+   "note": "Reserva: best from about 4 years and holds around 14."
+  }
+ },
+ {
+  "label": "Toro Crianza",
+  "year": 2026,
+  "input": {
+   "name": "Toro Crianza",
+   "type": "red",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Toro",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2020,
+   "toYear": 2029,
+   "keeps": "holds",
+   "note": "Crianza: best from about 2 years and holds around 10."
+  }
+ },
+ {
+  "label": "Toro Joven Roble",
+  "year": 2026,
+  "input": {
+   "name": "Toro Joven Roble",
+   "type": "red",
+   "vintage": 2023,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Toro",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2023,
+   "toYear": 2027,
+   "keeps": "holds",
+   "note": "Young red: drink within about 4 years."
+  }
+ },
+ {
+  "label": "Toro Tinto",
+  "year": 2026,
+  "input": {
+   "name": "Toro Tinto",
+   "type": "red",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Toro",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2022,
+   "toYear": 2032,
+   "keeps": "holds",
+   "note": "Red without ageing designation: drinks well from year 1, holds about 10."
+  }
+ },
+ {
+  "label": "Montsant Style Priorat Garnacha",
+  "year": 2026,
+  "input": {
+   "name": "Montsant Style Priorat Garnacha",
+   "type": "red",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Montsant",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2020,
+   "toYear": 2033,
+   "keeps": "holds",
+   "note": "Red without ageing designation: drinks well from year 1, holds about 10. Structured appellation: window extended."
+  }
+ },
+ {
+  "label": "Cepas Centenarias Garnacha",
+  "year": 2026,
+  "input": {
+   "name": "Cepas Centenarias Garnacha",
+   "type": "red",
+   "vintage": 2017,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Calatayud",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2019,
+   "toYear": 2032,
+   "keeps": "holds",
+   "note": "Red without ageing designation: drinks well from year 1, holds about 10. Structured appellation: window extended."
+  }
+ },
+ {
+  "label": "Rioja Reserva, year 2030",
+  "year": 2030,
+  "input": {
+   "name": "Rioja Reserva",
+   "type": "red",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Rioja",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2021,
+   "toYear": 2030,
+   "keeps": "holds",
+   "note": "Rioja Reserva: 6 to 15 years from the vintage."
+  }
+ },
+ {
+  "label": "Cava, year 2030",
+  "year": 2030,
+  "input": {
+   "name": "Brut Nature",
+   "type": "sparkling",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Cava",
+   "grapes": null,
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2019,
+   "toYear": 2021,
+   "keeps": "declines",
+   "note": "Cava de Guarda: 1 to 1.5 years after disgorgement, drink for freshness. Disgorgement date not known: estimated 1 year(s) after the vintage, from the minimum ageing."
+  }
+ },
+ {
+  "label": "sample: Bodegas Altamira Gran Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Bodegas Altamira Gran Reserva",
+   "type": "red",
+   "vintage": 2010,
+   "producer": "Bodegas Altamira",
+   "country": "Spain",
+   "region": "Rioja",
+   "appellation": "Rioja",
+   "grapes": "Tempranillo",
+   "purchaseDate": "2022-03-14"
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2020,
+   "toYear": 2040,
+   "keeps": "holds",
+   "note": "Rioja Gran Reserva: 10 to 30+ years from the vintage."
+  }
+ },
+ {
+  "label": "sample: Bodegas Altamira Crianza",
+  "year": 2026,
+  "input": {
+   "name": "Bodegas Altamira Crianza",
+   "type": "red",
+   "vintage": 2020,
+   "producer": "Bodegas Altamira",
+   "country": "Spain",
+   "region": "Rioja",
+   "appellation": "Rioja",
+   "grapes": "Tempranillo",
+   "purchaseDate": "2024-05-02"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2023,
+   "toYear": 2028,
+   "keeps": "holds",
+   "note": "Rioja Crianza: 3 to 8 years from the vintage."
+  }
+ },
+ {
+  "label": "sample: Viñedos del Norte Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Viñedos del Norte Reserva",
+   "type": "red",
+   "vintage": 2016,
+   "producer": "Viñedos del Norte",
+   "country": "Spain",
+   "region": "Ribera del Duero",
+   "appellation": "Ribera del Duero",
+   "grapes": "Tempranillo",
+   "purchaseDate": "2023-01-20"
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2022,
+   "toYear": 2031,
+   "keeps": "holds",
+   "note": "Ribera del Duero Reserva: 6 to 15 years from the vintage."
+  }
+ },
+ {
+  "label": "sample: Finca La Umbría",
+  "year": 2026,
+  "input": {
+   "name": "Finca La Umbría",
+   "type": "red",
+   "vintage": 2022,
+   "producer": "Finca La Umbría",
+   "country": "Spain",
+   "region": "Ribera del Duero",
+   "appellation": "Ribera del Duero",
+   "grapes": "Tempranillo",
+   "purchaseDate": "2025-02-11"
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2025,
+   "toYear": 2029,
+   "keeps": "holds",
+   "note": "Ribera del Duero without ageing designation, Crianza table used to be safe: 3 to 7 years from the vintage."
+  }
+ },
+ {
+  "label": "sample: Clos des Hirondelles",
+  "year": 2026,
+  "input": {
+   "name": "Clos des Hirondelles",
+   "type": "red",
+   "vintage": 2018,
+   "producer": "Clos des Hirondelles",
+   "country": "France",
+   "region": "Bordeaux",
+   "appellation": "Bordeaux",
+   "grapes": "Cabernet Sauvignon; Merlot",
+   "purchaseDate": "2022-11-05"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2020,
+   "toYear": 2026,
+   "keeps": "holds",
+   "note": "Bordeaux guide: entry-level and generic appellations, 2 to 8 years from the vintage."
+  }
+ },
+ {
+  "label": "sample: Domaine Les Coteaux",
+  "year": 2026,
+  "input": {
+   "name": "Domaine Les Coteaux",
+   "type": "red",
+   "vintage": 2019,
+   "producer": "Domaine Les Coteaux",
+   "country": "France",
+   "region": "Burgundy",
+   "appellation": "Gevrey-Chambertin",
+   "grapes": "Pinot Noir",
+   "purchaseDate": "2023-06-18"
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2020,
+   "toYear": 2030,
+   "keeps": "holds",
+   "note": "Red without ageing designation: drinks well from year 1, holds about 10."
+  }
+ },
+ {
+  "label": "sample: Cantina Rosa dei Venti",
+  "year": 2026,
+  "input": {
+   "name": "Cantina Rosa dei Venti",
+   "type": "red",
+   "vintage": 2017,
+   "producer": "Cantina Rosa dei Venti",
+   "country": "Italy",
+   "region": "Piedmont",
+   "appellation": "Barolo",
+   "grapes": "Nebbiolo",
+   "purchaseDate": "2023-09-30"
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2023,
+   "toYear": 2032,
+   "keeps": "holds",
+   "note": "Barolo, style not known (modern band used): 6 to 15 years from the vintage."
+  }
+ },
+ {
+  "label": "sample: Celler Pedra Negra",
+  "year": 2026,
+  "input": {
+   "name": "Celler Pedra Negra",
+   "type": "red",
+   "vintage": 2019,
+   "producer": "Celler Pedra Negra",
+   "country": "Spain",
+   "region": "Priorat",
+   "appellation": "Priorat",
+   "grapes": "Garnacha; Cariñena",
+   "purchaseDate": "2024-01-15"
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2021,
+   "toYear": 2025,
+   "keeps": "holds",
+   "note": "Priorat entry-level or joven red: 2 to 6 years from the vintage."
+  }
+ },
+ {
+  "label": "sample: Quinta do Moinho Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Quinta do Moinho Reserva",
+   "type": "red",
+   "vintage": 2015,
+   "producer": "Quinta do Moinho",
+   "country": "Portugal",
+   "region": "Douro",
+   "appellation": "Douro",
+   "grapes": "Touriga Nacional; Tinta Roriz",
+   "purchaseDate": "2022-10-08"
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2019,
+   "toYear": 2032,
+   "keeps": "holds",
+   "note": "Reserva: best from about 4 years and holds around 14."
+  }
+ },
+ {
+  "label": "sample: Pazo de Marés",
+  "year": 2026,
+  "input": {
+   "name": "Pazo de Marés",
+   "type": "white",
+   "vintage": 2024,
+   "producer": "Pazo de Marés",
+   "country": "Spain",
+   "region": "Rías Baixas",
+   "appellation": "Rías Baixas",
+   "grapes": "Albariño",
+   "purchaseDate": "2025-09-12"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Rías Baixas classic, stainless steel: 1 to 3 years from the vintage, freshest in years 1-2. Category read from the name."
+  }
+ },
+ {
+  "label": "sample: Weingut Sonnenhang Kabinett",
+  "year": 2026,
+  "input": {
+   "name": "Weingut Sonnenhang Kabinett",
+   "type": "white",
+   "vintage": 2021,
+   "producer": "Weingut Sonnenhang",
+   "country": "Germany",
+   "region": "Mosel",
+   "appellation": "Mosel",
+   "grapes": "Riesling",
+   "purchaseDate": "2023-04-22"
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2021,
+   "toYear": 2025,
+   "keeps": "declines",
+   "note": "Fresh young white: best within about 4 years of the vintage."
+  }
+ },
+ {
+  "label": "sample: Weingut Sonnenhang Spätlese",
+  "year": 2026,
+  "input": {
+   "name": "Weingut Sonnenhang Spätlese",
+   "type": "white",
+   "vintage": 2018,
+   "producer": "Weingut Sonnenhang",
+   "country": "Germany",
+   "region": "Mosel",
+   "appellation": "Mosel",
+   "grapes": "Riesling",
+   "purchaseDate": "2022-04-10"
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2018,
+   "toYear": 2022,
+   "keeps": "declines",
+   "note": "Fresh young white: best within about 4 years of the vintage."
+  }
+ },
+ {
+  "label": "sample: Domaine des Pierres Blanches 1er Cru",
+  "year": 2026,
+  "input": {
+   "name": "Domaine des Pierres Blanches 1er Cru",
+   "type": "white",
+   "vintage": 2019,
+   "producer": "Domaine des Pierres Blanches",
+   "country": "France",
+   "region": "Burgundy",
+   "appellation": "Chablis",
+   "grapes": "Chardonnay",
+   "purchaseDate": "2023-02-27"
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2019,
+   "toYear": 2023,
+   "keeps": "declines",
+   "note": "Fresh young white: best within about 4 years of the vintage."
+  }
+ },
+ {
+  "label": "sample: Bodegas Altamira Blanco Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Bodegas Altamira Blanco Reserva",
+   "type": "white",
+   "vintage": 2011,
+   "producer": "Bodegas Altamira",
+   "country": "Spain",
+   "region": "Rioja",
+   "appellation": "Rioja",
+   "grapes": "Viura; Malvasía",
+   "purchaseDate": "2022-06-01"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2015,
+   "toYear": 2026,
+   "keeps": "holds",
+   "note": "Rioja white Reserva: 4 to 15 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "sample: Rosado del Alba",
+  "year": 2026,
+  "input": {
+   "name": "Rosado del Alba",
+   "type": "rosé",
+   "vintage": 2025,
+   "producer": "Rosado del Alba",
+   "country": "Spain",
+   "region": "Navarra",
+   "appellation": "Navarra",
+   "grapes": "Garnacha",
+   "purchaseDate": "2026-05-20"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2025,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Rosé: drink within two years of the vintage."
+  }
+ },
+ {
+  "label": "sample: Maison Brune Brut",
+  "year": 2026,
+  "input": {
+   "name": "Maison Brune Brut",
+   "type": "sparkling",
+   "vintage": "NV",
+   "producer": "Maison Brune",
+   "country": "France",
+   "region": "Champagne",
+   "appellation": "Champagne",
+   "grapes": "Chardonnay; Pinot Noir; Pinot Meunier",
+   "purchaseDate": "2024-12-10"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2024,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Non-vintage Champagne: 1 to 3 years, up to 5, after release. The release date is not known, so the last purchase year is used as the start."
+  }
+ },
+ {
+  "label": "sample: Cava Brut Nature Reserva",
+  "year": 2026,
+  "input": {
+   "name": "Cava Brut Nature Reserva",
+   "type": "sparkling",
+   "vintage": 2020,
+   "producer": "Cellers de l'Ermita",
+   "country": "Spain",
+   "region": "Penedès",
+   "appellation": "Cava",
+   "grapes": "Macabeo; Xarel·lo; Parellada",
+   "purchaseDate": "2024-11-03"
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2022,
+   "toYear": 2024,
+   "keeps": "declines",
+   "note": "Cava Guarda Superior Reserva: 1 to 2 years after disgorgement. Disgorgement date not known: estimated 2 year(s) after the vintage, from the minimum ageing."
+  }
+ },
+ {
+  "label": "sample: Fino La Salina",
+  "year": 2026,
+  "input": {
+   "name": "Fino La Salina",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": "Bodegas La Salina",
+   "country": "Spain",
+   "region": "Andalucía",
+   "appellation": "Jerez-Xérès-Sherry",
+   "grapes": "Palomino",
+   "purchaseDate": "2026-02-14"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": 2026,
+   "toYear": 2027,
+   "keeps": "declines",
+   "note": "Sherry (fino): Consejo Regulador says 12 to 18 months in closed bottle from filling. Counted from the last purchase date (14/02/2026), because the filling date is unknown: best until 08/2027."
+  }
+ },
+ {
+  "label": "sample: Amontillado Viejo VORS",
+  "year": 2026,
+  "input": {
+   "name": "Amontillado Viejo VORS",
+   "type": "fortified",
+   "vintage": "NV",
+   "producer": "Bodegas La Salina",
+   "country": "Spain",
+   "region": "Andalucía",
+   "appellation": "Jerez-Xérès-Sherry",
+   "grapes": "Palomino",
+   "purchaseDate": "2024-07-19"
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Sherry (VORS/VOS): Consejo Regulador says indefinite for VOS/VORS in closed bottle from filling. It keeps and changes slowly, so there is no deadline."
+  }
+ },
+ {
+  "label": "sample: Pedro Ximénez Dulce",
+  "year": 2026,
+  "input": {
+   "name": "Pedro Ximénez Dulce",
+   "type": "sweet",
+   "vintage": "NV",
+   "producer": "Bodegas La Salina",
+   "country": "Spain",
+   "region": "Andalucía",
+   "appellation": "Jerez-Xérès-Sherry",
+   "grapes": "Pedro Ximénez",
+   "purchaseDate": "2025-12-01"
+  },
+  "expected": {
+   "status": "evolves",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "evolves",
+   "note": "Sherry (pedro ximenez): Consejo Regulador says indefinite in closed bottle from filling. It keeps and changes slowly, so there is no deadline."
+  }
+ },
+ {
+  "label": "sample: Sidra Natural del Valle",
+  "year": 2026,
+  "input": {
+   "name": "Sidra Natural del Valle",
+   "type": "cider",
+   "vintage": 2025,
+   "producer": "Llagar del Valle",
+   "country": "Spain",
+   "region": "Asturias",
+   "appellation": "Sidra de Asturias",
+   "grapes": "Manzana",
+   "purchaseDate": "2026-08-30"
+  },
+  "expected": {
+   "status": "drink_soon",
+   "fromYear": null,
+   "toYear": null,
+   "keeps": "declines",
+   "note": "Cider and perry: drink within a year or two. Young vintage (last 4 years): shown as Drink soon, never Drink now."
+  }
+ }
+]

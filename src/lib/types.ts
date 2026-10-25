@@ -6,6 +6,12 @@ export type WineType = (typeof WINE_TYPES)[number]
 /** A year, or 'NV' typed by the person for non-vintage wines. It is never guessed. */
 export type Vintage = number | 'NV'
 
+/** A drinking window the person sets by hand. It beats the style rules. Either end can be left open. */
+export interface OwnWindow {
+  fromYear: number | null
+  toYear: number | null
+}
+
 export interface Wine {
   id: string
   name: string
@@ -26,6 +32,8 @@ export interface Wine {
   purchaseDate: string | null
   /** When the wine was added to Lagar (ISO date-time). */
   addedAt: string
+  /** The person's own drinking window, if they set one. */
+  ownWindow: OwnWindow | null
   // The fixed "More detail" rows. null = unknown (shown as a dash).
   servingTemperature: string | null
   foodPairing: string | null

@@ -1,4 +1,4 @@
-import { BACKUP_VERSION, WINE_TYPES, type Backup, type OpenedBottle, type Snapshot, type Wine, type WineType } from './types'
+import { BACKUP_VERSION, WINE_TYPES, type Backup, type OpenedBottle, type OwnWindow, type Snapshot, type Wine, type WineType } from './types'
 import type { LagarStorage } from './storage'
 
 export class BackupError extends Error {}
@@ -21,6 +21,23 @@ function number(raw: Raw, key: string, where: string, min = 0): number | null {
   if (v === undefined || v === null) return null
   if (typeof v !== 'number' || !Number.isFinite(v) || v < min) throw new BackupError(`${where}: "${key}" must be a number of ${min} or more`)
   return v
+}
+
+function ownWindowFrom(raw: Raw, where: string): OwnWindow | null {
+  const v = raw.ownWindow
+  if (v === undefined || v === null) return null   // older files have no such field
+  if (!isObject(v)) throw new BackupError(`${where}: "ownWindow" must be a record`)
+  const year = (key: string) => {
+    const y = v[key]
+    if (y === undefined || y === null) return null
+    if (typeof y !== 'number' || !Number.isInteger(y) || y < 1000 || y > 2300) throw new BackupError(`${where}: "ownWindow.${key}" must be a year`)
+    return y
+  }
+  const fromYear = year('fromYear')
+  const toYear = year('toYear')
+  if (fromYear === null && toYear === null) return null
+  if (fromYear !== null && toYear !== null && fromYear > toYear) throw new BackupError(`${where}: the own window ends before it starts`)
+  return { fromYear, toYear }
 }
 
 function wineFrom(raw: unknown, i: number): Wine {
@@ -50,6 +67,7 @@ function wineFrom(raw: unknown, i: number): Wine {
     paid: number(raw, 'paid', where),
     purchaseDate: text(raw, 'purchaseDate', where),
     addedAt: text(raw, 'addedAt', where, true)!,
+    ownWindow: ownWindowFrom(raw, where),
     servingTemperature: text(raw, 'servingTemperature', where),
     foodPairing: text(raw, 'foodPairing', where),
     tastingAppearance: text(raw, 'tastingAppearance', where),

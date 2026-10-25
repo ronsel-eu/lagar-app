@@ -30,7 +30,7 @@
       id: newId(), name: `Test wine ${n}`, vintage: 2015 + (n % 8), bottles: 3, type: 'red',
       producer: null, country: 'Spain', region: null, appellation: null, grapes: null, abv: null, formatCl: 75,
       paid: 20, purchaseDate: null, addedAt: new Date().toISOString(),
-      servingTemperature: null, foodPairing: null, tastingAppearance: null, tastingNose: null, tastingPalate: null,
+      ownWindow: null, servingTemperature: null, foodPairing: null, tastingAppearance: null, tastingNose: null, tastingPalate: null,
       criticsOpinion: null,
     }
     await storage.putWine(wine)

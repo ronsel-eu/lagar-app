@@ -6,7 +6,7 @@ export function makeWine(overrides: Partial<Wine> = {}): Wine {
     id: 'w1', name: 'Bodegas Altamira Gran Reserva', vintage: 2010, bottles: 3, type: 'red',
     producer: 'Bodegas Altamira', country: 'Spain', region: 'Rioja', appellation: 'Rioja', grapes: 'Tempranillo',
     abv: null, formatCl: 75, paid: 48.5, purchaseDate: '2022-03-14', addedAt: '2026-10-25T09:00:00.000Z',
-    servingTemperature: null, foodPairing: null, tastingAppearance: null, tastingNose: null, tastingPalate: null,
+    ownWindow: null, servingTemperature: null, foodPairing: null, tastingAppearance: null, tastingNose: null, tastingPalate: null,
     criticsOpinion: null,
     ...overrides,
   }
