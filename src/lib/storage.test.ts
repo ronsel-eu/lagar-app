@@ -25,6 +25,13 @@ describe.each(storages)('%s storage', (_name, create) => {
     expect(await s.getWine('nope')).toBeUndefined()
   })
 
+  it('saves wines held in reactive objects (Proxies), which the browser database cannot clone by itself', async () => {
+    const s = await create()
+    const reactive = new Proxy({ ...makeWine({ id: 'p' }), ownWindow: new Proxy({ fromYear: 2020, toYear: 2030 }, {}) }, {})
+    await s.putWines([reactive])
+    expect((await s.getWine('p'))?.ownWindow).toEqual({ fromYear: 2020, toYear: 2030 })
+  })
+
   it('saves many wines at once', async () => {
     const s = await create()
     await s.putWines([makeWine({ id: 'a' }), makeWine({ id: 'b' }), makeWine({ id: 'c' })])

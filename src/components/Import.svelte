@@ -54,7 +54,7 @@
     if (busy) return
     busy = true
     try {
-      const { added, updated } = await applyRows(getStorage(), rows)
+      const { added, updated } = await applyRows(getStorage(), $state.snapshot(rows) as ImportRow[])
       await reload()
       const parts = [
         ...(added ? [t(added === 1 ? '{n} wine added' : '{n} wines added', { n: added })] : []),

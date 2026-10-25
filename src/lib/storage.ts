@@ -25,7 +25,9 @@ export interface LagarStorage {
   replaceAll(snapshot: Snapshot): Promise<void>
 }
 
-const copy = <T>(value: T): T => structuredClone(value)
+/** A plain copy. The app's screens hold their data in reactive objects (Proxies), which IndexedDB and structuredClone
+ *  refuse ("could not be cloned"); everything stored is plain JSON, so a JSON round trip is always safe. */
+const copy = <T>(value: T): T => JSON.parse(JSON.stringify(value))
 
 /** Data kept in memory only. Used by the tests, and as a fallback if the browser's database is not available
  *  (some private windows), in which case nothing survives closing the page. */
@@ -110,7 +112,7 @@ export class IndexedDbStorage implements LagarStorage {
   async putWines(wines: Wine[]) {
     const tx = this.tx(['wines'], 'readwrite')
     const store = tx.objectStore('wines')
-    for (const w of wines) store.put(w)
+    for (const w of wines) store.put(copy(w))
     await finished(tx)
   }
   async deleteWine(id: string) {
@@ -125,7 +127,7 @@ export class IndexedDbStorage implements LagarStorage {
   listOpened() { return request(this.tx(['opened']).objectStore('opened').getAll() as IDBRequest<OpenedBottle[]>) }
   async putOpened(opened: OpenedBottle) {
     const tx = this.tx(['opened'], 'readwrite')
-    tx.objectStore('opened').put(opened)
+    tx.objectStore('opened').put(copy(opened))
     await finished(tx)
   }
   async deleteOpened(id: string) {
@@ -158,8 +160,8 @@ export class IndexedDbStorage implements LagarStorage {
   async replaceAll(s: Snapshot) {
     const tx = this.tx(['wines', 'opened', 'meta'], 'readwrite')
     for (const name of ['wines', 'opened', 'meta'] as const) tx.objectStore(name).clear()
-    for (const w of s.wines) tx.objectStore('wines').put(w)
-    for (const o of s.opened) tx.objectStore('opened').put(o)
+    for (const w of s.wines) tx.objectStore('wines').put(copy(w))
+    for (const o of s.opened) tx.objectStore('opened').put(copy(o))
     for (const [key, value] of Object.entries(s.settings)) tx.objectStore('meta').put({ key, value })
     await finished(tx)
   }
