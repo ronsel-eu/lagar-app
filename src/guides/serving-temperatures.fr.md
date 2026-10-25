@@ -24,7 +24,7 @@ Les effervescents fins et les vieux blancs se montrent mieux si on les laisse se
 |---|---|
 | Fino et manzanilla | 7-9 |
 | Amontillado, palo cortado et oloroso | 12-14 |
-| Pedro Ximénez et cream | 12-14, ou sur glace |
+| Pedro Ximénez et cream | 12-14 |
 
 ## Y arriver {#how}
 

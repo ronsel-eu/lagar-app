@@ -2,7 +2,7 @@
   import { cellar, undoOpenedBottle } from '../lib/cellar.svelte'
   import { dmy } from '../lib/format'
   import { t, tn } from '../lib/i18n/ui.svelte'
-  import { href } from '../lib/router.svelte'
+  import { href, winesHref } from '../lib/router.svelte'
 
   const names = $derived(new Map(cellar.wines.map((w) => [w.id, w.name])))
   // Newest first. Bottles opened on the same day are listed by wine name.
@@ -14,7 +14,7 @@
   const bottles = $derived(rows.reduce((n, r) => n + r.qty, 0))
 </script>
 
-<a class="back" href={href('/wines')}>
+<a class="back" href={winesHref()}>
   <svg width="14" height="14" viewBox="0 0 14 14"><path d="M11 1L4 7L11 13" fill="none" stroke="#1B1815" stroke-width="2" /></svg>{t('Wines')}
 </a>
 <div class="phead">

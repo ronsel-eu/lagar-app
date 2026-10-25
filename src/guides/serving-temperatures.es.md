@@ -24,7 +24,7 @@ Los espumosos finos y los blancos viejos muestran más si se dejan calentar un p
 |---|---|
 | Fino y manzanilla | 7-9 |
 | Amontillado, palo cortado y oloroso | 12-14 |
-| Pedro Ximénez y cream | 12-14, o con hielo |
+| Pedro Ximénez y cream | 12-14 |
 
 ## Cómo conseguirla {#how}
 

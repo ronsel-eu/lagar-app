@@ -24,7 +24,7 @@ Fine sparkling and old whites show more if you let them warm a little in the gla
 |---|---|
 | Fino and manzanilla | 7-9 |
 | Amontillado, palo cortado and oloroso | 12-14 |
-| Pedro Ximénez and cream | 12-14, or over ice |
+| Pedro Ximénez and cream | 12-14 |
 
 ## Getting there {#how}
 

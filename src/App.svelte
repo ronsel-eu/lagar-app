@@ -46,7 +46,7 @@
 </script>
 
 <div class="app">
-  {#if !isWinePage}<Logo {band} {year} />{/if}
+  <Logo {band} {year} />
   <main>
     {#if flash.text && path === flash.path && !isWinePage}<Notice text={flash.text} warn={flash.warn} onclose={clearFlash} />{/if}
     {#if failed}

@@ -2,8 +2,12 @@
 
 export const route = $state<{ path: string; params: URLSearchParams }>({ path: '/', params: new URLSearchParams() })
 
+// The filters last used on the Wines list, so coming back from a wine finds the list as it was left.
+let winesQuery = ''
+
 function read() {
   const [path, query] = (location.hash.slice(1) || '/').split('?')
+  if (path === '/wines') winesQuery = query ?? ''
   route.path = path || '/'
   route.params = new URLSearchParams(query ?? '')
 }
@@ -25,5 +29,16 @@ export function go(path: string, params?: Params, replace = false) {
   const target = href(path, params)
   if (replace) history.replaceState(null, '', target)
   else location.hash = target
+  read()
+}
+
+/** The Wines list with the filters it had when the person left it. */
+export function winesHref(): string {
+  return '#/wines' + (winesQuery ? '?' + winesQuery : '')
+}
+
+/** Back to the Wines list, filters included. */
+export function goWines() {
+  location.hash = winesHref()
   read()
 }

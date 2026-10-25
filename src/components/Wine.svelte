@@ -6,7 +6,7 @@
   import { dmy, eur } from '../lib/format'
   import { place, t } from '../lib/i18n/ui.svelte'
   import { ui } from '../lib/i18n/ui.svelte'
-  import { go, href, route } from '../lib/router.svelte'
+  import { goWines, href, route, winesHref } from '../lib/router.svelte'
   import { drinkView, formFrom, nameParts, openBottle, todayIso, wineFromForm } from '../lib/wine'
   import Notice from './Notice.svelte'
   import WineForm from './WineForm.svelte'
@@ -56,7 +56,7 @@
     await getStorage().deleteWine(wine.id)
     await reload()
     say(t('Wine deleted.'), false, '/wines')
-    go('/wines')
+    goWines()
   }
 
   async function open(event: SubmitEvent) {
@@ -78,7 +78,7 @@
 </script>
 
 <div class="navrow">
-  <a class="back" href={href('/wines')}>
+  <a class="back" href={winesHref()}>
     <svg width="14" height="14" viewBox="0 0 14 14"><path d="M11 1L4 7L11 13" fill="none" stroke="#1B1815" stroke-width="2" /></svg>{t('Wines')}
   </a>
 </div>

@@ -2,7 +2,7 @@
   import { getStorage, reload } from '../lib/cellar.svelte'
   import { say } from '../lib/flash.svelte'
   import { t, ui } from '../lib/i18n/ui.svelte'
-  import { go, href } from '../lib/router.svelte'
+  import { go, winesHref } from '../lib/router.svelte'
   import { formFrom, wineFromForm } from '../lib/wine'
   import WineForm from './WineForm.svelte'
 
@@ -23,11 +23,11 @@
   }
 </script>
 
-<a class="back" href={href('/wines')}>
+<a class="back" href={winesHref()}>
   <svg width="14" height="14" viewBox="0 0 14 14"><path d="M11 1L4 7L11 13" fill="none" stroke="#1B1815" stroke-width="2" /></svg>{t('Wines')}
 </a>
 <div class="phead"><h1>{t('Add a wine')}</h1></div>
 <form class="wine-form formpad" onsubmit={submit}>
   <WineForm bind:form />
-  <p><button class="btn" type="submit">{t('Add wine')}</button><a class="sub" href={href('/wines')}>{t('Cancel')}</a></p>
+  <p><button class="btn" type="submit">{t('Add wine')}</button><a class="sub" href={winesHref()}>{t('Cancel')}</a></p>
 </form>
