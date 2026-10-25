@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vitest/config'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
 
 // base './' keeps asset paths relative, so the same build works on
@@ -6,4 +6,5 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 export default defineConfig({
   base: './',
   plugins: [svelte()],
+  test: { environment: 'node', include: ['src/**/*.test.ts'] },
 })
