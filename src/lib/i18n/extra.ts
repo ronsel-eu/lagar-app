@@ -1,0 +1,41 @@
+/** Interface texts that are new in this app (not in the original Lagar), with Spanish and French. Merged with strings.ts. */
+export const EXTRA: Record<string, { es: string; fr: string }> = {
+  'Backup': { es: 'Copia de seguridad', fr: 'Sauvegarde' },
+  'Export backup': { es: 'Exportar copia', fr: 'Exporter la sauvegarde' },
+  'Restore backup': { es: 'Restaurar copia', fr: 'Restaurer la sauvegarde' },
+  'Backup file created. Look in your downloads.': { es: 'Copia creada. Búscala en tus descargas.', fr: 'Sauvegarde créée. Cherchez-la dans vos téléchargements.' },
+  'Restored {n} wines.': { es: 'Restaurados {n} vinos.', fr: '{n} vins restaurés.' },
+  'The file could not be restored.': { es: 'No se pudo restaurar el archivo.', fr: 'Le fichier n’a pas pu être restauré.' },
+  'Your wines live on this device only. A backup file lets you keep a copy or move them to another device.': {
+    es: 'Tus vinos viven solo en este dispositivo. Una copia te permite guardarlos o llevarlos a otro dispositivo.',
+    fr: 'Vos vins vivent uniquement sur cet appareil. Une sauvegarde permet d’en garder une copie ou de les déplacer vers un autre appareil.',
+  },
+  'The browser will not clean them up by itself.': { es: 'El navegador no los borrará por su cuenta.', fr: 'Le navigateur ne les effacera pas de lui-même.' },
+  'The browser database is not available here (a private window?). Wines will be lost when you close the page.': {
+    es: 'La base de datos del navegador no está disponible aquí (¿ventana privada?). Los vinos se perderán al cerrar la página.',
+    fr: 'La base de données du navigateur n’est pas disponible ici (fenêtre privée ?). Les vins seront perdus à la fermeture de la page.',
+  },
+  'Try a sample cellar': { es: 'Probar con una bodega de ejemplo', fr: 'Essayer une cave d’exemple' },
+  'The cellar on this device could not be opened.': { es: 'No se pudo abrir la bodega de este dispositivo.', fr: 'La cave de cet appareil n’a pas pu être ouverte.' },
+  'This part of the app is being built. It comes in the next steps.': {
+    es: 'Esta parte de la app se está construyendo. Llegará en los próximos pasos.', fr: 'Cette partie de l’app est en construction. Elle arrive dans les prochaines étapes.',
+  },
+  'Wine not found.': { es: 'Vino no encontrado.', fr: 'Vin introuvable.' },
+  'Last purchase': { es: 'Última compra', fr: 'Dernier achat' },
+  'Purchase date': { es: 'Fecha de compra', fr: 'Date d’achat' },
+  'That purchase date is not valid.': { es: 'Esa fecha de compra no es válida.', fr: 'Cette date d’achat n’est pas valide.' },
+  'Critic points (50–100)': { es: 'Puntos de crítica (50–100)', fr: 'Notes des critiques (50–100)' },
+  'Critic points must be a number from 50 to 100.': { es: 'Los puntos deben ser un número de 50 a 100.', fr: 'Les points doivent être un nombre de 50 à 100.' },
+  'Your drinking window': { es: 'Tu ventana de consumo', fr: 'Votre fenêtre de consommation' },
+  'From year': { es: 'Desde (año)', fr: 'À partir de (année)' },
+  'To year': { es: 'Hasta (año)', fr: 'Jusqu’à (année)' },
+  'Leave both empty to follow the style rules.': { es: 'Déjalos vacíos para seguir las reglas de estilo.', fr: 'Laissez vide pour suivre les règles de style.' },
+  'The window years must be four-digit years, and "from" cannot be after "to".': {
+    es: 'Los años de la ventana deben tener cuatro cifras, y «desde» no puede ser posterior a «hasta».',
+    fr: 'Les années de la fenêtre doivent avoir quatre chiffres, et « à partir de » ne peut pas être après « jusqu’à ».',
+  },
+  'Wine deleted.': { es: 'Vino eliminado.', fr: 'Vin supprimé.' },
+  'Set your own window': { es: 'Fijar tu propia ventana', fr: 'Fixer votre propre fenêtre' },
+  'Change your window': { es: 'Cambiar tu ventana', fr: 'Modifier votre fenêtre' },
+  'Window set by you.': { es: 'Ventana fijada por ti.', fr: 'Fenêtre fixée par vous.' },
+}

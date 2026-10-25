@@ -177,3 +177,43 @@ describe('keys and saving', () => {
     void s
   })
 })
+
+describe('optional drinking window columns', () => {
+  const csv = (rows: string[]) => bytes(['name,vintage,bottles,drink_from,drink_to', ...rows].join('\n'))
+
+  it('reads a valid window and saves it as the wine\'s own window', async () => {
+    const s = new MemoryStorage()
+    const { rows } = await previewImport(s, csv(['A,2015,1,2024,2030']))
+    expect(rows[0].window).toEqual({ fromYear: 2024, toYear: 2030 })
+    await applyRows(s, rows)
+    expect((await s.listWines())[0].ownWindow).toEqual({ fromYear: 2024, toYear: 2030 })
+  })
+
+  it('ignores a missing, reversed or non-year window', () => {
+    const { rows } = readImport(csv(['A,2015,1,,', 'B,2015,1,2030,2024', 'C,2015,1,soon,2030', 'D,2015,1,2024,']))
+    expect(rows.map((r) => r.window)).toEqual([null, null, null, null])
+  })
+
+  it('works without the columns', () => {
+    expect(readImport(bytes('name,vintage,bottles\nA,2015,1')).rows[0].window).toBeNull()
+  })
+})
+
+describe('optional critic points column', () => {
+  const csv = (rows: string[]) => bytes(['name,vintage,bottles,points', ...rows].join('\n'))
+
+  it('reads valid points and saves them on a new wine', async () => {
+    const s = new MemoryStorage()
+    const { rows } = await previewImport(s, csv(['A,2015,1,93', 'B,2015,1,"91,5"']))
+    expect(rows.map((r) => r.points)).toEqual([93, 91.5])
+    await applyRows(s, rows)
+    expect((await s.listWines()).map((w) => w.criticPoints).sort()).toEqual([91.5, 93])
+  })
+  it('ignores empty, out of range or non-numeric points', () => {
+    const { rows } = readImport(csv(['A,2015,1,', 'B,2015,1,17/20', 'C,2015,1,150', 'D,2015,1,great', 'E,2015,1,12']))
+    expect(rows.map((r) => r.points)).toEqual([null, null, null, null, null])
+  })
+  it('works without the column', () => {
+    expect(readImport(bytes('name,vintage,bottles\nA,2015,1')).rows[0].points).toBeNull()
+  })
+})

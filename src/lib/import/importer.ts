@@ -9,7 +9,7 @@
  */
 import { newId } from '../ids'
 import type { LagarStorage } from '../storage'
-import type { Wine, WineType } from '../types'
+import type { OwnWindow, Wine, WineType } from '../types'
 import { parseCsv } from './csv'
 import { MESSAGES, type IssueKey } from './messages'
 import { PROMPTS } from './prompts'
@@ -47,6 +47,32 @@ const ALIASES: Record<Column, string[]> = {
   paid: ['paid', 'price', 'paid per bottle', 'price per bottle', 'precio', 'prix'],
   purchase_date: ['purchase_date', 'purchase date', 'date', 'bought', 'fecha', 'fecha de compra', 'date d achat'],
 }
+/** Optional columns, not part of the template: the person's own drinking window. Both must be valid years, or the window is ignored. */
+const WINDOW_ALIASES = {
+  from: ['drink_from', 'drink from', 'window from', 'from year', 'drink_from_year', 'beber desde', 'boire a partir de'],
+  to: ['drink_to', 'drink to', 'window to', 'to year', 'drink_to_year', 'beber hasta', 'boire jusqu a'],
+}
+
+/** Read a window from two cells: whole years 1800-2100 with from <= to; anything else gives null. */
+export function readWindow(from: string, to: string): OwnWindow | null {
+  const year = (t: string) => (/^\d{4}$/.test(t.trim()) ? Number(t.trim()) : NaN)
+  const a = year(from)
+  const b = year(to)
+  if (Number.isNaN(a) || Number.isNaN(b) || a < 1800 || b > 2100 || a > b) return null
+  return { fromYear: a, toYear: b }
+}
+
+/** Optional column, not part of the template: the best critic score in points. */
+const POINTS_ALIASES = ['points', 'critic points', 'critic score', 'score', 'puntos', 'puntos de critica', 'note critique', 'points critique']
+
+/** Read points from a cell: a number from 50 to 100 (a score on another scale, or anything else, gives null). */
+export function readPoints(text: string): number | null {
+  const t = text.trim().replace(',', '.')
+  if (!/^\d{2,3}(\.\d+)?$/.test(t)) return null
+  const n = Number(t)
+  return n >= 50 && n <= 100 ? n : null
+}
+
 const HEADER = new Map<string, Column>()
 for (const [key, aliases] of Object.entries(ALIASES) as [Column, string[]][]) for (const a of aliases) HEADER.set(a, key)
 
@@ -119,6 +145,10 @@ export interface ImportRow {
   warnings: Issue[]
   error: Issue | null
   parsed: Parsed | null
+  /** The drinking window from the optional drink_from / drink_to columns, if valid. */
+  window?: OwnWindow | null
+  /** Critic points from the optional points column, if valid. */
+  points?: number | null
   // set by checkRows
   action?: Action
   label?: string
@@ -214,6 +244,15 @@ export function readImport(raw: Uint8Array): { rows: ImportRow[]; fatal: Issue |
     const k = HEADER.get(p) ?? HEADER.get(p.replaceAll(' ', '_'))
     if (k && !cols.has(k)) cols.set(k, i)
   })
+  let pointsAt = -1
+  let windowFrom = -1
+  let windowTo = -1
+  header.forEach((h, i) => {
+    const p = plain(h)
+    if (pointsAt < 0 && POINTS_ALIASES.includes(p)) pointsAt = i
+    if (windowFrom < 0 && WINDOW_ALIASES.from.includes(p)) windowFrom = i
+    if (windowTo < 0 && WINDOW_ALIASES.to.includes(p)) windowTo = i
+  })
   const missing = (['name', 'vintage', 'bottles'] as const).filter((k) => !cols.has(k))
   if (missing.length) {
     return { rows: [], fatal: { key: 'The first row must be the column names. I could not find: {missing}. Download the template and use its columns.', params: { missing: missing.join(', ') } } }
@@ -242,7 +281,9 @@ export function readImport(raw: Uint8Array): { rows: ImportRow[]; fatal: Issue |
     let issue = error
     if (!issue && form.vintage === '') issue = { key: 'The vintage is required: write a year, or NV for a non-vintage wine.' }
     if (!issue && parsed.bottles === null) issue = { key: 'Bottles is empty.' }
-    rows.push({ line, form, added: date, warnings, error: issue, parsed })
+    const window = windowFrom >= 0 && windowTo >= 0 ? readWindow(rec[windowFrom] ?? '', rec[windowTo] ?? '') : null
+    const points = pointsAt >= 0 ? readPoints(rec[pointsAt] ?? '') : null
+    rows.push({ line, form, added: date, warnings, error: issue, parsed, window, points })
   })
   if (records.slice(1).filter((rec) => rec.some((c) => c.trim())).length > MAX_ROWS) return { rows: [], fatal: { key: 'Too many rows (at most {n}).', params: { n: MAX_ROWS } } }
   if (rows.length === 0) return { rows: [], fatal: { key: 'The file has column names but no wines.' } }
@@ -300,7 +341,7 @@ export async function applyRows(storage: LagarStorage, rows: ImportRow[], now = 
       toSave.push({
         id: newId(), name: v.name, vintage: v.vintage ?? 'NV', bottles: v.bottles, type: v.type, producer: v.producer,
         country: v.country, region: v.region, appellation: v.appellation, grapes: v.grapes, abv: null, formatCl: 75,
-        paid: v.paid, purchaseDate: row.added, addedAt: now.toISOString(), ownWindow: null, servingTemperature: null,
+        paid: v.paid, criticPoints: row.points ?? null, purchaseDate: row.added, addedAt: now.toISOString(), ownWindow: row.window ?? null, servingTemperature: null,
         foodPairing: null, tastingAppearance: null, tastingNose: null, tastingPalate: null, criticsOpinion: null,
       })
       added++

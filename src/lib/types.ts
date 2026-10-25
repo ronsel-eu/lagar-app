@@ -28,6 +28,8 @@ export interface Wine {
   formatCl: number | null
   /** Price paid per bottle, in euros. */
   paid: number | null
+  /** The best critic score, as points (for example 93). Only sorts and shows; it never changes the drinking advice. */
+  criticPoints: number | null
   /** Last purchase, as yyyy-mm-dd. Shown to people as dd/mm/yyyy. */
   purchaseDate: string | null
   /** When the wine was added to Lagar (ISO date-time). */

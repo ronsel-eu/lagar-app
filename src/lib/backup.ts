@@ -65,6 +65,7 @@ function wineFrom(raw: unknown, i: number): Wine {
     abv: number(raw, 'abv', where),
     formatCl: number(raw, 'formatCl', where),
     paid: number(raw, 'paid', where),
+    criticPoints: number(raw, 'criticPoints', where),
     purchaseDate: text(raw, 'purchaseDate', where),
     addedAt: text(raw, 'addedAt', where, true)!,
     ownWindow: ownWindowFrom(raw, where),
