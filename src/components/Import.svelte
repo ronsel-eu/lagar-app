@@ -48,15 +48,27 @@
     fatal = null
   }
 
+  let busy = $state(false)
+
   async function confirm() {
-    const { added, updated } = await applyRows(getStorage(), rows)
-    await reload()
-    const parts = [
-      ...(added ? [t(added === 1 ? '{n} wine added' : '{n} wines added', { n: added })] : []),
-      ...(updated ? [t(updated === 1 ? '{n} bottle count updated' : '{n} bottle counts updated', { n: updated })] : []),
-    ]
-    say(parts.length ? t('Import done: {parts}.', { parts: parts.join(', ') }) : t('Nothing to import.'))
-    go('/settings')
+    if (busy) return
+    busy = true
+    try {
+      const { added, updated } = await applyRows(getStorage(), rows)
+      await reload()
+      const parts = [
+        ...(added ? [t(added === 1 ? '{n} wine added' : '{n} wines added', { n: added })] : []),
+        ...(updated ? [t(updated === 1 ? '{n} bottle count updated' : '{n} bottle counts updated', { n: updated })] : []),
+      ]
+      say(parts.length ? t('Import done: {parts}.', { parts: parts.join(', ') }) : t('Nothing to import.'))
+      go('/settings')
+    } catch (e) {
+      // Never fail silently: say what went wrong, on this same page.
+      say(t('The import failed: {error}', { error: e instanceof Error ? e.message : String(e) }), true, '/settings/import')
+      window.scrollTo(0, 0)
+    } finally {
+      busy = false
+    }
   }
 
   async function copyPrompt() {
@@ -135,7 +147,7 @@
       <p class="empty">{t('There is nothing to import from this file.')}</p>
     {/if}
     <div class="table-wrap">
-      <table class="wines">
+      <table class="wines preview">
         <thead><tr><th>#</th><th>{t('Wine')}</th><th class="r">{t('Bottles')}</th><th>{t('What happens')}</th></tr></thead>
         <tbody>
           {#each rows as r (r.line)}
