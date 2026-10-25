@@ -3,6 +3,7 @@
   import { place, t, tn } from '../lib/i18n/ui.svelte'
   import { go, href, route } from '../lib/router.svelte'
   import type { Status } from '../lib/advice/engine'
+  import Welcome from './Welcome.svelte'
   import WineList from './WineList.svelte'
 
   let { rows }: { rows: Row[] } = $props()
@@ -33,6 +34,9 @@
     field === 'country' || field === 'region' ? place(label) : field === 'colour' ? t(label) : label
 </script>
 
+{#if rows.length === 0}
+  <Welcome />
+{:else}
 <div class="phead">
   <h1>{result.status ? t(STATUS_LABEL[result.status]) : t('Wines')}</h1>
   <span class="meta">
@@ -65,8 +69,7 @@
 
 {#if result.rows.length}
   <WineList rows={result.rows} showOpened={result.state !== 'present'} />
-{:else if rows.length === 0}
-  <p class="empty">{t('No wines yet. Start with Settings, then Import your cellar.')} <a href={href('/settings/import')}>{t('Import your cellar')}</a></p>
 {:else}
   <p class="empty">{t('No wines match.')} <a href={href('/wines')}>{t('Clear filters')}</a></p>
+{/if}
 {/if}
