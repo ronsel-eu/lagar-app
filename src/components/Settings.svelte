@@ -77,3 +77,5 @@
     <label class="btn secondary" style="margin: 0">{t('Restore backup')}<input type="file" accept="application/json,.json" onchange={restore} hidden /></label>
   </p>
 </section>
+
+<p class="lead" style="margin-top: 28px; font-size: 12px">Lagar · {__BUILD__} UTC</p>
