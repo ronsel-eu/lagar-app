@@ -19,7 +19,7 @@
 </a>
 <div class="phead">
   <h1>{t('Opened')}</h1>
-  <span class="meta">{rows.length} {tn(rows.length, 'record', 'records')}{#if rows.length} · {bottles} {t('bottles')}{/if}</span>
+  <span class="meta">{rows.length} {tn(rows.length, 'record', 'records')}{#if rows.length} · {bottles} {tn(bottles, 'bottle', 'bottles')}{/if}</span>
 </div>
 <div style="height: 10px"></div>
 <div class="table-wrap">
