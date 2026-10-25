@@ -220,11 +220,11 @@ const SINGLE_VINEYARD = ['grosses gewachs', ' gg ', 'grosse lage', 'grosser ', '
 /** Riesling by category, any region. Windows are counted from the vintage. Null for wines that are not Riesling. */
 function rieslingRule(w: AdviceInput, year: number): Rule | null {
   const name = ' ' + norm(w.name) + ' '
-  const grapes = norm(w.grapes)
+  // Grapes that are only Riesling ("Riesling" or "100% Riesling"), not a blend, make it a Riesling even when the name does not say so.
+  const grapes = norm(w.grapes).split(/\s+/).filter(Boolean).join(' ')
+  const onlyRiesling = grapes === 'riesling' || grapes === '100 riesling'
   let v = w.vintage
-  // Kept as in the original: norm() turns "%" into a space, so the grapes test below can never be true and only
-  // the name decides whether a wine is read as Riesling. Fixing it would change the original's results.
-  if (!v || !(name.includes('riesling') || grapes === '100% riesling')) return null
+  if (!v || !(name.includes('riesling') || onlyRiesling)) return null
   if ((w.type !== 'white' && w.type !== 'sweet') || has(name, 'sparkling', 'sekt', 'brut nature')) return null
   if (v > year) v = year
   let a: number, b: number, note: string

@@ -1774,11 +1774,165 @@
    "purchaseDate": null
   },
   "expected": {
-   "status": "drink_soon",
-   "fromYear": 2022,
-   "toYear": 2026,
+   "status": "drink_now",
+   "fromYear": 2023,
+   "toYear": 2025,
+   "keeps": "holds",
+   "note": "Everyday Riesling: 1 to 3 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Riesling found through plain Riesling grapes",
+  "year": 2026,
+  "input": {
+   "name": "Estate Kabinett",
+   "type": "white",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Mosel",
+   "grapes": "Riesling",
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2023,
+   "toYear": 2029,
+   "keeps": "holds",
+   "note": "Riesling Kabinett: 2 to 8 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Estate Spatlese",
+  "year": 2026,
+  "input": {
+   "name": "Estate Spatlese",
+   "type": "white",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Mosel",
+   "grapes": "Riesling",
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2023,
+   "toYear": 2033,
+   "keeps": "holds",
+   "note": "Riesling Spätlese: 5 to 15 years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "Estate Auslese",
+  "year": 2026,
+  "input": {
+   "name": "Estate Auslese",
+   "type": "sweet",
+   "vintage": 2015,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Mosel",
+   "grapes": "Riesling",
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2025,
+   "toYear": 2040,
+   "keeps": "holds",
+   "note": "Riesling Auslese: 10 to 25+ years from the vintage. Category read from the name."
+  }
+ },
+ {
+  "label": "a Riesling blend is not read as Riesling",
+  "year": 2026,
+  "input": {
+   "name": "Cuvee Kabinett",
+   "type": "white",
+   "vintage": 2021,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": "Mosel",
+   "grapes": "Riesling, Gewurztraminer",
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2021,
+   "toYear": 2025,
    "keeps": "declines",
    "note": "Fresh young white: best within about 4 years of the vintage."
+  }
+ },
+ {
+  "label": "Pinot Gris Auslese",
+  "year": 2026,
+  "input": {
+   "name": "Pinot Gris Auslese",
+   "type": "white",
+   "vintage": 2018,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": "Pinot Gris",
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2018,
+   "toYear": 2022,
+   "keeps": "declines",
+   "note": "Fresh young white: best within about 4 years of the vintage."
+  }
+ },
+ {
+  "label": "Sekt Brut Nature Estate",
+  "year": 2026,
+  "input": {
+   "name": "Sekt Brut Nature Estate",
+   "type": "sparkling",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": "Riesling",
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "drink_now",
+   "fromYear": 2019,
+   "toYear": 2022,
+   "keeps": "declines",
+   "note": "Young sparkling: drink within 2-3 years of the vintage."
+  }
+ },
+ {
+  "label": "Riesling grapes in a red are ignored",
+  "year": 2026,
+  "input": {
+   "name": "Estate Red",
+   "type": "red",
+   "vintage": 2019,
+   "producer": null,
+   "country": null,
+   "region": null,
+   "appellation": null,
+   "grapes": "Riesling",
+   "purchaseDate": null
+  },
+  "expected": {
+   "status": "can_wait",
+   "fromYear": 2020,
+   "toYear": 2030,
+   "keeps": "holds",
+   "note": "Red without ageing designation: drinks well from year 1, holds about 10."
   }
  },
  {
@@ -4524,11 +4678,11 @@
    "purchaseDate": "2023-04-22"
   },
   "expected": {
-   "status": "drink_now",
-   "fromYear": 2021,
-   "toYear": 2025,
-   "keeps": "declines",
-   "note": "Fresh young white: best within about 4 years of the vintage."
+   "status": "can_wait",
+   "fromYear": 2023,
+   "toYear": 2029,
+   "keeps": "holds",
+   "note": "Riesling Kabinett: 2 to 8 years from the vintage. Category read from the name."
   }
  },
  {
@@ -4546,11 +4700,11 @@
    "purchaseDate": "2022-04-10"
   },
   "expected": {
-   "status": "drink_now",
-   "fromYear": 2018,
-   "toYear": 2022,
-   "keeps": "declines",
-   "note": "Fresh young white: best within about 4 years of the vintage."
+   "status": "can_wait",
+   "fromYear": 2023,
+   "toYear": 2033,
+   "keeps": "holds",
+   "note": "Riesling Spätlese: 5 to 15 years from the vintage. Category read from the name."
   }
  },
  {
