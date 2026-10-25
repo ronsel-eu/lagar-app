@@ -259,3 +259,4 @@ select:focus-visible, input:focus-visible, a:focus-visible, button:focus-visible
 .langs button.on { background: var(--ink); color: var(--paper); }
 .sec .actions { margin-top: 12px; }
 input[type=file] { font: 500 14px/18px var(--font); max-width: 100%; }
+.why a.table-link { margin-right: 12px; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }

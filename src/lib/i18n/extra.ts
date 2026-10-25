@@ -35,6 +35,11 @@ export const EXTRA: Record<string, { es: string; fr: string }> = {
     fr: 'Les années de la fenêtre doivent avoir quatre chiffres, et « à partir de » ne peut pas être après « jusqu’à ».',
   },
   'Wine deleted.': { es: 'Vino eliminado.', fr: 'Vin supprimé.' },
+  'Opened bottles': { es: 'Botellas abiertas', fr: 'Bouteilles ouvertes' },
+  'Every bottle you have opened, newest first, with the occasion.': {
+    es: 'Cada botella que has abierto, la más reciente primero, con la ocasión.', fr: 'Chaque bouteille ouverte, la plus récente d’abord, avec l’occasion.',
+  },
+  'Guide not found.': { es: 'Guía no encontrada.', fr: 'Guide introuvable.' },
   'Set your own window': { es: 'Fijar tu propia ventana', fr: 'Fixer votre propre fenêtre' },
   'Change your window': { es: 'Cambiar tu ventana', fr: 'Modifier votre fenêtre' },
   'Window set by you.': { es: 'Ventana fijada por ti.', fr: 'Fenêtre fixée par vous.' },

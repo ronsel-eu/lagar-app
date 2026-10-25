@@ -1,12 +1,13 @@
 <script lang="ts">
   import { adviceFor } from '../lib/advice/engine'
-  import { cellar, getStorage, reload } from '../lib/cellar.svelte'
+  import { sectionFor } from '../lib/guides/guides'
+  import { cellar, getStorage, reload, undoOpenedBottle } from '../lib/cellar.svelte'
   import { clearFlash, flash, say } from '../lib/flash.svelte'
   import { dmy, eur } from '../lib/format'
   import { place, t } from '../lib/i18n/ui.svelte'
   import { ui } from '../lib/i18n/ui.svelte'
   import { go, href, route } from '../lib/router.svelte'
-  import { drinkView, formFrom, nameParts, openBottle, todayIso, undoOpened, wineFromForm } from '../lib/wine'
+  import { drinkView, formFrom, nameParts, openBottle, todayIso, wineFromForm } from '../lib/wine'
   import Notice from './Notice.svelte'
   import WineForm from './WineForm.svelte'
 
@@ -18,6 +19,8 @@
   const parts = $derived(wine ? nameParts(wine.name) : null)
   const opened = $derived(cellar.opened.filter((o) => o.wineId === id).sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0)))
   const here = $derived('/wine/' + id)
+  // A window read from a style rule links to the table it comes from.
+  const table = $derived(advice?.source === 'rule' ? sectionFor(advice.note) : null)
 
   // The page is rebuilt for each wine ({#key} in App), so the starting value is the right one.
   // svelte-ignore state_referenced_locally
@@ -69,12 +72,8 @@
   }
 
   async function undo(recordId: string) {
-    const record = cellar.opened.find((o) => o.id === recordId)
-    if (!wine || !record) return
-    await getStorage().putWine(undoOpened(wine, record))
-    await getStorage().deleteOpened(record.id)
-    await reload()
-    form = formFrom(cellar.wines.find((w) => w.id === id) ?? wine)
+    await undoOpenedBottle(recordId)
+    form = formFrom(cellar.wines.find((w) => w.id === id) ?? null)
   }
 
   function openEditor() {
@@ -118,6 +117,7 @@
     {#if view.note}<p>{view.note}</p>{/if}
     <p>
       {t(view.help)} {t('Source: {source}.', { source: t(view.source) })}
+      {#if table}<a class="table-link" href={href('/guides/consumption-windows', { at: table })}>{t('See the table')}</a>{/if}
       <button class="link" type="button" onclick={openEditor}>{t(wine.ownWindow ? 'Change your window' : 'Set your own window')}</button>
     </p>
   </div>

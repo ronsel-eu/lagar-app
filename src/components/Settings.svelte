@@ -45,6 +45,13 @@
   </a>
 </div>
 
+<div class="guide-list">
+  <a class="guide-card" href={href('/opened')}>
+    <strong>{t('Opened bottles')}</strong>
+    <span>{t('Every bottle you have opened, newest first, with the occasion.')}</span>
+  </a>
+</div>
+
 <section class="sec">
   <h2>{t('Backup')}</h2>
   <p class="lead">{t('Your wines live on this device only. A backup file lets you keep a copy or move them to another device.')}{cellar.protectedByBrowser ? ' ' + t('The browser will not clean them up by itself.') : ''}</p>

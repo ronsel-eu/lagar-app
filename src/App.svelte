@@ -6,8 +6,10 @@
   import Notice from './components/Notice.svelte'
   import Search from './components/Search.svelte'
   import Settings from './components/Settings.svelte'
-  import Soon from './components/Soon.svelte'
   import Tabs from './components/Tabs.svelte'
+  import Guide from './components/Guide.svelte'
+  import Guides from './components/Guides.svelte'
+  import Opened from './components/Opened.svelte'
   import AddWine from './components/AddWine.svelte'
   import Wine from './components/Wine.svelte'
   import Wines from './components/Wines.svelte'
@@ -59,14 +61,18 @@
         <Settings />
       {:else if path === '/settings/import'}
         <Import />
-      {:else if path.startsWith('/guides')}
-        <Soon title="Guides" />
+      {:else if path === '/guides'}
+        <Guides />
+      {:else if path.startsWith('/guides/')}
+        {#key path}<Guide slug={path.slice(8)} />{/key}
+      {:else if path === '/opened'}
+        <Opened />
       {:else if path === '/wine/new'}
         <AddWine />
       {:else if isWinePage}
         {#key path}<Wine id={decodeURIComponent(path.slice(6))} {year} />{/key}
       {:else}
-        <Soon title="Wines" />
+        <p class="page-note">{t('Wine not found.')}</p>
       {/if}
     {/if}
   </main>
