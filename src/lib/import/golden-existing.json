@@ -1,0 +1,32 @@
+[
+ {
+  "id": 1,
+  "name": "Vi\u00f1a Tondonia Reserva",
+  "vintage": 2012,
+  "bottles": 3
+ },
+ {
+  "id": 2,
+  "name": "Altamira Crianza",
+  "vintage": null,
+  "bottles": 0
+ },
+ {
+  "id": 3,
+  "name": "Tio Pepe",
+  "vintage": null,
+  "bottles": 2
+ },
+ {
+  "id": 4,
+  "name": "Rioja Blanco Reserva 2015",
+  "vintage": 2015,
+  "bottles": 1
+ },
+ {
+  "id": 5,
+  "name": "Finca La Umbria",
+  "vintage": 2022,
+  "bottles": 4
+ }
+]

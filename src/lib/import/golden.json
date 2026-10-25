@@ -1,0 +1,8114 @@
+[
+ {
+  "label": "template only",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCg==",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": "The file has column names but no wines.",
+    "rows": []
+   },
+   "es": {
+    "fatal": "El archivo tiene nombres de columnas pero ningún vino.",
+    "rows": []
+   },
+   "fr": {
+    "fatal": "Le fichier contient les noms de colonnes mais aucun vin.",
+    "rows": []
+   }
+  }
+ },
+ {
+  "label": "sample cellar",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCkJvZGVnYXMgQWx0YW1pcmEgR3JhbiBSZXNlcnZhLDIwMTAsMyxyZWQsQm9kZWdhcyBBbHRhbWlyYSxTcGFpbixSaW9qYSxSaW9qYSxUZW1wcmFuaWxsbyw0OC41MCwyMDIyLTAzLTE0CkJvZGVnYXMgQWx0YW1pcmEgQ3JpYW56YSwyMDIwLDYscmVkLEJvZGVnYXMgQWx0YW1pcmEsU3BhaW4sUmlvamEsUmlvamEsVGVtcHJhbmlsbG8sMTIuOTAsMjAyNC0wNS0wMgpWacOxZWRvcyBkZWwgTm9ydGUgUmVzZXJ2YSwyMDE2LDIscmVkLFZpw7FlZG9zIGRlbCBOb3J0ZSxTcGFpbixSaWJlcmEgZGVsIER1ZXJvLFJpYmVyYSBkZWwgRHVlcm8sVGVtcHJhbmlsbG8sMzIuMDAsMjAyMy0wMS0yMApGaW5jYSBMYSBVbWJyw61hLDIwMjIsNCxyZWQsRmluY2EgTGEgVW1icsOtYSxTcGFpbixSaWJlcmEgZGVsIER1ZXJvLFJpYmVyYSBkZWwgRHVlcm8sVGVtcHJhbmlsbG8sMTguNTAsMjAyNS0wMi0xMQpDbG9zIGRlcyBIaXJvbmRlbGxlcywyMDE4LDIscmVkLENsb3MgZGVzIEhpcm9uZGVsbGVzLEZyYW5jZSxCb3JkZWF1eCxCb3JkZWF1eCxDYWJlcm5ldCBTYXV2aWdub247IE1lcmxvdCw4NS4wMCwyMDIyLTExLTA1CkRvbWFpbmUgTGVzIENvdGVhdXgsMjAxOSwzLHJlZCxEb21haW5lIExlcyBDb3RlYXV4LEZyYW5jZSxCdXJndW5keSxHZXZyZXktQ2hhbWJlcnRpbixQaW5vdCBOb2lyLDU2LjAwLDIwMjMtMDYtMTgKQ2FudGluYSBSb3NhIGRlaSBWZW50aSwyMDE3LDIscmVkLENhbnRpbmEgUm9zYSBkZWkgVmVudGksSXRhbHksUGllZG1vbnQsQmFyb2xvLE5lYmJpb2xvLDQyLjAwLDIwMjMtMDktMzAKQ2VsbGVyIFBlZHJhIE5lZ3JhLDIwMTksMyxyZWQsQ2VsbGVyIFBlZHJhIE5lZ3JhLFNwYWluLFByaW9yYXQsUHJpb3JhdCxHYXJuYWNoYTsgQ2FyacOxZW5hLDI5LjAwLDIwMjQtMDEtMTUKUXVpbnRhIGRvIE1vaW5obyBSZXNlcnZhLDIwMTUsMixyZWQsUXVpbnRhIGRvIE1vaW5obyxQb3J0dWdhbCxEb3VybyxEb3VybyxUb3VyaWdhIE5hY2lvbmFsOyBUaW50YSBSb3JpeiwyNC4wMCwyMDIyLTEwLTA4ClBhem8gZGUgTWFyw6lzLDIwMjQsNix3aGl0ZSxQYXpvIGRlIE1hcsOpcyxTcGFpbixSw61hcyBCYWl4YXMsUsOtYXMgQmFpeGFzLEFsYmFyacOxbywxNC41MCwyMDI1LTA5LTEyCldlaW5ndXQgU29ubmVuaGFuZyBLYWJpbmV0dCwyMDIxLDQsd2hpdGUsV2Vpbmd1dCBTb25uZW5oYW5nLEdlcm1hbnksTW9zZWwsTW9zZWwsUmllc2xpbmcsMTkuMDAsMjAyMy0wNC0yMgpXZWluZ3V0IFNvbm5lbmhhbmcgU3DDpHRsZXNlLDIwMTgsMix3aGl0ZSxXZWluZ3V0IFNvbm5lbmhhbmcsR2VybWFueSxNb3NlbCxNb3NlbCxSaWVzbGluZywyNi4wMCwyMDIyLTA0LTEwCkRvbWFpbmUgZGVzIFBpZXJyZXMgQmxhbmNoZXMgMWVyIENydSwyMDE5LDMsd2hpdGUsRG9tYWluZSBkZXMgUGllcnJlcyBCbGFuY2hlcyxGcmFuY2UsQnVyZ3VuZHksQ2hhYmxpcyxDaGFyZG9ubmF5LDM4LjAwLDIwMjMtMDItMjcKQm9kZWdhcyBBbHRhbWlyYSBCbGFuY28gUmVzZXJ2YSwyMDExLDIsd2hpdGUsQm9kZWdhcyBBbHRhbWlyYSxTcGFpbixSaW9qYSxSaW9qYSxWaXVyYTsgTWFsdmFzw61hLDM0LjAwLDIwMjItMDYtMDEKUm9zYWRvIGRlbCBBbGJhLDIwMjUsNixyb3PDqSxSb3NhZG8gZGVsIEFsYmEsU3BhaW4sTmF2YXJyYSxOYXZhcnJhLEdhcm5hY2hhLDguOTAsMjAyNi0wNS0yMApNYWlzb24gQnJ1bmUgQnJ1dCxOViw0LHNwYXJrbGluZyxNYWlzb24gQnJ1bmUsRnJhbmNlLENoYW1wYWduZSxDaGFtcGFnbmUsQ2hhcmRvbm5heTsgUGlub3QgTm9pcjsgUGlub3QgTWV1bmllciwzOS4wMCwyMDI0LTEyLTEwCkNhdmEgQnJ1dCBOYXR1cmUgUmVzZXJ2YSwyMDIwLDYsc3BhcmtsaW5nLENlbGxlcnMgZGUgbCdFcm1pdGEsU3BhaW4sUGVuZWTDqHMsQ2F2YSxNYWNhYmVvOyBYYXJlbMK3bG87IFBhcmVsbGFkYSwxNS4wMCwyMDI0LTExLTAzCkZpbm8gTGEgU2FsaW5hLE5WLDMsZm9ydGlmaWVkLEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGFsb21pbm8sMTMuMDAsMjAyNi0wMi0xNApBbW9udGlsbGFkbyBWaWVqbyBWT1JTLE5WLDEsZm9ydGlmaWVkLEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGFsb21pbm8sNTguMDAsMjAyNC0wNy0xOQpQZWRybyBYaW3DqW5leiBEdWxjZSxOViwyLHN3ZWV0LEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGVkcm8gWGltw6luZXosMjEuMDAsMjAyNS0xMi0wMQpTaWRyYSBOYXR1cmFsIGRlbCBWYWxsZSwyMDI1LDYsY2lkZXIsTGxhZ2FyIGRlbCBWYWxsZSxTcGFpbixBc3R1cmlhcyxTaWRyYSBkZSBBc3R1cmlhcyxNYW56YW5hLDUuNTAsMjAyNi0wOC0zMAo=",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Bodegas Altamira Gran Reserva",
+       "vintage": "2010",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "48.50"
+      },
+      "added": "2022-03-14",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Bodegas Altamira Crianza",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "12.90"
+      },
+      "added": "2024-05-02",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "Viñedos del Norte Reserva",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Viñedos del Norte",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "32.00"
+      },
+      "added": "2023-01-20",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Finca La Umbría",
+       "vintage": "2022",
+       "bottles": "4",
+       "colour": "red",
+       "producer": "Finca La Umbría",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "18.50"
+      },
+      "added": "2025-02-11",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "Clos des Hirondelles",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Clos des Hirondelles",
+       "country": "France",
+       "region": "Bordeaux",
+       "appellation": "Bordeaux",
+       "grapes": "Cabernet Sauvignon; Merlot",
+       "paid": "85.00"
+      },
+      "added": "2022-11-05",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "Domaine Les Coteaux",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Domaine Les Coteaux",
+       "country": "France",
+       "region": "Burgundy",
+       "appellation": "Gevrey-Chambertin",
+       "grapes": "Pinot Noir",
+       "paid": "56.00"
+      },
+      "added": "2023-06-18",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "Cantina Rosa dei Venti",
+       "vintage": "2017",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Cantina Rosa dei Venti",
+       "country": "Italy",
+       "region": "Piedmont",
+       "appellation": "Barolo",
+       "grapes": "Nebbiolo",
+       "paid": "42.00"
+      },
+      "added": "2023-09-30",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "Celler Pedra Negra",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Celler Pedra Negra",
+       "country": "Spain",
+       "region": "Priorat",
+       "appellation": "Priorat",
+       "grapes": "Garnacha; Cariñena",
+       "paid": "29.00"
+      },
+      "added": "2024-01-15",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "Quinta do Moinho Reserva",
+       "vintage": "2015",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Quinta do Moinho",
+       "country": "Portugal",
+       "region": "Douro",
+       "appellation": "Douro",
+       "grapes": "Touriga Nacional; Tinta Roriz",
+       "paid": "24.00"
+      },
+      "added": "2022-10-08",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 11,
+      "form": {
+       "name": "Pazo de Marés",
+       "vintage": "2024",
+       "bottles": "6",
+       "colour": "white",
+       "producer": "Pazo de Marés",
+       "country": "Spain",
+       "region": "Rías Baixas",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "14.50"
+      },
+      "added": "2025-09-12",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 12,
+      "form": {
+       "name": "Weingut Sonnenhang Kabinett",
+       "vintage": "2021",
+       "bottles": "4",
+       "colour": "white",
+       "producer": "Weingut Sonnenhang",
+       "country": "Germany",
+       "region": "Mosel",
+       "appellation": "Mosel",
+       "grapes": "Riesling",
+       "paid": "19.00"
+      },
+      "added": "2023-04-22",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 13,
+      "form": {
+       "name": "Weingut Sonnenhang Spätlese",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Weingut Sonnenhang",
+       "country": "Germany",
+       "region": "Mosel",
+       "appellation": "Mosel",
+       "grapes": "Riesling",
+       "paid": "26.00"
+      },
+      "added": "2022-04-10",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 14,
+      "form": {
+       "name": "Domaine des Pierres Blanches 1er Cru",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "white",
+       "producer": "Domaine des Pierres Blanches",
+       "country": "France",
+       "region": "Burgundy",
+       "appellation": "Chablis",
+       "grapes": "Chardonnay",
+       "paid": "38.00"
+      },
+      "added": "2023-02-27",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 15,
+      "form": {
+       "name": "Bodegas Altamira Blanco Reserva",
+       "vintage": "2011",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Viura; Malvasía",
+       "paid": "34.00"
+      },
+      "added": "2022-06-01",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 16,
+      "form": {
+       "name": "Rosado del Alba",
+       "vintage": "2025",
+       "bottles": "6",
+       "colour": "rosé",
+       "producer": "Rosado del Alba",
+       "country": "Spain",
+       "region": "Navarra",
+       "appellation": "Navarra",
+       "grapes": "Garnacha",
+       "paid": "8.90"
+      },
+      "added": "2026-05-20",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 17,
+      "form": {
+       "name": "Maison Brune Brut",
+       "vintage": "NV",
+       "bottles": "4",
+       "colour": "sparkling",
+       "producer": "Maison Brune",
+       "country": "France",
+       "region": "Champagne",
+       "appellation": "Champagne",
+       "grapes": "Chardonnay; Pinot Noir; Pinot Meunier",
+       "paid": "39.00"
+      },
+      "added": "2024-12-10",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 18,
+      "form": {
+       "name": "Cava Brut Nature Reserva",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "sparkling",
+       "producer": "Cellers de l'Ermita",
+       "country": "Spain",
+       "region": "Penedès",
+       "appellation": "Cava",
+       "grapes": "Macabeo; Xarel·lo; Parellada",
+       "paid": "15.00"
+      },
+      "added": "2024-11-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 19,
+      "form": {
+       "name": "Fino La Salina",
+       "vintage": "NV",
+       "bottles": "3",
+       "colour": "fortified",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Palomino",
+       "paid": "13.00"
+      },
+      "added": "2026-02-14",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 20,
+      "form": {
+       "name": "Amontillado Viejo VORS",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "fortified",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Palomino",
+       "paid": "58.00"
+      },
+      "added": "2024-07-19",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 21,
+      "form": {
+       "name": "Pedro Ximénez Dulce",
+       "vintage": "NV",
+       "bottles": "2",
+       "colour": "sweet",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Pedro Ximénez",
+       "paid": "21.00"
+      },
+      "added": "2025-12-01",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 22,
+      "form": {
+       "name": "Sidra Natural del Valle",
+       "vintage": "2025",
+       "bottles": "6",
+       "colour": "cider",
+       "producer": "Llagar del Valle",
+       "country": "Spain",
+       "region": "Asturias",
+       "appellation": "Sidra de Asturias",
+       "grapes": "Manzana",
+       "paid": "5.50"
+      },
+      "added": "2026-08-30",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Bodegas Altamira Gran Reserva",
+       "vintage": "2010",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "48.50"
+      },
+      "added": "2022-03-14",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Bodegas Altamira Crianza",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "12.90"
+      },
+      "added": "2024-05-02",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "Viñedos del Norte Reserva",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Viñedos del Norte",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "32.00"
+      },
+      "added": "2023-01-20",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Finca La Umbría",
+       "vintage": "2022",
+       "bottles": "4",
+       "colour": "red",
+       "producer": "Finca La Umbría",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "18.50"
+      },
+      "added": "2025-02-11",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "Clos des Hirondelles",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Clos des Hirondelles",
+       "country": "France",
+       "region": "Bordeaux",
+       "appellation": "Bordeaux",
+       "grapes": "Cabernet Sauvignon; Merlot",
+       "paid": "85.00"
+      },
+      "added": "2022-11-05",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "Domaine Les Coteaux",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Domaine Les Coteaux",
+       "country": "France",
+       "region": "Burgundy",
+       "appellation": "Gevrey-Chambertin",
+       "grapes": "Pinot Noir",
+       "paid": "56.00"
+      },
+      "added": "2023-06-18",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "Cantina Rosa dei Venti",
+       "vintage": "2017",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Cantina Rosa dei Venti",
+       "country": "Italy",
+       "region": "Piedmont",
+       "appellation": "Barolo",
+       "grapes": "Nebbiolo",
+       "paid": "42.00"
+      },
+      "added": "2023-09-30",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "Celler Pedra Negra",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Celler Pedra Negra",
+       "country": "Spain",
+       "region": "Priorat",
+       "appellation": "Priorat",
+       "grapes": "Garnacha; Cariñena",
+       "paid": "29.00"
+      },
+      "added": "2024-01-15",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "Quinta do Moinho Reserva",
+       "vintage": "2015",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Quinta do Moinho",
+       "country": "Portugal",
+       "region": "Douro",
+       "appellation": "Douro",
+       "grapes": "Touriga Nacional; Tinta Roriz",
+       "paid": "24.00"
+      },
+      "added": "2022-10-08",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 11,
+      "form": {
+       "name": "Pazo de Marés",
+       "vintage": "2024",
+       "bottles": "6",
+       "colour": "white",
+       "producer": "Pazo de Marés",
+       "country": "Spain",
+       "region": "Rías Baixas",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "14.50"
+      },
+      "added": "2025-09-12",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 12,
+      "form": {
+       "name": "Weingut Sonnenhang Kabinett",
+       "vintage": "2021",
+       "bottles": "4",
+       "colour": "white",
+       "producer": "Weingut Sonnenhang",
+       "country": "Germany",
+       "region": "Mosel",
+       "appellation": "Mosel",
+       "grapes": "Riesling",
+       "paid": "19.00"
+      },
+      "added": "2023-04-22",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 13,
+      "form": {
+       "name": "Weingut Sonnenhang Spätlese",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Weingut Sonnenhang",
+       "country": "Germany",
+       "region": "Mosel",
+       "appellation": "Mosel",
+       "grapes": "Riesling",
+       "paid": "26.00"
+      },
+      "added": "2022-04-10",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 14,
+      "form": {
+       "name": "Domaine des Pierres Blanches 1er Cru",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "white",
+       "producer": "Domaine des Pierres Blanches",
+       "country": "France",
+       "region": "Burgundy",
+       "appellation": "Chablis",
+       "grapes": "Chardonnay",
+       "paid": "38.00"
+      },
+      "added": "2023-02-27",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 15,
+      "form": {
+       "name": "Bodegas Altamira Blanco Reserva",
+       "vintage": "2011",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Viura; Malvasía",
+       "paid": "34.00"
+      },
+      "added": "2022-06-01",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 16,
+      "form": {
+       "name": "Rosado del Alba",
+       "vintage": "2025",
+       "bottles": "6",
+       "colour": "rosé",
+       "producer": "Rosado del Alba",
+       "country": "Spain",
+       "region": "Navarra",
+       "appellation": "Navarra",
+       "grapes": "Garnacha",
+       "paid": "8.90"
+      },
+      "added": "2026-05-20",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 17,
+      "form": {
+       "name": "Maison Brune Brut",
+       "vintage": "NV",
+       "bottles": "4",
+       "colour": "sparkling",
+       "producer": "Maison Brune",
+       "country": "France",
+       "region": "Champagne",
+       "appellation": "Champagne",
+       "grapes": "Chardonnay; Pinot Noir; Pinot Meunier",
+       "paid": "39.00"
+      },
+      "added": "2024-12-10",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 18,
+      "form": {
+       "name": "Cava Brut Nature Reserva",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "sparkling",
+       "producer": "Cellers de l'Ermita",
+       "country": "Spain",
+       "region": "Penedès",
+       "appellation": "Cava",
+       "grapes": "Macabeo; Xarel·lo; Parellada",
+       "paid": "15.00"
+      },
+      "added": "2024-11-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 19,
+      "form": {
+       "name": "Fino La Salina",
+       "vintage": "NV",
+       "bottles": "3",
+       "colour": "fortified",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Palomino",
+       "paid": "13.00"
+      },
+      "added": "2026-02-14",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 20,
+      "form": {
+       "name": "Amontillado Viejo VORS",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "fortified",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Palomino",
+       "paid": "58.00"
+      },
+      "added": "2024-07-19",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 21,
+      "form": {
+       "name": "Pedro Ximénez Dulce",
+       "vintage": "NV",
+       "bottles": "2",
+       "colour": "sweet",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Pedro Ximénez",
+       "paid": "21.00"
+      },
+      "added": "2025-12-01",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 22,
+      "form": {
+       "name": "Sidra Natural del Valle",
+       "vintage": "2025",
+       "bottles": "6",
+       "colour": "cider",
+       "producer": "Llagar del Valle",
+       "country": "Spain",
+       "region": "Asturias",
+       "appellation": "Sidra de Asturias",
+       "grapes": "Manzana",
+       "paid": "5.50"
+      },
+      "added": "2026-08-30",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Bodegas Altamira Gran Reserva",
+       "vintage": "2010",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "48.50"
+      },
+      "added": "2022-03-14",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Bodegas Altamira Crianza",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "12.90"
+      },
+      "added": "2024-05-02",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "Viñedos del Norte Reserva",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Viñedos del Norte",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "32.00"
+      },
+      "added": "2023-01-20",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Finca La Umbría",
+       "vintage": "2022",
+       "bottles": "4",
+       "colour": "red",
+       "producer": "Finca La Umbría",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "18.50"
+      },
+      "added": "2025-02-11",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "Clos des Hirondelles",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Clos des Hirondelles",
+       "country": "France",
+       "region": "Bordeaux",
+       "appellation": "Bordeaux",
+       "grapes": "Cabernet Sauvignon; Merlot",
+       "paid": "85.00"
+      },
+      "added": "2022-11-05",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "Domaine Les Coteaux",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Domaine Les Coteaux",
+       "country": "France",
+       "region": "Burgundy",
+       "appellation": "Gevrey-Chambertin",
+       "grapes": "Pinot Noir",
+       "paid": "56.00"
+      },
+      "added": "2023-06-18",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "Cantina Rosa dei Venti",
+       "vintage": "2017",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Cantina Rosa dei Venti",
+       "country": "Italy",
+       "region": "Piedmont",
+       "appellation": "Barolo",
+       "grapes": "Nebbiolo",
+       "paid": "42.00"
+      },
+      "added": "2023-09-30",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "Celler Pedra Negra",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Celler Pedra Negra",
+       "country": "Spain",
+       "region": "Priorat",
+       "appellation": "Priorat",
+       "grapes": "Garnacha; Cariñena",
+       "paid": "29.00"
+      },
+      "added": "2024-01-15",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "Quinta do Moinho Reserva",
+       "vintage": "2015",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Quinta do Moinho",
+       "country": "Portugal",
+       "region": "Douro",
+       "appellation": "Douro",
+       "grapes": "Touriga Nacional; Tinta Roriz",
+       "paid": "24.00"
+      },
+      "added": "2022-10-08",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 11,
+      "form": {
+       "name": "Pazo de Marés",
+       "vintage": "2024",
+       "bottles": "6",
+       "colour": "white",
+       "producer": "Pazo de Marés",
+       "country": "Spain",
+       "region": "Rías Baixas",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "14.50"
+      },
+      "added": "2025-09-12",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 12,
+      "form": {
+       "name": "Weingut Sonnenhang Kabinett",
+       "vintage": "2021",
+       "bottles": "4",
+       "colour": "white",
+       "producer": "Weingut Sonnenhang",
+       "country": "Germany",
+       "region": "Mosel",
+       "appellation": "Mosel",
+       "grapes": "Riesling",
+       "paid": "19.00"
+      },
+      "added": "2023-04-22",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 13,
+      "form": {
+       "name": "Weingut Sonnenhang Spätlese",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Weingut Sonnenhang",
+       "country": "Germany",
+       "region": "Mosel",
+       "appellation": "Mosel",
+       "grapes": "Riesling",
+       "paid": "26.00"
+      },
+      "added": "2022-04-10",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 14,
+      "form": {
+       "name": "Domaine des Pierres Blanches 1er Cru",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "white",
+       "producer": "Domaine des Pierres Blanches",
+       "country": "France",
+       "region": "Burgundy",
+       "appellation": "Chablis",
+       "grapes": "Chardonnay",
+       "paid": "38.00"
+      },
+      "added": "2023-02-27",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 15,
+      "form": {
+       "name": "Bodegas Altamira Blanco Reserva",
+       "vintage": "2011",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Viura; Malvasía",
+       "paid": "34.00"
+      },
+      "added": "2022-06-01",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 16,
+      "form": {
+       "name": "Rosado del Alba",
+       "vintage": "2025",
+       "bottles": "6",
+       "colour": "rosé",
+       "producer": "Rosado del Alba",
+       "country": "Spain",
+       "region": "Navarra",
+       "appellation": "Navarra",
+       "grapes": "Garnacha",
+       "paid": "8.90"
+      },
+      "added": "2026-05-20",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 17,
+      "form": {
+       "name": "Maison Brune Brut",
+       "vintage": "NV",
+       "bottles": "4",
+       "colour": "sparkling",
+       "producer": "Maison Brune",
+       "country": "France",
+       "region": "Champagne",
+       "appellation": "Champagne",
+       "grapes": "Chardonnay; Pinot Noir; Pinot Meunier",
+       "paid": "39.00"
+      },
+      "added": "2024-12-10",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 18,
+      "form": {
+       "name": "Cava Brut Nature Reserva",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "sparkling",
+       "producer": "Cellers de l'Ermita",
+       "country": "Spain",
+       "region": "Penedès",
+       "appellation": "Cava",
+       "grapes": "Macabeo; Xarel·lo; Parellada",
+       "paid": "15.00"
+      },
+      "added": "2024-11-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 19,
+      "form": {
+       "name": "Fino La Salina",
+       "vintage": "NV",
+       "bottles": "3",
+       "colour": "fortified",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Palomino",
+       "paid": "13.00"
+      },
+      "added": "2026-02-14",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 20,
+      "form": {
+       "name": "Amontillado Viejo VORS",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "fortified",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Palomino",
+       "paid": "58.00"
+      },
+      "added": "2024-07-19",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 21,
+      "form": {
+       "name": "Pedro Ximénez Dulce",
+       "vintage": "NV",
+       "bottles": "2",
+       "colour": "sweet",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Pedro Ximénez",
+       "paid": "21.00"
+      },
+      "added": "2025-12-01",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 22,
+      "form": {
+       "name": "Sidra Natural del Valle",
+       "vintage": "2025",
+       "bottles": "6",
+       "colour": "cider",
+       "producer": "Llagar del Valle",
+       "country": "Spain",
+       "region": "Asturias",
+       "appellation": "Sidra de Asturias",
+       "grapes": "Manzana",
+       "paid": "5.50"
+      },
+      "added": "2026-08-30",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "sample cellar, checked against existing wines",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCkJvZGVnYXMgQWx0YW1pcmEgR3JhbiBSZXNlcnZhLDIwMTAsMyxyZWQsQm9kZWdhcyBBbHRhbWlyYSxTcGFpbixSaW9qYSxSaW9qYSxUZW1wcmFuaWxsbyw0OC41MCwyMDIyLTAzLTE0CkJvZGVnYXMgQWx0YW1pcmEgQ3JpYW56YSwyMDIwLDYscmVkLEJvZGVnYXMgQWx0YW1pcmEsU3BhaW4sUmlvamEsUmlvamEsVGVtcHJhbmlsbG8sMTIuOTAsMjAyNC0wNS0wMgpWacOxZWRvcyBkZWwgTm9ydGUgUmVzZXJ2YSwyMDE2LDIscmVkLFZpw7FlZG9zIGRlbCBOb3J0ZSxTcGFpbixSaWJlcmEgZGVsIER1ZXJvLFJpYmVyYSBkZWwgRHVlcm8sVGVtcHJhbmlsbG8sMzIuMDAsMjAyMy0wMS0yMApGaW5jYSBMYSBVbWJyw61hLDIwMjIsNCxyZWQsRmluY2EgTGEgVW1icsOtYSxTcGFpbixSaWJlcmEgZGVsIER1ZXJvLFJpYmVyYSBkZWwgRHVlcm8sVGVtcHJhbmlsbG8sMTguNTAsMjAyNS0wMi0xMQpDbG9zIGRlcyBIaXJvbmRlbGxlcywyMDE4LDIscmVkLENsb3MgZGVzIEhpcm9uZGVsbGVzLEZyYW5jZSxCb3JkZWF1eCxCb3JkZWF1eCxDYWJlcm5ldCBTYXV2aWdub247IE1lcmxvdCw4NS4wMCwyMDIyLTExLTA1CkRvbWFpbmUgTGVzIENvdGVhdXgsMjAxOSwzLHJlZCxEb21haW5lIExlcyBDb3RlYXV4LEZyYW5jZSxCdXJndW5keSxHZXZyZXktQ2hhbWJlcnRpbixQaW5vdCBOb2lyLDU2LjAwLDIwMjMtMDYtMTgKQ2FudGluYSBSb3NhIGRlaSBWZW50aSwyMDE3LDIscmVkLENhbnRpbmEgUm9zYSBkZWkgVmVudGksSXRhbHksUGllZG1vbnQsQmFyb2xvLE5lYmJpb2xvLDQyLjAwLDIwMjMtMDktMzAKQ2VsbGVyIFBlZHJhIE5lZ3JhLDIwMTksMyxyZWQsQ2VsbGVyIFBlZHJhIE5lZ3JhLFNwYWluLFByaW9yYXQsUHJpb3JhdCxHYXJuYWNoYTsgQ2FyacOxZW5hLDI5LjAwLDIwMjQtMDEtMTUKUXVpbnRhIGRvIE1vaW5obyBSZXNlcnZhLDIwMTUsMixyZWQsUXVpbnRhIGRvIE1vaW5obyxQb3J0dWdhbCxEb3VybyxEb3VybyxUb3VyaWdhIE5hY2lvbmFsOyBUaW50YSBSb3JpeiwyNC4wMCwyMDIyLTEwLTA4ClBhem8gZGUgTWFyw6lzLDIwMjQsNix3aGl0ZSxQYXpvIGRlIE1hcsOpcyxTcGFpbixSw61hcyBCYWl4YXMsUsOtYXMgQmFpeGFzLEFsYmFyacOxbywxNC41MCwyMDI1LTA5LTEyCldlaW5ndXQgU29ubmVuaGFuZyBLYWJpbmV0dCwyMDIxLDQsd2hpdGUsV2Vpbmd1dCBTb25uZW5oYW5nLEdlcm1hbnksTW9zZWwsTW9zZWwsUmllc2xpbmcsMTkuMDAsMjAyMy0wNC0yMgpXZWluZ3V0IFNvbm5lbmhhbmcgU3DDpHRsZXNlLDIwMTgsMix3aGl0ZSxXZWluZ3V0IFNvbm5lbmhhbmcsR2VybWFueSxNb3NlbCxNb3NlbCxSaWVzbGluZywyNi4wMCwyMDIyLTA0LTEwCkRvbWFpbmUgZGVzIFBpZXJyZXMgQmxhbmNoZXMgMWVyIENydSwyMDE5LDMsd2hpdGUsRG9tYWluZSBkZXMgUGllcnJlcyBCbGFuY2hlcyxGcmFuY2UsQnVyZ3VuZHksQ2hhYmxpcyxDaGFyZG9ubmF5LDM4LjAwLDIwMjMtMDItMjcKQm9kZWdhcyBBbHRhbWlyYSBCbGFuY28gUmVzZXJ2YSwyMDExLDIsd2hpdGUsQm9kZWdhcyBBbHRhbWlyYSxTcGFpbixSaW9qYSxSaW9qYSxWaXVyYTsgTWFsdmFzw61hLDM0LjAwLDIwMjItMDYtMDEKUm9zYWRvIGRlbCBBbGJhLDIwMjUsNixyb3PDqSxSb3NhZG8gZGVsIEFsYmEsU3BhaW4sTmF2YXJyYSxOYXZhcnJhLEdhcm5hY2hhLDguOTAsMjAyNi0wNS0yMApNYWlzb24gQnJ1bmUgQnJ1dCxOViw0LHNwYXJrbGluZyxNYWlzb24gQnJ1bmUsRnJhbmNlLENoYW1wYWduZSxDaGFtcGFnbmUsQ2hhcmRvbm5heTsgUGlub3QgTm9pcjsgUGlub3QgTWV1bmllciwzOS4wMCwyMDI0LTEyLTEwCkNhdmEgQnJ1dCBOYXR1cmUgUmVzZXJ2YSwyMDIwLDYsc3BhcmtsaW5nLENlbGxlcnMgZGUgbCdFcm1pdGEsU3BhaW4sUGVuZWTDqHMsQ2F2YSxNYWNhYmVvOyBYYXJlbMK3bG87IFBhcmVsbGFkYSwxNS4wMCwyMDI0LTExLTAzCkZpbm8gTGEgU2FsaW5hLE5WLDMsZm9ydGlmaWVkLEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGFsb21pbm8sMTMuMDAsMjAyNi0wMi0xNApBbW9udGlsbGFkbyBWaWVqbyBWT1JTLE5WLDEsZm9ydGlmaWVkLEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGFsb21pbm8sNTguMDAsMjAyNC0wNy0xOQpQZWRybyBYaW3DqW5leiBEdWxjZSxOViwyLHN3ZWV0LEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGVkcm8gWGltw6luZXosMjEuMDAsMjAyNS0xMi0wMQpTaWRyYSBOYXR1cmFsIGRlbCBWYWxsZSwyMDI1LDYsY2lkZXIsTGxhZ2FyIGRlbCBWYWxsZSxTcGFpbixBc3R1cmlhcyxTaWRyYSBkZSBBc3R1cmlhcyxNYW56YW5hLDUuNTAsMjAyNi0wOC0zMAo=",
+  "existing": true,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Bodegas Altamira Gran Reserva",
+       "vintage": "2010",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "48.50"
+      },
+      "added": "2022-03-14",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Gran Reserva",
+      "vintage": 2010,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Bodegas Altamira Crianza",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "12.90"
+      },
+      "added": "2024-05-02",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Crianza",
+      "vintage": 2020,
+      "bottles": 6,
+      "action": "new"
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "Viñedos del Norte Reserva",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Viñedos del Norte",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "32.00"
+      },
+      "added": "2023-01-20",
+      "warnings": [],
+      "error": null,
+      "label": "Viñedos del Norte Reserva",
+      "vintage": 2016,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Finca La Umbría",
+       "vintage": "2022",
+       "bottles": "4",
+       "colour": "red",
+       "producer": "Finca La Umbría",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "18.50"
+      },
+      "added": "2025-02-11",
+      "warnings": [],
+      "error": null,
+      "label": "Finca La Umbría",
+      "vintage": 2022,
+      "bottles": 4,
+      "action": "update",
+      "wine_id": 5,
+      "was": 4,
+      "now": 8
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "Clos des Hirondelles",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Clos des Hirondelles",
+       "country": "France",
+       "region": "Bordeaux",
+       "appellation": "Bordeaux",
+       "grapes": "Cabernet Sauvignon; Merlot",
+       "paid": "85.00"
+      },
+      "added": "2022-11-05",
+      "warnings": [],
+      "error": null,
+      "label": "Clos des Hirondelles",
+      "vintage": 2018,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "Domaine Les Coteaux",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Domaine Les Coteaux",
+       "country": "France",
+       "region": "Burgundy",
+       "appellation": "Gevrey-Chambertin",
+       "grapes": "Pinot Noir",
+       "paid": "56.00"
+      },
+      "added": "2023-06-18",
+      "warnings": [],
+      "error": null,
+      "label": "Domaine Les Coteaux",
+      "vintage": 2019,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "Cantina Rosa dei Venti",
+       "vintage": "2017",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Cantina Rosa dei Venti",
+       "country": "Italy",
+       "region": "Piedmont",
+       "appellation": "Barolo",
+       "grapes": "Nebbiolo",
+       "paid": "42.00"
+      },
+      "added": "2023-09-30",
+      "warnings": [],
+      "error": null,
+      "label": "Cantina Rosa dei Venti",
+      "vintage": 2017,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "Celler Pedra Negra",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Celler Pedra Negra",
+       "country": "Spain",
+       "region": "Priorat",
+       "appellation": "Priorat",
+       "grapes": "Garnacha; Cariñena",
+       "paid": "29.00"
+      },
+      "added": "2024-01-15",
+      "warnings": [],
+      "error": null,
+      "label": "Celler Pedra Negra",
+      "vintage": 2019,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "Quinta do Moinho Reserva",
+       "vintage": "2015",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Quinta do Moinho",
+       "country": "Portugal",
+       "region": "Douro",
+       "appellation": "Douro",
+       "grapes": "Touriga Nacional; Tinta Roriz",
+       "paid": "24.00"
+      },
+      "added": "2022-10-08",
+      "warnings": [],
+      "error": null,
+      "label": "Quinta do Moinho Reserva",
+      "vintage": 2015,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 11,
+      "form": {
+       "name": "Pazo de Marés",
+       "vintage": "2024",
+       "bottles": "6",
+       "colour": "white",
+       "producer": "Pazo de Marés",
+       "country": "Spain",
+       "region": "Rías Baixas",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "14.50"
+      },
+      "added": "2025-09-12",
+      "warnings": [],
+      "error": null,
+      "label": "Pazo de Marés",
+      "vintage": 2024,
+      "bottles": 6,
+      "action": "new"
+     },
+     {
+      "line": 12,
+      "form": {
+       "name": "Weingut Sonnenhang Kabinett",
+       "vintage": "2021",
+       "bottles": "4",
+       "colour": "white",
+       "producer": "Weingut Sonnenhang",
+       "country": "Germany",
+       "region": "Mosel",
+       "appellation": "Mosel",
+       "grapes": "Riesling",
+       "paid": "19.00"
+      },
+      "added": "2023-04-22",
+      "warnings": [],
+      "error": null,
+      "label": "Weingut Sonnenhang Kabinett",
+      "vintage": 2021,
+      "bottles": 4,
+      "action": "new"
+     },
+     {
+      "line": 13,
+      "form": {
+       "name": "Weingut Sonnenhang Spätlese",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Weingut Sonnenhang",
+       "country": "Germany",
+       "region": "Mosel",
+       "appellation": "Mosel",
+       "grapes": "Riesling",
+       "paid": "26.00"
+      },
+      "added": "2022-04-10",
+      "warnings": [],
+      "error": null,
+      "label": "Weingut Sonnenhang Spätlese",
+      "vintage": 2018,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 14,
+      "form": {
+       "name": "Domaine des Pierres Blanches 1er Cru",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "white",
+       "producer": "Domaine des Pierres Blanches",
+       "country": "France",
+       "region": "Burgundy",
+       "appellation": "Chablis",
+       "grapes": "Chardonnay",
+       "paid": "38.00"
+      },
+      "added": "2023-02-27",
+      "warnings": [],
+      "error": null,
+      "label": "Domaine des Pierres Blanches 1er Cru",
+      "vintage": 2019,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 15,
+      "form": {
+       "name": "Bodegas Altamira Blanco Reserva",
+       "vintage": "2011",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Viura; Malvasía",
+       "paid": "34.00"
+      },
+      "added": "2022-06-01",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Blanco Reserva",
+      "vintage": 2011,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 16,
+      "form": {
+       "name": "Rosado del Alba",
+       "vintage": "2025",
+       "bottles": "6",
+       "colour": "rosé",
+       "producer": "Rosado del Alba",
+       "country": "Spain",
+       "region": "Navarra",
+       "appellation": "Navarra",
+       "grapes": "Garnacha",
+       "paid": "8.90"
+      },
+      "added": "2026-05-20",
+      "warnings": [],
+      "error": null,
+      "label": "Rosado del Alba",
+      "vintage": 2025,
+      "bottles": 6,
+      "action": "new"
+     },
+     {
+      "line": 17,
+      "form": {
+       "name": "Maison Brune Brut",
+       "vintage": "NV",
+       "bottles": "4",
+       "colour": "sparkling",
+       "producer": "Maison Brune",
+       "country": "France",
+       "region": "Champagne",
+       "appellation": "Champagne",
+       "grapes": "Chardonnay; Pinot Noir; Pinot Meunier",
+       "paid": "39.00"
+      },
+      "added": "2024-12-10",
+      "warnings": [],
+      "error": null,
+      "label": "Maison Brune Brut",
+      "vintage": null,
+      "bottles": 4,
+      "action": "new"
+     },
+     {
+      "line": 18,
+      "form": {
+       "name": "Cava Brut Nature Reserva",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "sparkling",
+       "producer": "Cellers de l'Ermita",
+       "country": "Spain",
+       "region": "Penedès",
+       "appellation": "Cava",
+       "grapes": "Macabeo; Xarel·lo; Parellada",
+       "paid": "15.00"
+      },
+      "added": "2024-11-03",
+      "warnings": [],
+      "error": null,
+      "label": "Cava Brut Nature Reserva",
+      "vintage": 2020,
+      "bottles": 6,
+      "action": "new"
+     },
+     {
+      "line": 19,
+      "form": {
+       "name": "Fino La Salina",
+       "vintage": "NV",
+       "bottles": "3",
+       "colour": "fortified",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Palomino",
+       "paid": "13.00"
+      },
+      "added": "2026-02-14",
+      "warnings": [],
+      "error": null,
+      "label": "Fino La Salina",
+      "vintage": null,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 20,
+      "form": {
+       "name": "Amontillado Viejo VORS",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "fortified",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Palomino",
+       "paid": "58.00"
+      },
+      "added": "2024-07-19",
+      "warnings": [],
+      "error": null,
+      "label": "Amontillado Viejo VORS",
+      "vintage": null,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 21,
+      "form": {
+       "name": "Pedro Ximénez Dulce",
+       "vintage": "NV",
+       "bottles": "2",
+       "colour": "sweet",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Pedro Ximénez",
+       "paid": "21.00"
+      },
+      "added": "2025-12-01",
+      "warnings": [],
+      "error": null,
+      "label": "Pedro Ximénez Dulce",
+      "vintage": null,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 22,
+      "form": {
+       "name": "Sidra Natural del Valle",
+       "vintage": "2025",
+       "bottles": "6",
+       "colour": "cider",
+       "producer": "Llagar del Valle",
+       "country": "Spain",
+       "region": "Asturias",
+       "appellation": "Sidra de Asturias",
+       "grapes": "Manzana",
+       "paid": "5.50"
+      },
+      "added": "2026-08-30",
+      "warnings": [],
+      "error": null,
+      "label": "Sidra Natural del Valle",
+      "vintage": 2025,
+      "bottles": 6,
+      "action": "new"
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Bodegas Altamira Gran Reserva",
+       "vintage": "2010",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "48.50"
+      },
+      "added": "2022-03-14",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Gran Reserva",
+      "vintage": 2010,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Bodegas Altamira Crianza",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "12.90"
+      },
+      "added": "2024-05-02",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Crianza",
+      "vintage": 2020,
+      "bottles": 6,
+      "action": "new"
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "Viñedos del Norte Reserva",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Viñedos del Norte",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "32.00"
+      },
+      "added": "2023-01-20",
+      "warnings": [],
+      "error": null,
+      "label": "Viñedos del Norte Reserva",
+      "vintage": 2016,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Finca La Umbría",
+       "vintage": "2022",
+       "bottles": "4",
+       "colour": "red",
+       "producer": "Finca La Umbría",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "18.50"
+      },
+      "added": "2025-02-11",
+      "warnings": [],
+      "error": null,
+      "label": "Finca La Umbría",
+      "vintage": 2022,
+      "bottles": 4,
+      "action": "update",
+      "wine_id": 5,
+      "was": 4,
+      "now": 8
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "Clos des Hirondelles",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Clos des Hirondelles",
+       "country": "France",
+       "region": "Bordeaux",
+       "appellation": "Bordeaux",
+       "grapes": "Cabernet Sauvignon; Merlot",
+       "paid": "85.00"
+      },
+      "added": "2022-11-05",
+      "warnings": [],
+      "error": null,
+      "label": "Clos des Hirondelles",
+      "vintage": 2018,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "Domaine Les Coteaux",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Domaine Les Coteaux",
+       "country": "France",
+       "region": "Burgundy",
+       "appellation": "Gevrey-Chambertin",
+       "grapes": "Pinot Noir",
+       "paid": "56.00"
+      },
+      "added": "2023-06-18",
+      "warnings": [],
+      "error": null,
+      "label": "Domaine Les Coteaux",
+      "vintage": 2019,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "Cantina Rosa dei Venti",
+       "vintage": "2017",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Cantina Rosa dei Venti",
+       "country": "Italy",
+       "region": "Piedmont",
+       "appellation": "Barolo",
+       "grapes": "Nebbiolo",
+       "paid": "42.00"
+      },
+      "added": "2023-09-30",
+      "warnings": [],
+      "error": null,
+      "label": "Cantina Rosa dei Venti",
+      "vintage": 2017,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "Celler Pedra Negra",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Celler Pedra Negra",
+       "country": "Spain",
+       "region": "Priorat",
+       "appellation": "Priorat",
+       "grapes": "Garnacha; Cariñena",
+       "paid": "29.00"
+      },
+      "added": "2024-01-15",
+      "warnings": [],
+      "error": null,
+      "label": "Celler Pedra Negra",
+      "vintage": 2019,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "Quinta do Moinho Reserva",
+       "vintage": "2015",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Quinta do Moinho",
+       "country": "Portugal",
+       "region": "Douro",
+       "appellation": "Douro",
+       "grapes": "Touriga Nacional; Tinta Roriz",
+       "paid": "24.00"
+      },
+      "added": "2022-10-08",
+      "warnings": [],
+      "error": null,
+      "label": "Quinta do Moinho Reserva",
+      "vintage": 2015,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 11,
+      "form": {
+       "name": "Pazo de Marés",
+       "vintage": "2024",
+       "bottles": "6",
+       "colour": "white",
+       "producer": "Pazo de Marés",
+       "country": "Spain",
+       "region": "Rías Baixas",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "14.50"
+      },
+      "added": "2025-09-12",
+      "warnings": [],
+      "error": null,
+      "label": "Pazo de Marés",
+      "vintage": 2024,
+      "bottles": 6,
+      "action": "new"
+     },
+     {
+      "line": 12,
+      "form": {
+       "name": "Weingut Sonnenhang Kabinett",
+       "vintage": "2021",
+       "bottles": "4",
+       "colour": "white",
+       "producer": "Weingut Sonnenhang",
+       "country": "Germany",
+       "region": "Mosel",
+       "appellation": "Mosel",
+       "grapes": "Riesling",
+       "paid": "19.00"
+      },
+      "added": "2023-04-22",
+      "warnings": [],
+      "error": null,
+      "label": "Weingut Sonnenhang Kabinett",
+      "vintage": 2021,
+      "bottles": 4,
+      "action": "new"
+     },
+     {
+      "line": 13,
+      "form": {
+       "name": "Weingut Sonnenhang Spätlese",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Weingut Sonnenhang",
+       "country": "Germany",
+       "region": "Mosel",
+       "appellation": "Mosel",
+       "grapes": "Riesling",
+       "paid": "26.00"
+      },
+      "added": "2022-04-10",
+      "warnings": [],
+      "error": null,
+      "label": "Weingut Sonnenhang Spätlese",
+      "vintage": 2018,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 14,
+      "form": {
+       "name": "Domaine des Pierres Blanches 1er Cru",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "white",
+       "producer": "Domaine des Pierres Blanches",
+       "country": "France",
+       "region": "Burgundy",
+       "appellation": "Chablis",
+       "grapes": "Chardonnay",
+       "paid": "38.00"
+      },
+      "added": "2023-02-27",
+      "warnings": [],
+      "error": null,
+      "label": "Domaine des Pierres Blanches 1er Cru",
+      "vintage": 2019,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 15,
+      "form": {
+       "name": "Bodegas Altamira Blanco Reserva",
+       "vintage": "2011",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Viura; Malvasía",
+       "paid": "34.00"
+      },
+      "added": "2022-06-01",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Blanco Reserva",
+      "vintage": 2011,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 16,
+      "form": {
+       "name": "Rosado del Alba",
+       "vintage": "2025",
+       "bottles": "6",
+       "colour": "rosé",
+       "producer": "Rosado del Alba",
+       "country": "Spain",
+       "region": "Navarra",
+       "appellation": "Navarra",
+       "grapes": "Garnacha",
+       "paid": "8.90"
+      },
+      "added": "2026-05-20",
+      "warnings": [],
+      "error": null,
+      "label": "Rosado del Alba",
+      "vintage": 2025,
+      "bottles": 6,
+      "action": "new"
+     },
+     {
+      "line": 17,
+      "form": {
+       "name": "Maison Brune Brut",
+       "vintage": "NV",
+       "bottles": "4",
+       "colour": "sparkling",
+       "producer": "Maison Brune",
+       "country": "France",
+       "region": "Champagne",
+       "appellation": "Champagne",
+       "grapes": "Chardonnay; Pinot Noir; Pinot Meunier",
+       "paid": "39.00"
+      },
+      "added": "2024-12-10",
+      "warnings": [],
+      "error": null,
+      "label": "Maison Brune Brut",
+      "vintage": null,
+      "bottles": 4,
+      "action": "new"
+     },
+     {
+      "line": 18,
+      "form": {
+       "name": "Cava Brut Nature Reserva",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "sparkling",
+       "producer": "Cellers de l'Ermita",
+       "country": "Spain",
+       "region": "Penedès",
+       "appellation": "Cava",
+       "grapes": "Macabeo; Xarel·lo; Parellada",
+       "paid": "15.00"
+      },
+      "added": "2024-11-03",
+      "warnings": [],
+      "error": null,
+      "label": "Cava Brut Nature Reserva",
+      "vintage": 2020,
+      "bottles": 6,
+      "action": "new"
+     },
+     {
+      "line": 19,
+      "form": {
+       "name": "Fino La Salina",
+       "vintage": "NV",
+       "bottles": "3",
+       "colour": "fortified",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Palomino",
+       "paid": "13.00"
+      },
+      "added": "2026-02-14",
+      "warnings": [],
+      "error": null,
+      "label": "Fino La Salina",
+      "vintage": null,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 20,
+      "form": {
+       "name": "Amontillado Viejo VORS",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "fortified",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Palomino",
+       "paid": "58.00"
+      },
+      "added": "2024-07-19",
+      "warnings": [],
+      "error": null,
+      "label": "Amontillado Viejo VORS",
+      "vintage": null,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 21,
+      "form": {
+       "name": "Pedro Ximénez Dulce",
+       "vintage": "NV",
+       "bottles": "2",
+       "colour": "sweet",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Pedro Ximénez",
+       "paid": "21.00"
+      },
+      "added": "2025-12-01",
+      "warnings": [],
+      "error": null,
+      "label": "Pedro Ximénez Dulce",
+      "vintage": null,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 22,
+      "form": {
+       "name": "Sidra Natural del Valle",
+       "vintage": "2025",
+       "bottles": "6",
+       "colour": "cider",
+       "producer": "Llagar del Valle",
+       "country": "Spain",
+       "region": "Asturias",
+       "appellation": "Sidra de Asturias",
+       "grapes": "Manzana",
+       "paid": "5.50"
+      },
+      "added": "2026-08-30",
+      "warnings": [],
+      "error": null,
+      "label": "Sidra Natural del Valle",
+      "vintage": 2025,
+      "bottles": 6,
+      "action": "new"
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Bodegas Altamira Gran Reserva",
+       "vintage": "2010",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "48.50"
+      },
+      "added": "2022-03-14",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Gran Reserva",
+      "vintage": 2010,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Bodegas Altamira Crianza",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "12.90"
+      },
+      "added": "2024-05-02",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Crianza",
+      "vintage": 2020,
+      "bottles": 6,
+      "action": "new"
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "Viñedos del Norte Reserva",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Viñedos del Norte",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "32.00"
+      },
+      "added": "2023-01-20",
+      "warnings": [],
+      "error": null,
+      "label": "Viñedos del Norte Reserva",
+      "vintage": 2016,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Finca La Umbría",
+       "vintage": "2022",
+       "bottles": "4",
+       "colour": "red",
+       "producer": "Finca La Umbría",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "18.50"
+      },
+      "added": "2025-02-11",
+      "warnings": [],
+      "error": null,
+      "label": "Finca La Umbría",
+      "vintage": 2022,
+      "bottles": 4,
+      "action": "update",
+      "wine_id": 5,
+      "was": 4,
+      "now": 8
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "Clos des Hirondelles",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Clos des Hirondelles",
+       "country": "France",
+       "region": "Bordeaux",
+       "appellation": "Bordeaux",
+       "grapes": "Cabernet Sauvignon; Merlot",
+       "paid": "85.00"
+      },
+      "added": "2022-11-05",
+      "warnings": [],
+      "error": null,
+      "label": "Clos des Hirondelles",
+      "vintage": 2018,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "Domaine Les Coteaux",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Domaine Les Coteaux",
+       "country": "France",
+       "region": "Burgundy",
+       "appellation": "Gevrey-Chambertin",
+       "grapes": "Pinot Noir",
+       "paid": "56.00"
+      },
+      "added": "2023-06-18",
+      "warnings": [],
+      "error": null,
+      "label": "Domaine Les Coteaux",
+      "vintage": 2019,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "Cantina Rosa dei Venti",
+       "vintage": "2017",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Cantina Rosa dei Venti",
+       "country": "Italy",
+       "region": "Piedmont",
+       "appellation": "Barolo",
+       "grapes": "Nebbiolo",
+       "paid": "42.00"
+      },
+      "added": "2023-09-30",
+      "warnings": [],
+      "error": null,
+      "label": "Cantina Rosa dei Venti",
+      "vintage": 2017,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "Celler Pedra Negra",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Celler Pedra Negra",
+       "country": "Spain",
+       "region": "Priorat",
+       "appellation": "Priorat",
+       "grapes": "Garnacha; Cariñena",
+       "paid": "29.00"
+      },
+      "added": "2024-01-15",
+      "warnings": [],
+      "error": null,
+      "label": "Celler Pedra Negra",
+      "vintage": 2019,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "Quinta do Moinho Reserva",
+       "vintage": "2015",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Quinta do Moinho",
+       "country": "Portugal",
+       "region": "Douro",
+       "appellation": "Douro",
+       "grapes": "Touriga Nacional; Tinta Roriz",
+       "paid": "24.00"
+      },
+      "added": "2022-10-08",
+      "warnings": [],
+      "error": null,
+      "label": "Quinta do Moinho Reserva",
+      "vintage": 2015,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 11,
+      "form": {
+       "name": "Pazo de Marés",
+       "vintage": "2024",
+       "bottles": "6",
+       "colour": "white",
+       "producer": "Pazo de Marés",
+       "country": "Spain",
+       "region": "Rías Baixas",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "14.50"
+      },
+      "added": "2025-09-12",
+      "warnings": [],
+      "error": null,
+      "label": "Pazo de Marés",
+      "vintage": 2024,
+      "bottles": 6,
+      "action": "new"
+     },
+     {
+      "line": 12,
+      "form": {
+       "name": "Weingut Sonnenhang Kabinett",
+       "vintage": "2021",
+       "bottles": "4",
+       "colour": "white",
+       "producer": "Weingut Sonnenhang",
+       "country": "Germany",
+       "region": "Mosel",
+       "appellation": "Mosel",
+       "grapes": "Riesling",
+       "paid": "19.00"
+      },
+      "added": "2023-04-22",
+      "warnings": [],
+      "error": null,
+      "label": "Weingut Sonnenhang Kabinett",
+      "vintage": 2021,
+      "bottles": 4,
+      "action": "new"
+     },
+     {
+      "line": 13,
+      "form": {
+       "name": "Weingut Sonnenhang Spätlese",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Weingut Sonnenhang",
+       "country": "Germany",
+       "region": "Mosel",
+       "appellation": "Mosel",
+       "grapes": "Riesling",
+       "paid": "26.00"
+      },
+      "added": "2022-04-10",
+      "warnings": [],
+      "error": null,
+      "label": "Weingut Sonnenhang Spätlese",
+      "vintage": 2018,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 14,
+      "form": {
+       "name": "Domaine des Pierres Blanches 1er Cru",
+       "vintage": "2019",
+       "bottles": "3",
+       "colour": "white",
+       "producer": "Domaine des Pierres Blanches",
+       "country": "France",
+       "region": "Burgundy",
+       "appellation": "Chablis",
+       "grapes": "Chardonnay",
+       "paid": "38.00"
+      },
+      "added": "2023-02-27",
+      "warnings": [],
+      "error": null,
+      "label": "Domaine des Pierres Blanches 1er Cru",
+      "vintage": 2019,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 15,
+      "form": {
+       "name": "Bodegas Altamira Blanco Reserva",
+       "vintage": "2011",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Viura; Malvasía",
+       "paid": "34.00"
+      },
+      "added": "2022-06-01",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Blanco Reserva",
+      "vintage": 2011,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 16,
+      "form": {
+       "name": "Rosado del Alba",
+       "vintage": "2025",
+       "bottles": "6",
+       "colour": "rosé",
+       "producer": "Rosado del Alba",
+       "country": "Spain",
+       "region": "Navarra",
+       "appellation": "Navarra",
+       "grapes": "Garnacha",
+       "paid": "8.90"
+      },
+      "added": "2026-05-20",
+      "warnings": [],
+      "error": null,
+      "label": "Rosado del Alba",
+      "vintage": 2025,
+      "bottles": 6,
+      "action": "new"
+     },
+     {
+      "line": 17,
+      "form": {
+       "name": "Maison Brune Brut",
+       "vintage": "NV",
+       "bottles": "4",
+       "colour": "sparkling",
+       "producer": "Maison Brune",
+       "country": "France",
+       "region": "Champagne",
+       "appellation": "Champagne",
+       "grapes": "Chardonnay; Pinot Noir; Pinot Meunier",
+       "paid": "39.00"
+      },
+      "added": "2024-12-10",
+      "warnings": [],
+      "error": null,
+      "label": "Maison Brune Brut",
+      "vintage": null,
+      "bottles": 4,
+      "action": "new"
+     },
+     {
+      "line": 18,
+      "form": {
+       "name": "Cava Brut Nature Reserva",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "sparkling",
+       "producer": "Cellers de l'Ermita",
+       "country": "Spain",
+       "region": "Penedès",
+       "appellation": "Cava",
+       "grapes": "Macabeo; Xarel·lo; Parellada",
+       "paid": "15.00"
+      },
+      "added": "2024-11-03",
+      "warnings": [],
+      "error": null,
+      "label": "Cava Brut Nature Reserva",
+      "vintage": 2020,
+      "bottles": 6,
+      "action": "new"
+     },
+     {
+      "line": 19,
+      "form": {
+       "name": "Fino La Salina",
+       "vintage": "NV",
+       "bottles": "3",
+       "colour": "fortified",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Palomino",
+       "paid": "13.00"
+      },
+      "added": "2026-02-14",
+      "warnings": [],
+      "error": null,
+      "label": "Fino La Salina",
+      "vintage": null,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 20,
+      "form": {
+       "name": "Amontillado Viejo VORS",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "fortified",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Palomino",
+       "paid": "58.00"
+      },
+      "added": "2024-07-19",
+      "warnings": [],
+      "error": null,
+      "label": "Amontillado Viejo VORS",
+      "vintage": null,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 21,
+      "form": {
+       "name": "Pedro Ximénez Dulce",
+       "vintage": "NV",
+       "bottles": "2",
+       "colour": "sweet",
+       "producer": "Bodegas La Salina",
+       "country": "Spain",
+       "region": "Andalucía",
+       "appellation": "Jerez-Xérès-Sherry",
+       "grapes": "Pedro Ximénez",
+       "paid": "21.00"
+      },
+      "added": "2025-12-01",
+      "warnings": [],
+      "error": null,
+      "label": "Pedro Ximénez Dulce",
+      "vintage": null,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 22,
+      "form": {
+       "name": "Sidra Natural del Valle",
+       "vintage": "2025",
+       "bottles": "6",
+       "colour": "cider",
+       "producer": "Llagar del Valle",
+       "country": "Spain",
+       "region": "Asturias",
+       "appellation": "Sidra de Asturias",
+       "grapes": "Manzana",
+       "paid": "5.50"
+      },
+      "added": "2026-08-30",
+      "warnings": [],
+      "error": null,
+      "label": "Sidra Natural del Valle",
+      "vintage": 2025,
+      "bottles": 6,
+      "action": "new"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "empty file",
+  "rawBase64": "",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": "The file is empty.",
+    "rows": []
+   },
+   "es": {
+    "fatal": "El archivo está vacío.",
+    "rows": []
+   },
+   "fr": {
+    "fatal": "Le fichier est vide.",
+    "rows": []
+   }
+  }
+ },
+ {
+  "label": "only a newline",
+  "rawBase64": "Cg==",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": "The first row must be the column names. I could not find: name, vintage, bottles. Download the template and use its columns.",
+    "rows": []
+   },
+   "es": {
+    "fatal": "La primera fila debe contener los nombres de las columnas. No encuentro: name, vintage, bottles. Descarga la plantilla y usa sus columnas.",
+    "rows": []
+   },
+   "fr": {
+    "fatal": "La première ligne doit contenir les noms des colonnes. Je ne trouve pas : name, vintage, bottles. Téléchargez le modèle et utilisez ses colonnes.",
+    "rows": []
+   }
+  }
+ },
+ {
+  "label": "whitespace only",
+  "rawBase64": "ICAgCiAgCg==",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": "The first row must be the column names. I could not find: name, vintage, bottles. Download the template and use its columns.",
+    "rows": []
+   },
+   "es": {
+    "fatal": "La primera fila debe contener los nombres de las columnas. No encuentro: name, vintage, bottles. Descarga la plantilla y usa sus columnas.",
+    "rows": []
+   },
+   "fr": {
+    "fatal": "La première ligne doit contenir les noms des colonnes. Je ne trouve pas : name, vintage, bottles. Téléchargez le modèle et utilisez ses colonnes.",
+    "rows": []
+   }
+  }
+ },
+ {
+  "label": "missing columns",
+  "rawBase64": "d2luZSx5ZWFyClRvbmRvbmlhLDIwMTIK",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": "The first row must be the column names. I could not find: bottles. Download the template and use its columns.",
+    "rows": []
+   },
+   "es": {
+    "fatal": "La primera fila debe contener los nombres de las columnas. No encuentro: bottles. Descarga la plantilla y usa sus columnas.",
+    "rows": []
+   },
+   "fr": {
+    "fatal": "La première ligne doit contenir les noms des colonnes. Je ne trouve pas : bottles. Téléchargez le modèle et utilisez ses colonnes.",
+    "rows": []
+   }
+  }
+ },
+ {
+  "label": "no columns I know",
+  "rawBase64": "Zm9vLGJhcixiYXoKMSwyLDMK",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": "The first row must be the column names. I could not find: name, vintage, bottles. Download the template and use its columns.",
+    "rows": []
+   },
+   "es": {
+    "fatal": "La primera fila debe contener los nombres de las columnas. No encuentro: name, vintage, bottles. Descarga la plantilla y usa sus columnas.",
+    "rows": []
+   },
+   "fr": {
+    "fatal": "La première ligne doit contenir les noms des colonnes. Je ne trouve pas : name, vintage, bottles. Téléchargez le modèle et utilisez ses colonnes.",
+    "rows": []
+   }
+  }
+ },
+ {
+  "label": "semicolons and Spanish headers",
+  "rawBase64": "Tm9tYnJlO0HDsWFkYTtCb3RlbGxhcztUaXBvO0JvZGVnYTtQYcOtcztab25hO0Rlbm9taW5hY2nDs247VXZhcztQcmVjaW87RmVjaGEgZGUgY29tcHJhClZpw7FhIFRvbmRvbmlhIFJlc2VydmE7MjAxMjszO3RpbnRvO0zDs3BleiBkZSBIZXJlZGlhO1NwYWluO0xhIFJpb2phO1Jpb2phO1RlbXByYW5pbGxvOzM4LDUwOzE0LzAzLzIwMjIKQWxiYXJpw7FvIEZpbGxhYm9hOzIwMjI7NjtibGFuY287RmlsbGFib2E7U3BhaW47R2FsaWNpYTtSw61hcyBCYWl4YXM7QWxiYXJpw7FvOzEyLDk7MjAyNC0wNS0wMgo=",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Viña Tondonia Reserva",
+       "vintage": "2012",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "López de Heredia",
+       "country": "Spain",
+       "region": "La Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "38,50"
+      },
+      "added": "2022-03-14",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Albariño Fillaboa",
+       "vintage": "2022",
+       "bottles": "6",
+       "colour": "white",
+       "producer": "Fillaboa",
+       "country": "Spain",
+       "region": "Galicia",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "12,9"
+      },
+      "added": "2024-05-02",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Viña Tondonia Reserva",
+       "vintage": "2012",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "López de Heredia",
+       "country": "Spain",
+       "region": "La Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "38,50"
+      },
+      "added": "2022-03-14",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Albariño Fillaboa",
+       "vintage": "2022",
+       "bottles": "6",
+       "colour": "white",
+       "producer": "Fillaboa",
+       "country": "Spain",
+       "region": "Galicia",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "12,9"
+      },
+      "added": "2024-05-02",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Viña Tondonia Reserva",
+       "vintage": "2012",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "López de Heredia",
+       "country": "Spain",
+       "region": "La Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "38,50"
+      },
+      "added": "2022-03-14",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Albariño Fillaboa",
+       "vintage": "2022",
+       "bottles": "6",
+       "colour": "white",
+       "producer": "Fillaboa",
+       "country": "Spain",
+       "region": "Galicia",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "12,9"
+      },
+      "added": "2024-05-02",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "tabs and French headers",
+  "rawBase64": "bm9tCW1pbGzDqXNpbWUJYm91dGVpbGxlcwljb3VsZXVyCXByb2R1Y3RldXIJcGF5cwlwcml4CkNoYWJsaXMgUHJlbWllciBDcnUJMjAxOQkyCWJsYW5jCURhdXZpc3NhdAlGcmFuY2UJNDUsMDAK",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Chablis Premier Cru",
+       "vintage": "2019",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Dauvissat",
+       "country": "France",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "45,00"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Chablis Premier Cru",
+       "vintage": "2019",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Dauvissat",
+       "country": "France",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "45,00"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Chablis Premier Cru",
+       "vintage": "2019",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Dauvissat",
+       "country": "France",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "45,00"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "BOM and Windows line ends",
+  "rawBase64": "77u/bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlDQpXaW5lIEEsMjAxNSwyLHJlZCwsLCwsLDEwLDIwMjQtMDEtMDENCldpbmUgQixOViwxLHdoaXRlLCwsLCwsLA0K",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Wine A",
+       "vintage": "2015",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "10"
+      },
+      "added": "2024-01-01",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Wine B",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Wine A",
+       "vintage": "2015",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "10"
+      },
+      "added": "2024-01-01",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Wine B",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Wine A",
+       "vintage": "2015",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "10"
+      },
+      "added": "2024-01-01",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Wine B",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "old Windows encoding (cp1252)",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZQpWafFhIEFyZGFuemEsMjAxNSwyLHRpbnRvCkFsYmFyafFvIGNhZuksMjAyMCwxLGJsYW5jbwo=",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Viña Ardanza",
+       "vintage": "2015",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Albariño café",
+       "vintage": "2020",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Viña Ardanza",
+       "vintage": "2015",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Albariño café",
+       "vintage": "2020",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Viña Ardanza",
+       "vintage": "2015",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Albariño café",
+       "vintage": "2020",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "quotes, commas and line breaks in a cell",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCiJXaW5lLCB3aXRoIGEgY29tbWEiLDIwMTgsMixyZWQsIlByb2R1Y2VyICIiT25lIiIiLCwsLCwiMTIsNTAiLAoiVHdvCmxpbmVzIiwyMDE5LDEsd2hpdGUsLCwsLCwsCg==",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Wine, with a comma",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Producer \"One\"",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "12,50"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Two\nlines",
+       "vintage": "2019",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Wine, with a comma",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Producer \"One\"",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "12,50"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Two\nlines",
+       "vintage": "2019",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Wine, with a comma",
+       "vintage": "2018",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Producer \"One\"",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "12,50"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Two\nlines",
+       "vintage": "2019",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "types",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCkEsMjAxNSwxLFRpbnRvLCwsLCwsLApCLDIwMTUsMSxCTEFOQ08sLCwsLCwsCkMsMjAxNSwxLFJvc2FkbywsLCwsLCwKRCwyMDE1LDEsQ2F2YSwsLCwsLCwKRSwyMDE1LDEsUm9zw6ksLCwsLCwsCkYsMjAxNSwxLG9yYW5nZSwsLCwsLCwKRywyMDE1LDEsU2hlcnJ5LCwsLCwsLApILDIwMTUsMSxzaWRyYSwsLCwsLCwKSSwyMDE1LDEsLCwsLCwsLApKLDIwMTUsMSxEdWxjZSwsLCwsLCwK",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "rosé",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "sparkling",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "rosé",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [
+       "Type 'orange' not recognised; left empty."
+      ],
+      "error": null
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "G",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "fortified",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "H",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "cider",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "I",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 11,
+      "form": {
+       "name": "J",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "sweet",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "rosé",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "sparkling",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "rosé",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [
+       "Tipo «orange» no reconocido; se deja vacío."
+      ],
+      "error": null
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "G",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "fortified",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "H",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "cider",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "I",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 11,
+      "form": {
+       "name": "J",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "sweet",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "rosé",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "sparkling",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "rosé",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [
+       "Type « orange » non reconnu ; laissé vide."
+      ],
+      "error": null
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "G",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "fortified",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "H",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "cider",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "I",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 11,
+      "form": {
+       "name": "J",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "sweet",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "dates",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCkEsMjAxNSwxLHJlZCwsLCwsLCwyMDI0LTA1LTAzCkIsMjAxNSwxLHJlZCwsLCwsLCwwMy8wNS8yMDI0CkMsMjAxNSwxLHJlZCwsLCwsLCwzLTUtMjAyNApELDIwMTUsMSxyZWQsLCwsLCwsMDMuMDUuMjAyNApFLDIwMTUsMSxyZWQsLCwsLCwsMDMvMDUvMjQKRiwyMDE1LDEscmVkLCwsLCwsLDMxLzAyLzIwMjQKRywyMDE1LDEscmVkLCwsLCwsLHllc3RlcmRheQpILDIwMTUsMSxyZWQsLCwsLCwsMjAyNC01LTMKSSwyMDE1LDEscmVkLCwsLCwsLDAzLzA1LzcwCg==",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [
+       "Date '31/02/2024' not understood (use YYYY-MM-DD); left empty."
+      ],
+      "error": null
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "G",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [
+       "Date 'yesterday' not understood (use YYYY-MM-DD); left empty."
+      ],
+      "error": null
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "H",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "I",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "1970-05-03",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [
+       "Fecha «31/02/2024» no entendida (usa AAAA-MM-DD); se deja vacía."
+      ],
+      "error": null
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "G",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [
+       "Fecha «yesterday» no entendida (usa AAAA-MM-DD); se deja vacía."
+      ],
+      "error": null
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "H",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "I",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "1970-05-03",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [
+       "Date « 31/02/2024 » non comprise (utilisez AAAA-MM-JJ) ; laissée vide."
+      ],
+      "error": null
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "G",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [
+       "Date « yesterday » non comprise (utilisez AAAA-MM-JJ) ; laissée vide."
+      ],
+      "error": null
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "H",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-05-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "I",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "1970-05-03",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "vintages",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCkEsTlYsMSxyZWQsLCwsLCwsCkIsbnYsMSxyZWQsLCwsLCwsCkMsLDEscmVkLCwsLCwsLApELGFiYywxLHJlZCwsLCwsLCwKRSwxNzk5LDEscmVkLCwsLCwsLApGLDIxMDEsMSxyZWQsLCwsLCwsCkcsMjAxMi41LDEscmVkLCwsLCwsLApILCAyMDE1ICwxLHJlZCwsLCwsLCwKSSwrMjAxNSwxLHJlZCwsLCwsLCwKSiwxODAwLDEscmVkLCwsLCwsLApLLDIxMDAsMSxyZWQsLCwsLCwsCkwsTnYsMSxyZWQsLCwsLCwsCg==",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "nv",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "The vintage is required: write a year, or NV for a non-vintage wine."
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "abc",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "The vintage must be a year, or empty / NV."
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "1799",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "The vintage must be a year, or empty / NV."
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2101",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "The vintage must be a year, or empty / NV."
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "G",
+       "vintage": "2012.5",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "The vintage must be a year, or empty / NV."
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "H",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "I",
+       "vintage": "+2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 11,
+      "form": {
+       "name": "J",
+       "vintage": "1800",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 12,
+      "form": {
+       "name": "K",
+       "vintage": "2100",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 13,
+      "form": {
+       "name": "L",
+       "vintage": "Nv",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "nv",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Falta la añada: escribe un año, o NV si el vino no tiene añada."
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "abc",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "La añada debe ser un año, o estar vacía / NV."
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "1799",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "La añada debe ser un año, o estar vacía / NV."
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2101",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "La añada debe ser un año, o estar vacía / NV."
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "G",
+       "vintage": "2012.5",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "La añada debe ser un año, o estar vacía / NV."
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "H",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "I",
+       "vintage": "+2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 11,
+      "form": {
+       "name": "J",
+       "vintage": "1800",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 12,
+      "form": {
+       "name": "K",
+       "vintage": "2100",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 13,
+      "form": {
+       "name": "L",
+       "vintage": "Nv",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "nv",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Le millésime est obligatoire : écrivez une année, ou NV pour un vin sans millésime."
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "abc",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Le millésime doit être une année, ou vide / NV."
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "1799",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Le millésime doit être une année, ou vide / NV."
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2101",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Le millésime doit être une année, ou vide / NV."
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "G",
+       "vintage": "2012.5",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Le millésime doit être une année, ou vide / NV."
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "H",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "I",
+       "vintage": "+2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 11,
+      "form": {
+       "name": "J",
+       "vintage": "1800",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 12,
+      "form": {
+       "name": "K",
+       "vintage": "2100",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 13,
+      "form": {
+       "name": "L",
+       "vintage": "Nv",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "bottles",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCkEsMjAxNSwscmVkLCwsLCwsLApCLDIwMTUsMCxyZWQsLCwsLCwsCkMsMjAxNSwzLjcscmVkLCwsLCwsLApELDIwMTUsLTEscmVkLCwsLCwsLApFLDIwMTUsLTAuNCxyZWQsLCwsLCwsCkYsMjAxNSxhYmMscmVkLCwsLCwsLApHLDIwMTUsIjEsNSIscmVkLCwsLCwsLApILDIwMTUsMWUyLHJlZCwsLCwsLCwKSSwyMDE1LCA2ICxyZWQsLCwsLCwsCg==",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Bottles is empty."
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "2015",
+       "bottles": "0",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "2015",
+       "bottles": "3.7",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "2015",
+       "bottles": "-1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Bottles and price paid cannot be negative."
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "2015",
+       "bottles": "-0.4",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2015",
+       "bottles": "abc",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Bottles, price paid, format and alcohol must be numbers."
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "G",
+       "vintage": "2015",
+       "bottles": "1,5",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "H",
+       "vintage": "2015",
+       "bottles": "1e2",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "I",
+       "vintage": "2015",
+       "bottles": "6",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Falta el número de botellas."
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "2015",
+       "bottles": "0",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "2015",
+       "bottles": "3.7",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "2015",
+       "bottles": "-1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Las botellas y el precio no pueden ser negativos."
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "2015",
+       "bottles": "-0.4",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2015",
+       "bottles": "abc",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Botellas, precio, formato y alcohol deben ser números."
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "G",
+       "vintage": "2015",
+       "bottles": "1,5",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "H",
+       "vintage": "2015",
+       "bottles": "1e2",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "I",
+       "vintage": "2015",
+       "bottles": "6",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Le nombre de bouteilles est vide."
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "2015",
+       "bottles": "0",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "2015",
+       "bottles": "3.7",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "2015",
+       "bottles": "-1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Les bouteilles et le prix ne peuvent pas être négatifs."
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "2015",
+       "bottles": "-0.4",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2015",
+       "bottles": "abc",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Bouteilles, prix, format et alcool doivent être des nombres."
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "G",
+       "vintage": "2015",
+       "bottles": "1,5",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "H",
+       "vintage": "2015",
+       "bottles": "1e2",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "I",
+       "vintage": "2015",
+       "bottles": "6",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "prices",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCkEsMjAxNSwxLHJlZCwsLCwsLCIxMiw1MCIsCkIsMjAxNSwxLHJlZCwsLCwsLDEyLjUsCkMsMjAxNSwxLHJlZCwsLCwsLOKCrDEyLApELDIwMTUsMSxyZWQsLCwsLCwtMywKRSwyMDE1LDEscmVkLCwsLCwsMCwKRiwyMDE1LDEscmVkLCwsLCwsMWUxLAo=",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "12,50"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "12.5"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "€12"
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Bottles, price paid, format and alcohol must be numbers."
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "-3"
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Bottles and price paid cannot be negative."
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "0"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "1e1"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "12,50"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "12.5"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "€12"
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Botellas, precio, formato y alcohol deben ser números."
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "-3"
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Las botellas y el precio no pueden ser negativos."
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "0"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "1e1"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "12,50"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "B",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "12.5"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "C",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "€12"
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Bouteilles, prix, format et alcool doivent être des nombres."
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "D",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "-3"
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Les bouteilles et le prix ne peuvent pas être négatifs."
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "E",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "0"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "F",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": "1e1"
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "no name",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCiwyMDE1LDEscmVkLCwsLCwsLAogICwyMDE1LDEscmVkLCwsLCwsLAo=",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "The wine needs a name."
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "The wine needs a name."
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "El vino necesita un nombre."
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "El vino necesita un nombre."
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Le vin a besoin d'un nom."
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Le vin a besoin d'un nom."
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "duplicates inside the file",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlClRvbmRvbmlhLDIwMTIsMSxyZWQsLCwsLCwsClRvbmRvbmlhLDIwMTIsMixyZWQsLCwsLCwsClRvbmRvbmlhIDIwMTIsMjAxMiwxLHJlZCwsLCwsLCwKVG9uZG9uaWEsMjAxMywxLHJlZCwsLCwsLCwKVG9uZG9uaWEsTlYsMSxyZWQsLCwsLCwsClRvbmRvbmlhLE5WLDEscmVkLCwsLCwsLApUT05ET05JQSwyMDEyLDEscmVkLCwsLCwsLAo=",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "2012",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "2012",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "Tondonia 2012",
+       "vintage": "2012",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "2013",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "TONDONIA",
+       "vintage": "2012",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "2012",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "2012",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "Tondonia 2012",
+       "vintage": "2012",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "2013",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "TONDONIA",
+       "vintage": "2012",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "2012",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "2012",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "Tondonia 2012",
+       "vintage": "2012",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "2013",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "Tondonia",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "TONDONIA",
+       "vintage": "2012",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "blank lines, short and long rows",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCkEsMjAxNSwxCgpCLDIwMTYsMixyZWQsUCxDLFIsQXAsRyw1LDIwMjQtMDEtMDEsZXh0cmEsY2VsbHMKICAgLCAgLCAgCiwsCkMsMjAxNywzCg==",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "B",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "P",
+       "country": "C",
+       "region": "R",
+       "appellation": "Ap",
+       "grapes": "G",
+       "paid": "5"
+      },
+      "added": "2024-01-01",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "C",
+       "vintage": "2017",
+       "bottles": "3",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "B",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "P",
+       "country": "C",
+       "region": "R",
+       "appellation": "Ap",
+       "grapes": "G",
+       "paid": "5"
+      },
+      "added": "2024-01-01",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "C",
+       "vintage": "2017",
+       "bottles": "3",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "B",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "P",
+       "country": "C",
+       "region": "R",
+       "appellation": "Ap",
+       "grapes": "G",
+       "paid": "5"
+      },
+      "added": "2024-01-01",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "C",
+       "vintage": "2017",
+       "bottles": "3",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "repeated and unknown columns",
+  "rawBase64": "bmFtZSxOYW1lLHZpbnRhZ2UsYm90dGxlcyxjb2xvdXIsdHlwZSxjb21tZW50CkEsQiwyMDE1LDEscmVkLHdoaXRlLGhlbGxvCg==",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "spaces in names and headers",
+  "rawBase64": "IE5hbWUgLCBWaW50YWdlICwgQm90dGxlcyAKICBXaW5lIEEgICwyMDE1LDEK",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Wine A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Wine A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Wine A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "header aliases",
+  "rawBase64": "d2luZSx5ZWFyLHF0eSxzdHlsZSxlc3RhdGUscGFpcyx6b25hLERPLGNlcGFnZXMscHJpeCxkYXRlCkEsMjAxNSwxLHJlZCxFLFNwYWluLFosRCxHLDUsMjAyNC0wMS0wMQo=",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "E",
+       "country": "Spain",
+       "region": "Z",
+       "appellation": "D",
+       "grapes": "G",
+       "paid": "5"
+      },
+      "added": "2024-01-01",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "E",
+       "country": "Spain",
+       "region": "Z",
+       "appellation": "D",
+       "grapes": "G",
+       "paid": "5"
+      },
+      "added": "2024-01-01",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "E",
+       "country": "Spain",
+       "region": "Z",
+       "appellation": "D",
+       "grapes": "G",
+       "paid": "5"
+      },
+      "added": "2024-01-01",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "header with underscores",
+  "rawBase64": "d2luZSBuYW1lLGNvc2VjaGEsY2FudGlkYWQscHVyY2hhc2UgZGF0ZQpBLDIwMTUsMSwyMDI0LTAxLTAxCg==",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-01-01",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-01-01",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "A",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": "2024-01-01",
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "vintage in the name",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlClZpw7FhIFRvbmRvbmlhIFJlc2VydmEgMjAxMiwyMDEyLDEscmVkLCwsLCwsLApWacOxYSBUb25kb25pYSBSZXNlcnZhIDIwMTIsMjAxMywxLHJlZCwsLCwsLCwK",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Viña Tondonia Reserva 2012",
+       "vintage": "2012",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Viña Tondonia Reserva 2012",
+       "vintage": "2013",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Viña Tondonia Reserva 2012",
+       "vintage": "2012",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Viña Tondonia Reserva 2012",
+       "vintage": "2013",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Viña Tondonia Reserva 2012",
+       "vintage": "2012",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Viña Tondonia Reserva 2012",
+       "vintage": "2013",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "existing wines: update, same, new",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMKVmnDsWEgVG9uZG9uaWEgUmVzZXJ2YSwyMDEyLDIKVmnDsWEgVG9uZG9uaWEgUmVzZXJ2YSwyMDEzLDEKQWx0YW1pcmEgQ3JpYW56YSxOViwwCkFsdGFtaXJhIENyaWFuemEsTlYsNQpUaW8gUGVwZSxOViwwClJpb2phIEJsYW5jbyBSZXNlcnZhLDIwMTUsMwpGaW5jYSBMYSBVbWJyaWEsMjAyMiwwCkZpbmNhIExhIFVtYnJpYSwyMDIxLDEKTmV3IFdpbmUsMjAyMCw2Cg==",
+  "existing": true,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Viña Tondonia Reserva",
+       "vintage": "2012",
+       "bottles": "2",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Viña Tondonia Reserva",
+      "vintage": 2012,
+      "bottles": 2,
+      "action": "update",
+      "wine_id": 1,
+      "was": 3,
+      "now": 5
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Viña Tondonia Reserva",
+       "vintage": "2013",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Viña Tondonia Reserva",
+      "vintage": 2013,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "Altamira Crianza",
+       "vintage": "NV",
+       "bottles": "0",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Altamira Crianza",
+      "vintage": null,
+      "bottles": 0,
+      "action": "same",
+      "wine_id": 2
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Altamira Crianza",
+       "vintage": "NV",
+       "bottles": "5",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Same wine and vintage as line 4; this line is skipped.",
+      "label": "Altamira Crianza",
+      "vintage": null,
+      "bottles": 5,
+      "action": "error"
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "Tio Pepe",
+       "vintage": "NV",
+       "bottles": "0",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Tio Pepe",
+      "vintage": null,
+      "bottles": 0,
+      "action": "same",
+      "wine_id": 3
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "Rioja Blanco Reserva",
+       "vintage": "2015",
+       "bottles": "3",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Rioja Blanco Reserva",
+      "vintage": 2015,
+      "bottles": 3,
+      "action": "update",
+      "wine_id": 4,
+      "was": 1,
+      "now": 4
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "Finca La Umbria",
+       "vintage": "2022",
+       "bottles": "0",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Finca La Umbria",
+      "vintage": 2022,
+      "bottles": 0,
+      "action": "same",
+      "wine_id": 5
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "Finca La Umbria",
+       "vintage": "2021",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Finca La Umbria",
+      "vintage": 2021,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "New Wine",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "New Wine",
+      "vintage": 2020,
+      "bottles": 6,
+      "action": "new"
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Viña Tondonia Reserva",
+       "vintage": "2012",
+       "bottles": "2",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Viña Tondonia Reserva",
+      "vintage": 2012,
+      "bottles": 2,
+      "action": "update",
+      "wine_id": 1,
+      "was": 3,
+      "now": 5
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Viña Tondonia Reserva",
+       "vintage": "2013",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Viña Tondonia Reserva",
+      "vintage": 2013,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "Altamira Crianza",
+       "vintage": "NV",
+       "bottles": "0",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Altamira Crianza",
+      "vintage": null,
+      "bottles": 0,
+      "action": "same",
+      "wine_id": 2
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Altamira Crianza",
+       "vintage": "NV",
+       "bottles": "5",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Mismo vino y añada que la línea 4; esta línea se omite.",
+      "label": "Altamira Crianza",
+      "vintage": null,
+      "bottles": 5,
+      "action": "error"
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "Tio Pepe",
+       "vintage": "NV",
+       "bottles": "0",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Tio Pepe",
+      "vintage": null,
+      "bottles": 0,
+      "action": "same",
+      "wine_id": 3
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "Rioja Blanco Reserva",
+       "vintage": "2015",
+       "bottles": "3",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Rioja Blanco Reserva",
+      "vintage": 2015,
+      "bottles": 3,
+      "action": "update",
+      "wine_id": 4,
+      "was": 1,
+      "now": 4
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "Finca La Umbria",
+       "vintage": "2022",
+       "bottles": "0",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Finca La Umbria",
+      "vintage": 2022,
+      "bottles": 0,
+      "action": "same",
+      "wine_id": 5
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "Finca La Umbria",
+       "vintage": "2021",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Finca La Umbria",
+      "vintage": 2021,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "New Wine",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "New Wine",
+      "vintage": 2020,
+      "bottles": 6,
+      "action": "new"
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Viña Tondonia Reserva",
+       "vintage": "2012",
+       "bottles": "2",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Viña Tondonia Reserva",
+      "vintage": 2012,
+      "bottles": 2,
+      "action": "update",
+      "wine_id": 1,
+      "was": 3,
+      "now": 5
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Viña Tondonia Reserva",
+       "vintage": "2013",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Viña Tondonia Reserva",
+      "vintage": 2013,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "Altamira Crianza",
+       "vintage": "NV",
+       "bottles": "0",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Altamira Crianza",
+      "vintage": null,
+      "bottles": 0,
+      "action": "same",
+      "wine_id": 2
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Altamira Crianza",
+       "vintage": "NV",
+       "bottles": "5",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Même vin et même millésime que la ligne 4 ; cette ligne est ignorée.",
+      "label": "Altamira Crianza",
+      "vintage": null,
+      "bottles": 5,
+      "action": "error"
+     },
+     {
+      "line": 6,
+      "form": {
+       "name": "Tio Pepe",
+       "vintage": "NV",
+       "bottles": "0",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Tio Pepe",
+      "vintage": null,
+      "bottles": 0,
+      "action": "same",
+      "wine_id": 3
+     },
+     {
+      "line": 7,
+      "form": {
+       "name": "Rioja Blanco Reserva",
+       "vintage": "2015",
+       "bottles": "3",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Rioja Blanco Reserva",
+      "vintage": 2015,
+      "bottles": 3,
+      "action": "update",
+      "wine_id": 4,
+      "was": 1,
+      "now": 4
+     },
+     {
+      "line": 8,
+      "form": {
+       "name": "Finca La Umbria",
+       "vintage": "2022",
+       "bottles": "0",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Finca La Umbria",
+      "vintage": 2022,
+      "bottles": 0,
+      "action": "same",
+      "wine_id": 5
+     },
+     {
+      "line": 9,
+      "form": {
+       "name": "Finca La Umbria",
+       "vintage": "2021",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Finca La Umbria",
+      "vintage": 2021,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 10,
+      "form": {
+       "name": "New Wine",
+       "vintage": "2020",
+       "bottles": "6",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "New Wine",
+      "vintage": 2020,
+      "bottles": 6,
+      "action": "new"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "existing wines, duplicate and error rows",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMKVGlvIFBlcGUsTlYsMQpUaW8gUGVwZSxOViwxCixOViwxClRpbyBQZXBlLHgsMQo=",
+  "existing": true,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Tio Pepe",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Tio Pepe",
+      "vintage": null,
+      "bottles": 1,
+      "action": "update",
+      "wine_id": 3,
+      "was": 2,
+      "now": 3
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Tio Pepe",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Same wine and vintage as line 2; this line is skipped.",
+      "label": "Tio Pepe",
+      "vintage": null,
+      "bottles": 1,
+      "action": "error"
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "The wine needs a name.",
+      "action": "error"
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Tio Pepe",
+       "vintage": "x",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "The vintage must be a year, or empty / NV.",
+      "action": "error"
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Tio Pepe",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Tio Pepe",
+      "vintage": null,
+      "bottles": 1,
+      "action": "update",
+      "wine_id": 3,
+      "was": 2,
+      "now": 3
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Tio Pepe",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Mismo vino y añada que la línea 2; esta línea se omite.",
+      "label": "Tio Pepe",
+      "vintage": null,
+      "bottles": 1,
+      "action": "error"
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "El vino necesita un nombre.",
+      "action": "error"
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Tio Pepe",
+       "vintage": "x",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "La añada debe ser un año, o estar vacía / NV.",
+      "action": "error"
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Tio Pepe",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null,
+      "label": "Tio Pepe",
+      "vintage": null,
+      "bottles": 1,
+      "action": "update",
+      "wine_id": 3,
+      "was": 2,
+      "now": 3
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Tio Pepe",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Même vin et même millésime que la ligne 2 ; cette ligne est ignorée.",
+      "label": "Tio Pepe",
+      "vintage": null,
+      "bottles": 1,
+      "action": "error"
+     },
+     {
+      "line": 4,
+      "form": {
+       "name": "",
+       "vintage": "NV",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Le vin a besoin d'un nom.",
+      "action": "error"
+     },
+     {
+      "line": 5,
+      "form": {
+       "name": "Tio Pepe",
+       "vintage": "x",
+       "bottles": "1",
+       "colour": "",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": "Le millésime doit être une année, ou vide / NV.",
+      "action": "error"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "label": "only blank rows after header",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCgoKLCwsLCwsLCwsLAo=",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": "The file has column names but no wines.",
+    "rows": []
+   },
+   "es": {
+    "fatal": "El archivo tiene nombres de columnas pero ningún vino.",
+    "rows": []
+   },
+   "fr": {
+    "fatal": "Le fichier contient les noms de colonnes mais aucun vin.",
+    "rows": []
+   }
+  }
+ },
+ {
+  "label": "one quote in the middle of a cell",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCldpbmUgIkdyYW4iIFJlc2VydmEsMjAxNSwxLHJlZCwsLCwsLCwKV2luZSA1IiB0YWxsLDIwMTYsMSxyZWQsLCwsLCwsCg==",
+  "existing": false,
+  "results": {
+   "en": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Wine \"Gran\" Reserva",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Wine 5\" tall",
+       "vintage": "2016",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "es": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Wine \"Gran\" Reserva",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Wine 5\" tall",
+       "vintage": "2016",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   },
+   "fr": {
+    "fatal": null,
+    "rows": [
+     {
+      "line": 2,
+      "form": {
+       "name": "Wine \"Gran\" Reserva",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 3,
+      "form": {
+       "name": "Wine 5\" tall",
+       "vintage": "2016",
+       "bottles": "1",
+       "colour": "red",
+       "producer": "",
+       "country": "",
+       "region": "",
+       "appellation": "",
+       "grapes": "",
+       "paid": ""
+      },
+      "added": null,
+      "warnings": [],
+      "error": null
+     }
+    ]
+   }
+  }
+ }
+]

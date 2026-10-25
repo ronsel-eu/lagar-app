@@ -1,0 +1,22 @@
+name,vintage,bottles,type,producer,country,region,appellation,grapes,paid,purchase_date
+Bodegas Altamira Gran Reserva,2010,3,red,Bodegas Altamira,Spain,Rioja,Rioja,Tempranillo,48.50,2022-03-14
+Bodegas Altamira Crianza,2020,6,red,Bodegas Altamira,Spain,Rioja,Rioja,Tempranillo,12.90,2024-05-02
+Viñedos del Norte Reserva,2016,2,red,Viñedos del Norte,Spain,Ribera del Duero,Ribera del Duero,Tempranillo,32.00,2023-01-20
+Finca La Umbría,2022,4,red,Finca La Umbría,Spain,Ribera del Duero,Ribera del Duero,Tempranillo,18.50,2025-02-11
+Clos des Hirondelles,2018,2,red,Clos des Hirondelles,France,Bordeaux,Bordeaux,Cabernet Sauvignon; Merlot,85.00,2022-11-05
+Domaine Les Coteaux,2019,3,red,Domaine Les Coteaux,France,Burgundy,Gevrey-Chambertin,Pinot Noir,56.00,2023-06-18
+Cantina Rosa dei Venti,2017,2,red,Cantina Rosa dei Venti,Italy,Piedmont,Barolo,Nebbiolo,42.00,2023-09-30
+Celler Pedra Negra,2019,3,red,Celler Pedra Negra,Spain,Priorat,Priorat,Garnacha; Cariñena,29.00,2024-01-15
+Quinta do Moinho Reserva,2015,2,red,Quinta do Moinho,Portugal,Douro,Douro,Touriga Nacional; Tinta Roriz,24.00,2022-10-08
+Pazo de Marés,2024,6,white,Pazo de Marés,Spain,Rías Baixas,Rías Baixas,Albariño,14.50,2025-09-12
+Weingut Sonnenhang Kabinett,2021,4,white,Weingut Sonnenhang,Germany,Mosel,Mosel,Riesling,19.00,2023-04-22
+Weingut Sonnenhang Spätlese,2018,2,white,Weingut Sonnenhang,Germany,Mosel,Mosel,Riesling,26.00,2022-04-10
+Domaine des Pierres Blanches 1er Cru,2019,3,white,Domaine des Pierres Blanches,France,Burgundy,Chablis,Chardonnay,38.00,2023-02-27
+Bodegas Altamira Blanco Reserva,2011,2,white,Bodegas Altamira,Spain,Rioja,Rioja,Viura; Malvasía,34.00,2022-06-01
+Rosado del Alba,2025,6,rosé,Rosado del Alba,Spain,Navarra,Navarra,Garnacha,8.90,2026-05-20
+Maison Brune Brut,NV,4,sparkling,Maison Brune,France,Champagne,Champagne,Chardonnay; Pinot Noir; Pinot Meunier,39.00,2024-12-10
+Cava Brut Nature Reserva,2020,6,sparkling,Cellers de l'Ermita,Spain,Penedès,Cava,Macabeo; Xarel·lo; Parellada,15.00,2024-11-03
+Fino La Salina,NV,3,fortified,Bodegas La Salina,Spain,Andalucía,Jerez-Xérès-Sherry,Palomino,13.00,2026-02-14
+Amontillado Viejo VORS,NV,1,fortified,Bodegas La Salina,Spain,Andalucía,Jerez-Xérès-Sherry,Palomino,58.00,2024-07-19
+Pedro Ximénez Dulce,NV,2,sweet,Bodegas La Salina,Spain,Andalucía,Jerez-Xérès-Sherry,Pedro Ximénez,21.00,2025-12-01
+Sidra Natural del Valle,2025,6,cider,Llagar del Valle,Spain,Asturias,Sidra de Asturias,Manzana,5.50,2026-08-30
