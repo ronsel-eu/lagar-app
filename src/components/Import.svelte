@@ -137,8 +137,8 @@
     {#if nNew || nUpdate}
       <div class="formpad">
         <p>
-          <button class="btn" type="button" onclick={confirm}>
-            {nUpdate ? t('Import {n} new and restock {m}', { n: nNew, m: nUpdate }) : t('Import {n} new', { n: nNew })}
+          <button class="btn" type="button" onclick={confirm} disabled={busy}>
+            {busy ? t('Importing…') : nUpdate ? t('Import {n} new and restock {m}', { n: nNew, m: nUpdate }) : t('Import {n} new', { n: nNew })}
           </button>
           <button class="link sub" type="button" onclick={back} style="margin-left: 12px">{t('Cancel')}</button>
         </p>

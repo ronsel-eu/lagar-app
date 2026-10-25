@@ -60,4 +60,5 @@ export const EXTRA: Record<string, { es: string; fr: string }> = {
   'The CSV text': { es: 'El texto del CSV', fr: 'Le texte du CSV' },
   'Check the text': { es: 'Revisar el texto', fr: 'Vérifier le texte' },
   'The import failed: {error}': { es: 'La importación falló: {error}', fr: 'L’importation a échoué : {error}' },
+  'Importing…': { es: 'Importando…', fr: 'Importation…' },
 }
