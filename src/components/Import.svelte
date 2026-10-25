@@ -97,7 +97,7 @@
 
   <section class="sec">
     <h2>{t('3 · Upload it')}</h2>
-    <p><input type="file" accept=".csv,text/csv,text/plain" onchange={pick} /></p>
+    <p><input type="file" onchange={pick} /></p>
     {#if cellar.wines.length === 0}<p><button class="btn secondary" type="button" onclick={trySample}>{t('Try a sample cellar')}</button></p>{/if}
     <p class="lead">{t('Nothing is saved yet, and nothing is ever deleted. A wine that is not in Lagar is added; a wine that is already there gets the bottles in the file added to its stock.')}</p>
   </section>
