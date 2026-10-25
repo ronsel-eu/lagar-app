@@ -21,6 +21,11 @@ describe('service worker', () => {
     expect(versionOf(files)).not.toBe(versionOf([files[0], { ...files[1], hash: 'ccc' }]))
     expect(buildSw(files)).not.toBe(buildSw([files[0], { ...files[1], hash: 'ccc' }]))
   })
+  it('fetches every file past the browser cache, so a stale index.html can never be kept', () => {
+    const sw = buildSw(files)
+    expect(sw).toContain("cache: 'reload'")
+    expect(sw).not.toContain('addAll')
+  })
   it('only deletes its own old caches', () => {
     expect(buildSw(files)).toContain("n.startsWith('lagar-')")
   })

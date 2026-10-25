@@ -9,7 +9,7 @@ const app = mount(App, { target: document.getElementById('app')! })
 // The offline copy: only in the real build, never while developing.
 if (import.meta.env.PROD && 'serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js').catch(() => {})
+    navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' }).catch(() => {})
   })
 }
 watchInstall()

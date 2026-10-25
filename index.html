@@ -18,13 +18,15 @@
     <noscript>Lagar needs JavaScript.</noscript>
     <script>
       // If the app cannot start (an old browser, say), show why instead of a blank page.
+      // (capture: a script that fails to load reports on its own tag, not on the window)
       window.addEventListener('error', function (e) {
         var app = document.getElementById('app')
         if (app && !app.children.length) {
           app.style.cssText = 'padding:24px;font:16px/1.4 system-ui,sans-serif;color:#1B1815'
-          app.textContent = 'Lagar could not start: ' + (e.message || 'unknown error')
+          var what = e.message || (e.target && (e.target.src || e.target.href)) || 'unknown error'
+          app.textContent = 'Lagar could not start: ' + what + '. Close the app and open it again; if this stays, clear its data.'
         }
-      })
+      }, true)
     </script>
     <script type="module" src="/src/main.ts"></script>
   </body>

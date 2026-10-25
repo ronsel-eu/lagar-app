@@ -41,8 +41,23 @@ export function buildSw(files: BuiltFile[]): string {
 const CACHE = 'lagar-${version}'
 const FILES = ${JSON.stringify(urls)}
 
+// Every file is fetched past the browser's own cache ('reload'): GitHub Pages lets browsers keep index.html for ten
+// minutes, and an old index.html pointing at files that no longer exist would leave a blank page.
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)).then(() => self.skipWaiting()))
+  event.waitUntil(
+    caches.open(CACHE)
+      .then((cache) =>
+        Promise.all(
+          FILES.map((url) =>
+            fetch(new Request(url, { cache: 'reload' })).then((res) => {
+              if (!res.ok) throw new Error(url + ' ' + res.status)
+              return cache.put(url, res)
+            }),
+          ),
+        ),
+      )
+      .then(() => self.skipWaiting()),
+  )
 })
 
 self.addEventListener('activate', (event) => {
