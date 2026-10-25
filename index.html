@@ -15,6 +15,17 @@
   </head>
   <body>
     <div id="app"></div>
+    <noscript>Lagar needs JavaScript.</noscript>
+    <script>
+      // If the app cannot start (an old browser, say), show why instead of a blank page.
+      window.addEventListener('error', function (e) {
+        var app = document.getElementById('app')
+        if (app && !app.children.length) {
+          app.style.cssText = 'padding:24px;font:16px/1.4 system-ui,sans-serif;color:#1B1815'
+          app.textContent = 'Lagar could not start: ' + (e.message || 'unknown error')
+        }
+      })
+    </script>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

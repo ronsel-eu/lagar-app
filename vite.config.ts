@@ -6,6 +6,8 @@ import { swPlugin } from './tools/sw-plugin'
 // GitHub Pages (a sub-path like /lagar-app/) and locally.
 export default defineConfig({
   base: './',
+  // Older iPhones (Safari 14 and up) must be able to run the app too.
+  build: { target: ['es2020', 'safari14'] },
   plugins: [svelte(), swPlugin()],
   test: { environment: 'node', include: ['src/**/*.test.ts', 'tools/**/*.test.ts'] },
 })
