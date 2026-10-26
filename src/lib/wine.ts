@@ -162,10 +162,10 @@ export function wineFromForm(input: WineForm, base: Wine | null, lang: Lang, now
     wine: {
       id: base?.id ?? newId(), name: parsed.name, vintage: parsed.vintage ?? 'NV', bottles, type,
       producer: parsed.producer, country: parsed.country, region: parsed.region, appellation: parsed.appellation, grapes: parsed.grapes,
-      abv, formatCl: format, paid: parsed.paid, criticPoints: points, purchaseDate: date || null,
+      abv, formatCl: format, paid: parsed.paid, criticPoints: points, criticName: points === null ? null : base?.criticName ?? null, purchaseDate: date || null,
       addedAt: base?.addedAt ?? now.toISOString(), ownWindow,
       servingTemperature: orNull(f.servingTemperature), foodPairing: orNull(f.foodPairing), tastingAppearance: orNull(f.tastingAppearance),
-      tastingNose: orNull(f.tastingNose), tastingPalate: orNull(f.tastingPalate), criticsOpinion: base?.criticsOpinion ?? null,
+      tastingNose: orNull(f.tastingNose), tastingPalate: orNull(f.tastingPalate), criticsOpinion: base?.criticsOpinion ?? null, link: base?.link ?? null,
     },
   }
 }

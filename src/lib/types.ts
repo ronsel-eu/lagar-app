@@ -30,6 +30,8 @@ export interface Wine {
   paid: number | null
   /** The best critic score, as points (for example 93). Only sorts and shows; it never changes the drinking advice. */
   criticPoints: number | null
+  /** Who gave those points (for example Parker). Only shown. */
+  criticName: string | null
   /** Last purchase, as yyyy-mm-dd. Shown to people as dd/mm/yyyy. */
   purchaseDate: string | null
   /** When the wine was added to Lagar (ISO date-time). */
@@ -43,6 +45,8 @@ export interface Wine {
   tastingNose: string | null
   tastingPalate: string | null
   criticsOpinion: string | null
+  /** The page of the wine in the shop where it was bought (a web address), if known. */
+  link: string | null
 }
 
 export interface OpenedBottle {

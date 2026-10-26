@@ -21,3 +21,11 @@ describe('format', () => {
     expect(dmy('soon')).toBe('soon')
   })
 })
+
+describe('shopName', () => {
+  it('shows the host without www', async () => {
+    const { shopName } = await import('./format')
+    expect(shopName('https://www.bodeboca.com/vino/x')).toBe('bodeboca.com')
+    expect(shopName('not a url')).toBe('not a url')
+  })
+})

@@ -73,6 +73,57 @@ export function readPoints(text: string): number | null {
   return n >= 50 && n <= 100 ? n : null
 }
 
+/** Optional columns, not part of the template: the details that the wine page shows under "More detail", plus alcohol
+ *  and bottle size. They only fill a NEW wine; a wine already in the cellar keeps what it has. */
+export interface Details {
+  abv: number | null
+  formatCl: number | null
+  servingTemperature: string | null
+  foodPairing: string | null
+  tastingAppearance: string | null
+  tastingNose: string | null
+  tastingPalate: string | null
+  link: string | null
+  criticName: string | null
+}
+const DETAIL_ALIASES: Record<keyof Details, string[]> = {
+  abv: ['abv', 'alcohol', 'alcohol %', 'abv %', 'graduacion', 'degre', 'degre d alcool'],
+  formatCl: ['format_cl', 'format cl', 'format', 'size cl', 'bottle size', 'formato', 'volume cl'],
+  servingTemperature: ['serving_temperature', 'serving temperature', 'serving', 'temperature', 'servicio', 'temperatura de servicio', 'temperature de service'],
+  foodPairing: ['food_pairing', 'food pairing', 'pairing', 'maridaje', 'accords mets et vins', 'accord mets vins'],
+  tastingAppearance: ['appearance', 'tasting_appearance', 'tasting appearance', 'vista', 'aspect', 'robe'],
+  tastingNose: ['nose', 'tasting_nose', 'tasting nose', 'nariz', 'nez'],
+  criticName: ['critic', 'critic_name', 'critic name', 'evaluator', 'points_by', 'points by', 'critico', 'critique'],
+  link: ['link', 'url', 'shop_link', 'shop link', 'store_link', 'store link', 'enlace', 'lien'],
+  tastingPalate: ['palate', 'tasting_palate', 'tasting palate', 'boca', 'palais', 'bouche'],
+}
+const DETAIL_KEYS = Object.keys(DETAIL_ALIASES) as (keyof Details)[]
+const MAX_TEXT = 600
+
+/** A number between lo and hi from a cell like "13,5%" or "75 cl"; anything else gives null. */
+export function readAmount(text: string, lo: number, hi: number): number | null {
+  const t = text.trim().toLowerCase().replace(/(%|cl|ml|vol\.?)$/, '').trim().replace(',', '.')
+  if (!/^\d+(\.\d+)?$/.test(t)) return null
+  const n = Number(t)
+  return n >= lo && n <= hi ? n : null
+}
+
+/** Read the optional detail cells of one row. Empty or unreadable cells give null. */
+export function readDetails(cell: (k: keyof Details) => string): Details {
+  const text = (k: keyof Details) => { const v = cell(k).trim().replace(/\s+/g, ' ').slice(0, MAX_TEXT); return v || null }
+  return {
+    abv: readAmount(cell('abv'), 0.5, 99),
+    formatCl: readAmount(cell('formatCl'), 1, 1000),
+    servingTemperature: text('servingTemperature'),
+    foodPairing: text('foodPairing'),
+    tastingAppearance: text('tastingAppearance'),
+    tastingNose: text('tastingNose'),
+    tastingPalate: text('tastingPalate'),
+    criticName: text('criticName'),
+    link: /^https?:\/\/\S+$/i.test(cell('link').trim()) ? cell('link').trim() : null,
+  }
+}
+
 const HEADER = new Map<string, Column>()
 for (const [key, aliases] of Object.entries(ALIASES) as [Column, string[]][]) for (const a of aliases) HEADER.set(a, key)
 
@@ -149,6 +200,8 @@ export interface ImportRow {
   window?: OwnWindow | null
   /** Critic points from the optional points column, if valid. */
   points?: number | null
+  /** The optional detail columns (alcohol, size, serving, pairing, tasting). */
+  details?: Details
   // set by checkRows
   action?: Action
   label?: string
@@ -244,11 +297,13 @@ export function readImport(raw: Uint8Array): { rows: ImportRow[]; fatal: Issue |
     const k = HEADER.get(p) ?? HEADER.get(p.replaceAll(' ', '_'))
     if (k && !cols.has(k)) cols.set(k, i)
   })
+  const detailAt = new Map<keyof Details, number>()
   let pointsAt = -1
   let windowFrom = -1
   let windowTo = -1
   header.forEach((h, i) => {
     const p = plain(h)
+    for (const k of DETAIL_KEYS) if (!detailAt.has(k) && (DETAIL_ALIASES[k].includes(p) || DETAIL_ALIASES[k].includes(p.replaceAll(' ', '_')))) detailAt.set(k, i)
     if (pointsAt < 0 && POINTS_ALIASES.includes(p)) pointsAt = i
     if (windowFrom < 0 && WINDOW_ALIASES.from.includes(p)) windowFrom = i
     if (windowTo < 0 && WINDOW_ALIASES.to.includes(p)) windowTo = i
@@ -283,7 +338,8 @@ export function readImport(raw: Uint8Array): { rows: ImportRow[]; fatal: Issue |
     if (!issue && parsed.bottles === null) issue = { key: 'Bottles is empty.' }
     const window = windowFrom >= 0 && windowTo >= 0 ? readWindow(rec[windowFrom] ?? '', rec[windowTo] ?? '') : null
     const points = pointsAt >= 0 ? readPoints(rec[pointsAt] ?? '') : null
-    rows.push({ line, form, added: date, warnings, error: issue, parsed, window, points })
+    const details = detailAt.size ? readDetails((k) => { const i = detailAt.get(k); return i !== undefined ? rec[i] ?? '' : '' }) : undefined
+    rows.push({ line, form, added: date, warnings, error: issue, parsed, window, points, details })
   })
   if (records.slice(1).filter((rec) => rec.some((c) => c.trim())).length > MAX_ROWS) return { rows: [], fatal: { key: 'Too many rows (at most {n}).', params: { n: MAX_ROWS } } }
   if (rows.length === 0) return { rows: [], fatal: { key: 'The file has column names but no wines.' } }
@@ -340,9 +396,11 @@ export async function applyRows(storage: LagarStorage, rows: ImportRow[], now = 
     if (row.action === 'new') {
       toSave.push({
         id: newId(), name: v.name, vintage: v.vintage ?? 'NV', bottles: v.bottles, type: v.type, producer: v.producer,
-        country: v.country, region: v.region, appellation: v.appellation, grapes: v.grapes, abv: null, formatCl: 75,
-        paid: v.paid, criticPoints: row.points ?? null, purchaseDate: row.added, addedAt: now.toISOString(), ownWindow: row.window ?? null, servingTemperature: null,
-        foodPairing: null, tastingAppearance: null, tastingNose: null, tastingPalate: null, criticsOpinion: null,
+        country: v.country, region: v.region, appellation: v.appellation, grapes: v.grapes, abv: row.details?.abv ?? null, formatCl: row.details?.formatCl ?? 75,
+        paid: v.paid, criticPoints: row.points ?? null, criticName: row.points != null ? row.details?.criticName ?? null : null, purchaseDate: row.added, addedAt: now.toISOString(), ownWindow: row.window ?? null,
+        servingTemperature: row.details?.servingTemperature ?? null, foodPairing: row.details?.foodPairing ?? null,
+        tastingAppearance: row.details?.tastingAppearance ?? null, tastingNose: row.details?.tastingNose ?? null,
+        tastingPalate: row.details?.tastingPalate ?? null, criticsOpinion: null, link: row.details?.link ?? null,
       })
       added++
     } else if (row.action === 'update' && row.wineId) {

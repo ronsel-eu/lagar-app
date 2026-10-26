@@ -3,7 +3,7 @@
   import { sectionFor } from '../lib/guides/guides'
   import { cellar, getStorage, reload, undoOpenedBottle } from '../lib/cellar.svelte'
   import { clearFlash, flash, say } from '../lib/flash.svelte'
-  import { dmy, eur } from '../lib/format'
+  import { dmy, eur, shopName } from '../lib/format'
   import { place, t } from '../lib/i18n/ui.svelte'
   import { ui } from '../lib/i18n/ui.svelte'
   import { goWines, href, route, winesHref } from '../lib/router.svelte'
@@ -16,6 +16,23 @@
   const wine = $derived(cellar.wines.find((w) => w.id === id))
   const advice = $derived(wine ? adviceFor(wine, year) : null)
   const view = $derived(advice ? drinkView(advice) : null)
+  /** The main word of the name is never broken: it starts at its size and shrinks until it fits on one line. */
+  function fitWord(node: HTMLElement, cap: number) {
+    const MIN = 18
+    const run = () => {
+      node.style.whiteSpace = 'nowrap'
+      let size = cap
+      node.style.fontSize = size + 'px'
+      while (size > MIN && node.scrollWidth > node.clientWidth + 0.5) node.style.fontSize = --size + 'px'
+      if (node.scrollWidth > node.clientWidth + 0.5) node.style.whiteSpace = 'normal' // a word too long even at the smallest size
+    }
+    run()
+    void document.fonts?.ready.then(run)
+    const watch = new ResizeObserver(run)
+    watch.observe(node)
+    return { update(next: number) { cap = next; run() }, destroy() { watch.disconnect() } }
+  }
+
   const parts = $derived(wine ? nameParts(wine.name) : null)
   const opened = $derived(cellar.opened.filter((o) => o.wineId === id).sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0)))
   const here = $derived('/wine/' + id)
@@ -96,7 +113,7 @@
       <div class="nb-year">{wine.vintage}</div>
     </div>
     {#if parts.pre}<div class="nb-pre" style="font-size: {parts.pre.size}px; letter-spacing: {parts.pre.tracking}">{parts.pre.text}</div>{/if}
-    <div class="nb-main" style="font-size: {parts.main.size}px">{parts.main.text}</div>
+    <div class="nb-main" use:fitWord={parts.main.size}>{parts.main.text}</div>
     {#if parts.post}<div class="nb-post" style="font-size: {parts.post.size}px; letter-spacing: {parts.post.tracking}">{parts.post.text}</div>{/if}
   </section>
 
@@ -133,8 +150,9 @@
       <div class="kv"><dt>{t('Appearance')}</dt><dd>{wine.tastingAppearance || '–'}</dd></div>
       <div class="kv"><dt>{t('Nose')}</dt><dd>{wine.tastingNose || '–'}</dd></div>
       <div class="kv"><dt>{t('Palate')}</dt><dd>{wine.tastingPalate || '–'}</dd></div>
-      <div class="kv"><dt>{t('Points')}</dt><dd>{wine.criticPoints ?? '–'}</dd></div>
+      <div class="kv"><dt>{t('Points')}</dt><dd>{wine.criticPoints ?? '–'}{#if wine.criticPoints !== null && wine.criticName}&nbsp;· {wine.criticName}{/if}</dd></div>
       <div class="kv"><dt>{t('Format')}</dt><dd>{#if wine.formatCl}{comma(wine.formatCl)} cl{#if wine.abv}&nbsp;· {comma(wine.abv)}%{/if}{:else}–{/if}</dd></div>
+      {#if wine.link}<div class="kv"><dt>{t('Shop page')}</dt><dd><a href={wine.link} target="_blank" rel="noopener noreferrer">{shopName(wine.link)}</a></dd></div>{/if}
       <div class="kv"><dt>{t('Last purchase')}</dt><dd>{wine.purchaseDate ? dmy(wine.purchaseDate) : '–'}</dd></div>
     </dl>
 

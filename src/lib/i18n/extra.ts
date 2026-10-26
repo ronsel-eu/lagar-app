@@ -1,5 +1,6 @@
 /** Interface texts that are new in this app (not in the original Lagar), with Spanish and French. Merged with strings.ts. */
 export const EXTRA: Record<string, { es: string; fr: string }> = {
+  'Shop page': { es: 'Página de la tienda', fr: 'Page de la boutique' },
   'Backup': { es: 'Copia de seguridad', fr: 'Sauvegarde' },
   'Export backup': { es: 'Exportar copia', fr: 'Exporter la sauvegarde' },
   'Restore backup': { es: 'Restaurar copia', fr: 'Restaurer la sauvegarde' },

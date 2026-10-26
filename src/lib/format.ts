@@ -18,3 +18,8 @@ export function dmy(iso: string | null | undefined): string {
   const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso ?? '')
   return m ? `${m[3]}/${m[2]}/${m[1]}` : (iso ?? '')
 }
+
+/** The shop's name for a link: its host without "www." (for example bodeboca.com). */
+export function shopName(url: string): string {
+  try { return new URL(url).hostname.replace(/^www\./, '') } catch { return url }
+}
