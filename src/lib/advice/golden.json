@@ -2876,9 +2876,9 @@
   "expected": {
    "status": "can_wait",
    "fromYear": 2022,
-   "toYear": 2031,
+   "toYear": 2036,
    "keeps": "holds",
-   "note": "Barolo, style not known (modern band used): 6 to 15 years from the vintage."
+   "note": "Barolo, style not known: 6 to 20 years from the vintage."
   }
  },
  {
@@ -4592,9 +4592,9 @@
   "expected": {
    "status": "can_wait",
    "fromYear": 2023,
-   "toYear": 2032,
+   "toYear": 2037,
    "keeps": "holds",
-   "note": "Barolo, style not known (modern band used): 6 to 15 years from the vintage."
+   "note": "Barolo, style not known: 6 to 20 years from the vintage."
   }
  },
  {

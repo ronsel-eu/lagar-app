@@ -382,13 +382,16 @@ function rules(w: AdviceInput, year: number): Rule {
   if (colour === 'red' && (whName.includes('barolo') || whName.includes('langhe nebbiolo'))) {
     if (!whName.includes('barolo')) return done(v + 2, v + 7, 'holds', 'Langhe Nebbiolo, entry level: 2 to 7 years from the vintage.')
     if (has(text, 'riserva')) return done(v + 15, v + 40, 'holds', 'Barolo Riserva: 15 to 40+ years from the vintage.')
-    return done(v + 6, v + 15, 'holds', 'Barolo, style not known (modern band used): 6 to 15 years from the vintage.')
+    // Wider than the original (6 to 15): traditional Barolo often goes well past 15 years, and the style is not known here.
+    return done(v + 6, v + 20, 'holds', 'Barolo, style not known: 6 to 20 years from the vintage.')
   }
   if (whName.includes('chianti') && colour === 'red') {
     const classico = whName.includes('classico')
     if (has(text, 'gran selezione')) return done(v + 8, v + 20, 'holds', 'Chianti Classico Gran Selezione: 8 to 20+ years from the vintage.')
     if (classico && has(text, 'riserva')) return done(v + 6, v + 15, 'holds', 'Chianti Classico Riserva: 6 to 15 years from the vintage.')
     if (classico) return done(v + 2, v + 7, 'holds', 'Chianti Classico annata: 2 to 7 years from the vintage.')
+    // Not in the original, which treated it as basic Chianti (1 to 3 years).
+    if (whName.includes('colli senesi')) return done(v + 2, v + 5, 'holds', 'Chianti Colli Senesi: 2 to 5 years from the vintage.')
     if (has(text, 'superiore')) return done(v + 2, v + 5, 'holds', 'Chianti Superiore: 2 to 5 years from the vintage.')
     return done(v + 1, v + 3, 'declines', 'Basic Chianti: 1 to 3 years from the vintage.')
   }

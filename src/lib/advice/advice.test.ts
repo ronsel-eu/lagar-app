@@ -63,3 +63,16 @@ describe('own window', () => {
     expect(adviceFor(young, 2026).status).toBe('drink_now')
   })
 })
+
+describe('rules that differ from the original', () => {
+  const advice = (name: string, appellation: string, vintage: number) =>
+    adviceFor(makeWine({ name, type: 'red', vintage, appellation, producer: null, country: 'Italy', region: null, grapes: null, purchaseDate: null }), 2026)
+  it('Barolo without a style gets 6 to 20 years', () => {
+    const a = advice('Borgogno Barolo DOCG 2019', 'Barolo DOCG', 2019)
+    expect([a.fromYear, a.toYear]).toEqual([2025, 2039])
+  })
+  it('Chianti Colli Senesi gets 2 to 5 years, not basic Chianti', () => {
+    const a = advice('Bindi Sergardi Marcianella Clusium Chianti Colli Senesi DOCG 2021', 'Chianti Colli Senesi DOCG', 2021)
+    expect([a.fromYear, a.toYear, a.keeps]).toEqual([2023, 2026, 'holds'])
+  })
+})
