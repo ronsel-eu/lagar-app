@@ -91,6 +91,11 @@ refused with a message. This is also how a cellar moves between devices.
 The engine (`src/lib/advice/engine.ts`) is a port of the Python rules, checked against golden files generated from the
 original (`tools/make_golden.py`). Statuses: *drink now*, *drink soon*, *can wait*, *keep*, *evolves*.
 
+Two rules now differ on purpose from the Python original, which keeps its own rules for testing: Barolo without a style is
+6 to 20 years (the original has 6 to 15), and Chianti Colli Senesi is 2 to 5 years (the original treats it as basic Chianti).
+The two Barolo cases in `golden.json` were edited by hand to match, so regenerating the golden file from the original will
+bring those two cases back to its values and the tests will flag them.
+
 Priority:
 
 1. **The person's own window**, set when editing the wine. It always wins.

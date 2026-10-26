@@ -55,10 +55,13 @@ const WINDOW_ALIASES = {
 
 /** Read a window from two cells: whole years 1800-2100 with from <= to; anything else gives null. */
 export function readWindow(from: string, to: string): OwnWindow | null {
-  const year = (t: string) => (/^\d{4}$/.test(t.trim()) ? Number(t.trim()) : NaN)
+  // One end can be left empty (for example a shop that only says "until 2033").
+  const year = (t: string) => (t.trim() === '' ? null : /^\d{4}$/.test(t.trim()) ? Number(t.trim()) : NaN)
   const a = year(from)
   const b = year(to)
-  if (Number.isNaN(a) || Number.isNaN(b) || a < 1800 || b > 2100 || a > b) return null
+  if ((a !== null && Number.isNaN(a)) || (b !== null && Number.isNaN(b))) return null
+  if (a === null && b === null) return null
+  if ((a !== null && a < 1800) || (b !== null && b > 2100) || (a !== null && b !== null && a > b)) return null
   return { fromYear: a, toYear: b }
 }
 

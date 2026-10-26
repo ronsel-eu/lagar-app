@@ -189,9 +189,14 @@ describe('optional drinking window columns', () => {
     expect((await s.listWines())[0].ownWindow).toEqual({ fromYear: 2024, toYear: 2030 })
   })
 
-  it('ignores a missing, reversed or non-year window', () => {
+  it('ignores an empty, reversed or non-year window', () => {
     const { rows } = readImport(csv(['A,2015,1,,', 'B,2015,1,2030,2024', 'C,2015,1,soon,2030', 'D,2015,1,2024,']))
-    expect(rows.map((r) => r.window)).toEqual([null, null, null, null])
+    expect(rows.map((r) => r.window)).toEqual([null, null, null, { fromYear: 2024, toYear: null }])
+  })
+
+  it('accepts a window with only one end', () => {
+    const { rows } = readImport(csv(['A,2015,1,,2033']))
+    expect(rows[0].window).toEqual({ fromYear: null, toYear: 2033 })
   })
 
   it('works without the columns', () => {
