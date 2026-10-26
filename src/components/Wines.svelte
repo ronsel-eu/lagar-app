@@ -40,7 +40,7 @@
 <div class="phead">
   <h1>{result.status ? t(STATUS_LABEL[result.status]) : t('Wines')}</h1>
   <span class="meta">
-    {result.rows.length} {tn(result.rows.length, 'wine', 'wines')}{#if result.state !== 'opened'} · {result.bottles} {tn(result.bottles, 'bottle', 'bottles')}{/if}
+    {result.rows.length} {tn(result.rows.length, 'wine', 'wines')}{#if result.state !== 'opened'}&nbsp;· {result.bottles} {tn(result.bottles, 'bottle', 'bottles')}{/if}
   </span>
 </div>
 

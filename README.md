@@ -1,5 +1,7 @@
 # Lagar app
 
+![Lagar: your wine cellar, on your phone](docs/images/hero.png)
+
 When you start having a good number of bottles of wine, even if your cellar is small, you start needing to manage it, if you are someone who enjoys wine. Maybe a bottle gets forgotten in a corner, maybe you miss the ideal time of consumption of another one, maybe you just want something different than what you remember.
 
 Lagar is the word in Galicia for the place where you make wine. It's a small app for a wine cellar. It tells you what you have, what to open next and what you already opened.
@@ -10,6 +12,15 @@ This is the on-device version: **your cellar lives on your phone**. You install 
 **Open it:** https://ronsel-eu.github.io/lagar-app/
 
 The first version, a Python web app that runs on your own computer, lives in the [`lagar`](https://github.com/ronsel-eu/lagar) repository. It is still the reference for the drinking-advice rules.
+
+## Screens
+
+<p>
+  <img src="docs/images/screen-welcome.png" width="190" alt="Welcome page of an empty cellar">
+  <img src="docs/images/screen-home.png" width="190" alt="Home: totals, search, suggestions and wines to drink now">
+  <img src="docs/images/screen-wines.png" width="190" alt="Wines, filtered by country and type">
+  <img src="docs/images/screen-wine.png" width="190" alt="A wine: drinking advice, numbers and details">
+</p>
 
 ## What it does
 

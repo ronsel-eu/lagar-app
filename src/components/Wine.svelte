@@ -134,7 +134,7 @@
       <div class="kv"><dt>{t('Nose')}</dt><dd>{wine.tastingNose || '–'}</dd></div>
       <div class="kv"><dt>{t('Palate')}</dt><dd>{wine.tastingPalate || '–'}</dd></div>
       <div class="kv"><dt>{t('Points')}</dt><dd>{wine.criticPoints ?? '–'}</dd></div>
-      <div class="kv"><dt>{t('Format')}</dt><dd>{#if wine.formatCl}{comma(wine.formatCl)} cl{#if wine.abv} · {comma(wine.abv)}%{/if}{:else}–{/if}</dd></div>
+      <div class="kv"><dt>{t('Format')}</dt><dd>{#if wine.formatCl}{comma(wine.formatCl)} cl{#if wine.abv}&nbsp;· {comma(wine.abv)}%{/if}{:else}–{/if}</dd></div>
       <div class="kv"><dt>{t('Last purchase')}</dt><dd>{wine.purchaseDate ? dmy(wine.purchaseDate) : '–'}</dd></div>
     </dl>
 
