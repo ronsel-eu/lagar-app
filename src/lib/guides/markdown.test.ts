@@ -31,6 +31,13 @@ describe('markdown for guides', () => {
     expect(html).toBe('<table><thead><tr><th>Type</th><th>Window</th></tr></thead><tbody><tr><td>Joven</td><td><span class="nb">1-3</span></td></tr><tr><td>Crianza</td><td></td></tr></tbody></table>')
   })
 
+  it('centers a column headed °C', () => {
+    const { html } = renderMarkdown('| Wine | °C |\n|---|---|\n| Fino | 7-9 |\n')
+    expect(html).toContain('<th class="c">°C</th>')
+    expect(html).toContain('<td class="c"><span class="nb">7-9</span></td>')
+    expect(html).toContain('<th>Wine</th>')
+  })
+
   it('makes bullet and numbered lists, with wrapped lines', () => {
     expect(renderMarkdown('- one\n- **two**\n  more').html).toBe('<ul><li>one</li><li><strong>two</strong> more</li></ul>')
     expect(renderMarkdown('1. a\n2. b').html).toBe('<ol><li>a</li><li>b</li></ol>')

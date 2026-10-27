@@ -82,9 +82,12 @@ export function renderMarkdown(body: string): { html: string; toc: Heading[] } {
       i += 2
       const rows: string[][] = []
       while (i < lines.length && lines[i].trim().startsWith('|')) rows.push(cells(lines[i++]))
+      // A column headed °C holds temperatures: it is centered, header and values.
+      const mid = head.map((c) => /^[°º]\s?C$/.test(c.trim()))
+      const cls = (k: number) => (mid[k] ? ' class="c"' : '')
       html.push(
-        '<table><thead><tr>' + head.map((c) => `<th>${inline(c)}</th>`).join('') + '</tr></thead><tbody>' +
-          rows.map((r) => '<tr>' + head.map((_, k) => `<td>${inline(r[k] ?? '')}</td>`).join('') + '</tr>').join('') + '</tbody></table>',
+        '<table><thead><tr>' + head.map((c, k) => `<th${cls(k)}>${inline(c)}</th>`).join('') + '</tr></thead><tbody>' +
+          rows.map((r) => '<tr>' + head.map((_, k) => `<td${cls(k)}>${inline(r[k] ?? '')}</td>`).join('') + '</tr>').join('') + '</tbody></table>',
       )
       continue
     }

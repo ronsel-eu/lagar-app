@@ -121,7 +121,7 @@
   <section class="drink">
     <div>
       <div class="label">{t('Drink')}</div>
-      <div class="big" class:now={advice?.status === 'drink_now'}>{t(view.word)}</div>
+      <div class="big" class:now={advice?.status === 'drink_now'} class:long={t(view.word).length >= 10 && !t(view.word).includes(' ')}>{t(view.word)}</div>
     </div>
     <div class="until">{#if view.until}{t(view.until.key, { year: view.until.year })}{/if}</div>
   </section>
