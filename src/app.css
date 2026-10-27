@@ -249,6 +249,9 @@ form.langs button[type=submit].on { background: var(--ink); color: var(--paper);
 .welcome p, .notfound p { margin: 14px 0 0; font-size: 15px; line-height: 21px; color: var(--ink-soft); }
 .welcome p.big, .notfound p.big { font-size: 20px; line-height: 26px; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; }
 .welcome .actions, .notfound .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.welcome .btn.block { display: block; margin-top: 24px; padding: 14px 16px; text-align: center; }
+.welcome p.by-hand { margin-top: 26px; }
+.welcome p.by-hand + .btn.block { margin-top: 12px; }
 .notfound { margin: 28px 20px 0; border-top: 3px solid var(--ink); }
 
 /* ---------- the app shell ---------- */

@@ -38,7 +38,7 @@ describe('translations', () => {
     const used = [
       'Home', 'Wines', 'Guides', 'Settings', 'Main', 'Lagar, home', 'Add a wine', 'Bottles', 'Drink now', 'Cellar', 'Search',
       'Search your cellar', 'Suggestions', 'Red', 'White', 'Cellar cost', 'Welcome to Lagar', 'Import your cellar',
-      'Or add one wine by hand', 'In my cellar', 'Opened', 'Both', 'Order', 'Newest purchase', 'Oldest purchase',
+      'Just one bottle to start with? Add it by hand.', 'In my cellar', 'Opened', 'Both', 'Order', 'Newest purchase', 'Oldest purchase',
       'Price: high to low', 'Price: low to high', 'All countries', 'All regions', 'All appellations', 'All types', 'All grapes',
       'All vintages', 'Drinking', 'Any drinking status', 'Clear filters', 'No wines match.', 'Drink soon', 'Can wait', 'Keep',
       'Evolves', 'now', 'soon', 'young', 'wine', 'wines', 'bottle', 'opened|one', 'opened', 'Rosé', 'Sparkling', 'Fortified',

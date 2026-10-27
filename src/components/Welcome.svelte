@@ -8,8 +8,7 @@
   <h1>{t('Welcome to Lagar')}</h1>
   <p class="big">{t('Your cellar is empty. Not a drop to drink, yet.')}</p>
   <p>{t('First step: bring your wines in. Open Settings, then Import your cellar: there is a template to download and instructions to fill it in, with a little help from an AI assistant.')}</p>
-  <p class="actions">
-    <a class="btn" href={href('/settings/import')}>{t('Import your cellar')}</a>
-    <a class="btn secondary" href={href('/wine/new')}>{t('Or add one wine by hand')}</a>
-  </p>
+  <a class="btn block" href={href('/settings/import')}>{t('Import your cellar')}</a>
+  <p class="by-hand">{t('Just one bottle to start with? Add it by hand.')}</p>
+  <a class="btn secondary block" href={href('/wine/new')}>{t('Add a wine')}</a>
 </section>
