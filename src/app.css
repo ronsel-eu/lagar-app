@@ -123,7 +123,7 @@ p.empty { margin: 24px 20px; color: var(--ink-soft); }
 .drink { margin: 18px 20px 0; border-top: 3px solid var(--ink); padding: 12px 0 14px; display: flex; justify-content: space-between; align-items: flex-end; gap: 8px; }
 .drink .label { color: var(--ink-soft); font-weight: 500; margin-bottom: 6px; }
 .drink .big { font-size: 46px; line-height: 44px; font-weight: 800; letter-spacing: -0.03em; overflow-wrap: normal; word-break: normal; hyphens: none; }
-.drink .until { text-align: right; overflow-wrap: normal; word-break: normal; }
+.drink .until { text-align: right; white-space: nowrap; flex-shrink: 0; }
 .nb { white-space: nowrap; }
 .drink .big.long { font-size: 40px; }
 .drink .big.now { color: var(--wine); }
