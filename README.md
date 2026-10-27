@@ -20,6 +20,7 @@ The first version, a Python web app that runs on your own computer, lives in the
   <img src="docs/images/screen-home.png" width="190" alt="Home: totals, search, suggestions and wines to drink now">
   <img src="docs/images/screen-wines.png" width="190" alt="Wines, filtered by country and type">
   <img src="docs/images/screen-wine.png" width="190" alt="A wine: drinking advice, numbers and details">
+  <img src="docs/images/screen-wine-white.png" width="190" alt="A white wine: the name band takes the colour of the wine type">
 </p>
 
 ## What it does
