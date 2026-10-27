@@ -49,13 +49,6 @@
   </a>
 </div>
 
-<div class="guide-list">
-  <a class="guide-card" href={href('/opened')}>
-    <strong>{t('Opened bottles')}</strong>
-    <span>{t('Every bottle you have opened, newest first, with the occasion.')}</span>
-  </a>
-</div>
-
 {#if !standalone && (install.event || ios)}
   <section class="sec">
     <h2>{t('Install the app')}</h2>
@@ -78,4 +71,3 @@
   </p>
 </section>
 
-<p class="lead" style="margin-top: 28px; font-size: 12px">Lagar · {__BUILD__} UTC</p>

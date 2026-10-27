@@ -48,6 +48,8 @@ function inline(text: string): string {
   })
   out = out.replace(/\*\*([^*\n]+?)\*\*/g, '<strong>$1</strong>')
   out = out.replace(/(^|[^*\w])\*([^*\s][^*\n]*?)\*(?![*\w])/g, '$1<em>$2</em>')
+  // A number range, with its degree sign if it has one (12-14 °C), stays on one line.
+  out = out.replace(/\b\d{1,3}\s?[-–]\s?\d{1,3}(?:\s?[°º]\s?C?)?/g, '<span class="nb">$&</span>')
   return out
 }
 

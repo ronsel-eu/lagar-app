@@ -120,9 +120,11 @@ p.empty { margin: 24px 20px; color: var(--ink-soft); }
 .nb-pre, .nb-post { font-weight: 700; text-transform: uppercase; line-height: 1.18; }
 .nb-pre { padding-top: 26px; } .nb-post { padding-top: 8px; }
 .nb-main { padding-top: 2px; font-weight: 800; letter-spacing: -0.025em; line-height: 0.95; text-transform: uppercase; }
-.drink { margin: 18px 20px 0; border-top: 3px solid var(--ink); padding: 12px 0 14px; display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; }
+.drink { margin: 18px 20px 0; border-top: 3px solid var(--ink); padding: 12px 0 14px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 4px 12px; }
 .drink .label { color: var(--ink-soft); font-weight: 500; margin-bottom: 6px; }
-.drink .big { font-size: 46px; line-height: 44px; font-weight: 800; letter-spacing: -0.03em; }
+.drink .big { font-size: 46px; line-height: 44px; font-weight: 800; letter-spacing: -0.03em; overflow-wrap: normal; word-break: normal; hyphens: none; }
+.drink .until { text-align: right; }
+.nb { white-space: nowrap; }
 .drink .big.now { color: var(--wine); }
 .drink .until { font-size: 17px; line-height: 22px; font-weight: 500; padding-bottom: 4px; }
 .why { margin: -4px 20px 14px; font-size: 13px; line-height: 18px; color: var(--ink-soft); }

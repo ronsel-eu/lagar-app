@@ -6,11 +6,6 @@ export class BackupError extends Error {}
 type Raw = Record<string, unknown>
 const isObject = (x: unknown): x is Raw => typeof x === 'object' && x !== null && !Array.isArray(x)
 
-/** Only web addresses are kept as links; anything else in a file is dropped. */
-function webAddress(v: string | null): string | null {
-  return v !== null && /^https?:\/\/\S+$/i.test(v) ? v : null
-}
-
 function text(raw: Raw, key: string, where: string, required = false): string | null {
   const v = raw[key]
   if (v === undefined || v === null || v === '') {
@@ -81,7 +76,6 @@ function wineFrom(raw: unknown, i: number): Wine {
     tastingNose: text(raw, 'tastingNose', where),
     tastingPalate: text(raw, 'tastingPalate', where),
     criticsOpinion: text(raw, 'criticsOpinion', where),
-    link: webAddress(text(raw, 'link', where)),
   }
 }
 

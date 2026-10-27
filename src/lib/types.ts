@@ -45,8 +45,6 @@ export interface Wine {
   tastingNose: string | null
   tastingPalate: string | null
   criticsOpinion: string | null
-  /** The page of the wine in the shop where it was bought (a web address), if known. */
-  link: string | null
 }
 
 export interface OpenedBottle {

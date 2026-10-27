@@ -3,7 +3,7 @@
   import { sectionFor } from '../lib/guides/guides'
   import { cellar, getStorage, reload, undoOpenedBottle } from '../lib/cellar.svelte'
   import { clearFlash, flash, say } from '../lib/flash.svelte'
-  import { dmy, eur, shopName } from '../lib/format'
+  import { dmy, eur } from '../lib/format'
   import { place, t } from '../lib/i18n/ui.svelte'
   import { ui } from '../lib/i18n/ui.svelte'
   import { goWines, href, route, winesHref } from '../lib/router.svelte'
@@ -65,6 +65,7 @@
     await getStorage().putWine(result.wine)
     await reload()
     form = formFrom(result.wine)
+    editOpen = false
     tell('Saved.')
   }
 
@@ -152,7 +153,6 @@
       <div class="kv"><dt>{t('Palate')}</dt><dd>{wine.tastingPalate || '–'}</dd></div>
       <div class="kv"><dt>{t('Points')}</dt><dd>{wine.criticPoints ?? '–'}{#if wine.criticPoints !== null && wine.criticName}&nbsp;· {wine.criticName}{/if}</dd></div>
       <div class="kv"><dt>{t('Format')}</dt><dd>{#if wine.formatCl}{comma(wine.formatCl)} cl{#if wine.abv}&nbsp;· {comma(wine.abv)}%{/if}{:else}–{/if}</dd></div>
-      {#if wine.link}<div class="kv"><dt>{t('Shop page')}</dt><dd><a href={wine.link} target="_blank" rel="noopener noreferrer">{shopName(wine.link)}</a></dd></div>{/if}
       <div class="kv"><dt>{t('Last purchase')}</dt><dd>{wine.purchaseDate ? dmy(wine.purchaseDate) : '–'}</dd></div>
     </dl>
 
@@ -189,7 +189,7 @@
       <p class="meta">{t('None left')}</p>
     {:else}
       <form onsubmit={open}>
-        <label>{t('Date')} <input type="date" bind:value={openForm.date} /></label>
+        <label>{t('Date')} <input type="date" bind:value={openForm.date} max={todayIso()} /></label>
         <label>{t('Bottles')} <input type="number" bind:value={openForm.qty} min="1" max={wine.bottles} /></label>
         <label>{t('Occasion')} <input type="text" bind:value={openForm.occasion} placeholder={t('Dinner with friends, birthday...')} /></label>
         <label>{t('Note')} <input type="text" bind:value={openForm.note} placeholder={t('How was it?')} /></label>

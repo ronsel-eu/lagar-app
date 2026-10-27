@@ -1,7 +1,7 @@
 /** Interface texts that are new in this app (not in the original Lagar), with Spanish and French. Merged with strings.ts. */
 export const EXTRA: Record<string, { es: string; fr: string }> = {
+  'A bottle cannot be opened in the future. Carpe diem!': { es: 'Una botella no se puede abrir en el futuro. ¡Carpe diem!', fr: 'Une bouteille ne peut pas être ouverte dans le futur. Carpe diem !' },
   'Just one bottle to start with? Add it by hand.': { es: '¿Solo una botella para empezar? Añádela a mano.', fr: 'Une seule bouteille pour commencer ? Ajoutez-la à la main.' },
-  'Shop page': { es: 'Página de la tienda', fr: 'Page de la boutique' },
   'Backup': { es: 'Copia de seguridad', fr: 'Sauvegarde' },
   'Export backup': { es: 'Exportar copia', fr: 'Exporter la sauvegarde' },
   'Restore backup': { es: 'Restaurar copia', fr: 'Restaurer la sauvegarde' },

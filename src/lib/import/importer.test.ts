@@ -224,21 +224,21 @@ describe('optional critic points column', () => {
 })
 
 describe('optional detail columns', () => {
-  const head = 'name,vintage,bottles,abv,format_cl,serving_temperature,food_pairing,appearance,nose,palate,link,points,critic'
+  const head = 'name,vintage,bottles,abv,format_cl,serving_temperature,food_pairing,appearance,nose,palate,points,critic'
   it('reads them and saves them on a new wine', async () => {
     const s = new MemoryStorage()
-    const { rows } = await previewImport(s, bytes(`${head}\nA,2015,1,"13,5%",150,16-18 °C,Lamb,Deep ruby,Plum,Round,https://www.bodeboca.com/vino/x,95,Parker`))
+    const { rows } = await previewImport(s, bytes(`${head}\nA,2015,1,"13,5%",150,16-18 °C,Lamb,Deep ruby,Plum,Round,95,Parker`))
     expect(rows[0].details).toMatchObject({ abv: 13.5, formatCl: 150, servingTemperature: '16-18 °C', foodPairing: 'Lamb' })
     await applyRows(s, rows)
     const [w] = await s.listWines()
-    expect(w).toMatchObject({ abv: 13.5, formatCl: 150, tastingAppearance: 'Deep ruby', tastingNose: 'Plum', tastingPalate: 'Round', link: 'https://www.bodeboca.com/vino/x', criticPoints: 95, criticName: 'Parker' })
+    expect(w).toMatchObject({ abv: 13.5, formatCl: 150, tastingAppearance: 'Deep ruby', tastingNose: 'Plum', tastingPalate: 'Round', criticPoints: 95, criticName: 'Parker' })
   })
   it('gives null for empty or unreadable cells and keeps 75 cl by default', async () => {
     const s = new MemoryStorage()
-    const { rows } = await previewImport(s, bytes(`${head}\nA,2015,1,lots,,,,,,,javascript:alert(1),,`))
+    const { rows } = await previewImport(s, bytes(`${head}\nA,2015,1,lots,,,,,,,,`))
     await applyRows(s, rows)
     const [w] = await s.listWines()
-    expect(w).toMatchObject({ abv: null, formatCl: 75, servingTemperature: null, tastingNose: null, link: null })
+    expect(w).toMatchObject({ abv: null, formatCl: 75, servingTemperature: null, tastingNose: null })
   })
   it('works without the columns', () => {
     expect(readImport(bytes('name,vintage,bottles\nA,2015,1')).rows[0].details).toBeUndefined()

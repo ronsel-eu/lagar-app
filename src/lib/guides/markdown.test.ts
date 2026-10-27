@@ -2,6 +2,13 @@ import { describe, expect, it } from 'vitest'
 import { renderMarkdown, slugify, splitFrontMatter } from './markdown'
 
 describe('markdown for guides', () => {
+  it('keeps a temperature range on one line', () => {
+    const { html } = renderMarkdown('A cellar at 12-14 °C is right. Take it out 15-20 minutes before. Serve at 12–14º.')
+    expect(html).toContain('<span class="nb">12-14 °C</span>')
+    expect(html).toContain('<span class="nb">15-20</span>')
+    expect(html).toContain('<span class="nb">12–14º</span>')
+  })
+
   it('reads the front matter', () => {
     const { meta, body } = splitFrontMatter('---\ntitle: Serving: cold\nsummary: How cold\norder: 4\n---\n\nHello')
     expect(meta).toEqual({ title: 'Serving: cold', summary: 'How cold', order: 4 })
@@ -21,7 +28,7 @@ describe('markdown for guides', () => {
 
   it('makes tables, filling short rows', () => {
     const { html } = renderMarkdown('| Type | Window |\n|---|---|\n| Joven | 1-3 |\n| Crianza |\n')
-    expect(html).toBe('<table><thead><tr><th>Type</th><th>Window</th></tr></thead><tbody><tr><td>Joven</td><td>1-3</td></tr><tr><td>Crianza</td><td></td></tr></tbody></table>')
+    expect(html).toBe('<table><thead><tr><th>Type</th><th>Window</th></tr></thead><tbody><tr><td>Joven</td><td><span class="nb">1-3</span></td></tr><tr><td>Crianza</td><td></td></tr></tbody></table>')
   })
 
   it('makes bullet and numbered lists, with wrapped lines', () => {

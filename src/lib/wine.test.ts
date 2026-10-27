@@ -128,6 +128,12 @@ describe('opening a bottle', () => {
     expect(open(6).say).toEqual({ key: 'Enjoy! Still {n} to share with friends!', params: { n: 5 } })
     expect(open(6, 3).say).toEqual({ key: 'Enjoy! Marked {n} bottles as opened.', params: { n: 3 } })
   })
+  it('does not open a bottle in the future', () => {
+    const r = openBottle(wine(2), { date: '2026-10-28', qty: 1, occasion: '', note: '' }, '2026-10-27')
+    expect(r.ok).toBe(false)
+    expect(openBottle(wine(2), { date: '2026-10-27', qty: 1, occasion: '', note: '' }, '2026-10-27').ok).toBe(true)
+  })
+
   it('asks you to wait for a better occasion when you try to open more than you have', () => {
     expect(open(0)).toEqual({ ok: false, say: { key: 'No bottles of this wine left.' } })
     expect(open(1, 2).say.key).toBe('Still one bottle. Look for a nice occasion!')

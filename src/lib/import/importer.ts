@@ -86,7 +86,6 @@ export interface Details {
   tastingAppearance: string | null
   tastingNose: string | null
   tastingPalate: string | null
-  link: string | null
   criticName: string | null
 }
 const DETAIL_ALIASES: Record<keyof Details, string[]> = {
@@ -97,7 +96,6 @@ const DETAIL_ALIASES: Record<keyof Details, string[]> = {
   tastingAppearance: ['appearance', 'tasting_appearance', 'tasting appearance', 'vista', 'aspect', 'robe'],
   tastingNose: ['nose', 'tasting_nose', 'tasting nose', 'nariz', 'nez'],
   criticName: ['critic', 'critic_name', 'critic name', 'evaluator', 'points_by', 'points by', 'critico', 'critique'],
-  link: ['link', 'url', 'shop_link', 'shop link', 'store_link', 'store link', 'enlace', 'lien'],
   tastingPalate: ['palate', 'tasting_palate', 'tasting palate', 'boca', 'palais', 'bouche'],
 }
 const DETAIL_KEYS = Object.keys(DETAIL_ALIASES) as (keyof Details)[]
@@ -123,7 +121,6 @@ export function readDetails(cell: (k: keyof Details) => string): Details {
     tastingNose: text('tastingNose'),
     tastingPalate: text('tastingPalate'),
     criticName: text('criticName'),
-    link: /^https?:\/\/\S+$/i.test(cell('link').trim()) ? cell('link').trim() : null,
   }
 }
 
@@ -403,7 +400,7 @@ export async function applyRows(storage: LagarStorage, rows: ImportRow[], now = 
         paid: v.paid, criticPoints: row.points ?? null, criticName: row.points != null ? row.details?.criticName ?? null : null, purchaseDate: row.added, addedAt: now.toISOString(), ownWindow: row.window ?? null,
         servingTemperature: row.details?.servingTemperature ?? null, foodPairing: row.details?.foodPairing ?? null,
         tastingAppearance: row.details?.tastingAppearance ?? null, tastingNose: row.details?.tastingNose ?? null,
-        tastingPalate: row.details?.tastingPalate ?? null, criticsOpinion: null, link: row.details?.link ?? null,
+        tastingPalate: row.details?.tastingPalate ?? null, criticsOpinion: null,
       })
       added++
     } else if (row.action === 'update' && row.wineId) {

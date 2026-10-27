@@ -165,7 +165,7 @@ export function wineFromForm(input: WineForm, base: Wine | null, lang: Lang, now
       abv, formatCl: format, paid: parsed.paid, criticPoints: points, criticName: points === null ? null : base?.criticName ?? null, purchaseDate: date || null,
       addedAt: base?.addedAt ?? now.toISOString(), ownWindow,
       servingTemperature: orNull(f.servingTemperature), foodPairing: orNull(f.foodPairing), tastingAppearance: orNull(f.tastingAppearance),
-      tastingNose: orNull(f.tastingNose), tastingPalate: orNull(f.tastingPalate), criticsOpinion: base?.criticsOpinion ?? null, link: base?.link ?? null,
+      tastingNose: orNull(f.tastingNose), tastingPalate: orNull(f.tastingPalate), criticsOpinion: base?.criticsOpinion ?? null,
     },
   }
 }
@@ -184,9 +184,10 @@ export function todayIso(d = new Date()): string {
 }
 
 /** "I opened this": lowers the stock by the number opened and says how many are left. */
-export function openBottle(wine: Wine, input: { date: string; qty: number; occasion: string; note: string }): OpenResult {
+export function openBottle(wine: Wine, input: { date: string; qty: number; occasion: string; note: string }, today = todayIso()): OpenResult {
   const { qty } = input
   if (!isIsoDate(input.date)) return { ok: false, say: { key: 'That date is not valid.' } }
+  if (input.date > today) return { ok: false, say: { key: 'A bottle cannot be opened in the future. Carpe diem!' } }
   if (!Number.isInteger(qty) || qty < 1) return { ok: false, say: { key: 'Enter at least 1 bottle.' } }
   if (qty > wine.bottles) {
     return {
