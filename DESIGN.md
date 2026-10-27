@@ -37,10 +37,61 @@ not supported.
   in soft grey (Drink now: reddish grey, bold, with the number in wine). Numbers are 52px; if any of the three reaches
   1.000 all three drop to 34px, so the row never changes height. Thousands use a period (1.248), as in the cellar cost.
 - **Welcome page** (empty cellar): one message, the same on Home and on Wines (`Welcome.svelte`). Design reference:
-  Paper, "Home · empty cellar · welcome only".
+  Paper, "Option D · Welcome". The two actions are stacked and the same size (full width, 14px padding): the filled
+  "Import your cellar" button, then a short line ("Just one bottle to start with? Add it by hand.") and the outlined
+  "Add a wine" button under it.
 - **App icon.** The label and its colour spine: an ink band with LAGAR over four stripes (white, rosé, fortified,
   sparkling) on chalk. The maskable version has extra margin for Android's round and squircle masks.
 - **Safe areas.** The layout respects the notch and the home bar on phones (`viewport-fit=cover`).
+
+### Wine-type bands
+
+One colour per wine type, used as the thin band of a wine row, the name band of the wine page and (for five of them) the
+logo. The names are the `--band-*` tokens in `src/app.css`.
+
+| Type | Token | Hex |
+|---|---|---|
+| Red | `--band-red` | `#1B1815` |
+| White | `--band-white` | `#C8962A` |
+| Rosé | `--band-rose` | `#35608F` |
+| Fortified | `--band-fortified` | `#6B4226` |
+| Sparkling | `--band-sparkling` | `#3E6B4A` |
+| Sweet | `--band-sweet` | `#CC6A22` |
+| Cider | `--band-cider` | `#7A9A3C` |
+
+![The seven wine-type bands with their hex values](docs/images/design-bands.png)
+
+**In the app.** The wine row: a 6px band at the left (screenshot, left). The wine page: the same colour fills the name
+band (right), with the name split into prefix / main word / suffix.
+
+<p>
+  <img src="docs/images/screen-bands-wines.png" width="260" alt="Wines list with one wine of each type, each with its type band">
+  <img src="docs/images/screen-bands-wine-page.png" width="260" alt="The name band of the wine page for the seven types">
+</p>
+
+**The logo.** Only red, white, rosé, fortified and sparkling are used for the label band (sweet and cider are types of
+wine, not logo colours). The colour changes after 30 minutes without use.
+
+<img src="docs/images/screen-bands-logo.png" width="260" alt="The label band in its five colours">
+
+*Screenshots use sample wines, not a real cellar.*
+
+### Typography
+
+![Archivo: weights and the text styles used in the app](docs/images/design-typography.png)
+
+One family, Archivo, in four weights (400, 500, 700, 800). Hierarchy comes from weight and size, not from a second
+typeface or from colour.
+
+- **Big and heavy, tight.** Titles, figures and the logo use 800 with negative tracking (-0.02 to -0.03em), so large text
+  stays compact. The logo has its own small kerning (L and R +0.015em, A, G, A -0.015em).
+- **Small and wide.** Labels, tabs and captions are 11px capitals with wide tracking (+0.08em; +0.34em for the logo
+  caption). Capitals are the only "decoration"; there is no italic except the quoted critic text.
+- **Plain in the middle.** Wine names are 700 at 16px; secondary lines are 400 at 15px in soft grey. Fields are 500 at 14px.
+- **Name band.** On the wine page the main word is 800 capitals, the prefix and suffix are lighter and spaced, so the
+  name reads like the label of a bottle.
+- **No external requests.** The font is served by the app (`@fontsource/archivo`, `tools/make_fonts.mjs`) and works offline.
+  The fallback is the system font (`system-ui`).
 
 ### Messages
 
