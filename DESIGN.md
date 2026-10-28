@@ -22,8 +22,9 @@ from. This file describes the current design of this app.
 From the Paper file "Lagar: two directions": chalk ground (`#F3F2ED`), Archivo, ink rules, no ornament. Dark mode is
 not supported.
 
-- **Bands.** Every wine type has a band colour (`--band-*` in `src/app.css`, same names as the Paper tokens): red
-  black, white mustard, rosé blue, fortified brown, sparkling green, sweet orange, cider apple green.
+- **Bands.** Every wine type has a band colour (`--band-*` in `src/app.css`, same names as the Paper tokens): red is
+  black, white is mustard, rosé is blue, fortified is brown, sparkling is green, sweet is orange and cider is apple
+  green. A nod to the Viña Tondonia labels, with no claim to match the quality of its wines.
 - **Label band (the logo).** The same on every page; its colour is one of five (red, white, rosé, fortified,
   sparkling). It keeps its colour while the app is in use and changes after 30 minutes without use (`src/lib/band.ts`).
   The letters carry a small spacing: L and R +0.015em, A, G, A -0.015em. The same ratio is used in the app icon.
