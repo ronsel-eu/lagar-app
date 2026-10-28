@@ -105,6 +105,7 @@ Personal tool about something I love: less is more, focus on use, little ornamen
 - Android and iOS app-store versions (planned with Capacitor).
 - Possibility to share wines.
 - Connection to e-commerce sites.
+- Value of your cellar.
 
 ## Licence
 
