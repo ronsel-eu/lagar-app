@@ -103,7 +103,8 @@ Personal tool about something I love: less is more, focus on use, little ornamen
 
 - Moving the cellar between devices automatically. For now it is a backup file.
 - Android and iOS app-store versions (planned with Capacitor).
-- Wine descriptions and the sentences of the drinking advice are in English.
+- Possibility to share wines.
+- Connection to e-commerce sites.
 
 ## Licence
 
