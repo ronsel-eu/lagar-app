@@ -1,0 +1,39 @@
+name: Drinking advice looks wrong
+description: A wine is shown as drink now, soon, can wait, keep or evolves, and you disagree.
+title: "[Advice] "
+labels: ["advice"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The advice is a guide, not a promise. If it is wrong for one wine, you can set your own window in the wine (it always wins).
+        Use this form when you think the **rules** should change for a region, appellation or style.
+  - type: input
+    id: wine
+    attributes:
+      label: Wine
+      description: Name, vintage and type.
+      placeholder: "Viña Tondonia Reserva 2012, red"
+    validations:
+      required: true
+  - type: input
+    id: appellation
+    attributes:
+      label: Region or appellation
+      placeholder: "Rioja"
+    validations:
+      required: true
+  - type: textarea
+    id: shown
+    attributes:
+      label: What the app says
+      description: The status and the source shown on the wine page.
+    validations:
+      required: true
+  - type: textarea
+    id: better
+    attributes:
+      label: What would be better, and why?
+      description: A drinking window in years, and where it comes from if you have a source (producer, critic, book, your own experience).
+    validations:
+      required: true

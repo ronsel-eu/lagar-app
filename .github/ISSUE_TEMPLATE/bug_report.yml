@@ -1,0 +1,76 @@
+name: Bug report
+description: Something does not work as it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping to improve Lagar. Short and concrete is best.
+        **Please do not attach a backup file or paste your cellar**: it is your personal data. A few example wines are enough.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected and what you got instead. A screenshot helps.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Wines
+        2. Filter by ...
+        3. ...
+    validations:
+      required: false
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where does it happen?
+      options:
+        - Home
+        - Wines (list and filters)
+        - A wine (advice, edit, open a bottle)
+        - Opened
+        - Import or backup
+        - Guides
+        - Settings
+        - Install or offline use
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device and browser
+      options:
+        - Android, Chrome (installed app)
+        - Android, Chrome (in the browser)
+        - iPhone or iPad, Safari (installed app)
+        - iPhone or iPad, Safari (in the browser)
+        - Computer, Chrome or Edge
+        - Computer, Firefox
+        - Computer, Safari
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language of the app
+      options:
+        - English
+        - Spanish
+        - French
+    validations:
+      required: false
+  - type: input
+    id: build
+    attributes:
+      label: Version
+      description: Settings shows the build time of the version you are running.
+      placeholder: "dd/mm/yyyy hh:mm"
+    validations:
+      required: false

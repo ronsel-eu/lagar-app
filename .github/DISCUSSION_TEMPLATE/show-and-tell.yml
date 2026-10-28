@@ -1,0 +1,21 @@
+title: "[Show] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share how you use Lagar: your cellar, your import tricks, the guide you wish existed.
+        Screenshots are great. Hide anything personal first.
+  - type: textarea
+    id: story
+    attributes:
+      label: What do you want to share?
+    validations:
+      required: true
+  - type: input
+    id: size
+    attributes:
+      label: Size of your cellar
+      description: Optional. Roughly how many wines and bottles.
+      placeholder: "About 40 wines, 120 bottles"
+    validations:
+      required: false

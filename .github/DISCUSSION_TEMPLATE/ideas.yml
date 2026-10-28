@@ -1,0 +1,21 @@
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Half-formed ideas are welcome here. If it grows into something concrete, it can become a feature request.
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What would you like Lagar to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: When would you use it? How do you handle it today?
+    validations:
+      required: true

@@ -1,0 +1,32 @@
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask anything about using Lagar: install, import, backup, drinking advice.
+        Please do not paste your cellar or a backup file; a few example wines are enough.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+      description: Optional. What you did and what you saw.
+    validations:
+      required: false
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Android
+        - iPhone or iPad
+        - Computer
+        - Other
+    validations:
+      required: false

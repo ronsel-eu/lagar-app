@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea (Discussions)
+    url: https://github.com/ronsel-eu/lagar-app/discussions
+    about: Not sure it is a bug? Ask a question, share an idea or show your cellar here.

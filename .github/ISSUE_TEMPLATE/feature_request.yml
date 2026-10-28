@@ -1,0 +1,30 @@
+name: Feature request
+description: Something you would like Lagar to do.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Lagar is small on purpose: less is more, little ornament, quick to use when choosing a bottle.
+        Ideas that keep it that way are the easiest to say yes to. Not sure yet? Start a [discussion](https://github.com/ronsel-eu/lagar-app/discussions).
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The situation, not the solution. For example "I forget which bottles I opened for a dinner".
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: Your idea, as short as you can. A sketch or screenshot is welcome.
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you do today?
+    validations:
+      required: false
