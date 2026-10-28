@@ -57,7 +57,7 @@ Go to **Settings → Import your cellar**. There are three steps on one page: do
 - Only **name**, **vintage** and **bottles** are required. The vintage is a year, or `NV` typed by you. It is never guessed.
 - Template columns: `name, vintage, bottles, type, producer, country, region, appellation, grapes, paid, purchase_date`. Optional extra columns: `drink_from`, `drink_to` (your own window), `points` (critic points, 50 to 100), and the wine's details: `abv`, `format_cl`, `serving_temperature`, `food_pairing`, `appearance`, `nose`, `palate`, and `critic` (who gave the points, for example Parker). Details only fill wines that are new to your cellar.
 - Importing a wine you already have **adds** the bottles in the file to your stock. Nothing is ever deleted.
-- **Want to try it first?** On an empty cellar, *Try a sample cellar* loads 30 made-up wines of every type.
+- **Want to try it first?** On an empty cellar, *Try a sample cellar* loads 31 made-up wines (about 50 bottles) of every type.
 
 ## Your data
 

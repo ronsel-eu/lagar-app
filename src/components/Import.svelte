@@ -7,7 +7,8 @@
     applyRows, message, previewImport, prompt, TEMPLATE_COLUMNS, templateCsv, type ImportRow, type Issue,
   } from '../lib/import/importer'
   import sampleCellar from '../lib/import/sample-cellar.csv?raw'
-  import { go, href } from '../lib/router.svelte'
+  import { go, href, route } from '../lib/router.svelte'
+  import { onMount } from 'svelte'
 
   let rows: ImportRow[] = $state([])
   let fatal: Issue | null = $state(null)
@@ -41,6 +42,9 @@
   const checkPasted = () => check(new TextEncoder().encode(pasted), t('Pasted text'))
 
   const trySample = () => check(new TextEncoder().encode(sampleCellar), 'sample-cellar.csv')
+
+  // The welcome page links here with ?sample=1: go straight to the preview of the sample cellar (only while the cellar is empty).
+  onMount(() => { if (route.params.get('sample') && cellar.wines.length === 0) trySample() })
 
   function back() {
     checked = false

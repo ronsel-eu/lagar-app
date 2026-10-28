@@ -38,9 +38,10 @@ not supported.
   in soft grey (Drink now: reddish grey, bold, with the number in wine). Numbers are 52px; if any of the three reaches
   1.000 all three drop to 34px, so the row never changes height. Thousands use a period (1.248), as in the cellar cost.
 - **Welcome page** (empty cellar): one message, the same on Home and on Wines (`Welcome.svelte`). Design reference:
-  Paper, "Option D · Welcome". The two actions are stacked and the same size (full width, 14px padding): the filled
+  Paper, "Option E · Welcome". The two actions are stacked and the same size (full width, 14px padding): the filled
   "Import your cellar" button, then a short line ("Just one bottle to start with? Add it by hand.") and the outlined
-  "Add a wine" button under it.
+  "Add a wine" button under it. Below a thin rule, a quiet link: "Not sure yet? See how it works with made-up wines." and
+  "Try a sample cellar", which opens the import preview with the sample already loaded (`#/settings/import?sample=1`).
 - **App icon.** The label and its colour spine: an ink band with LAGAR over four stripes (white, rosé, fortified,
   sparkling) on chalk. The maskable version has extra margin for Android's round and squircle masks.
 - **Safe areas.** The layout respects the notch and the home bar on phones (`viewport-fit=cover`).
@@ -220,7 +221,7 @@ French; the column names and type words always stay English), upload the file.
 - The file picker accepts any file (Android greys out a CSV that the phone's apps label as a spreadsheet), and the CSV
   text can also be pasted.
 - The confirm button locks while it works, shows "Importing…", and a failure is shown as a red message.
-- *Try a sample cellar* loads 30 made-up wines with every type, enough to fill every section of Home. It only shows
+- *Try a sample cellar* loads 31 made-up wines (about 50 bottles) with every type, enough to fill every section of Home. It only shows
   while the cellar is empty.
 - The importer is a port of the original, checked against golden files (`tools/make_import_golden.py`).
 

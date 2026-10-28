@@ -20,7 +20,7 @@
  },
  {
   "label": "sample cellar",
-  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCkJvZGVnYXMgQWx0YW1pcmEgR3JhbiBSZXNlcnZhLDIwMTAsMyxyZWQsQm9kZWdhcyBBbHRhbWlyYSxTcGFpbixSaW9qYSxSaW9qYSxUZW1wcmFuaWxsbyw0OC41MCwyMDIyLTAzLTE0CkJvZGVnYXMgQWx0YW1pcmEgQ3JpYW56YSwyMDIwLDYscmVkLEJvZGVnYXMgQWx0YW1pcmEsU3BhaW4sUmlvamEsUmlvamEsVGVtcHJhbmlsbG8sMTIuOTAsMjAyNC0wNS0wMgpWacOxZWRvcyBkZWwgTm9ydGUgUmVzZXJ2YSwyMDE2LDIscmVkLFZpw7FlZG9zIGRlbCBOb3J0ZSxTcGFpbixSaWJlcmEgZGVsIER1ZXJvLFJpYmVyYSBkZWwgRHVlcm8sVGVtcHJhbmlsbG8sMzIuMDAsMjAyMy0wMS0yMApGaW5jYSBMYSBVbWJyw61hLDIwMjIsNCxyZWQsRmluY2EgTGEgVW1icsOtYSxTcGFpbixSaWJlcmEgZGVsIER1ZXJvLFJpYmVyYSBkZWwgRHVlcm8sVGVtcHJhbmlsbG8sMTguNTAsMjAyNS0wMi0xMQpDbG9zIGRlcyBIaXJvbmRlbGxlcywyMDE4LDIscmVkLENsb3MgZGVzIEhpcm9uZGVsbGVzLEZyYW5jZSxCb3JkZWF1eCxCb3JkZWF1eCxDYWJlcm5ldCBTYXV2aWdub247IE1lcmxvdCw4NS4wMCwyMDIyLTExLTA1CkRvbWFpbmUgTGVzIENvdGVhdXgsMjAxOSwzLHJlZCxEb21haW5lIExlcyBDb3RlYXV4LEZyYW5jZSxCdXJndW5keSxHZXZyZXktQ2hhbWJlcnRpbixQaW5vdCBOb2lyLDU2LjAwLDIwMjMtMDYtMTgKQ2FudGluYSBSb3NhIGRlaSBWZW50aSwyMDE3LDIscmVkLENhbnRpbmEgUm9zYSBkZWkgVmVudGksSXRhbHksUGllZG1vbnQsQmFyb2xvLE5lYmJpb2xvLDQyLjAwLDIwMjMtMDktMzAKQ2VsbGVyIFBlZHJhIE5lZ3JhLDIwMTksMyxyZWQsQ2VsbGVyIFBlZHJhIE5lZ3JhLFNwYWluLFByaW9yYXQsUHJpb3JhdCxHYXJuYWNoYTsgQ2FyacOxZW5hLDI5LjAwLDIwMjQtMDEtMTUKUXVpbnRhIGRvIE1vaW5obyBSZXNlcnZhLDIwMTUsMixyZWQsUXVpbnRhIGRvIE1vaW5obyxQb3J0dWdhbCxEb3VybyxEb3VybyxUb3VyaWdhIE5hY2lvbmFsOyBUaW50YSBSb3JpeiwyNC4wMCwyMDIyLTEwLTA4ClBhem8gZGUgTWFyw6lzLDIwMjQsNix3aGl0ZSxQYXpvIGRlIE1hcsOpcyxTcGFpbixSw61hcyBCYWl4YXMsUsOtYXMgQmFpeGFzLEFsYmFyacOxbywxNC41MCwyMDI1LTA5LTEyCldlaW5ndXQgU29ubmVuaGFuZyBLYWJpbmV0dCwyMDIxLDQsd2hpdGUsV2Vpbmd1dCBTb25uZW5oYW5nLEdlcm1hbnksTW9zZWwsTW9zZWwsUmllc2xpbmcsMTkuMDAsMjAyMy0wNC0yMgpXZWluZ3V0IFNvbm5lbmhhbmcgU3DDpHRsZXNlLDIwMTgsMix3aGl0ZSxXZWluZ3V0IFNvbm5lbmhhbmcsR2VybWFueSxNb3NlbCxNb3NlbCxSaWVzbGluZywyNi4wMCwyMDIyLTA0LTEwCkRvbWFpbmUgZGVzIFBpZXJyZXMgQmxhbmNoZXMgMWVyIENydSwyMDE5LDMsd2hpdGUsRG9tYWluZSBkZXMgUGllcnJlcyBCbGFuY2hlcyxGcmFuY2UsQnVyZ3VuZHksQ2hhYmxpcyxDaGFyZG9ubmF5LDM4LjAwLDIwMjMtMDItMjcKQm9kZWdhcyBBbHRhbWlyYSBCbGFuY28gUmVzZXJ2YSwyMDExLDIsd2hpdGUsQm9kZWdhcyBBbHRhbWlyYSxTcGFpbixSaW9qYSxSaW9qYSxWaXVyYTsgTWFsdmFzw61hLDM0LjAwLDIwMjItMDYtMDEKUm9zYWRvIGRlbCBBbGJhLDIwMjUsNixyb3PDqSxSb3NhZG8gZGVsIEFsYmEsU3BhaW4sTmF2YXJyYSxOYXZhcnJhLEdhcm5hY2hhLDguOTAsMjAyNi0wNS0yMApNYWlzb24gQnJ1bmUgQnJ1dCxOViw0LHNwYXJrbGluZyxNYWlzb24gQnJ1bmUsRnJhbmNlLENoYW1wYWduZSxDaGFtcGFnbmUsQ2hhcmRvbm5heTsgUGlub3QgTm9pcjsgUGlub3QgTWV1bmllciwzOS4wMCwyMDI0LTEyLTEwCkNhdmEgQnJ1dCBOYXR1cmUgUmVzZXJ2YSwyMDIwLDYsc3BhcmtsaW5nLENlbGxlcnMgZGUgbCdFcm1pdGEsU3BhaW4sUGVuZWTDqHMsQ2F2YSxNYWNhYmVvOyBYYXJlbMK3bG87IFBhcmVsbGFkYSwxNS4wMCwyMDI0LTExLTAzCkZpbm8gTGEgU2FsaW5hLE5WLDMsZm9ydGlmaWVkLEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGFsb21pbm8sMTMuMDAsMjAyNi0wMi0xNApBbW9udGlsbGFkbyBWaWVqbyBWT1JTLE5WLDEsZm9ydGlmaWVkLEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGFsb21pbm8sNTguMDAsMjAyNC0wNy0xOQpQZWRybyBYaW3DqW5leiBEdWxjZSxOViwyLHN3ZWV0LEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGVkcm8gWGltw6luZXosMjEuMDAsMjAyNS0xMi0wMQpTaWRyYSBOYXR1cmFsIGRlbCBWYWxsZSwyMDI1LDYsY2lkZXIsTGxhZ2FyIGRlbCBWYWxsZSxTcGFpbixBc3R1cmlhcyxTaWRyYSBkZSBBc3R1cmlhcyxNYW56YW5hLDUuNTAsMjAyNi0wOC0zMAo=",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCkJvZGVnYXMgQWx0YW1pcmEgR3JhbiBSZXNlcnZhLDIwMTAsMSxyZWQsQm9kZWdhcyBBbHRhbWlyYSxTcGFpbixSaW9qYSxSaW9qYSxUZW1wcmFuaWxsbyw0OC41MCwyMDIyLTAzLTE0CkJvZGVnYXMgQWx0YW1pcmEgQ3JpYW56YSwyMDIwLDIscmVkLEJvZGVnYXMgQWx0YW1pcmEsU3BhaW4sUmlvamEsUmlvamEsVGVtcHJhbmlsbG8sMTIuOTAsMjAyNC0wNS0wMgpWacOxZWRvcyBkZWwgTm9ydGUgUmVzZXJ2YSwyMDE2LDEscmVkLFZpw7FlZG9zIGRlbCBOb3J0ZSxTcGFpbixSaWJlcmEgZGVsIER1ZXJvLFJpYmVyYSBkZWwgRHVlcm8sVGVtcHJhbmlsbG8sMzIuMDAsMjAyMy0wMS0yMApGaW5jYSBMYSBVbWJyw61hLDIwMjIsMixyZWQsRmluY2EgTGEgVW1icsOtYSxTcGFpbixSaWJlcmEgZGVsIER1ZXJvLFJpYmVyYSBkZWwgRHVlcm8sVGVtcHJhbmlsbG8sMTguNTAsMjAyNS0wMi0xMQpDbG9zIGRlcyBIaXJvbmRlbGxlcywyMDE4LDEscmVkLENsb3MgZGVzIEhpcm9uZGVsbGVzLEZyYW5jZSxCb3JkZWF1eCxCb3JkZWF1eCxDYWJlcm5ldCBTYXV2aWdub247IE1lcmxvdCw4NS4wMCwyMDIyLTExLTA1CkRvbWFpbmUgTGVzIENvdGVhdXgsMjAxOSwxLHJlZCxEb21haW5lIExlcyBDb3RlYXV4LEZyYW5jZSxCdXJndW5keSxHZXZyZXktQ2hhbWJlcnRpbixQaW5vdCBOb2lyLDU2LjAwLDIwMjMtMDYtMTgKQ2FudGluYSBSb3NhIGRlaSBWZW50aSwyMDE3LDEscmVkLENhbnRpbmEgUm9zYSBkZWkgVmVudGksSXRhbHksUGllZG1vbnQsQmFyb2xvLE5lYmJpb2xvLDQyLjAwLDIwMjMtMDktMzAKQ2VsbGVyIFBlZHJhIE5lZ3JhLDIwMTksMixyZWQsQ2VsbGVyIFBlZHJhIE5lZ3JhLFNwYWluLFByaW9yYXQsUHJpb3JhdCxHYXJuYWNoYTsgQ2FyacOxZW5hLDI5LjAwLDIwMjQtMDEtMTUKUXVpbnRhIGRvIE1vaW5obyBSZXNlcnZhLDIwMTUsMSxyZWQsUXVpbnRhIGRvIE1vaW5obyxQb3J0dWdhbCxEb3VybyxEb3VybyxUb3VyaWdhIE5hY2lvbmFsOyBUaW50YSBSb3JpeiwyNC4wMCwyMDIyLTEwLTA4ClBhem8gZGUgTWFyw6lzLDIwMjQsMix3aGl0ZSxQYXpvIGRlIE1hcsOpcyxTcGFpbixSw61hcyBCYWl4YXMsUsOtYXMgQmFpeGFzLEFsYmFyacOxbywxNC41MCwyMDI1LTA5LTEyCldlaW5ndXQgU29ubmVuaGFuZyBLYWJpbmV0dCwyMDIxLDIsd2hpdGUsV2Vpbmd1dCBTb25uZW5oYW5nLEdlcm1hbnksTW9zZWwsTW9zZWwsUmllc2xpbmcsMTkuMDAsMjAyMy0wNC0yMgpXZWluZ3V0IFNvbm5lbmhhbmcgU3DDpHRsZXNlLDIwMTgsMSx3aGl0ZSxXZWluZ3V0IFNvbm5lbmhhbmcsR2VybWFueSxNb3NlbCxNb3NlbCxSaWVzbGluZywyNi4wMCwyMDIyLTA0LTEwCkRvbWFpbmUgZGVzIFBpZXJyZXMgQmxhbmNoZXMgMWVyIENydSwyMDE5LDIsd2hpdGUsRG9tYWluZSBkZXMgUGllcnJlcyBCbGFuY2hlcyxGcmFuY2UsQnVyZ3VuZHksQ2hhYmxpcyxDaGFyZG9ubmF5LDM4LjAwLDIwMjMtMDItMjcKQm9kZWdhcyBBbHRhbWlyYSBCbGFuY28gUmVzZXJ2YSwyMDExLDEsd2hpdGUsQm9kZWdhcyBBbHRhbWlyYSxTcGFpbixSaW9qYSxSaW9qYSxWaXVyYTsgTWFsdmFzw61hLDM0LjAwLDIwMjItMDYtMDEKUm9zYWRvIGRlbCBBbGJhLDIwMjUsMixyb3PDqSxSb3NhZG8gZGVsIEFsYmEsU3BhaW4sTmF2YXJyYSxOYXZhcnJhLEdhcm5hY2hhLDguOTAsMjAyNi0wNS0yMApNYWlzb24gQnJ1bmUgQnJ1dCxOViwyLHNwYXJrbGluZyxNYWlzb24gQnJ1bmUsRnJhbmNlLENoYW1wYWduZSxDaGFtcGFnbmUsQ2hhcmRvbm5heTsgUGlub3QgTm9pcjsgUGlub3QgTWV1bmllciwzOS4wMCwyMDI0LTEyLTEwCkNhdmEgQnJ1dCBOYXR1cmUgUmVzZXJ2YSwyMDIwLDIsc3BhcmtsaW5nLENlbGxlcnMgZGUgbCdFcm1pdGEsU3BhaW4sUGVuZWTDqHMsQ2F2YSxNYWNhYmVvOyBYYXJlbMK3bG87IFBhcmVsbGFkYSwxNS4wMCwyMDI0LTExLTAzCkZpbm8gTGEgU2FsaW5hLE5WLDIsZm9ydGlmaWVkLEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGFsb21pbm8sMTMuMDAsMjAyNi0wMi0xNApBbW9udGlsbGFkbyBWaWVqbyBWT1JTLE5WLDEsZm9ydGlmaWVkLEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGFsb21pbm8sNTguMDAsMjAyNC0wNy0xOQpQZWRybyBYaW3DqW5leiBEdWxjZSxOViwxLHN3ZWV0LEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGVkcm8gWGltw6luZXosMjEuMDAsMjAyNS0xMi0wMQpTaWRyYSBOYXR1cmFsIGRlbCBWYWxsZSwyMDI1LDIsY2lkZXIsTGxhZ2FyIGRlbCBWYWxsZSxTcGFpbixBc3R1cmlhcyxTaWRyYSBkZSBBc3R1cmlhcyxNYW56YW5hLDUuNTAsMjAyNi0wOC0zMApCb2RlZ2FzIEFsdGFtaXJhIFJlc2VydmEsMjAxNCwyLHJlZCxCb2RlZ2FzIEFsdGFtaXJhLFNwYWluLFJpb2phLFJpb2phLFRlbXByYW5pbGxvLDIyLjAwLDIwMjItMDktMDMKVmnDsWVkb3MgZGVsIE5vcnRlIENyaWFuemEsMjAxNywyLHJlZCxWacOxZWRvcyBkZWwgTm9ydGUsU3BhaW4sUmliZXJhIGRlbCBEdWVybyxSaWJlcmEgZGVsIER1ZXJvLFRlbXByYW5pbGxvLDE2LjUwLDIwMjMtMTAtMTQKQm9kZWdhIFZhbGRlb2xtb3MgQ3JpYW56YSwyMDE2LDIscmVkLEJvZGVnYSBWYWxkZW9sbW9zLFNwYWluLFJpb2phLFJpb2phLFRlbXByYW5pbGxvOyBHYXJuYWNoYSwxMS44MCwyMDIyLTEyLTAyCkZpbmNhIExvcyBBbG1lbmRyb3MgSm92ZW4sMjAyNCwzLHJlZCxGaW5jYSBMb3MgQWxtZW5kcm9zLFNwYWluLENhc3RpbGxhLUxhIE1hbmNoYSxMYSBNYW5jaGEsVGVtcHJhbmlsbG8sNi45MCwyMDI1LTExLTA4CkNlbGxlciBQZWRyYSBOZWdyYSBKb3ZlbiwyMDIzLDIscmVkLENlbGxlciBQZWRyYSBOZWdyYSxTcGFpbixDYXRhbHXDsWEsTW9udHNhbnQsR2FybmFjaGEsOS41MCwyMDI1LTAzLTI5CkJvZGVnYXMgUnVlZGEgQWx0YSBWZXJkZWpvLDIwMjQsMix3aGl0ZSxCb2RlZ2FzIFJ1ZWRhIEFsdGEsU3BhaW4sQ2FzdGlsbGEgeSBMZcOzbixSdWVkYSxWZXJkZWpvLDguNTAsMjAyNS0xMC0wNApQYXpvIGRlIE1hcsOpcyBTZWxlY2Npw7NuLDIwMjMsMSx3aGl0ZSxQYXpvIGRlIE1hcsOpcyxTcGFpbixSw61hcyBCYWl4YXMsUsOtYXMgQmFpeGFzLEFsYmFyacOxbywyMS4wMCwyMDI1LTAxLTE4CkRvbWFpbmUgZHUgVmFsIENsYWlyLDIwMjEsMix3aGl0ZSxEb21haW5lIGR1IFZhbCBDbGFpcixGcmFuY2UsTG9pcmUsVm91dnJheSxDaGVuaW4gQmxhbmMsMTcuMDAsMjAyMy0wOC0xMgpCb2RlZ2FzIEFsdGFtaXJhIEJsYW5jbyBDcmlhbnphLDIwMTUsMSx3aGl0ZSxCb2RlZ2FzIEFsdGFtaXJhLFNwYWluLFJpb2phLFJpb2phLFZpdXJhLDE1LjUwLDIwMjItMDUtMjEKVmnDsWEgU2llcnJhIEdvZGVsbG8sMjAyMiwxLHdoaXRlLFZpw7FhIFNpZXJyYSxTcGFpbixHYWxpY2lhLFZhbGRlb3JyYXMsR29kZWxsbywxMy4wMCwyMDI0LTAyLTA5Cg==",
   "existing": false,
   "results": {
    "en": {
@@ -31,7 +31,7 @@
       "form": {
        "name": "Bodegas Altamira Gran Reserva",
        "vintage": "2010",
-       "bottles": "3",
+       "bottles": "1",
        "colour": "red",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -49,7 +49,7 @@
       "form": {
        "name": "Bodegas Altamira Crianza",
        "vintage": "2020",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "red",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -67,7 +67,7 @@
       "form": {
        "name": "Viñedos del Norte Reserva",
        "vintage": "2016",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Viñedos del Norte",
        "country": "Spain",
@@ -85,7 +85,7 @@
       "form": {
        "name": "Finca La Umbría",
        "vintage": "2022",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "red",
        "producer": "Finca La Umbría",
        "country": "Spain",
@@ -103,7 +103,7 @@
       "form": {
        "name": "Clos des Hirondelles",
        "vintage": "2018",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Clos des Hirondelles",
        "country": "France",
@@ -121,7 +121,7 @@
       "form": {
        "name": "Domaine Les Coteaux",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "1",
        "colour": "red",
        "producer": "Domaine Les Coteaux",
        "country": "France",
@@ -139,7 +139,7 @@
       "form": {
        "name": "Cantina Rosa dei Venti",
        "vintage": "2017",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Cantina Rosa dei Venti",
        "country": "Italy",
@@ -157,7 +157,7 @@
       "form": {
        "name": "Celler Pedra Negra",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "red",
        "producer": "Celler Pedra Negra",
        "country": "Spain",
@@ -175,7 +175,7 @@
       "form": {
        "name": "Quinta do Moinho Reserva",
        "vintage": "2015",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Quinta do Moinho",
        "country": "Portugal",
@@ -193,7 +193,7 @@
       "form": {
        "name": "Pazo de Marés",
        "vintage": "2024",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "white",
        "producer": "Pazo de Marés",
        "country": "Spain",
@@ -211,7 +211,7 @@
       "form": {
        "name": "Weingut Sonnenhang Kabinett",
        "vintage": "2021",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "white",
        "producer": "Weingut Sonnenhang",
        "country": "Germany",
@@ -229,7 +229,7 @@
       "form": {
        "name": "Weingut Sonnenhang Spätlese",
        "vintage": "2018",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "white",
        "producer": "Weingut Sonnenhang",
        "country": "Germany",
@@ -247,7 +247,7 @@
       "form": {
        "name": "Domaine des Pierres Blanches 1er Cru",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "white",
        "producer": "Domaine des Pierres Blanches",
        "country": "France",
@@ -265,7 +265,7 @@
       "form": {
        "name": "Bodegas Altamira Blanco Reserva",
        "vintage": "2011",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "white",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -283,7 +283,7 @@
       "form": {
        "name": "Rosado del Alba",
        "vintage": "2025",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "rosé",
        "producer": "Rosado del Alba",
        "country": "Spain",
@@ -301,7 +301,7 @@
       "form": {
        "name": "Maison Brune Brut",
        "vintage": "NV",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "sparkling",
        "producer": "Maison Brune",
        "country": "France",
@@ -319,7 +319,7 @@
       "form": {
        "name": "Cava Brut Nature Reserva",
        "vintage": "2020",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "sparkling",
        "producer": "Cellers de l'Ermita",
        "country": "Spain",
@@ -337,7 +337,7 @@
       "form": {
        "name": "Fino La Salina",
        "vintage": "NV",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "fortified",
        "producer": "Bodegas La Salina",
        "country": "Spain",
@@ -373,7 +373,7 @@
       "form": {
        "name": "Pedro Ximénez Dulce",
        "vintage": "NV",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "sweet",
        "producer": "Bodegas La Salina",
        "country": "Spain",
@@ -391,7 +391,7 @@
       "form": {
        "name": "Sidra Natural del Valle",
        "vintage": "2025",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "cider",
        "producer": "Llagar del Valle",
        "country": "Spain",
@@ -401,6 +401,186 @@
        "paid": "5.50"
       },
       "added": "2026-08-30",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 23,
+      "form": {
+       "name": "Bodegas Altamira Reserva",
+       "vintage": "2014",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "22.00"
+      },
+      "added": "2022-09-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 24,
+      "form": {
+       "name": "Viñedos del Norte Crianza",
+       "vintage": "2017",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Viñedos del Norte",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "16.50"
+      },
+      "added": "2023-10-14",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 25,
+      "form": {
+       "name": "Bodega Valdeolmos Crianza",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Bodega Valdeolmos",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo; Garnacha",
+       "paid": "11.80"
+      },
+      "added": "2022-12-02",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 26,
+      "form": {
+       "name": "Finca Los Almendros Joven",
+       "vintage": "2024",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Finca Los Almendros",
+       "country": "Spain",
+       "region": "Castilla-La Mancha",
+       "appellation": "La Mancha",
+       "grapes": "Tempranillo",
+       "paid": "6.90"
+      },
+      "added": "2025-11-08",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 27,
+      "form": {
+       "name": "Celler Pedra Negra Joven",
+       "vintage": "2023",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Celler Pedra Negra",
+       "country": "Spain",
+       "region": "Cataluña",
+       "appellation": "Montsant",
+       "grapes": "Garnacha",
+       "paid": "9.50"
+      },
+      "added": "2025-03-29",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 28,
+      "form": {
+       "name": "Bodegas Rueda Alta Verdejo",
+       "vintage": "2024",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Bodegas Rueda Alta",
+       "country": "Spain",
+       "region": "Castilla y León",
+       "appellation": "Rueda",
+       "grapes": "Verdejo",
+       "paid": "8.50"
+      },
+      "added": "2025-10-04",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 29,
+      "form": {
+       "name": "Pazo de Marés Selección",
+       "vintage": "2023",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Pazo de Marés",
+       "country": "Spain",
+       "region": "Rías Baixas",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "21.00"
+      },
+      "added": "2025-01-18",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 30,
+      "form": {
+       "name": "Domaine du Val Clair",
+       "vintage": "2021",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Domaine du Val Clair",
+       "country": "France",
+       "region": "Loire",
+       "appellation": "Vouvray",
+       "grapes": "Chenin Blanc",
+       "paid": "17.00"
+      },
+      "added": "2023-08-12",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 31,
+      "form": {
+       "name": "Bodegas Altamira Blanco Crianza",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Viura",
+       "paid": "15.50"
+      },
+      "added": "2022-05-21",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 32,
+      "form": {
+       "name": "Viña Sierra Godello",
+       "vintage": "2022",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Viña Sierra",
+       "country": "Spain",
+       "region": "Galicia",
+       "appellation": "Valdeorras",
+       "grapes": "Godello",
+       "paid": "13.00"
+      },
+      "added": "2024-02-09",
       "warnings": [],
       "error": null
      }
@@ -414,7 +594,7 @@
       "form": {
        "name": "Bodegas Altamira Gran Reserva",
        "vintage": "2010",
-       "bottles": "3",
+       "bottles": "1",
        "colour": "red",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -432,7 +612,7 @@
       "form": {
        "name": "Bodegas Altamira Crianza",
        "vintage": "2020",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "red",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -450,7 +630,7 @@
       "form": {
        "name": "Viñedos del Norte Reserva",
        "vintage": "2016",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Viñedos del Norte",
        "country": "Spain",
@@ -468,7 +648,7 @@
       "form": {
        "name": "Finca La Umbría",
        "vintage": "2022",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "red",
        "producer": "Finca La Umbría",
        "country": "Spain",
@@ -486,7 +666,7 @@
       "form": {
        "name": "Clos des Hirondelles",
        "vintage": "2018",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Clos des Hirondelles",
        "country": "France",
@@ -504,7 +684,7 @@
       "form": {
        "name": "Domaine Les Coteaux",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "1",
        "colour": "red",
        "producer": "Domaine Les Coteaux",
        "country": "France",
@@ -522,7 +702,7 @@
       "form": {
        "name": "Cantina Rosa dei Venti",
        "vintage": "2017",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Cantina Rosa dei Venti",
        "country": "Italy",
@@ -540,7 +720,7 @@
       "form": {
        "name": "Celler Pedra Negra",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "red",
        "producer": "Celler Pedra Negra",
        "country": "Spain",
@@ -558,7 +738,7 @@
       "form": {
        "name": "Quinta do Moinho Reserva",
        "vintage": "2015",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Quinta do Moinho",
        "country": "Portugal",
@@ -576,7 +756,7 @@
       "form": {
        "name": "Pazo de Marés",
        "vintage": "2024",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "white",
        "producer": "Pazo de Marés",
        "country": "Spain",
@@ -594,7 +774,7 @@
       "form": {
        "name": "Weingut Sonnenhang Kabinett",
        "vintage": "2021",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "white",
        "producer": "Weingut Sonnenhang",
        "country": "Germany",
@@ -612,7 +792,7 @@
       "form": {
        "name": "Weingut Sonnenhang Spätlese",
        "vintage": "2018",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "white",
        "producer": "Weingut Sonnenhang",
        "country": "Germany",
@@ -630,7 +810,7 @@
       "form": {
        "name": "Domaine des Pierres Blanches 1er Cru",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "white",
        "producer": "Domaine des Pierres Blanches",
        "country": "France",
@@ -648,7 +828,7 @@
       "form": {
        "name": "Bodegas Altamira Blanco Reserva",
        "vintage": "2011",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "white",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -666,7 +846,7 @@
       "form": {
        "name": "Rosado del Alba",
        "vintage": "2025",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "rosé",
        "producer": "Rosado del Alba",
        "country": "Spain",
@@ -684,7 +864,7 @@
       "form": {
        "name": "Maison Brune Brut",
        "vintage": "NV",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "sparkling",
        "producer": "Maison Brune",
        "country": "France",
@@ -702,7 +882,7 @@
       "form": {
        "name": "Cava Brut Nature Reserva",
        "vintage": "2020",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "sparkling",
        "producer": "Cellers de l'Ermita",
        "country": "Spain",
@@ -720,7 +900,7 @@
       "form": {
        "name": "Fino La Salina",
        "vintage": "NV",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "fortified",
        "producer": "Bodegas La Salina",
        "country": "Spain",
@@ -756,7 +936,7 @@
       "form": {
        "name": "Pedro Ximénez Dulce",
        "vintage": "NV",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "sweet",
        "producer": "Bodegas La Salina",
        "country": "Spain",
@@ -774,7 +954,7 @@
       "form": {
        "name": "Sidra Natural del Valle",
        "vintage": "2025",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "cider",
        "producer": "Llagar del Valle",
        "country": "Spain",
@@ -784,6 +964,186 @@
        "paid": "5.50"
       },
       "added": "2026-08-30",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 23,
+      "form": {
+       "name": "Bodegas Altamira Reserva",
+       "vintage": "2014",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "22.00"
+      },
+      "added": "2022-09-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 24,
+      "form": {
+       "name": "Viñedos del Norte Crianza",
+       "vintage": "2017",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Viñedos del Norte",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "16.50"
+      },
+      "added": "2023-10-14",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 25,
+      "form": {
+       "name": "Bodega Valdeolmos Crianza",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Bodega Valdeolmos",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo; Garnacha",
+       "paid": "11.80"
+      },
+      "added": "2022-12-02",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 26,
+      "form": {
+       "name": "Finca Los Almendros Joven",
+       "vintage": "2024",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Finca Los Almendros",
+       "country": "Spain",
+       "region": "Castilla-La Mancha",
+       "appellation": "La Mancha",
+       "grapes": "Tempranillo",
+       "paid": "6.90"
+      },
+      "added": "2025-11-08",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 27,
+      "form": {
+       "name": "Celler Pedra Negra Joven",
+       "vintage": "2023",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Celler Pedra Negra",
+       "country": "Spain",
+       "region": "Cataluña",
+       "appellation": "Montsant",
+       "grapes": "Garnacha",
+       "paid": "9.50"
+      },
+      "added": "2025-03-29",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 28,
+      "form": {
+       "name": "Bodegas Rueda Alta Verdejo",
+       "vintage": "2024",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Bodegas Rueda Alta",
+       "country": "Spain",
+       "region": "Castilla y León",
+       "appellation": "Rueda",
+       "grapes": "Verdejo",
+       "paid": "8.50"
+      },
+      "added": "2025-10-04",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 29,
+      "form": {
+       "name": "Pazo de Marés Selección",
+       "vintage": "2023",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Pazo de Marés",
+       "country": "Spain",
+       "region": "Rías Baixas",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "21.00"
+      },
+      "added": "2025-01-18",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 30,
+      "form": {
+       "name": "Domaine du Val Clair",
+       "vintage": "2021",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Domaine du Val Clair",
+       "country": "France",
+       "region": "Loire",
+       "appellation": "Vouvray",
+       "grapes": "Chenin Blanc",
+       "paid": "17.00"
+      },
+      "added": "2023-08-12",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 31,
+      "form": {
+       "name": "Bodegas Altamira Blanco Crianza",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Viura",
+       "paid": "15.50"
+      },
+      "added": "2022-05-21",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 32,
+      "form": {
+       "name": "Viña Sierra Godello",
+       "vintage": "2022",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Viña Sierra",
+       "country": "Spain",
+       "region": "Galicia",
+       "appellation": "Valdeorras",
+       "grapes": "Godello",
+       "paid": "13.00"
+      },
+      "added": "2024-02-09",
       "warnings": [],
       "error": null
      }
@@ -797,7 +1157,7 @@
       "form": {
        "name": "Bodegas Altamira Gran Reserva",
        "vintage": "2010",
-       "bottles": "3",
+       "bottles": "1",
        "colour": "red",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -815,7 +1175,7 @@
       "form": {
        "name": "Bodegas Altamira Crianza",
        "vintage": "2020",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "red",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -833,7 +1193,7 @@
       "form": {
        "name": "Viñedos del Norte Reserva",
        "vintage": "2016",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Viñedos del Norte",
        "country": "Spain",
@@ -851,7 +1211,7 @@
       "form": {
        "name": "Finca La Umbría",
        "vintage": "2022",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "red",
        "producer": "Finca La Umbría",
        "country": "Spain",
@@ -869,7 +1229,7 @@
       "form": {
        "name": "Clos des Hirondelles",
        "vintage": "2018",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Clos des Hirondelles",
        "country": "France",
@@ -887,7 +1247,7 @@
       "form": {
        "name": "Domaine Les Coteaux",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "1",
        "colour": "red",
        "producer": "Domaine Les Coteaux",
        "country": "France",
@@ -905,7 +1265,7 @@
       "form": {
        "name": "Cantina Rosa dei Venti",
        "vintage": "2017",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Cantina Rosa dei Venti",
        "country": "Italy",
@@ -923,7 +1283,7 @@
       "form": {
        "name": "Celler Pedra Negra",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "red",
        "producer": "Celler Pedra Negra",
        "country": "Spain",
@@ -941,7 +1301,7 @@
       "form": {
        "name": "Quinta do Moinho Reserva",
        "vintage": "2015",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Quinta do Moinho",
        "country": "Portugal",
@@ -959,7 +1319,7 @@
       "form": {
        "name": "Pazo de Marés",
        "vintage": "2024",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "white",
        "producer": "Pazo de Marés",
        "country": "Spain",
@@ -977,7 +1337,7 @@
       "form": {
        "name": "Weingut Sonnenhang Kabinett",
        "vintage": "2021",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "white",
        "producer": "Weingut Sonnenhang",
        "country": "Germany",
@@ -995,7 +1355,7 @@
       "form": {
        "name": "Weingut Sonnenhang Spätlese",
        "vintage": "2018",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "white",
        "producer": "Weingut Sonnenhang",
        "country": "Germany",
@@ -1013,7 +1373,7 @@
       "form": {
        "name": "Domaine des Pierres Blanches 1er Cru",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "white",
        "producer": "Domaine des Pierres Blanches",
        "country": "France",
@@ -1031,7 +1391,7 @@
       "form": {
        "name": "Bodegas Altamira Blanco Reserva",
        "vintage": "2011",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "white",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -1049,7 +1409,7 @@
       "form": {
        "name": "Rosado del Alba",
        "vintage": "2025",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "rosé",
        "producer": "Rosado del Alba",
        "country": "Spain",
@@ -1067,7 +1427,7 @@
       "form": {
        "name": "Maison Brune Brut",
        "vintage": "NV",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "sparkling",
        "producer": "Maison Brune",
        "country": "France",
@@ -1085,7 +1445,7 @@
       "form": {
        "name": "Cava Brut Nature Reserva",
        "vintage": "2020",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "sparkling",
        "producer": "Cellers de l'Ermita",
        "country": "Spain",
@@ -1103,7 +1463,7 @@
       "form": {
        "name": "Fino La Salina",
        "vintage": "NV",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "fortified",
        "producer": "Bodegas La Salina",
        "country": "Spain",
@@ -1139,7 +1499,7 @@
       "form": {
        "name": "Pedro Ximénez Dulce",
        "vintage": "NV",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "sweet",
        "producer": "Bodegas La Salina",
        "country": "Spain",
@@ -1157,7 +1517,7 @@
       "form": {
        "name": "Sidra Natural del Valle",
        "vintage": "2025",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "cider",
        "producer": "Llagar del Valle",
        "country": "Spain",
@@ -1169,6 +1529,186 @@
       "added": "2026-08-30",
       "warnings": [],
       "error": null
+     },
+     {
+      "line": 23,
+      "form": {
+       "name": "Bodegas Altamira Reserva",
+       "vintage": "2014",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "22.00"
+      },
+      "added": "2022-09-03",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 24,
+      "form": {
+       "name": "Viñedos del Norte Crianza",
+       "vintage": "2017",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Viñedos del Norte",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "16.50"
+      },
+      "added": "2023-10-14",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 25,
+      "form": {
+       "name": "Bodega Valdeolmos Crianza",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Bodega Valdeolmos",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo; Garnacha",
+       "paid": "11.80"
+      },
+      "added": "2022-12-02",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 26,
+      "form": {
+       "name": "Finca Los Almendros Joven",
+       "vintage": "2024",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Finca Los Almendros",
+       "country": "Spain",
+       "region": "Castilla-La Mancha",
+       "appellation": "La Mancha",
+       "grapes": "Tempranillo",
+       "paid": "6.90"
+      },
+      "added": "2025-11-08",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 27,
+      "form": {
+       "name": "Celler Pedra Negra Joven",
+       "vintage": "2023",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Celler Pedra Negra",
+       "country": "Spain",
+       "region": "Cataluña",
+       "appellation": "Montsant",
+       "grapes": "Garnacha",
+       "paid": "9.50"
+      },
+      "added": "2025-03-29",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 28,
+      "form": {
+       "name": "Bodegas Rueda Alta Verdejo",
+       "vintage": "2024",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Bodegas Rueda Alta",
+       "country": "Spain",
+       "region": "Castilla y León",
+       "appellation": "Rueda",
+       "grapes": "Verdejo",
+       "paid": "8.50"
+      },
+      "added": "2025-10-04",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 29,
+      "form": {
+       "name": "Pazo de Marés Selección",
+       "vintage": "2023",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Pazo de Marés",
+       "country": "Spain",
+       "region": "Rías Baixas",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "21.00"
+      },
+      "added": "2025-01-18",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 30,
+      "form": {
+       "name": "Domaine du Val Clair",
+       "vintage": "2021",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Domaine du Val Clair",
+       "country": "France",
+       "region": "Loire",
+       "appellation": "Vouvray",
+       "grapes": "Chenin Blanc",
+       "paid": "17.00"
+      },
+      "added": "2023-08-12",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 31,
+      "form": {
+       "name": "Bodegas Altamira Blanco Crianza",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Viura",
+       "paid": "15.50"
+      },
+      "added": "2022-05-21",
+      "warnings": [],
+      "error": null
+     },
+     {
+      "line": 32,
+      "form": {
+       "name": "Viña Sierra Godello",
+       "vintage": "2022",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Viña Sierra",
+       "country": "Spain",
+       "region": "Galicia",
+       "appellation": "Valdeorras",
+       "grapes": "Godello",
+       "paid": "13.00"
+      },
+      "added": "2024-02-09",
+      "warnings": [],
+      "error": null
      }
     ]
    }
@@ -1176,7 +1716,7 @@
  },
  {
   "label": "sample cellar, checked against existing wines",
-  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCkJvZGVnYXMgQWx0YW1pcmEgR3JhbiBSZXNlcnZhLDIwMTAsMyxyZWQsQm9kZWdhcyBBbHRhbWlyYSxTcGFpbixSaW9qYSxSaW9qYSxUZW1wcmFuaWxsbyw0OC41MCwyMDIyLTAzLTE0CkJvZGVnYXMgQWx0YW1pcmEgQ3JpYW56YSwyMDIwLDYscmVkLEJvZGVnYXMgQWx0YW1pcmEsU3BhaW4sUmlvamEsUmlvamEsVGVtcHJhbmlsbG8sMTIuOTAsMjAyNC0wNS0wMgpWacOxZWRvcyBkZWwgTm9ydGUgUmVzZXJ2YSwyMDE2LDIscmVkLFZpw7FlZG9zIGRlbCBOb3J0ZSxTcGFpbixSaWJlcmEgZGVsIER1ZXJvLFJpYmVyYSBkZWwgRHVlcm8sVGVtcHJhbmlsbG8sMzIuMDAsMjAyMy0wMS0yMApGaW5jYSBMYSBVbWJyw61hLDIwMjIsNCxyZWQsRmluY2EgTGEgVW1icsOtYSxTcGFpbixSaWJlcmEgZGVsIER1ZXJvLFJpYmVyYSBkZWwgRHVlcm8sVGVtcHJhbmlsbG8sMTguNTAsMjAyNS0wMi0xMQpDbG9zIGRlcyBIaXJvbmRlbGxlcywyMDE4LDIscmVkLENsb3MgZGVzIEhpcm9uZGVsbGVzLEZyYW5jZSxCb3JkZWF1eCxCb3JkZWF1eCxDYWJlcm5ldCBTYXV2aWdub247IE1lcmxvdCw4NS4wMCwyMDIyLTExLTA1CkRvbWFpbmUgTGVzIENvdGVhdXgsMjAxOSwzLHJlZCxEb21haW5lIExlcyBDb3RlYXV4LEZyYW5jZSxCdXJndW5keSxHZXZyZXktQ2hhbWJlcnRpbixQaW5vdCBOb2lyLDU2LjAwLDIwMjMtMDYtMTgKQ2FudGluYSBSb3NhIGRlaSBWZW50aSwyMDE3LDIscmVkLENhbnRpbmEgUm9zYSBkZWkgVmVudGksSXRhbHksUGllZG1vbnQsQmFyb2xvLE5lYmJpb2xvLDQyLjAwLDIwMjMtMDktMzAKQ2VsbGVyIFBlZHJhIE5lZ3JhLDIwMTksMyxyZWQsQ2VsbGVyIFBlZHJhIE5lZ3JhLFNwYWluLFByaW9yYXQsUHJpb3JhdCxHYXJuYWNoYTsgQ2FyacOxZW5hLDI5LjAwLDIwMjQtMDEtMTUKUXVpbnRhIGRvIE1vaW5obyBSZXNlcnZhLDIwMTUsMixyZWQsUXVpbnRhIGRvIE1vaW5obyxQb3J0dWdhbCxEb3VybyxEb3VybyxUb3VyaWdhIE5hY2lvbmFsOyBUaW50YSBSb3JpeiwyNC4wMCwyMDIyLTEwLTA4ClBhem8gZGUgTWFyw6lzLDIwMjQsNix3aGl0ZSxQYXpvIGRlIE1hcsOpcyxTcGFpbixSw61hcyBCYWl4YXMsUsOtYXMgQmFpeGFzLEFsYmFyacOxbywxNC41MCwyMDI1LTA5LTEyCldlaW5ndXQgU29ubmVuaGFuZyBLYWJpbmV0dCwyMDIxLDQsd2hpdGUsV2Vpbmd1dCBTb25uZW5oYW5nLEdlcm1hbnksTW9zZWwsTW9zZWwsUmllc2xpbmcsMTkuMDAsMjAyMy0wNC0yMgpXZWluZ3V0IFNvbm5lbmhhbmcgU3DDpHRsZXNlLDIwMTgsMix3aGl0ZSxXZWluZ3V0IFNvbm5lbmhhbmcsR2VybWFueSxNb3NlbCxNb3NlbCxSaWVzbGluZywyNi4wMCwyMDIyLTA0LTEwCkRvbWFpbmUgZGVzIFBpZXJyZXMgQmxhbmNoZXMgMWVyIENydSwyMDE5LDMsd2hpdGUsRG9tYWluZSBkZXMgUGllcnJlcyBCbGFuY2hlcyxGcmFuY2UsQnVyZ3VuZHksQ2hhYmxpcyxDaGFyZG9ubmF5LDM4LjAwLDIwMjMtMDItMjcKQm9kZWdhcyBBbHRhbWlyYSBCbGFuY28gUmVzZXJ2YSwyMDExLDIsd2hpdGUsQm9kZWdhcyBBbHRhbWlyYSxTcGFpbixSaW9qYSxSaW9qYSxWaXVyYTsgTWFsdmFzw61hLDM0LjAwLDIwMjItMDYtMDEKUm9zYWRvIGRlbCBBbGJhLDIwMjUsNixyb3PDqSxSb3NhZG8gZGVsIEFsYmEsU3BhaW4sTmF2YXJyYSxOYXZhcnJhLEdhcm5hY2hhLDguOTAsMjAyNi0wNS0yMApNYWlzb24gQnJ1bmUgQnJ1dCxOViw0LHNwYXJrbGluZyxNYWlzb24gQnJ1bmUsRnJhbmNlLENoYW1wYWduZSxDaGFtcGFnbmUsQ2hhcmRvbm5heTsgUGlub3QgTm9pcjsgUGlub3QgTWV1bmllciwzOS4wMCwyMDI0LTEyLTEwCkNhdmEgQnJ1dCBOYXR1cmUgUmVzZXJ2YSwyMDIwLDYsc3BhcmtsaW5nLENlbGxlcnMgZGUgbCdFcm1pdGEsU3BhaW4sUGVuZWTDqHMsQ2F2YSxNYWNhYmVvOyBYYXJlbMK3bG87IFBhcmVsbGFkYSwxNS4wMCwyMDI0LTExLTAzCkZpbm8gTGEgU2FsaW5hLE5WLDMsZm9ydGlmaWVkLEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGFsb21pbm8sMTMuMDAsMjAyNi0wMi0xNApBbW9udGlsbGFkbyBWaWVqbyBWT1JTLE5WLDEsZm9ydGlmaWVkLEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGFsb21pbm8sNTguMDAsMjAyNC0wNy0xOQpQZWRybyBYaW3DqW5leiBEdWxjZSxOViwyLHN3ZWV0LEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGVkcm8gWGltw6luZXosMjEuMDAsMjAyNS0xMi0wMQpTaWRyYSBOYXR1cmFsIGRlbCBWYWxsZSwyMDI1LDYsY2lkZXIsTGxhZ2FyIGRlbCBWYWxsZSxTcGFpbixBc3R1cmlhcyxTaWRyYSBkZSBBc3R1cmlhcyxNYW56YW5hLDUuNTAsMjAyNi0wOC0zMAo=",
+  "rawBase64": "bmFtZSx2aW50YWdlLGJvdHRsZXMsdHlwZSxwcm9kdWNlcixjb3VudHJ5LHJlZ2lvbixhcHBlbGxhdGlvbixncmFwZXMscGFpZCxwdXJjaGFzZV9kYXRlCkJvZGVnYXMgQWx0YW1pcmEgR3JhbiBSZXNlcnZhLDIwMTAsMSxyZWQsQm9kZWdhcyBBbHRhbWlyYSxTcGFpbixSaW9qYSxSaW9qYSxUZW1wcmFuaWxsbyw0OC41MCwyMDIyLTAzLTE0CkJvZGVnYXMgQWx0YW1pcmEgQ3JpYW56YSwyMDIwLDIscmVkLEJvZGVnYXMgQWx0YW1pcmEsU3BhaW4sUmlvamEsUmlvamEsVGVtcHJhbmlsbG8sMTIuOTAsMjAyNC0wNS0wMgpWacOxZWRvcyBkZWwgTm9ydGUgUmVzZXJ2YSwyMDE2LDEscmVkLFZpw7FlZG9zIGRlbCBOb3J0ZSxTcGFpbixSaWJlcmEgZGVsIER1ZXJvLFJpYmVyYSBkZWwgRHVlcm8sVGVtcHJhbmlsbG8sMzIuMDAsMjAyMy0wMS0yMApGaW5jYSBMYSBVbWJyw61hLDIwMjIsMixyZWQsRmluY2EgTGEgVW1icsOtYSxTcGFpbixSaWJlcmEgZGVsIER1ZXJvLFJpYmVyYSBkZWwgRHVlcm8sVGVtcHJhbmlsbG8sMTguNTAsMjAyNS0wMi0xMQpDbG9zIGRlcyBIaXJvbmRlbGxlcywyMDE4LDEscmVkLENsb3MgZGVzIEhpcm9uZGVsbGVzLEZyYW5jZSxCb3JkZWF1eCxCb3JkZWF1eCxDYWJlcm5ldCBTYXV2aWdub247IE1lcmxvdCw4NS4wMCwyMDIyLTExLTA1CkRvbWFpbmUgTGVzIENvdGVhdXgsMjAxOSwxLHJlZCxEb21haW5lIExlcyBDb3RlYXV4LEZyYW5jZSxCdXJndW5keSxHZXZyZXktQ2hhbWJlcnRpbixQaW5vdCBOb2lyLDU2LjAwLDIwMjMtMDYtMTgKQ2FudGluYSBSb3NhIGRlaSBWZW50aSwyMDE3LDEscmVkLENhbnRpbmEgUm9zYSBkZWkgVmVudGksSXRhbHksUGllZG1vbnQsQmFyb2xvLE5lYmJpb2xvLDQyLjAwLDIwMjMtMDktMzAKQ2VsbGVyIFBlZHJhIE5lZ3JhLDIwMTksMixyZWQsQ2VsbGVyIFBlZHJhIE5lZ3JhLFNwYWluLFByaW9yYXQsUHJpb3JhdCxHYXJuYWNoYTsgQ2FyacOxZW5hLDI5LjAwLDIwMjQtMDEtMTUKUXVpbnRhIGRvIE1vaW5obyBSZXNlcnZhLDIwMTUsMSxyZWQsUXVpbnRhIGRvIE1vaW5obyxQb3J0dWdhbCxEb3VybyxEb3VybyxUb3VyaWdhIE5hY2lvbmFsOyBUaW50YSBSb3JpeiwyNC4wMCwyMDIyLTEwLTA4ClBhem8gZGUgTWFyw6lzLDIwMjQsMix3aGl0ZSxQYXpvIGRlIE1hcsOpcyxTcGFpbixSw61hcyBCYWl4YXMsUsOtYXMgQmFpeGFzLEFsYmFyacOxbywxNC41MCwyMDI1LTA5LTEyCldlaW5ndXQgU29ubmVuaGFuZyBLYWJpbmV0dCwyMDIxLDIsd2hpdGUsV2Vpbmd1dCBTb25uZW5oYW5nLEdlcm1hbnksTW9zZWwsTW9zZWwsUmllc2xpbmcsMTkuMDAsMjAyMy0wNC0yMgpXZWluZ3V0IFNvbm5lbmhhbmcgU3DDpHRsZXNlLDIwMTgsMSx3aGl0ZSxXZWluZ3V0IFNvbm5lbmhhbmcsR2VybWFueSxNb3NlbCxNb3NlbCxSaWVzbGluZywyNi4wMCwyMDIyLTA0LTEwCkRvbWFpbmUgZGVzIFBpZXJyZXMgQmxhbmNoZXMgMWVyIENydSwyMDE5LDIsd2hpdGUsRG9tYWluZSBkZXMgUGllcnJlcyBCbGFuY2hlcyxGcmFuY2UsQnVyZ3VuZHksQ2hhYmxpcyxDaGFyZG9ubmF5LDM4LjAwLDIwMjMtMDItMjcKQm9kZWdhcyBBbHRhbWlyYSBCbGFuY28gUmVzZXJ2YSwyMDExLDEsd2hpdGUsQm9kZWdhcyBBbHRhbWlyYSxTcGFpbixSaW9qYSxSaW9qYSxWaXVyYTsgTWFsdmFzw61hLDM0LjAwLDIwMjItMDYtMDEKUm9zYWRvIGRlbCBBbGJhLDIwMjUsMixyb3PDqSxSb3NhZG8gZGVsIEFsYmEsU3BhaW4sTmF2YXJyYSxOYXZhcnJhLEdhcm5hY2hhLDguOTAsMjAyNi0wNS0yMApNYWlzb24gQnJ1bmUgQnJ1dCxOViwyLHNwYXJrbGluZyxNYWlzb24gQnJ1bmUsRnJhbmNlLENoYW1wYWduZSxDaGFtcGFnbmUsQ2hhcmRvbm5heTsgUGlub3QgTm9pcjsgUGlub3QgTWV1bmllciwzOS4wMCwyMDI0LTEyLTEwCkNhdmEgQnJ1dCBOYXR1cmUgUmVzZXJ2YSwyMDIwLDIsc3BhcmtsaW5nLENlbGxlcnMgZGUgbCdFcm1pdGEsU3BhaW4sUGVuZWTDqHMsQ2F2YSxNYWNhYmVvOyBYYXJlbMK3bG87IFBhcmVsbGFkYSwxNS4wMCwyMDI0LTExLTAzCkZpbm8gTGEgU2FsaW5hLE5WLDIsZm9ydGlmaWVkLEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGFsb21pbm8sMTMuMDAsMjAyNi0wMi0xNApBbW9udGlsbGFkbyBWaWVqbyBWT1JTLE5WLDEsZm9ydGlmaWVkLEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGFsb21pbm8sNTguMDAsMjAyNC0wNy0xOQpQZWRybyBYaW3DqW5leiBEdWxjZSxOViwxLHN3ZWV0LEJvZGVnYXMgTGEgU2FsaW5hLFNwYWluLEFuZGFsdWPDrWEsSmVyZXotWMOpcsOocy1TaGVycnksUGVkcm8gWGltw6luZXosMjEuMDAsMjAyNS0xMi0wMQpTaWRyYSBOYXR1cmFsIGRlbCBWYWxsZSwyMDI1LDIsY2lkZXIsTGxhZ2FyIGRlbCBWYWxsZSxTcGFpbixBc3R1cmlhcyxTaWRyYSBkZSBBc3R1cmlhcyxNYW56YW5hLDUuNTAsMjAyNi0wOC0zMApCb2RlZ2FzIEFsdGFtaXJhIFJlc2VydmEsMjAxNCwyLHJlZCxCb2RlZ2FzIEFsdGFtaXJhLFNwYWluLFJpb2phLFJpb2phLFRlbXByYW5pbGxvLDIyLjAwLDIwMjItMDktMDMKVmnDsWVkb3MgZGVsIE5vcnRlIENyaWFuemEsMjAxNywyLHJlZCxWacOxZWRvcyBkZWwgTm9ydGUsU3BhaW4sUmliZXJhIGRlbCBEdWVybyxSaWJlcmEgZGVsIER1ZXJvLFRlbXByYW5pbGxvLDE2LjUwLDIwMjMtMTAtMTQKQm9kZWdhIFZhbGRlb2xtb3MgQ3JpYW56YSwyMDE2LDIscmVkLEJvZGVnYSBWYWxkZW9sbW9zLFNwYWluLFJpb2phLFJpb2phLFRlbXByYW5pbGxvOyBHYXJuYWNoYSwxMS44MCwyMDIyLTEyLTAyCkZpbmNhIExvcyBBbG1lbmRyb3MgSm92ZW4sMjAyNCwzLHJlZCxGaW5jYSBMb3MgQWxtZW5kcm9zLFNwYWluLENhc3RpbGxhLUxhIE1hbmNoYSxMYSBNYW5jaGEsVGVtcHJhbmlsbG8sNi45MCwyMDI1LTExLTA4CkNlbGxlciBQZWRyYSBOZWdyYSBKb3ZlbiwyMDIzLDIscmVkLENlbGxlciBQZWRyYSBOZWdyYSxTcGFpbixDYXRhbHXDsWEsTW9udHNhbnQsR2FybmFjaGEsOS41MCwyMDI1LTAzLTI5CkJvZGVnYXMgUnVlZGEgQWx0YSBWZXJkZWpvLDIwMjQsMix3aGl0ZSxCb2RlZ2FzIFJ1ZWRhIEFsdGEsU3BhaW4sQ2FzdGlsbGEgeSBMZcOzbixSdWVkYSxWZXJkZWpvLDguNTAsMjAyNS0xMC0wNApQYXpvIGRlIE1hcsOpcyBTZWxlY2Npw7NuLDIwMjMsMSx3aGl0ZSxQYXpvIGRlIE1hcsOpcyxTcGFpbixSw61hcyBCYWl4YXMsUsOtYXMgQmFpeGFzLEFsYmFyacOxbywyMS4wMCwyMDI1LTAxLTE4CkRvbWFpbmUgZHUgVmFsIENsYWlyLDIwMjEsMix3aGl0ZSxEb21haW5lIGR1IFZhbCBDbGFpcixGcmFuY2UsTG9pcmUsVm91dnJheSxDaGVuaW4gQmxhbmMsMTcuMDAsMjAyMy0wOC0xMgpCb2RlZ2FzIEFsdGFtaXJhIEJsYW5jbyBDcmlhbnphLDIwMTUsMSx3aGl0ZSxCb2RlZ2FzIEFsdGFtaXJhLFNwYWluLFJpb2phLFJpb2phLFZpdXJhLDE1LjUwLDIwMjItMDUtMjEKVmnDsWEgU2llcnJhIEdvZGVsbG8sMjAyMiwxLHdoaXRlLFZpw7FhIFNpZXJyYSxTcGFpbixHYWxpY2lhLFZhbGRlb3JyYXMsR29kZWxsbywxMy4wMCwyMDI0LTAyLTA5Cg==",
   "existing": true,
   "results": {
    "en": {
@@ -1187,7 +1727,7 @@
       "form": {
        "name": "Bodegas Altamira Gran Reserva",
        "vintage": "2010",
-       "bottles": "3",
+       "bottles": "1",
        "colour": "red",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -1201,7 +1741,7 @@
       "error": null,
       "label": "Bodegas Altamira Gran Reserva",
       "vintage": 2010,
-      "bottles": 3,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1209,7 +1749,7 @@
       "form": {
        "name": "Bodegas Altamira Crianza",
        "vintage": "2020",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "red",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -1223,7 +1763,7 @@
       "error": null,
       "label": "Bodegas Altamira Crianza",
       "vintage": 2020,
-      "bottles": 6,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1231,7 +1771,7 @@
       "form": {
        "name": "Viñedos del Norte Reserva",
        "vintage": "2016",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Viñedos del Norte",
        "country": "Spain",
@@ -1245,7 +1785,7 @@
       "error": null,
       "label": "Viñedos del Norte Reserva",
       "vintage": 2016,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1253,7 +1793,7 @@
       "form": {
        "name": "Finca La Umbría",
        "vintage": "2022",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "red",
        "producer": "Finca La Umbría",
        "country": "Spain",
@@ -1267,18 +1807,18 @@
       "error": null,
       "label": "Finca La Umbría",
       "vintage": 2022,
-      "bottles": 4,
+      "bottles": 2,
       "action": "update",
       "wine_id": 5,
       "was": 4,
-      "now": 8
+      "now": 6
      },
      {
       "line": 6,
       "form": {
        "name": "Clos des Hirondelles",
        "vintage": "2018",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Clos des Hirondelles",
        "country": "France",
@@ -1292,7 +1832,7 @@
       "error": null,
       "label": "Clos des Hirondelles",
       "vintage": 2018,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1300,7 +1840,7 @@
       "form": {
        "name": "Domaine Les Coteaux",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "1",
        "colour": "red",
        "producer": "Domaine Les Coteaux",
        "country": "France",
@@ -1314,7 +1854,7 @@
       "error": null,
       "label": "Domaine Les Coteaux",
       "vintage": 2019,
-      "bottles": 3,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1322,7 +1862,7 @@
       "form": {
        "name": "Cantina Rosa dei Venti",
        "vintage": "2017",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Cantina Rosa dei Venti",
        "country": "Italy",
@@ -1336,7 +1876,7 @@
       "error": null,
       "label": "Cantina Rosa dei Venti",
       "vintage": 2017,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1344,7 +1884,7 @@
       "form": {
        "name": "Celler Pedra Negra",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "red",
        "producer": "Celler Pedra Negra",
        "country": "Spain",
@@ -1358,7 +1898,7 @@
       "error": null,
       "label": "Celler Pedra Negra",
       "vintage": 2019,
-      "bottles": 3,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1366,7 +1906,7 @@
       "form": {
        "name": "Quinta do Moinho Reserva",
        "vintage": "2015",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Quinta do Moinho",
        "country": "Portugal",
@@ -1380,7 +1920,7 @@
       "error": null,
       "label": "Quinta do Moinho Reserva",
       "vintage": 2015,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1388,7 +1928,7 @@
       "form": {
        "name": "Pazo de Marés",
        "vintage": "2024",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "white",
        "producer": "Pazo de Marés",
        "country": "Spain",
@@ -1402,7 +1942,7 @@
       "error": null,
       "label": "Pazo de Marés",
       "vintage": 2024,
-      "bottles": 6,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1410,7 +1950,7 @@
       "form": {
        "name": "Weingut Sonnenhang Kabinett",
        "vintage": "2021",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "white",
        "producer": "Weingut Sonnenhang",
        "country": "Germany",
@@ -1424,7 +1964,7 @@
       "error": null,
       "label": "Weingut Sonnenhang Kabinett",
       "vintage": 2021,
-      "bottles": 4,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1432,7 +1972,7 @@
       "form": {
        "name": "Weingut Sonnenhang Spätlese",
        "vintage": "2018",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "white",
        "producer": "Weingut Sonnenhang",
        "country": "Germany",
@@ -1446,7 +1986,7 @@
       "error": null,
       "label": "Weingut Sonnenhang Spätlese",
       "vintage": 2018,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1454,7 +1994,7 @@
       "form": {
        "name": "Domaine des Pierres Blanches 1er Cru",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "white",
        "producer": "Domaine des Pierres Blanches",
        "country": "France",
@@ -1468,7 +2008,7 @@
       "error": null,
       "label": "Domaine des Pierres Blanches 1er Cru",
       "vintage": 2019,
-      "bottles": 3,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1476,7 +2016,7 @@
       "form": {
        "name": "Bodegas Altamira Blanco Reserva",
        "vintage": "2011",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "white",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -1490,7 +2030,7 @@
       "error": null,
       "label": "Bodegas Altamira Blanco Reserva",
       "vintage": 2011,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1498,7 +2038,7 @@
       "form": {
        "name": "Rosado del Alba",
        "vintage": "2025",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "rosé",
        "producer": "Rosado del Alba",
        "country": "Spain",
@@ -1512,7 +2052,7 @@
       "error": null,
       "label": "Rosado del Alba",
       "vintage": 2025,
-      "bottles": 6,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1520,7 +2060,7 @@
       "form": {
        "name": "Maison Brune Brut",
        "vintage": "NV",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "sparkling",
        "producer": "Maison Brune",
        "country": "France",
@@ -1534,7 +2074,7 @@
       "error": null,
       "label": "Maison Brune Brut",
       "vintage": null,
-      "bottles": 4,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1542,7 +2082,7 @@
       "form": {
        "name": "Cava Brut Nature Reserva",
        "vintage": "2020",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "sparkling",
        "producer": "Cellers de l'Ermita",
        "country": "Spain",
@@ -1556,7 +2096,7 @@
       "error": null,
       "label": "Cava Brut Nature Reserva",
       "vintage": 2020,
-      "bottles": 6,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1564,7 +2104,7 @@
       "form": {
        "name": "Fino La Salina",
        "vintage": "NV",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "fortified",
        "producer": "Bodegas La Salina",
        "country": "Spain",
@@ -1578,7 +2118,7 @@
       "error": null,
       "label": "Fino La Salina",
       "vintage": null,
-      "bottles": 3,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1608,7 +2148,7 @@
       "form": {
        "name": "Pedro Ximénez Dulce",
        "vintage": "NV",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "sweet",
        "producer": "Bodegas La Salina",
        "country": "Spain",
@@ -1622,7 +2162,7 @@
       "error": null,
       "label": "Pedro Ximénez Dulce",
       "vintage": null,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1630,7 +2170,7 @@
       "form": {
        "name": "Sidra Natural del Valle",
        "vintage": "2025",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "cider",
        "producer": "Llagar del Valle",
        "country": "Spain",
@@ -1644,7 +2184,227 @@
       "error": null,
       "label": "Sidra Natural del Valle",
       "vintage": 2025,
-      "bottles": 6,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 23,
+      "form": {
+       "name": "Bodegas Altamira Reserva",
+       "vintage": "2014",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "22.00"
+      },
+      "added": "2022-09-03",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Reserva",
+      "vintage": 2014,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 24,
+      "form": {
+       "name": "Viñedos del Norte Crianza",
+       "vintage": "2017",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Viñedos del Norte",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "16.50"
+      },
+      "added": "2023-10-14",
+      "warnings": [],
+      "error": null,
+      "label": "Viñedos del Norte Crianza",
+      "vintage": 2017,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 25,
+      "form": {
+       "name": "Bodega Valdeolmos Crianza",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Bodega Valdeolmos",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo; Garnacha",
+       "paid": "11.80"
+      },
+      "added": "2022-12-02",
+      "warnings": [],
+      "error": null,
+      "label": "Bodega Valdeolmos Crianza",
+      "vintage": 2016,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 26,
+      "form": {
+       "name": "Finca Los Almendros Joven",
+       "vintage": "2024",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Finca Los Almendros",
+       "country": "Spain",
+       "region": "Castilla-La Mancha",
+       "appellation": "La Mancha",
+       "grapes": "Tempranillo",
+       "paid": "6.90"
+      },
+      "added": "2025-11-08",
+      "warnings": [],
+      "error": null,
+      "label": "Finca Los Almendros Joven",
+      "vintage": 2024,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 27,
+      "form": {
+       "name": "Celler Pedra Negra Joven",
+       "vintage": "2023",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Celler Pedra Negra",
+       "country": "Spain",
+       "region": "Cataluña",
+       "appellation": "Montsant",
+       "grapes": "Garnacha",
+       "paid": "9.50"
+      },
+      "added": "2025-03-29",
+      "warnings": [],
+      "error": null,
+      "label": "Celler Pedra Negra Joven",
+      "vintage": 2023,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 28,
+      "form": {
+       "name": "Bodegas Rueda Alta Verdejo",
+       "vintage": "2024",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Bodegas Rueda Alta",
+       "country": "Spain",
+       "region": "Castilla y León",
+       "appellation": "Rueda",
+       "grapes": "Verdejo",
+       "paid": "8.50"
+      },
+      "added": "2025-10-04",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Rueda Alta Verdejo",
+      "vintage": 2024,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 29,
+      "form": {
+       "name": "Pazo de Marés Selección",
+       "vintage": "2023",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Pazo de Marés",
+       "country": "Spain",
+       "region": "Rías Baixas",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "21.00"
+      },
+      "added": "2025-01-18",
+      "warnings": [],
+      "error": null,
+      "label": "Pazo de Marés Selección",
+      "vintage": 2023,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 30,
+      "form": {
+       "name": "Domaine du Val Clair",
+       "vintage": "2021",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Domaine du Val Clair",
+       "country": "France",
+       "region": "Loire",
+       "appellation": "Vouvray",
+       "grapes": "Chenin Blanc",
+       "paid": "17.00"
+      },
+      "added": "2023-08-12",
+      "warnings": [],
+      "error": null,
+      "label": "Domaine du Val Clair",
+      "vintage": 2021,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 31,
+      "form": {
+       "name": "Bodegas Altamira Blanco Crianza",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Viura",
+       "paid": "15.50"
+      },
+      "added": "2022-05-21",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Blanco Crianza",
+      "vintage": 2015,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 32,
+      "form": {
+       "name": "Viña Sierra Godello",
+       "vintage": "2022",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Viña Sierra",
+       "country": "Spain",
+       "region": "Galicia",
+       "appellation": "Valdeorras",
+       "grapes": "Godello",
+       "paid": "13.00"
+      },
+      "added": "2024-02-09",
+      "warnings": [],
+      "error": null,
+      "label": "Viña Sierra Godello",
+      "vintage": 2022,
+      "bottles": 1,
       "action": "new"
      }
     ]
@@ -1657,7 +2417,7 @@
       "form": {
        "name": "Bodegas Altamira Gran Reserva",
        "vintage": "2010",
-       "bottles": "3",
+       "bottles": "1",
        "colour": "red",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -1671,7 +2431,7 @@
       "error": null,
       "label": "Bodegas Altamira Gran Reserva",
       "vintage": 2010,
-      "bottles": 3,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1679,7 +2439,7 @@
       "form": {
        "name": "Bodegas Altamira Crianza",
        "vintage": "2020",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "red",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -1693,7 +2453,7 @@
       "error": null,
       "label": "Bodegas Altamira Crianza",
       "vintage": 2020,
-      "bottles": 6,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1701,7 +2461,7 @@
       "form": {
        "name": "Viñedos del Norte Reserva",
        "vintage": "2016",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Viñedos del Norte",
        "country": "Spain",
@@ -1715,7 +2475,7 @@
       "error": null,
       "label": "Viñedos del Norte Reserva",
       "vintage": 2016,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1723,7 +2483,7 @@
       "form": {
        "name": "Finca La Umbría",
        "vintage": "2022",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "red",
        "producer": "Finca La Umbría",
        "country": "Spain",
@@ -1737,18 +2497,18 @@
       "error": null,
       "label": "Finca La Umbría",
       "vintage": 2022,
-      "bottles": 4,
+      "bottles": 2,
       "action": "update",
       "wine_id": 5,
       "was": 4,
-      "now": 8
+      "now": 6
      },
      {
       "line": 6,
       "form": {
        "name": "Clos des Hirondelles",
        "vintage": "2018",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Clos des Hirondelles",
        "country": "France",
@@ -1762,7 +2522,7 @@
       "error": null,
       "label": "Clos des Hirondelles",
       "vintage": 2018,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1770,7 +2530,7 @@
       "form": {
        "name": "Domaine Les Coteaux",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "1",
        "colour": "red",
        "producer": "Domaine Les Coteaux",
        "country": "France",
@@ -1784,7 +2544,7 @@
       "error": null,
       "label": "Domaine Les Coteaux",
       "vintage": 2019,
-      "bottles": 3,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1792,7 +2552,7 @@
       "form": {
        "name": "Cantina Rosa dei Venti",
        "vintage": "2017",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Cantina Rosa dei Venti",
        "country": "Italy",
@@ -1806,7 +2566,7 @@
       "error": null,
       "label": "Cantina Rosa dei Venti",
       "vintage": 2017,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1814,7 +2574,7 @@
       "form": {
        "name": "Celler Pedra Negra",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "red",
        "producer": "Celler Pedra Negra",
        "country": "Spain",
@@ -1828,7 +2588,7 @@
       "error": null,
       "label": "Celler Pedra Negra",
       "vintage": 2019,
-      "bottles": 3,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1836,7 +2596,7 @@
       "form": {
        "name": "Quinta do Moinho Reserva",
        "vintage": "2015",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Quinta do Moinho",
        "country": "Portugal",
@@ -1850,7 +2610,7 @@
       "error": null,
       "label": "Quinta do Moinho Reserva",
       "vintage": 2015,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1858,7 +2618,7 @@
       "form": {
        "name": "Pazo de Marés",
        "vintage": "2024",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "white",
        "producer": "Pazo de Marés",
        "country": "Spain",
@@ -1872,7 +2632,7 @@
       "error": null,
       "label": "Pazo de Marés",
       "vintage": 2024,
-      "bottles": 6,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1880,7 +2640,7 @@
       "form": {
        "name": "Weingut Sonnenhang Kabinett",
        "vintage": "2021",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "white",
        "producer": "Weingut Sonnenhang",
        "country": "Germany",
@@ -1894,7 +2654,7 @@
       "error": null,
       "label": "Weingut Sonnenhang Kabinett",
       "vintage": 2021,
-      "bottles": 4,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1902,7 +2662,7 @@
       "form": {
        "name": "Weingut Sonnenhang Spätlese",
        "vintage": "2018",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "white",
        "producer": "Weingut Sonnenhang",
        "country": "Germany",
@@ -1916,7 +2676,7 @@
       "error": null,
       "label": "Weingut Sonnenhang Spätlese",
       "vintage": 2018,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1924,7 +2684,7 @@
       "form": {
        "name": "Domaine des Pierres Blanches 1er Cru",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "white",
        "producer": "Domaine des Pierres Blanches",
        "country": "France",
@@ -1938,7 +2698,7 @@
       "error": null,
       "label": "Domaine des Pierres Blanches 1er Cru",
       "vintage": 2019,
-      "bottles": 3,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1946,7 +2706,7 @@
       "form": {
        "name": "Bodegas Altamira Blanco Reserva",
        "vintage": "2011",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "white",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -1960,7 +2720,7 @@
       "error": null,
       "label": "Bodegas Altamira Blanco Reserva",
       "vintage": 2011,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -1968,7 +2728,7 @@
       "form": {
        "name": "Rosado del Alba",
        "vintage": "2025",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "rosé",
        "producer": "Rosado del Alba",
        "country": "Spain",
@@ -1982,7 +2742,7 @@
       "error": null,
       "label": "Rosado del Alba",
       "vintage": 2025,
-      "bottles": 6,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -1990,7 +2750,7 @@
       "form": {
        "name": "Maison Brune Brut",
        "vintage": "NV",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "sparkling",
        "producer": "Maison Brune",
        "country": "France",
@@ -2004,7 +2764,7 @@
       "error": null,
       "label": "Maison Brune Brut",
       "vintage": null,
-      "bottles": 4,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -2012,7 +2772,7 @@
       "form": {
        "name": "Cava Brut Nature Reserva",
        "vintage": "2020",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "sparkling",
        "producer": "Cellers de l'Ermita",
        "country": "Spain",
@@ -2026,7 +2786,7 @@
       "error": null,
       "label": "Cava Brut Nature Reserva",
       "vintage": 2020,
-      "bottles": 6,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -2034,7 +2794,7 @@
       "form": {
        "name": "Fino La Salina",
        "vintage": "NV",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "fortified",
        "producer": "Bodegas La Salina",
        "country": "Spain",
@@ -2048,7 +2808,7 @@
       "error": null,
       "label": "Fino La Salina",
       "vintage": null,
-      "bottles": 3,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -2078,7 +2838,7 @@
       "form": {
        "name": "Pedro Ximénez Dulce",
        "vintage": "NV",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "sweet",
        "producer": "Bodegas La Salina",
        "country": "Spain",
@@ -2092,7 +2852,7 @@
       "error": null,
       "label": "Pedro Ximénez Dulce",
       "vintage": null,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -2100,7 +2860,7 @@
       "form": {
        "name": "Sidra Natural del Valle",
        "vintage": "2025",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "cider",
        "producer": "Llagar del Valle",
        "country": "Spain",
@@ -2114,7 +2874,227 @@
       "error": null,
       "label": "Sidra Natural del Valle",
       "vintage": 2025,
-      "bottles": 6,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 23,
+      "form": {
+       "name": "Bodegas Altamira Reserva",
+       "vintage": "2014",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "22.00"
+      },
+      "added": "2022-09-03",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Reserva",
+      "vintage": 2014,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 24,
+      "form": {
+       "name": "Viñedos del Norte Crianza",
+       "vintage": "2017",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Viñedos del Norte",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "16.50"
+      },
+      "added": "2023-10-14",
+      "warnings": [],
+      "error": null,
+      "label": "Viñedos del Norte Crianza",
+      "vintage": 2017,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 25,
+      "form": {
+       "name": "Bodega Valdeolmos Crianza",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Bodega Valdeolmos",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo; Garnacha",
+       "paid": "11.80"
+      },
+      "added": "2022-12-02",
+      "warnings": [],
+      "error": null,
+      "label": "Bodega Valdeolmos Crianza",
+      "vintage": 2016,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 26,
+      "form": {
+       "name": "Finca Los Almendros Joven",
+       "vintage": "2024",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Finca Los Almendros",
+       "country": "Spain",
+       "region": "Castilla-La Mancha",
+       "appellation": "La Mancha",
+       "grapes": "Tempranillo",
+       "paid": "6.90"
+      },
+      "added": "2025-11-08",
+      "warnings": [],
+      "error": null,
+      "label": "Finca Los Almendros Joven",
+      "vintage": 2024,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 27,
+      "form": {
+       "name": "Celler Pedra Negra Joven",
+       "vintage": "2023",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Celler Pedra Negra",
+       "country": "Spain",
+       "region": "Cataluña",
+       "appellation": "Montsant",
+       "grapes": "Garnacha",
+       "paid": "9.50"
+      },
+      "added": "2025-03-29",
+      "warnings": [],
+      "error": null,
+      "label": "Celler Pedra Negra Joven",
+      "vintage": 2023,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 28,
+      "form": {
+       "name": "Bodegas Rueda Alta Verdejo",
+       "vintage": "2024",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Bodegas Rueda Alta",
+       "country": "Spain",
+       "region": "Castilla y León",
+       "appellation": "Rueda",
+       "grapes": "Verdejo",
+       "paid": "8.50"
+      },
+      "added": "2025-10-04",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Rueda Alta Verdejo",
+      "vintage": 2024,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 29,
+      "form": {
+       "name": "Pazo de Marés Selección",
+       "vintage": "2023",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Pazo de Marés",
+       "country": "Spain",
+       "region": "Rías Baixas",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "21.00"
+      },
+      "added": "2025-01-18",
+      "warnings": [],
+      "error": null,
+      "label": "Pazo de Marés Selección",
+      "vintage": 2023,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 30,
+      "form": {
+       "name": "Domaine du Val Clair",
+       "vintage": "2021",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Domaine du Val Clair",
+       "country": "France",
+       "region": "Loire",
+       "appellation": "Vouvray",
+       "grapes": "Chenin Blanc",
+       "paid": "17.00"
+      },
+      "added": "2023-08-12",
+      "warnings": [],
+      "error": null,
+      "label": "Domaine du Val Clair",
+      "vintage": 2021,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 31,
+      "form": {
+       "name": "Bodegas Altamira Blanco Crianza",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Viura",
+       "paid": "15.50"
+      },
+      "added": "2022-05-21",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Blanco Crianza",
+      "vintage": 2015,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 32,
+      "form": {
+       "name": "Viña Sierra Godello",
+       "vintage": "2022",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Viña Sierra",
+       "country": "Spain",
+       "region": "Galicia",
+       "appellation": "Valdeorras",
+       "grapes": "Godello",
+       "paid": "13.00"
+      },
+      "added": "2024-02-09",
+      "warnings": [],
+      "error": null,
+      "label": "Viña Sierra Godello",
+      "vintage": 2022,
+      "bottles": 1,
       "action": "new"
      }
     ]
@@ -2127,7 +3107,7 @@
       "form": {
        "name": "Bodegas Altamira Gran Reserva",
        "vintage": "2010",
-       "bottles": "3",
+       "bottles": "1",
        "colour": "red",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -2141,7 +3121,7 @@
       "error": null,
       "label": "Bodegas Altamira Gran Reserva",
       "vintage": 2010,
-      "bottles": 3,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -2149,7 +3129,7 @@
       "form": {
        "name": "Bodegas Altamira Crianza",
        "vintage": "2020",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "red",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -2163,7 +3143,7 @@
       "error": null,
       "label": "Bodegas Altamira Crianza",
       "vintage": 2020,
-      "bottles": 6,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -2171,7 +3151,7 @@
       "form": {
        "name": "Viñedos del Norte Reserva",
        "vintage": "2016",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Viñedos del Norte",
        "country": "Spain",
@@ -2185,7 +3165,7 @@
       "error": null,
       "label": "Viñedos del Norte Reserva",
       "vintage": 2016,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -2193,7 +3173,7 @@
       "form": {
        "name": "Finca La Umbría",
        "vintage": "2022",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "red",
        "producer": "Finca La Umbría",
        "country": "Spain",
@@ -2207,18 +3187,18 @@
       "error": null,
       "label": "Finca La Umbría",
       "vintage": 2022,
-      "bottles": 4,
+      "bottles": 2,
       "action": "update",
       "wine_id": 5,
       "was": 4,
-      "now": 8
+      "now": 6
      },
      {
       "line": 6,
       "form": {
        "name": "Clos des Hirondelles",
        "vintage": "2018",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Clos des Hirondelles",
        "country": "France",
@@ -2232,7 +3212,7 @@
       "error": null,
       "label": "Clos des Hirondelles",
       "vintage": 2018,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -2240,7 +3220,7 @@
       "form": {
        "name": "Domaine Les Coteaux",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "1",
        "colour": "red",
        "producer": "Domaine Les Coteaux",
        "country": "France",
@@ -2254,7 +3234,7 @@
       "error": null,
       "label": "Domaine Les Coteaux",
       "vintage": 2019,
-      "bottles": 3,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -2262,7 +3242,7 @@
       "form": {
        "name": "Cantina Rosa dei Venti",
        "vintage": "2017",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Cantina Rosa dei Venti",
        "country": "Italy",
@@ -2276,7 +3256,7 @@
       "error": null,
       "label": "Cantina Rosa dei Venti",
       "vintage": 2017,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -2284,7 +3264,7 @@
       "form": {
        "name": "Celler Pedra Negra",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "red",
        "producer": "Celler Pedra Negra",
        "country": "Spain",
@@ -2298,7 +3278,7 @@
       "error": null,
       "label": "Celler Pedra Negra",
       "vintage": 2019,
-      "bottles": 3,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -2306,7 +3286,7 @@
       "form": {
        "name": "Quinta do Moinho Reserva",
        "vintage": "2015",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "red",
        "producer": "Quinta do Moinho",
        "country": "Portugal",
@@ -2320,7 +3300,7 @@
       "error": null,
       "label": "Quinta do Moinho Reserva",
       "vintage": 2015,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -2328,7 +3308,7 @@
       "form": {
        "name": "Pazo de Marés",
        "vintage": "2024",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "white",
        "producer": "Pazo de Marés",
        "country": "Spain",
@@ -2342,7 +3322,7 @@
       "error": null,
       "label": "Pazo de Marés",
       "vintage": 2024,
-      "bottles": 6,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -2350,7 +3330,7 @@
       "form": {
        "name": "Weingut Sonnenhang Kabinett",
        "vintage": "2021",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "white",
        "producer": "Weingut Sonnenhang",
        "country": "Germany",
@@ -2364,7 +3344,7 @@
       "error": null,
       "label": "Weingut Sonnenhang Kabinett",
       "vintage": 2021,
-      "bottles": 4,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -2372,7 +3352,7 @@
       "form": {
        "name": "Weingut Sonnenhang Spätlese",
        "vintage": "2018",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "white",
        "producer": "Weingut Sonnenhang",
        "country": "Germany",
@@ -2386,7 +3366,7 @@
       "error": null,
       "label": "Weingut Sonnenhang Spätlese",
       "vintage": 2018,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -2394,7 +3374,7 @@
       "form": {
        "name": "Domaine des Pierres Blanches 1er Cru",
        "vintage": "2019",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "white",
        "producer": "Domaine des Pierres Blanches",
        "country": "France",
@@ -2408,7 +3388,7 @@
       "error": null,
       "label": "Domaine des Pierres Blanches 1er Cru",
       "vintage": 2019,
-      "bottles": 3,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -2416,7 +3396,7 @@
       "form": {
        "name": "Bodegas Altamira Blanco Reserva",
        "vintage": "2011",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "white",
        "producer": "Bodegas Altamira",
        "country": "Spain",
@@ -2430,7 +3410,7 @@
       "error": null,
       "label": "Bodegas Altamira Blanco Reserva",
       "vintage": 2011,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -2438,7 +3418,7 @@
       "form": {
        "name": "Rosado del Alba",
        "vintage": "2025",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "rosé",
        "producer": "Rosado del Alba",
        "country": "Spain",
@@ -2452,7 +3432,7 @@
       "error": null,
       "label": "Rosado del Alba",
       "vintage": 2025,
-      "bottles": 6,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -2460,7 +3440,7 @@
       "form": {
        "name": "Maison Brune Brut",
        "vintage": "NV",
-       "bottles": "4",
+       "bottles": "2",
        "colour": "sparkling",
        "producer": "Maison Brune",
        "country": "France",
@@ -2474,7 +3454,7 @@
       "error": null,
       "label": "Maison Brune Brut",
       "vintage": null,
-      "bottles": 4,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -2482,7 +3462,7 @@
       "form": {
        "name": "Cava Brut Nature Reserva",
        "vintage": "2020",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "sparkling",
        "producer": "Cellers de l'Ermita",
        "country": "Spain",
@@ -2496,7 +3476,7 @@
       "error": null,
       "label": "Cava Brut Nature Reserva",
       "vintage": 2020,
-      "bottles": 6,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -2504,7 +3484,7 @@
       "form": {
        "name": "Fino La Salina",
        "vintage": "NV",
-       "bottles": "3",
+       "bottles": "2",
        "colour": "fortified",
        "producer": "Bodegas La Salina",
        "country": "Spain",
@@ -2518,7 +3498,7 @@
       "error": null,
       "label": "Fino La Salina",
       "vintage": null,
-      "bottles": 3,
+      "bottles": 2,
       "action": "new"
      },
      {
@@ -2548,7 +3528,7 @@
       "form": {
        "name": "Pedro Ximénez Dulce",
        "vintage": "NV",
-       "bottles": "2",
+       "bottles": "1",
        "colour": "sweet",
        "producer": "Bodegas La Salina",
        "country": "Spain",
@@ -2562,7 +3542,7 @@
       "error": null,
       "label": "Pedro Ximénez Dulce",
       "vintage": null,
-      "bottles": 2,
+      "bottles": 1,
       "action": "new"
      },
      {
@@ -2570,7 +3550,7 @@
       "form": {
        "name": "Sidra Natural del Valle",
        "vintage": "2025",
-       "bottles": "6",
+       "bottles": "2",
        "colour": "cider",
        "producer": "Llagar del Valle",
        "country": "Spain",
@@ -2584,7 +3564,227 @@
       "error": null,
       "label": "Sidra Natural del Valle",
       "vintage": 2025,
-      "bottles": 6,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 23,
+      "form": {
+       "name": "Bodegas Altamira Reserva",
+       "vintage": "2014",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo",
+       "paid": "22.00"
+      },
+      "added": "2022-09-03",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Reserva",
+      "vintage": 2014,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 24,
+      "form": {
+       "name": "Viñedos del Norte Crianza",
+       "vintage": "2017",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Viñedos del Norte",
+       "country": "Spain",
+       "region": "Ribera del Duero",
+       "appellation": "Ribera del Duero",
+       "grapes": "Tempranillo",
+       "paid": "16.50"
+      },
+      "added": "2023-10-14",
+      "warnings": [],
+      "error": null,
+      "label": "Viñedos del Norte Crianza",
+      "vintage": 2017,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 25,
+      "form": {
+       "name": "Bodega Valdeolmos Crianza",
+       "vintage": "2016",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Bodega Valdeolmos",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Tempranillo; Garnacha",
+       "paid": "11.80"
+      },
+      "added": "2022-12-02",
+      "warnings": [],
+      "error": null,
+      "label": "Bodega Valdeolmos Crianza",
+      "vintage": 2016,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 26,
+      "form": {
+       "name": "Finca Los Almendros Joven",
+       "vintage": "2024",
+       "bottles": "3",
+       "colour": "red",
+       "producer": "Finca Los Almendros",
+       "country": "Spain",
+       "region": "Castilla-La Mancha",
+       "appellation": "La Mancha",
+       "grapes": "Tempranillo",
+       "paid": "6.90"
+      },
+      "added": "2025-11-08",
+      "warnings": [],
+      "error": null,
+      "label": "Finca Los Almendros Joven",
+      "vintage": 2024,
+      "bottles": 3,
+      "action": "new"
+     },
+     {
+      "line": 27,
+      "form": {
+       "name": "Celler Pedra Negra Joven",
+       "vintage": "2023",
+       "bottles": "2",
+       "colour": "red",
+       "producer": "Celler Pedra Negra",
+       "country": "Spain",
+       "region": "Cataluña",
+       "appellation": "Montsant",
+       "grapes": "Garnacha",
+       "paid": "9.50"
+      },
+      "added": "2025-03-29",
+      "warnings": [],
+      "error": null,
+      "label": "Celler Pedra Negra Joven",
+      "vintage": 2023,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 28,
+      "form": {
+       "name": "Bodegas Rueda Alta Verdejo",
+       "vintage": "2024",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Bodegas Rueda Alta",
+       "country": "Spain",
+       "region": "Castilla y León",
+       "appellation": "Rueda",
+       "grapes": "Verdejo",
+       "paid": "8.50"
+      },
+      "added": "2025-10-04",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Rueda Alta Verdejo",
+      "vintage": 2024,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 29,
+      "form": {
+       "name": "Pazo de Marés Selección",
+       "vintage": "2023",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Pazo de Marés",
+       "country": "Spain",
+       "region": "Rías Baixas",
+       "appellation": "Rías Baixas",
+       "grapes": "Albariño",
+       "paid": "21.00"
+      },
+      "added": "2025-01-18",
+      "warnings": [],
+      "error": null,
+      "label": "Pazo de Marés Selección",
+      "vintage": 2023,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 30,
+      "form": {
+       "name": "Domaine du Val Clair",
+       "vintage": "2021",
+       "bottles": "2",
+       "colour": "white",
+       "producer": "Domaine du Val Clair",
+       "country": "France",
+       "region": "Loire",
+       "appellation": "Vouvray",
+       "grapes": "Chenin Blanc",
+       "paid": "17.00"
+      },
+      "added": "2023-08-12",
+      "warnings": [],
+      "error": null,
+      "label": "Domaine du Val Clair",
+      "vintage": 2021,
+      "bottles": 2,
+      "action": "new"
+     },
+     {
+      "line": 31,
+      "form": {
+       "name": "Bodegas Altamira Blanco Crianza",
+       "vintage": "2015",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Bodegas Altamira",
+       "country": "Spain",
+       "region": "Rioja",
+       "appellation": "Rioja",
+       "grapes": "Viura",
+       "paid": "15.50"
+      },
+      "added": "2022-05-21",
+      "warnings": [],
+      "error": null,
+      "label": "Bodegas Altamira Blanco Crianza",
+      "vintage": 2015,
+      "bottles": 1,
+      "action": "new"
+     },
+     {
+      "line": 32,
+      "form": {
+       "name": "Viña Sierra Godello",
+       "vintage": "2022",
+       "bottles": "1",
+       "colour": "white",
+       "producer": "Viña Sierra",
+       "country": "Spain",
+       "region": "Galicia",
+       "appellation": "Valdeorras",
+       "grapes": "Godello",
+       "paid": "13.00"
+      },
+      "added": "2024-02-09",
+      "warnings": [],
+      "error": null,
+      "label": "Viña Sierra Godello",
+      "vintage": 2022,
+      "bottles": 1,
       "action": "new"
      }
     ]

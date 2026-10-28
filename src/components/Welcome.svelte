@@ -11,4 +11,8 @@
   <a class="btn block" href={href('/settings/import')}>{t('Import your cellar')}</a>
   <p class="by-hand">{t('Just one bottle to start with? Add it by hand.')}</p>
   <a class="btn secondary block" href={href('/wine/new')}>{t('Add a wine')}</a>
+  <div class="sample">
+    <p>{t('Not sure yet? See how it works with made-up wines.')}</p>
+    <a class="sample-link" href={href('/settings/import', { sample: '1' })}>{t('Try a sample cellar')}</a>
+  </div>
 </section>
