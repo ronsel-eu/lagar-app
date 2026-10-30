@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import type { Lang } from '../i18n'
 import { listGuides, loadGuide, sectionFor } from './guides'
 
-const LANGS: Lang[] = ['en', 'es', 'fr']
+const LANGS: Lang[] = ['en', 'es', 'fr', 'it']
 
 describe('guides', () => {
   it('lists the four guides in order, in every language', () => {
@@ -13,6 +13,7 @@ describe('guides', () => {
     }
     expect(listGuides('es')[0].title).toBe('Ventanas de consumo del vino')
     expect(listGuides('fr')[2].title).not.toBe(listGuides('en')[2].title)
+    expect(listGuides('it')[0].title).toBe('Finestre di consumo dei vini')
   })
 
   it('loads every guide in every language', () => {

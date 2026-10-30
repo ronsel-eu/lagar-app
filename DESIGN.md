@@ -32,8 +32,8 @@ not supported.
   winery, vintage, price. The wine page name band splits the name into prefix / main word / suffix (`nameParts` in
   `src/lib/wine.ts`).
 - **Row tags and counts** (Now / Soon / Young, ×2): one fixed 60px column at the right of every wine row, text
-  left-aligned, so tags and counts share one left edge. 60px fits the longest words in the three languages (PRONTO,
-  BIENTÔT); a longer word would need a wider column.
+  left-aligned, so tags and counts share one left edge. 60px fits the longest words in the four languages (PRONTO,
+  BIENTÔT, GIOVANE: 57px at most); a longer word would need a wider column.
 - **Home numbers row** (bottles, wines, drink now): numbers and labels centred in each column, labels below the number
   in soft grey (Drink now: reddish grey, bold, with the number in wine). Numbers are 52px; if any of the three reaches
   1.000 all three drop to 34px, so the row never changes height. Thousands use a period (1.248), as in the cellar cost.
@@ -227,16 +227,20 @@ French; the column names and type words always stay English), upload the file.
 
 ## Languages
 
-- English, Spanish and French, chosen in Settings and remembered on the device. The browser's language is the default.
+- English, Spanish, French and Italian, chosen in Settings and remembered on the device. The browser's language is the default.
 - The English text is the key: `t('English text')`. The translations come from the original's `app/i18n.py`, copied by
   `tools/make_i18n.py` into `src/lib/i18n/strings.ts` (generated, do not edit); texts added since are in
   `src/lib/i18n/extra.ts`. Text without a translation is shown in English.
+- Italian is the exception: the original has no Italian, so its texts are in their own files, which `make_i18n.py` never
+  overwrites: `src/lib/i18n/it.ts` (interface texts, countries and regions, one flat English-to-Italian map) and
+  `src/lib/import/it.ts` (importer messages and the prompt for the AI assistant). A test fails if a text of the other
+  languages has no Italian one, or if the `{placeholders}` differ.
 - French keeps its usual spacing before `:` and `?`.
 - Country and region names are translated for display; the stored value does not change.
 - Not translated, by decision: wine descriptions and the sentences of the drinking advice.
-- Guides: one markdown file per language (`slug.md`, `slug.es.md`, `slug.fr.md`), with the same English anchors in the
+- Guides: one markdown file per language (`slug.md`, `slug.es.md`, `slug.fr.md`, `slug.it.md`), with the same English anchors in the
   headings (`## Xérès {#sherry}`), because the wine page and the other guides link to them.
-- To add a language: add it to `LANGS`, a column to the strings, and a guide file for each guide.
+- To add a language: add it to `Lang` and `LANGS` (`src/lib/i18n/index.ts`), its texts (a column in the strings, or a file like `it.ts`), the importer messages and prompt, and a guide file for each guide.
 
 ## Offline and updates (PWA)
 

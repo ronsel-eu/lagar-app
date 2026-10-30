@@ -13,8 +13,10 @@ import type { OwnWindow, Wine, WineType } from '../types'
 import { parseCsv } from './csv'
 import { MESSAGES, type IssueKey } from './messages'
 import { PROMPTS } from './prompts'
+import { IT_MESSAGES, IT_PROMPT } from './it'
+import type { Lang } from '../i18n'
 
-export type Lang = 'en' | 'es' | 'fr'
+export type { Lang } from '../i18n'
 
 /** Something to tell the person about a row or the file. Shown in the interface language with message(). */
 export interface Issue {
@@ -23,7 +25,7 @@ export interface Issue {
 }
 
 export function message(issue: Issue, lang: Lang = 'en'): string {
-  return MESSAGES[issue.key][lang].replace(/\{(\w+)\}/g, (_, name: string) => String(issue.params?.[name] ?? `{${name}}`))
+  return (lang === 'it' ? IT_MESSAGES[issue.key] : MESSAGES[issue.key][lang]).replace(/\{(\w+)\}/g, (_, name: string) => String(issue.params?.[name] ?? `{${name}}`))
 }
 
 export const MAX_BYTES = 2_000_000
@@ -160,7 +162,7 @@ export function templateCsv(): string {
 
 /** The text to paste into an AI assistant. The column names and type words stay in English. */
 export function prompt(lang: Lang): string {
-  return PROMPTS[lang]
+  return lang === 'it' ? IT_PROMPT : PROMPTS[lang]
 }
 
 // ---------------------------------------------------------------- reading the file

@@ -241,7 +241,7 @@ pre.prompt { margin: 12px 0 0; padding: 12px; background: var(--paper); border: 
 .imp-sum dd { margin: 0; font-size: 28px; line-height: 34px; font-weight: 800; }
 tr.imp-error td, tr.imp-same td { color: var(--ink-soft); }
 .why { font-size: 12.5px; line-height: 16px; color: var(--ink-soft); font-weight: 400; }
-.langs { display: flex; gap: 8px; margin: 12px 0 0; flex-wrap: wrap; }
+.langs { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 12px 0 0; }
 form.langs button[type=submit] { border: 2px solid var(--ink); background: transparent; color: var(--ink); padding: 10px 16px; font: 700 14px/18px var(--font); cursor: pointer; border-radius: 0; text-transform: none; letter-spacing: 0; }
 form.langs button[type=submit].on { background: var(--ink); color: var(--paper); }
 
@@ -266,7 +266,7 @@ body { padding: env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-a
 .tabs a { cursor: pointer; }
 .page-note { margin: 24px 20px; color: var(--ink-soft); }
 select:focus-visible, input:focus-visible, a:focus-visible, button:focus-visible { outline: 2px solid var(--wine); outline-offset: 2px; }
-.langs button { border: 2px solid var(--ink); background: transparent; color: var(--ink); padding: 10px 16px; font: 700 14px/18px var(--font); cursor: pointer; border-radius: 0; }
+.langs button { border: 2px solid var(--ink); background: transparent; color: var(--ink); padding: 10px 16px; font: 700 14px/18px var(--font); cursor: pointer; border-radius: 0; width: 100%; }
 .langs button.on { background: var(--ink); color: var(--paper); }
 .sec .actions { margin-top: 12px; }
 input[type=file] { font: 500 14px/18px var(--font); max-width: 100%; }

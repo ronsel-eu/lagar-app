@@ -30,7 +30,7 @@ The first version, a Python web app that runs on your own computer, lives in the
 - **A wine.** Bottles, price paid and the drinking advice with its source. Add, edit or delete wines, and open a bottle with an optional occasion and note, with Undo.
 - **Opened.** Every bottle you have opened, newest first.
 - **Guides.** Short pages on drinking windows by region, styles of Riesling, decanting and serving temperatures.
-- **Languages.** English, Spanish and French.
+- **Languages.** English, Spanish, French and Italian.
 
 ### Drinking advice
 

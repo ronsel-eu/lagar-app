@@ -1,4 +1,7 @@
 import { describe, expect, it } from 'vitest'
+import { IT, IT_PLACES } from './it'
+import { EXTRA } from './extra'
+import { PLACES, STRINGS } from './strings'
 import { browserLang, translate, translatePlace, translatePlural } from './index'
 
 describe('translations', () => {
@@ -49,5 +52,37 @@ describe('translations', () => {
     expect(missing).toEqual([])
     const missingFr = used.filter((k) => translate('fr', k) === k.split('|')[0] && !['Guides', 'Evolves', 'Rosé', 'Sweet', 'Suggestions'].includes(k))
     expect(missingFr).toEqual([])
+  })
+
+  describe('Italian', () => {
+    const placeholders = (text: string) => (text.match(/\{\w+\}/g) ?? []).sort()
+    it('translates and fills in values', () => {
+      expect(translate('it', 'Wines')).toBe('Vini')
+      expect(translate('it', 'Import {n} new', { n: 3 })).toBe('Importa 3 nuovi')
+      expect(translate('it', 'A text nobody translated')).toBe('A text nobody translated')
+      expect(translate('it', 'constructor')).toBe('constructor')
+    })
+    it('chooses singular or plural', () => {
+      expect(translatePlural('it', 1, 'bottle', 'bottles')).toBe('bottiglia')
+      expect(translatePlural('it', 2, 'bottle', 'bottles')).toBe('bottiglie')
+      expect(translatePlural('it', 1, 'opened|one', 'opened')).toBe('aperta')
+      expect(translatePlural('it', 2, 'opened|one', 'opened')).toBe('aperte')
+    })
+    it('has every text the other languages have, with the same placeholders', () => {
+      const keys = [...Object.keys(STRINGS), ...Object.keys(EXTRA)]
+      expect(keys.filter((k) => !Object.hasOwn(IT, k))).toEqual([])
+      expect(Object.keys(IT).filter((k) => !keys.includes(k))).toEqual([])
+      for (const k of keys) expect(placeholders(IT[k]), k).toEqual(placeholders(k.split('|')[0]))
+    })
+    it('translates every country and region that Spanish and French do', () => {
+      expect(Object.keys(PLACES).filter((k) => !Object.hasOwn(IT_PLACES, k))).toEqual([])
+      expect(translatePlace('it', 'Spain')).toBe('Spagna')
+      expect(translatePlace('it', 'Cataluña')).toBe('Catalogna')
+      expect(translatePlace('it', 'Somewhere else')).toBe('Somewhere else')
+      expect(translatePlace('it', null)).toBe('')
+    })
+    it('starts in the browser language when it is Italian', () => {
+      expect(browserLang(['it-IT', 'en'])).toBe('it')
+    })
   })
 })

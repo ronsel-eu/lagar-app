@@ -1,17 +1,18 @@
-/** Interface text in English, Spanish and French. The English wording is the key; a text with no translation is shown in English. */
+/** Interface text in English, Spanish, French and Italian. The English wording is the key; a text with no translation is shown in English. */
 import { EXTRA } from './extra'
+import { IT, IT_PLACES } from './it'
 import { PLACES, STRINGS } from './strings'
 
 const lookup = (key: string) => (Object.hasOwn(STRINGS, key) ? STRINGS[key] : Object.hasOwn(EXTRA, key) ? EXTRA[key] : undefined)
 
-export type Lang = 'en' | 'es' | 'fr'
-export const LANGS: Record<Lang, string> = { en: 'English', es: 'Español', fr: 'Français' }
+export type Lang = 'en' | 'es' | 'fr' | 'it'
+export const LANGS: Record<Lang, string> = { en: 'English', es: 'Español', fr: 'Français', it: 'Italiano' }
 export const isLang = (s: unknown): s is Lang => typeof s === 'string' && Object.hasOwn(LANGS, s)
 
 type Params = Record<string, string | number>
 
 export function translate(lang: Lang, key: string, params?: Params): string {
-  const found = lang === 'en' ? undefined : lookup(key)?.[lang]
+  const found = lang === 'en' ? undefined : lang === 'it' ? (Object.hasOwn(IT, key) ? IT[key] : undefined) : lookup(key)?.[lang]
   const text = found ?? key.split('|')[0]
   return params ? text.replace(/\{(\w+)\}/g, (_, name: string) => String(params[name] ?? `{${name}}`)) : text
 }
@@ -24,6 +25,7 @@ export function translatePlural(lang: Lang, count: number, one: string, other: s
 /** A country or region in the language; a name with no entry is shown as it is stored. */
 export function translatePlace(lang: Lang, name: string | null | undefined): string {
   if (!name) return ''
+  if (lang === 'it') return Object.hasOwn(IT_PLACES, name) ? IT_PLACES[name] : name
   return Object.hasOwn(PLACES, name) ? PLACES[name][lang] : name
 }
 

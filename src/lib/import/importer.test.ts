@@ -3,6 +3,7 @@ import { MemoryStorage } from '../storage'
 import { makeWine } from '../testing'
 import { applyRows, checkRows, MAX_ROWS, message, previewImport, prompt, readImport, templateCsv, TEMPLATE_COLUMNS, wineKey, type Lang } from './importer'
 import { parseCsv } from './csv'
+import { MESSAGES, type IssueKey } from './messages'
 import golden from './golden.json'
 import existingFixture from './golden-existing.json'
 import sample from './sample-cellar.csv?raw'
@@ -60,6 +61,20 @@ describe('the importer gives the same answers as the original', () => {
   }
 })
 
+describe('Italian importer texts', () => {
+  const placeholders = (text: string) => (text.match(/\{\w+\}/g) ?? []).sort()
+  it('has a message for every issue, with the same placeholders as English', () => {
+    for (const key of Object.keys(MESSAGES) as IssueKey[]) {
+      const it = message({ key }, 'it')
+      expect(it, key).not.toBe(message({ key }, 'en'))
+      expect(placeholders(it), key).toEqual(placeholders(key))
+    }
+  })
+  it('fills in the values', () => {
+    expect(message({ key: 'Too many rows (at most {n}).', params: { n: 500 } }, 'it')).toBe('Troppe righe (massimo 500).')
+  })
+})
+
 describe('the template and the prompts', () => {
   it('the template is the header row', () => {
     expect(templateCsv()).toBe('name,vintage,bottles,type,producer,country,region,appellation,grapes,paid,purchase_date\n')
@@ -71,6 +86,8 @@ describe('the template and the prompts', () => {
       expect(prompt(lang)).toContain(templateCsv().trim())
     }
     expect(prompt('en')).toContain('NEVER invent')
+    expect(prompt('it')).toContain(templateCsv().trim())
+    expect(prompt('it')).toContain('NON inventare')
   })
 
   it('the template read back as a file has no wines', () => {
