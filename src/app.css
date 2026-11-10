@@ -51,6 +51,9 @@ main { flex: 1; padding-bottom: 28px; }
 /* 1.000 or more in any of the three numbers: all three drop to 34px (the row keeps its height) */
 .stats.big .stat .v { font-size: 34px; }
 .search { margin: 18px 20px 0; border: 2px solid var(--ink); height: 48px; padding: 0 12px; display: flex; align-items: center; gap: 12px; }
+.phead + .search { margin-top: 14px; }
+.stats + .search { margin-top: 24px; }
+.search + .sec { margin-top: 24px; }
 .search input { flex: 1; min-width: 0; border: 0; background: transparent; font: 400 16px/20px var(--font); color: var(--ink); outline: none; }
 .search input::placeholder { color: var(--ink-soft); }
 form.search button[type=submit] { border: 0; background: none; padding: 0; display: flex; cursor: pointer; color: inherit; }
@@ -192,6 +195,7 @@ form textarea { resize: vertical; min-height: 60px; }
 button.link { background: none; border: 0; padding: 0; font: 700 11px/14px var(--font); letter-spacing: 0.08em; text-transform: uppercase; color: var(--wine); text-decoration: underline; cursor: pointer; }
 form button.link[type=submit] { background: none; border: 0; padding: 0; color: var(--wine); }
 .formpad { margin: 18px 20px 0; }
+.phead + .formpad { margin-top: 14px; }
 .formpad .sub { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; color: var(--ink-soft); margin-left: 12px; text-decoration: none; }
 
 /* ---------- tables (purchases, opened log) ---------- */
