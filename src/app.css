@@ -90,7 +90,7 @@ ul.wlist { list-style: none; margin: 0 20px; padding: 0; }
 .navrow { display: flex; justify-content: space-between; align-items: center; padding: 12px 20px 8px; }
 .navrow .back { padding: 0; margin: 0; }
 .navrow a.edit { color: var(--wine); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; height: 36px; display: flex; align-items: center; }
-.phead { margin: 12px 20px 0; border-top: 3px solid var(--ink); padding-top: 14px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.phead { margin: 12px 20px 0; padding-top: 14px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
 .phead h1 { margin: 0; font-size: 34px; line-height: 36px; font-weight: 800; letter-spacing: -0.03em; }
 .meta, .count { color: var(--ink-soft); font-weight: 500; }
 .count { margin: 10px 20px 6px; }
@@ -120,7 +120,7 @@ p.empty { margin: 24px 20px; color: var(--ink-soft); }
 .nb-pre, .nb-post { font-weight: 700; text-transform: uppercase; line-height: 1.18; }
 .nb-pre { padding-top: 26px; } .nb-post { padding-top: 8px; }
 .nb-main { padding-top: 2px; font-weight: 800; letter-spacing: -0.025em; line-height: 0.95; text-transform: uppercase; }
-.drink { margin: 18px 20px 0; border-top: 3px solid var(--ink); padding: 12px 0 14px; display: flex; justify-content: space-between; align-items: flex-end; gap: 8px; }
+.drink { margin: 18px 20px 0; padding: 18px 0 14px; display: flex; justify-content: space-between; align-items: flex-end; gap: 8px; }
 .drink .label { color: var(--ink-soft); font-weight: 500; margin-bottom: 6px; }
 .drink .big { font-size: 46px; line-height: 44px; font-weight: 800; letter-spacing: -0.03em; overflow-wrap: normal; word-break: normal; hyphens: none; }
 .drink .until { text-align: right; white-space: nowrap; flex-shrink: 0; }
@@ -185,7 +185,8 @@ form input[type=text], form input[type=number], form input[type=date], form sele
   display: block; width: 100%; margin-top: 5px; border: 1px solid var(--ink); border-radius: 0; background: transparent; color: var(--ink);
   font: 500 15px/20px var(--font); letter-spacing: 0; text-transform: none; padding: 9px 10px;
 }
-form textarea { resize: vertical; }
+form textarea { resize: vertical; min-height: 60px; }
+@supports (field-sizing: content) { form textarea { field-sizing: content; max-height: 40vh; } }
 .btn, form button[type=submit] { display: inline-block; border: 2px solid var(--ink); background: var(--ink); color: var(--paper); padding: 10px 16px; font: 800 12px/16px var(--font); letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; cursor: pointer; border-radius: 0; }
 .btn.secondary { background: transparent; color: var(--ink); }
 button.link { background: none; border: 0; padding: 0; font: 700 11px/14px var(--font); letter-spacing: 0.08em; text-transform: uppercase; color: var(--wine); text-decoration: underline; cursor: pointer; }

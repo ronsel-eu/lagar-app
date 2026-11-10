@@ -25,9 +25,10 @@ export async function initCellar() {
   const opened = await openStorage()
   storage = opened.storage
   cellar.persistent = opened.persistent
-  cellar.protectedByBrowser = await requestPersistence()
+  // The language first: asking for persistent storage can take a few seconds, and until then the app would show English.
   const saved = await storage.getSetting('language')
   ui.lang = isLang(saved) ? saved : browserLang()
+  cellar.protectedByBrowser = await requestPersistence()
   await reload()
   cellar.ready = true
 }
