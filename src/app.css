@@ -218,6 +218,8 @@ table.wines .empty { color: var(--ink-soft); text-align: left; padding: 16px 0; 
 .crumb { margin: 12px 20px 0; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; }
 .crumb a { text-decoration: none; }
 .guide-list { margin: 0 20px; }
+.guide-list.import { margin-top: 28px; border-top: 3px solid var(--ink); }
+.guide-list.import .guide-card { border-top: 0; padding-top: 10px; }
 .guide-card { display: block; padding: 12px 0; border-top: 1px solid var(--rule); text-decoration: none; }
 .guide-card strong { display: block; font-size: 16px; line-height: 19px; font-weight: 700; }
 .guide-card span { display: block; font-size: 12.5px; line-height: 16px; color: var(--ink-soft); margin-top: 3px; }
