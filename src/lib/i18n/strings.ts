@@ -589,9 +589,9 @@ export const STRINGS: Record<string, { es: string; fr: string }> = {
   "es": "Importar tu bodega",
   "fr": "Importer votre cave"
  },
- "Load your wines from a CSV file. Download the template, or let an AI assistant fill it from your spreadsheet, notes or photos.": {
-  "es": "Carga tus vinos desde un archivo CSV. Descarga la plantilla, o deja que un asistente de IA la rellene a partir de tu hoja de cálculo, notas o fotos.",
-  "fr": "Chargez vos vins depuis un fichier CSV. Téléchargez le modèle, ou laissez un assistant IA le remplir à partir de votre tableur, de vos notes ou de photos."
+ "Load your wines from a CSV file. Download the template, or let an AI assistant fill it from your spreadsheet, notes or photos. You have all the information here.": {
+  "es": "Carga tus vinos desde un archivo CSV. Descarga la plantilla, o deja que un asistente de IA la rellene a partir de tu hoja de cálculo, notas o fotos. Tienes toda la información aquí.",
+  "fr": "Chargez vos vins depuis un fichier CSV. Téléchargez le modèle, ou laissez un assistant IA le remplir à partir de votre tableur, de vos notes ou de photos. Vous avez toutes les informations ici."
  },
  "1 · Get your wines into a CSV": {
   "es": "1 · Pasa tus vinos a un CSV",
