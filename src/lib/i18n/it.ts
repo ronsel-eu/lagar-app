@@ -150,7 +150,6 @@ export const IT: Record<string, string> = {
   'Bottles and price paid cannot be negative.': 'Le bottiglie e il prezzo non possono essere negativi.',
   'Sections': 'Sezioni',
   'Language': 'Lingua',
-  'Wine descriptions and drinking advice are still in English.': 'Le descrizioni dei vini e i consigli di consumo restano in inglese.',
   'Import your cellar': 'Importa la tua cantina',
   'Load your wines from a CSV file. Download the template, or let an AI assistant fill it from your spreadsheet, notes or photos.': 'Carica i tuoi vini da un file CSV. Scarica il modello, oppure lascia che un assistente IA lo compili a partire dal tuo foglio di calcolo, dalle note o dalle foto.',
   '1 · Get your wines into a CSV': '1 · Porta i tuoi vini in un CSV',

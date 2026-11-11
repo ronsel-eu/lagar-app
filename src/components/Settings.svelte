@@ -39,7 +39,6 @@
       <button type="button" class:on={code === ui.lang} aria-current={code === ui.lang ? 'true' : undefined} onclick={() => setLanguage(code as Lang)}>{name}</button>
     {/each}
   </div>
-  <p class="lead">{t('Wine descriptions and drinking advice are still in English.')}</p>
 </section>
 
 <div class="guide-list" style="margin-top: 28px">

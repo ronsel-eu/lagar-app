@@ -585,10 +585,6 @@ export const STRINGS: Record<string, { es: string; fr: string }> = {
   "es": "Idioma",
   "fr": "Langue"
  },
- "Wine descriptions and drinking advice are still in English.": {
-  "es": "Las descripciones de los vinos y los consejos de consumo siguen en inglés.",
-  "fr": "Les descriptions des vins et les conseils de garde restent en anglais."
- },
  "Import your cellar": {
   "es": "Importar tu bodega",
   "fr": "Importer votre cave"
