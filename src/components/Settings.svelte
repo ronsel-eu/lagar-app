@@ -41,7 +41,7 @@
   </div>
 </section>
 
-<div class="guide-list" style="margin-top: 28px">
+<div class="guide-list import">
   <a class="guide-card" href={href('/settings/import')}>
     <strong>{t('Import your cellar')}</strong>
     <span>{t('Load your wines from a CSV file. Download the template, or let an AI assistant fill it from your spreadsheet, notes or photos.')}</span>
