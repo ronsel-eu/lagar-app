@@ -151,7 +151,7 @@ export const IT: Record<string, string> = {
   'Sections': 'Sezioni',
   'Language': 'Lingua',
   'Import your cellar': 'Importa la tua cantina',
-  'Load your wines from a CSV file. Download the template, or let an AI assistant fill it from your spreadsheet, notes or photos.': 'Carica i tuoi vini da un file CSV. Scarica il modello, oppure lascia che un assistente IA lo compili a partire dal tuo foglio di calcolo, dalle note o dalle foto.',
+  'Load your wines from a CSV file. Download the template, or let an AI assistant fill it from your spreadsheet, notes or photos. You have all the information here.': 'Carica i tuoi vini da un file CSV. Scarica il modello, oppure lascia che un assistente IA lo compili a partire dal tuo foglio di calcolo, dalle note o dalle foto. Hai tutte le informazioni qui.',
   '1 · Get your wines into a CSV': '1 · Porta i tuoi vini in un CSV',
   'Lagar reads one simple format: a CSV file with one row per wine and vintage. Download the template, fill it in yourself, or ask an AI assistant to do it for you.': 'Lagar legge un formato semplice: un file CSV con una riga per vino e annata. Scarica il modello e compilalo tu, oppure chiedi a un assistente IA di farlo per te.',
   'Download the template': 'Scarica il modello',
